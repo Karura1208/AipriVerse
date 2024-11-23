@@ -806,7 +806,7 @@ function create_special(){
     }
 }
 
-async function get_json(URL){
+async function get_json(requestURL){
     const request_item = new Request(requestURL);
 
     const response_item= await fetch(request);
