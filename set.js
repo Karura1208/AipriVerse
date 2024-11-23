@@ -821,11 +821,11 @@ function create_disp_data(ver){
     let data
     let item
 
-    let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/Coordination.json';
+    let requestURL = 'Coordination.json';
     const res_item = get_json(requestURL)
     item = JSON.parse(res_item);
     
-    requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/data.json';
+    requestURL = 'data.json';
     const res_data = get_json(requestURL)
     data = JSON.parse(res_data);
 
@@ -873,7 +873,7 @@ function get_check_data(){
 
     let data
 
-    let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/check.json';
+    let requestURL = 'check.json';
     const res_data = get_json(requestURL)
     data = JSON.parse(res_data);
 
