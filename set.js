@@ -820,8 +820,8 @@ function create_disp_data(ver){
     request.send();
     
     request.onload = function() {
-      data = request.response;
-      data = JSON.parse(JSON.stringify(data));
+      item = request.response;
+      item = JSON.parse(JSON.stringify(item));
     }
 
 
@@ -833,8 +833,8 @@ function create_disp_data(ver){
     request.send();
     
     request.onload = function() {
-        item = request.response;
-        item = JSON.parse(JSON.stringify(item));
+        data = request.response;
+        data = JSON.parse(JSON.stringify(data));
     }
 
 
