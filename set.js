@@ -807,6 +807,7 @@ function create_special(){
 }
 
 async function get_json(requestURL){
+    let res_item
     $.getJSON(requestURL, (data) => {
         // jsonを読み込んだ後の処理
         res_item = data
