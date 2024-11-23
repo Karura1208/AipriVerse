@@ -821,11 +821,11 @@ function create_disp_data(ver){
     let data
     let item
 
-    let requestURL = 'Coordination.json';
+    let requestURL = 'Coordination.js';
     const res_item = get_json(requestURL)
     item = JSON.parse(res_item);
     
-    requestURL = 'data.json';
+    requestURL = 'data.js';
     const res_data = get_json(requestURL)
     data = JSON.parse(res_data);
 
@@ -873,7 +873,7 @@ function get_check_data(){
 
     let data
 
-    let requestURL = 'check.json';
+    let requestURL = 'check.js';
     const res_data = get_json(requestURL)
     data = JSON.parse(res_data);
 
