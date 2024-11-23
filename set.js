@@ -813,9 +813,17 @@ function create_disp_data(ver){
     let item
 
     let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/Coordination.json';
-    item = JSON.parse(new File(requestURL));
+    const request_item = new Request(requestURL);
+
+    const response_item= await fetch(request);
+    const res_item = await response.json();
+    item = JSON.parse(res);
     
     requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/data.json';
+    const request_data = new Request(requestURL);
+
+    const response_data= await fetch(request);
+    const res_data = await response.json();
     data = JSON.parse(new File(requestURL));
 
 
