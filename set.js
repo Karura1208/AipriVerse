@@ -824,7 +824,7 @@ function create_disp_data(ver){
 
     const response_data= await fetch(request);
     const res_data = await response.json();
-    data = JSON.parse(new File(requestURL));
+    data = JSON.parse(res_data);
 
 
     ver_list = {}
@@ -871,7 +871,11 @@ function get_check_data(){
     let data
 
     let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/check.json';
-    data = JSON.parse(new File(requestURL));
+    const request_data = new Request(requestURL);
+
+    const response_data= await fetch(request);
+    const res_data = await response.json();
+    data = JSON.parse(res_data);
 
     return data
 }
