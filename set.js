@@ -807,10 +807,10 @@ function create_special(){
 }
 
 async function get_json(requestURL){
-    const request_item = new Request(requestURL);
-
-    const response_item= await fetch(request_item);
-    const res_item = await response.json();
+    $.getJSON(requestURL, (data) => {
+        // jsonを読み込んだ後の処理
+        res_item = data
+    });
     return res_item
 }
 
