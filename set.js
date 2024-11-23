@@ -863,16 +863,7 @@ function get_check_data(){
     let data
 
     let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/check.json';
-    let request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    
-    request.send();
-    
-    request.onload = function() {
-      data = request.response;
-      data = JSON.parse(JSON.stringify(data));
-    }
+    data = JSON.parse(new File(requestURL));
 
     return data
 }
