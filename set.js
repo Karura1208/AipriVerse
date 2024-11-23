@@ -806,6 +806,14 @@ function create_special(){
     }
 }
 
+async function get_json(URL){
+    const request_item = new Request(requestURL);
+
+    const response_item= await fetch(request);
+    const res_item = await response.json();
+    return res_item
+}
+
 //JSONから表示データの作成
 function create_disp_data(ver){
 
@@ -813,17 +821,11 @@ function create_disp_data(ver){
     let item
 
     let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/Coordination.json';
-    const request_item = new Request(requestURL);
-
-    const response_item= await fetch(request);
-    const res_item = await response.json();
-    item = JSON.parse(res);
+    const res_item = get_json(requestURL)
+    item = JSON.parse(res_item);
     
     requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/data.json';
-    const request_data = new Request(requestURL);
-
-    const response_data= await fetch(request);
-    const res_data = await response.json();
+    const res_data = get_json(requestURL)
     data = JSON.parse(res_data);
 
 
@@ -871,10 +873,7 @@ function get_check_data(){
     let data
 
     let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/check.json';
-    const request_data = new Request(requestURL);
-
-    const response_data= await fetch(request);
-    const res_data = await response.json();
+    const res_data = get_json(requestURL)
     data = JSON.parse(res_data);
 
     return data
