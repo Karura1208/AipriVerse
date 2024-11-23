@@ -813,29 +813,10 @@ function create_disp_data(ver){
     let item
 
     let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/Coordination.json';
-    let request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
+    item = JSON.parse(new File(requestURL));
     
-    request.send();
-    
-    request.onload = function() {
-      item = request.response;
-      item = JSON.parse(JSON.stringify(item));
-    }
-
-
     requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/data.json';
-    request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    
-    request.send();
-    
-    request.onload = function() {
-        data = request.response;
-        data = JSON.parse(JSON.stringify(data));
-    }
+    data = JSON.parse(new File(requestURL));
 
 
     ver_list = {}
