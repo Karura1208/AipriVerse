@@ -812,7 +812,7 @@ function create_disp_data(ver){
     let data
     let item
 
-    let requestURL = 'Coordination.json';
+    let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/Coordination.json';
     let request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -825,7 +825,7 @@ function create_disp_data(ver){
     }
 
 
-    requestURL = 'data.json';
+    requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/data.json';
     request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -881,7 +881,7 @@ function get_check_data(){
 
     let data
 
-    let requestURL = 'check.json';
+    let requestURL = 'https://github.com/Karura1208/AipriVerse/blob/main/check.json';
     let request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
