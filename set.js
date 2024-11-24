@@ -255,7 +255,7 @@ function get_return_from_python_first(response) {
 function ver_change(){
     let select = document.querySelector('[name="ver_select"]');
     object = {}
-    object["disp_data"] = create_disp_data(select.SelectedIndex)
+    object["disp_data"] = create_disp_data(select.selectedIndex)
     object["check"] = check_data
     get_return_from_python(object)
 }
