@@ -1,12 +1,12 @@
 
-const fs = require('fs');
+
 // 表示データオブジェクト
 var obj
 //チェックボックスオブジェクト
 var check
 
 
-function check_write(check){
+async function check_write(check){
     let filepath = "check.js"
 
     let data = "let check = " + check
