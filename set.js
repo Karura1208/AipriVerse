@@ -1,9 +1,18 @@
 
+const fs = require('fs');
 // 表示データオブジェクト
 var obj
 //チェックボックスオブジェクト
 var check
 
+
+function check_write(check){
+    let filepath = "check.js"
+
+    let data = "let check = " + check
+    
+    fs.writeFileSync(filepath,data);
+}
 
 // データ保存
 function save(){
@@ -231,7 +240,7 @@ function save(){
         }
     }
     //pythonでファイルに書き込み
-    pywebview.api.write(check)
+    check_write(check)
 }
 
 //2回目以降
