@@ -254,7 +254,10 @@ function get_return_from_python_first(response) {
 
 function ver_change(){
     let select = document.querySelector('[name="ver_select"]');
-    pywebview.api.read(select.selectedIndex).then(get_return_from_python)
+    object = {}
+    object["disp_data"] = create_disp_data(select.SelectedIndex)
+    object["check"] = check_data
+    get_return_from_python(object)
 }
 
 //初回の表示作成
@@ -804,15 +807,6 @@ function create_special(){
         }
     
     }
-}
-
-function get_json(requestURL){
-    let res_item
-    $.getJSON(requestURL, (data) => {
-        // jsonを読み込んだ後の処理
-        res_item = data
-    });
-    return res_item
 }
 
 //JSONから表示データの作成
