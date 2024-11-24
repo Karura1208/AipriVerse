@@ -7,11 +7,16 @@ var check
 
 
 async function check_write(check){
-    let filepath = "check.js"
 
-    let data = "let check = " + check
+    let text = "let check = " + check
+    const blob = new Blob([text], {type: "text/plain"});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "check.js";
+    a.click();
+    URL.revokeObjectURL(url);
     
-    fs.writeFileSync(filepath,data);
 }
 
 // データ保存
