@@ -838,7 +838,7 @@ function create_disp_data(ver){
     //スペシャルコーデアイテムは別で作成
     if (ver>=1){
         version_data["category"].forEach(function(list_data){
-            list.clear()
+            list.splice(0)
             category = version_data["data"][list_data]["item_list"]
             version_data["items_idx"][version_data["data"][list_data]["idx_list"]].forEach(function(idx){
                 work = {}
