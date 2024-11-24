@@ -836,8 +836,9 @@ function create_disp_data(ver){
             category = version_data["data"][list_data]["item_list"]
             version_data["items_idx"][version_data["data"][list_data]["idx_list"]].forEach(function(idx){
                 work = {}
-                work = item["Coordination"][category][idx]
-                ver_list.setdefault(version_data["data"][list_data]["idx_list"],[]).append(work)
+                work = Object.assign(work,item["Coordination"][category][idx])
+                if (!(version_data["data"][list_data]["idx_list"] in d)) d[version_data["data"][list_data]["idx_list"]] = []
+                ver_list[version_data["data"][list_data]["idx_list"]].push(work)
             })
         })
         }
