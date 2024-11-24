@@ -1,5 +1,11 @@
 
 /* サイト全体のフォント指定 */
+title {
+font-family: "BIZ UPDゴシック" ;
+}
+h1 {
+font-family: "BIZ UPDゴシック" ;
+}
 body {
 font-family: "BIZ UPDゴシック" ;
 }
