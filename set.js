@@ -836,7 +836,7 @@ function create_disp_data(ver){
             category = version_data["data"][list_data]["item_list"]
             version_data["items_idx"][version_data["data"][list_data]["idx_list"]].forEach(function(idx){
                 work = {}
-                work.update(item["Coordination"][category][idx])
+                work = item["Coordination"][category][idx]
                 ver_list.setdefault(version_data["data"][list_data]["idx_list"],[]).append(work)
             })
         })
