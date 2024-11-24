@@ -1,4 +1,4 @@
-{
+let data = {
     "now_version":4,
     "version":[
         { "value":0,"name": "スペシャルコーデアイテム"},
