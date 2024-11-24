@@ -8,17 +8,20 @@
   <script src="Coordination.js"></script>
   <script src="data.js"></script>
   <script src="check.js"></script>
+  <script src="set.js"></script>
   <body>
   </body>
   <h1>アイプリバース</h1>
   <div id="id1">
-    <button id="button1" type="button" onclick="firstscript()">起動</button>
-    <label>最新バージョン</label>
-    <input type="text" id="new_version">
-    <button id="button2" type="button" onclick="download()">データダウンロード</button>
+
   </div>
-    <script src="set.js"></script>
-    
-    <script>
-    </script>
+  
+  <script>
+    object={}
+    object["disp_data"] = create_disp_data(-1);
+    object["check"] = check_data
+    let div_element = document.getElementById("id1");
+    div_element.remove()
+    get_return_from_python_first(object)
+  </script>
 </html>
