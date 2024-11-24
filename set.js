@@ -817,19 +817,6 @@ function get_json(requestURL){
 
 //JSONから表示データの作成
 function create_disp_data(ver){
-
-    let data
-    let item
-
-    let requestURL = 'Coordination.js';
-    const res_item = get_json(requestURL)
-    item = JSON.parse(res_item);
-    
-    requestURL = 'data.js';
-    const res_data = get_json(requestURL)
-    data = JSON.parse(res_data);
-
-
     ver_list = {}
     work = {}
     list = []
@@ -868,22 +855,10 @@ function create_disp_data(ver){
 
 }
 
-//CHECKリスト取得
-function get_check_data(){
-
-    let data
-
-    let requestURL = 'check.js';
-    const res_data = get_json(requestURL)
-    data = JSON.parse(res_data);
-
-    return data
-}
-
 function firstscript(){
     object={}
     object["disp_data"] = create_disp_data(-1);
-    object["check"] = get_check_data()
+    object["check"] = check_data
     let div_element = document.getElementById("id1");
     div_element.remove()
     get_return_from_python_first(object)
