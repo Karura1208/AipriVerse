@@ -280,18 +280,18 @@ function create_disp_first(){
     btn.textContent = "データ保存";
     btn.setAttribute("onclick","save()")
 
-    let expVerText = document.createElement("input")
-    expVerText.type = "text"
-    expVerText.setAttribute("id","expVerText")
+//    let expVerText = document.createElement("input")
+//    expVerText.type = "text"
+//    expVerText.setAttribute("id","expVerText")
 
-    let btn_exp = document.createElement("button");
-    btn_exp.textContent = "データ出力";
-    btn_exp.setAttribute("onclick","expImg()")
+//    let btn_exp = document.createElement("button");
+//    btn_exp.textContent = "データ出力";
+//    btn_exp.setAttribute("onclick","expImg()")
 
     document.body.appendChild(select)
     document.body.appendChild(btn)
-    document.body.appendChild(expVerText)
-    document.body.appendChild(btn_exp)
+//    document.body.appendChild(expVerText)
+//    document.body.appendChild(btn_exp)
 
     document.body.appendChild(h2)
 
@@ -864,14 +864,14 @@ function firstscript(){
     get_return_from_python_first(object)
 }
 
-function download(){
-    textbox = document.getElementById("new_version")
-    version = textbox.value
-    pywebview.api.download(version).then()
-}
+//function download(){
+//    textbox = document.getElementById("new_version")
+//    version = textbox.value
+//    pywebview.api.download(version).then()
+//}
 
-function expImg(){
-    textbox = document.getElementById("expVerText")
-    version = textbox.value
-    pywebview.api.expImg(version).then()
-}
+//function expImg(){
+//    textbox = document.getElementById("expVerText")
+//    version = textbox.value
+//    pywebview.api.expImg(version).then()
+//}
