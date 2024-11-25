@@ -37,7 +37,7 @@ def download(loadVer):
             dict_RareNumber = json.load(file)    
     else:
         with open("./" + "RareNumber.json", "w",encoding = "utf-8")  as file:
-                dict_RareNumber = {"rare4":0,"rare3":0,"rare2":0,"rare1":0,"tour":0,"aurora_dream":0,"pripara":0,"prichan":0,"primagi":0,"オシャレ魔女　ラブandベリー":0}
+                dict_RareNumber = {"rare4":-1,"rare3":-1,"rare2":-1,"tour":-1,"aurora_dream":-1,"pripara":-1,"prichan":-1,"primagi":-1,"オシャレ魔女 ラブandベリー":-1}
 
     #Exe化でカレントディレクトリが変わるため、パスの先頭に追加する
     dpath = os.path.dirname(sys.argv[0])
@@ -109,9 +109,6 @@ def download(loadVer):
         #個別のコーデのオブジェクトのリスト
         coordinats = sectionElement.find_elements(By.XPATH,".//div/div/a") 
         for coordinat in coordinats:
-            
-            tmpRareNumber = dict_RareNumber[RareText] + 1
-            dict_RareNumber[RareText] = tmpRareNumber 
 
             #全体コーデの画像保存
             #ImgファイルのURL取得
@@ -130,6 +127,9 @@ def download(loadVer):
             
             #重複なしなら                
             if coordinatFlag:
+
+                tmpRareNumber = dict_RareNumber[RareText] + 1
+                dict_RareNumber[RareText] = tmpRareNumber 
 
                 listImgPath = [0,1,2,3,4]
                 listTerm = [0,1,2,3,4]
@@ -267,4 +267,4 @@ def download(loadVer):
 
     print("fin")
 
-download(5)
+download(5) 
