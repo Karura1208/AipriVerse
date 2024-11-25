@@ -450,7 +450,7 @@ let data = {
                 },
                 "Oshinoko_collabo":{
                     "data":"【推しの子】コラボ",
-                    "item_list":"推しの子】コラボ",
+                    "item_list":"rare3",
                     "idx_list":"Oshinoko_collabo"
                 },
                 "rare2":{
