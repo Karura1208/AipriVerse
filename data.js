@@ -5,7 +5,8 @@ let data = {
         { "value":1,"name": "１だん"},
         { "value":2,"name": "２だん"},
         { "value":3,"name": "３だん"},
-        { "value":4,"name": "４だん"}
+        { "value":4,"name": "４だん"},
+        { "value":4,"name": "５だん"}
     ],
     "vol":[
         {
@@ -423,6 +424,61 @@ let data = {
                 ],
                 "prichan_2":[
                     6,7,8,9,10
+                ]
+            }
+        },
+        {
+            "title":"アイプリバース５だん",
+            "version":5,
+            "category":[
+                "ver5_0_rare4",
+                "rare3",
+                "Oshinoko_collabo",
+                "rare2",
+                "primagi"
+            ],
+            "data":{
+                "ver5_0_rare4":{
+                    "data":"５だん前半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_0"
+                },
+                "rare3":{
+                    "data":"☆☆☆",
+                    "item_list":"rare3",
+                    "idx_list":"rare3"
+                },
+                "Oshinoko_collabo":{
+                    "data":"【推しの子】コラボ",
+                    "item_list":"推しの子】コラボ",
+                    "idx_list":"Oshinoko_collabo"
+                },
+                "rare2":{
+                    "data":"☆☆",
+                    "item_list":"rare2",
+                    "idx_list":"rare2"
+                },
+                "primagi":{
+                    "data":"プリマジ",
+                    "item_list":"primagi",
+                    "idx_list":"primagi"
+                }
+            },
+            "items_idx":{
+                "rare4_0":[
+                    73,74,75,76,77,78,79,80,81,82
+                ],
+                "rare3":[
+                    45,46,47,48,49,50,51,52,53,54,55
+                ],
+                "Oshinoko_collabo":[
+                    56
+                ],
+                "rare2":[
+                    24,25,26,27,28
+                ],
+                "primagi":[
+                    10,11,12,13,0,15
                 ]
             }
         }
