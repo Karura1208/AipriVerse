@@ -321,7 +321,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30208.webp"
       },
       {
-        "number": 10,
+        "number": 8,
         "name": "ラブリーアイドルオレンジレッド",
         "parts": 4,
         "total_id": 0,
@@ -340,7 +340,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30349.webp"
       },
       {
-        "number": 11,
+        "number": 9,
         "name": "クールアイドルナチュラル",
         "parts": 4,
         "total_id": 0,
@@ -359,7 +359,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30353.webp"
       },
       {
-        "number": 12,
+        "number": 10,
         "name": "クールアイドルオレンジブルー",
         "parts": 4,
         "total_id": 0,
@@ -378,7 +378,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30357.webp"
       },
       {
-        "number": 13,
+        "number": 11,
         "name": "ハッピーチアグレープソーダ",
         "parts": 4,
         "total_id": 0,
@@ -397,7 +397,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30361.webp"
       },
       {
-        "number": 14,
+        "number": 12,
         "name": "セーラーカジュアルエメラルド",
         "parts": 4,
         "total_id": 0,
@@ -416,7 +416,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30365.webp"
       },
       {
-        "number": 15,
+        "number": 13,
         "name": "チューリップビタミンイエロー",
         "parts": 3,
         "total_id": 0,
@@ -432,7 +432,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30368.webp"
       },
       {
-        "number": 16,
+        "number": 14,
         "name": "パラダイスがくえんなつふく１ねん",
         "parts": 3,
         "total_id": 0,
@@ -448,7 +448,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30573.webp"
       },
       {
-        "number": 17,
+        "number": 15,
         "name": "パラダイスがくえんなつふく２ねん",
         "parts": 3,
         "total_id": 0,
@@ -464,7 +464,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30573.webp"
       },
       {
-        "number": 18,
+        "number": 16,
         "name": "ラブリーアイドルレッド",
         "parts": 4,
         "total_id": 0,
@@ -483,7 +483,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30578.webp"
       },
       {
-        "number": 19,
+        "number": 17,
         "name": "ラブリーアイドルオレンジ",
         "parts": 4,
         "total_id": 0,
@@ -502,7 +502,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30582.webp"
       },
       {
-        "number": 20,
+        "number": 18,
         "name": "クールアイドルイエロー",
         "parts": 4,
         "total_id": 0,
@@ -521,7 +521,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30586.webp"
       },
       {
-        "number": 21,
+        "number": 19,
         "name": "クールアイドルネイビー",
         "parts": 4,
         "total_id": 0,
@@ -540,7 +540,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30590.webp"
       },
       {
-        "number": 22,
+        "number": 20,
         "name": "クールアイドルグリーン",
         "parts": 4,
         "total_id": 0,
@@ -559,7 +559,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30594.webp"
       },
       {
-        "number": 23,
+        "number": 21,
         "name": "ハッピーチアグリーン",
         "parts": 4,
         "total_id": 0,
@@ -578,7 +578,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30598.webp"
       },
       {
-        "number": 24,
+        "number": 22,
         "name": "セーラーカジュアルオレンジ",
         "parts": 4,
         "total_id": 0,
@@ -597,7 +597,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30602.webp"
       },
       {
-        "number": 27,
+        "number": 23,
         "name": "ラブリーアイドルグリーン",
         "parts": 4,
         "total_id": 0,
@@ -616,7 +616,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30795.webp"
       },
       {
-        "number": 28,
+        "number": 24,
         "name": "ラブリーアイドルフレッシュいちご",
         "parts": 4,
         "total_id": 0,
@@ -635,7 +635,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30799.webp"
       },
       {
-        "number": 29,
+        "number": 25,
         "name": "クールアイドルオレンジ",
         "parts": 4,
         "total_id": 0,
@@ -654,7 +654,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30803.webp"
       },
       {
-        "number": 30,
+        "number": 26,
         "name": "クールアイドルパープル",
         "parts": 4,
         "total_id": 0,
@@ -673,7 +673,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30807.webp"
       },
       {
-        "number": 31,
+        "number": 27,
         "name": "チューリップグリーン",
         "parts": 3,
         "total_id": 0,
@@ -689,7 +689,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30890.webp"
       },
       {
-        "number": 32,
+        "number": 28,
         "name": "チューリップパープル",
         "parts": 3,
         "total_id": 0,
@@ -705,7 +705,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30893.webp"
       },
       {
-        "number": 33,
+        "number": 29,
         "name": "ひまりのアイムゥ",
         "parts": 4,
         "total_id": 0,
@@ -724,7 +724,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31006.webp"
       },
       {
-        "number": 34,
+        "number": 30,
         "name": "みつきのアイムゥ",
         "parts": 4,
         "total_id": 0,
@@ -743,7 +743,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31010.webp"
       },
       {
-        "number": 35,
+        "number": 31,
         "name": "つむぎのアイムゥ",
         "parts": 4,
         "total_id": 0,
@@ -762,7 +762,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31014.webp"
       },
       {
-        "number": 36,
+        "number": 32,
         "name": "ファンタジースノー",
         "parts": 4,
         "total_id": 0,
@@ -781,7 +781,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31018.webp"
       },
       {
-        "number": 37,
+        "number": 33,
         "name": "ファンタジースノーナイト",
         "parts": 4,
         "total_id": 0,
@@ -2500,7 +2500,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30040.webp"
       },
       {
-        "number": 13,
+        "number": 11,
         "name": "スカーレットバタフライバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -2516,7 +2516,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30009.webp"
       },
       {
-        "number": 14,
+        "number": 12,
         "name": "おうしざエメラルド",
         "parts": 4,
         "total_id": 0,
@@ -2535,7 +2535,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30144.webp"
       },
       {
-        "number": 15,
+        "number": 13,
         "name": "おとぎばなしシンデレラ",
         "parts": 4,
         "total_id": 0,
@@ -2554,7 +2554,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30159.webp"
       },
       {
-        "number": 16,
+        "number": 14,
         "name": "おとぎばなしシンデレライエロー",
         "parts": 4,
         "total_id": 0,
@@ -2573,7 +2573,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30164.webp"
       },
       {
-        "number": 17,
+        "number": 15,
         "name": "キューティーラビット",
         "parts": 4,
         "total_id": 0,
@@ -2592,7 +2592,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30013.webp"
       },
       {
-        "number": 18,
+        "number": 16,
         "name": "キューティーラビットブルー",
         "parts": 4,
         "total_id": 0,
@@ -2611,7 +2611,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30017.webp"
       },
       {
-        "number": 19,
+        "number": 17,
         "name": "リッチベリータルト",
         "parts": 3,
         "total_id": 0,
@@ -2627,7 +2627,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30028.webp"
       },
       {
-        "number": 20,
+        "number": 18,
         "name": "リッチベリータルトピンク",
         "parts": 3,
         "total_id": 0,
@@ -2643,7 +2643,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30173.webp"
       },
       {
-        "number": 21,
+        "number": 19,
         "name": "バタフライマジック",
         "parts": 4,
         "total_id": 0,
@@ -2662,7 +2662,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30044.webp"
       },
       {
-        "number": 22,
+        "number": 20,
         "name": "バタフライマジッククリムゾン",
         "parts": 4,
         "total_id": 0,
@@ -2681,7 +2681,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30048.webp"
       },
       {
-        "number": 23,
+        "number": 21,
         "name": "ロゼッションバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -2697,7 +2697,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30217.webp"
       },
       {
-        "number": 25,
+        "number": 22,
         "name": "ふたござシトリン",
         "parts": 4,
         "total_id": 0,
@@ -2716,7 +2716,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30224.webp"
       },
       {
-        "number": 26,
+        "number": 23,
         "name": "フレッシュレモンピンク",
         "parts": 3,
         "total_id": 0,
@@ -2732,7 +2732,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30227.webp"
       },
       {
-        "number": 27,
+        "number": 24,
         "name": "フレッシュレモンブルー",
         "parts": 3,
         "total_id": 0,
@@ -2748,7 +2748,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30230.webp"
       },
       {
-        "number": 28,
+        "number": 25,
         "name": "マジシャンキャット",
         "parts": 4,
         "total_id": 0,
@@ -2767,7 +2767,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30234.webp"
       },
       {
-        "number": 29,
+        "number": 26,
         "name": "マジシャンキャットピンク",
         "parts": 4,
         "total_id": 0,
@@ -2786,7 +2786,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30238.webp"
       },
       {
-        "number": 30,
+        "number": 27,
         "name": "チェックメイト",
         "parts": 4,
         "total_id": 0,
@@ -2805,7 +2805,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30242.webp"
       },
       {
-        "number": 31,
+        "number": 28,
         "name": "ロマンスシャンデリア",
         "parts": 4,
         "total_id": 0,
@@ -2824,7 +2824,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30246.webp"
       },
       {
-        "number": 32,
+        "number": 29,
         "name": "ロマンスシャンデリアピンク",
         "parts": 4,
         "total_id": 0,
@@ -2843,7 +2843,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30250.webp"
       },
       {
-        "number": 33,
+        "number": 30,
         "name": "ローズグランプリ",
         "parts": 3,
         "total_id": 0,
@@ -2859,7 +2859,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30220.webp"
       },
       {
-        "number": 34,
+        "number": 31,
         "name": "フラワーマーチバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -2875,7 +2875,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30253.webp"
       },
       {
-        "number": 37,
+        "number": 32,
         "name": "かにざコーラル",
         "parts": 4,
         "total_id": 0,
@@ -2894,7 +2894,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30257.webp"
       },
       {
-        "number": 38,
+        "number": 33,
         "name": "おとぎばなししらゆきひめ",
         "parts": 3,
         "total_id": 0,
@@ -2910,7 +2910,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30260.webp"
       },
       {
-        "number": 39,
+        "number": 34,
         "name": "おとぎばなししらゆきひめポイズン",
         "parts": 3,
         "total_id": 0,
@@ -2926,7 +2926,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30263.webp"
       },
       {
-        "number": 40,
+        "number": 35,
         "name": "エレガントジュエルブルー",
         "parts": 3,
         "total_id": 0,
@@ -2942,7 +2942,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30266.webp"
       },
       {
-        "number": 41,
+        "number": 36,
         "name": "エレガントジュエルレッド",
         "parts": 3,
         "total_id": 0,
@@ -2958,7 +2958,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30269.webp"
       },
       {
-        "number": 42,
+        "number": 37,
         "name": "フラワーメモリー",
         "parts": 3,
         "total_id": 0,
@@ -2974,7 +2974,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30272.webp"
       },
       {
-        "number": 43,
+        "number": 38,
         "name": "フラワーメモリーパープル",
         "parts": 3,
         "total_id": 0,
@@ -2990,7 +2990,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30275.webp"
       },
       {
-        "number": 44,
+        "number": 39,
         "name": "リトルフェアリー",
         "parts": 3,
         "total_id": 0,
@@ -3006,7 +3006,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30278.webp"
       },
       {
-        "number": 45,
+        "number": 40,
         "name": "リトルフェアリーグリーン",
         "parts": 3,
         "total_id": 0,
@@ -3022,7 +3022,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30281.webp"
       },
       {
-        "number": 46,
+        "number": 41,
         "name": "シークレットフレンズ∞バズリウムピンク",
         "parts": 3,
         "total_id": 0,
@@ -3038,7 +3038,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30470.webp"
       },
       {
-        "number": 47,
+        "number": 42,
         "name": "シークレットフレンズ∞バズリウムブルー",
         "parts": 3,
         "total_id": 0,
@@ -3054,7 +3054,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30473.webp"
       },
       {
-        "number": 48,
+        "number": 43,
         "name": "シークレットフレンズ∞バズリウムイエロー",
         "parts": 3,
         "total_id": 0,
@@ -3070,7 +3070,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30476.webp"
       },
       {
-        "number": 49,
+        "number": 44,
         "name": "ししざダイヤモンド",
         "parts": 4,
         "total_id": 0,
@@ -3089,7 +3089,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30480.webp"
       },
       {
-        "number": 50,
+        "number": 45,
         "name": "かれいなるきんぎょ",
         "parts": 3,
         "total_id": 0,
@@ -3105,7 +3105,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30483.webp"
       },
       {
-        "number": 51,
+        "number": 46,
         "name": "かれいなるきんぎょブルー",
         "parts": 3,
         "total_id": 0,
@@ -3121,7 +3121,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30486.webp"
       },
       {
-        "number": 52,
+        "number": 47,
         "name": "カラフルキャンディ",
         "parts": 4,
         "total_id": 0,
@@ -3140,7 +3140,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30490.webp"
       },
       {
-        "number": 53,
+        "number": 48,
         "name": "カラフルキャンディイエロー",
         "parts": 4,
         "total_id": 0,
@@ -3159,7 +3159,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30494.webp"
       },
       {
-        "number": 54,
+        "number": 49,
         "name": "ハッピーバースデー！ひまり",
         "parts": 4,
         "total_id": 0,
@@ -3178,7 +3178,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30498.webp"
       },
       {
-        "number": 55,
+        "number": 50,
         "name": "マーメイドグランプリピンク",
         "parts": 3,
         "total_id": 0,
@@ -3194,7 +3194,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30458.webp"
       },
       {
-        "number": 56,
+        "number": 51,
         "name": "マーメイドグランプリブルー",
         "parts": 3,
         "total_id": 0,
@@ -3210,7 +3210,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30461.webp"
       },
       {
-        "number": 57,
+        "number": 52,
         "name": "マーメイドグランプリイエロー",
         "parts": 3,
         "total_id": 0,
@@ -3226,7 +3226,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30464.webp"
       },
       {
-        "number": 58,
+        "number": 53,
         "name": "レインボーキャンディバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -3242,7 +3242,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30501.webp"
       },
       {
-        "number": 59,
+        "number": 54,
         "name": "ベアベアベアバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -3258,7 +3258,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30504.webp"
       },
       {
-        "number": 60,
+        "number": 55,
         "name": "おとめざカーネリアン",
         "parts": 4,
         "total_id": 0,
@@ -3277,7 +3277,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30508.webp"
       },
       {
-        "number": 61,
+        "number": 56,
         "name": "おとぎばなしあかずきん",
         "parts": 4,
         "total_id": 0,
@@ -3296,7 +3296,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30512.webp"
       },
       {
-        "number": 62,
+        "number": 57,
         "name": "おとぎばなしあかずきんイエロー",
         "parts": 4,
         "total_id": 0,
@@ -3315,7 +3315,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30516.webp"
       },
       {
-        "number": 63,
+        "number": 58,
         "name": "カワイイあめちゃん",
         "parts": 3,
         "total_id": 0,
@@ -3331,7 +3331,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30519.webp"
       },
       {
-        "number": 64,
+        "number": 59,
         "name": "カワイイくまさん",
         "parts": 3,
         "total_id": 0,
@@ -3347,7 +3347,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30522.webp"
       },
       {
-        "number": 65,
+        "number": 60,
         "name": "おやすみメリー",
         "parts": 3,
         "total_id": 0,
@@ -3363,7 +3363,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30525.webp"
       },
       {
-        "number": 66,
+        "number": 61,
         "name": "おやすみメリーモーニング",
         "parts": 3,
         "total_id": 0,
@@ -3379,7 +3379,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30528.webp"
       },
       {
-        "number": 67,
+        "number": 62,
         "name": "ハッピーバースデー！みつき",
         "parts": 4,
         "total_id": 0,
@@ -3398,7 +3398,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30532.webp"
       },
       {
-        "number": 68,
+        "number": 63,
         "name": "ハッピーバースデー！リンリン",
         "parts": 4,
         "total_id": 0,
@@ -3417,7 +3417,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30536.webp"
       },
       {
-        "number": 69,
+        "number": 64,
         "name": "カルテットスターバズリウムハート",
         "parts": 3,
         "total_id": 0,
@@ -3433,7 +3433,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30691.webp"
       },
       {
-        "number": 70,
+        "number": 65,
         "name": "カルテットスターバズリウムスペード",
         "parts": 3,
         "total_id": 0,
@@ -3449,7 +3449,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30694.webp"
       },
       {
-        "number": 71,
+        "number": 66,
         "name": "カルテットスターバズリウムダイヤ",
         "parts": 3,
         "total_id": 0,
@@ -3465,7 +3465,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30697.webp"
       },
       {
-        "number": 72,
+        "number": 67,
         "name": "カルテットスターバズリウムクラブ",
         "parts": 3,
         "total_id": 0,
@@ -3481,7 +3481,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30700.webp"
       },
       {
-        "number": 73,
+        "number": 68,
         "name": "てんびんざターコイズ",
         "parts": 4,
         "total_id": 0,
@@ -3500,7 +3500,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30704.webp"
       },
       {
-        "number": 74,
+        "number": 69,
         "name": "ミラクルハロウィンピンク",
         "parts": 3,
         "total_id": 0,
@@ -3516,7 +3516,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30707.webp"
       },
       {
-        "number": 75,
+        "number": 70,
         "name": "ミラクルハロウィンブルー",
         "parts": 3,
         "total_id": 0,
@@ -3532,7 +3532,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30710.webp"
       },
       {
-        "number": 76,
+        "number": 71,
         "name": "ミラクルハロウィンイエロー",
         "parts": 3,
         "total_id": 0,
@@ -3548,7 +3548,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30713.webp"
       },
       {
-        "number": 77,
+        "number": 72,
         "name": "ゴーストハロウィン",
         "parts": 4,
         "total_id": 0,
@@ -3567,7 +3567,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30717.webp"
       },
       {
-        "number": 78,
+        "number": 73,
         "name": "ゴーストハロウィングリーン",
         "parts": 4,
         "total_id": 0,
@@ -3586,7 +3586,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30721.webp"
       },
       {
-        "number": 79,
+        "number": 74,
         "name": "ハッピーバースデー！アイリ",
         "parts": 4,
         "total_id": 0,
@@ -3605,7 +3605,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30725.webp"
       },
       {
-        "number": 80,
+        "number": 75,
         "name": "フェザーグランプリクールレッド",
         "parts": 3,
         "total_id": 0,
@@ -3621,7 +3621,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30869.webp"
       },
       {
-        "number": 81,
+        "number": 76,
         "name": "フェザーグランプリクールブルー",
         "parts": 3,
         "total_id": 0,
@@ -3637,7 +3637,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30872.webp"
       },
       {
-        "number": 82,
+        "number": 77,
         "name": "フェザーグランプリラブリーグリーン",
         "parts": 3,
         "total_id": 0,
@@ -3653,7 +3653,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30875.webp"
       },
       {
-        "number": 83,
+        "number": 78,
         "name": "フェザーグランプリラブリーオレンジ",
         "parts": 3,
         "total_id": 0,
@@ -3669,7 +3669,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30878.webp"
       },
       {
-        "number": 84,
+        "number": 79,
         "name": "ラブマイミュージックバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -3685,7 +3685,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30728.webp"
       },
       {
-        "number": 88,
+        "number": 80,
         "name": "さそりざタイガーアイ",
         "parts": 4,
         "total_id": 0,
@@ -3704,7 +3704,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30732.webp"
       },
       {
-        "number": 89,
+        "number": 81,
         "name": "おとぎばなしピーターパン",
         "parts": 3,
         "total_id": 0,
@@ -3720,7 +3720,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30735.webp"
       },
       {
-        "number": 90,
+        "number": 82,
         "name": "おとぎばなしピーターパンレッド",
         "parts": 3,
         "total_id": 0,
@@ -3736,7 +3736,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30738.webp"
       },
       {
-        "number": 91,
+        "number": 83,
         "name": "こあくまロック",
         "parts": 4,
         "total_id": 0,
@@ -3755,7 +3755,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30742.webp"
       },
       {
-        "number": 92,
+        "number": 84,
         "name": "こあくまロックわたあめピンク",
         "parts": 4,
         "total_id": 0,
@@ -3774,7 +3774,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30746.webp"
       },
       {
-        "number": 93,
+        "number": 85,
         "name": "キューティーラビットイエロー",
         "parts": 4,
         "total_id": 0,
@@ -3793,7 +3793,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30750.webp"
       },
       {
-        "number": 95,
+        "number": 86,
         "name": "ハッピーバースデー！チィ",
         "parts": 4,
         "total_id": 0,
@@ -3812,7 +3812,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30754.webp"
       },
       {
-        "number": 96,
+        "number": 87,
         "name": "フラワーマーチプリンセスバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -3828,7 +3828,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30896.webp"
       },
       {
-        "number": 97,
+        "number": 88,
         "name": "いてざサファイア",
         "parts": 4,
         "total_id": 0,
@@ -3847,7 +3847,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30900.webp"
       },
       {
-        "number": 98,
+        "number": 89,
         "name": "かみなりぐも",
         "parts": 4,
         "total_id": 0,
@@ -3866,7 +3866,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30904.webp"
       },
       {
-        "number": 99,
+        "number": 90,
         "name": "かみなりぐもブラック",
         "parts": 4,
         "total_id": 0,
@@ -3885,7 +3885,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30908.webp"
       },
       {
-        "number": 100,
+        "number": 91,
         "name": "スペシャルクリスマスレッド",
         "parts": 3,
         "total_id": 0,
@@ -3901,7 +3901,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
       },
       {
-        "number": 101,
+        "number": 92,
         "name": "スペシャルクリスマスブルー",
         "parts": 3,
         "total_id": 0,
@@ -3917,7 +3917,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
       },
       {
-        "number": 102,
+        "number": 93,
         "name": "スペシャルクリスマスグリーン",
         "parts": 3,
         "total_id": 0,
@@ -3933,7 +3933,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
       },
       {
-        "number": 103,
+        "number": 94,
         "name": "スペシャルクリスマスオレンジ",
         "parts": 3,
         "total_id": 0,
@@ -3949,7 +3949,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
       },
       {
-        "number": 104,
+        "number": 95,
         "name": "フラワーメモリーピュアホワイト",
         "parts": 3,
         "total_id": 0,
@@ -3965,7 +3965,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30923.webp"
       },
       {
-        "number": 105,
+        "number": 96,
         "name": "ハッピーバースデー！つむぎ",
         "parts": 4,
         "total_id": 0,
@@ -4231,7 +4231,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31034.webp"
       },
       {
-        "number": 15,
+        "number": 14,
         "name": "メカニックビート",
         "parts": 3,
         "total_id": 0,
