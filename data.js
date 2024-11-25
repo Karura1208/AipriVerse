@@ -459,7 +459,7 @@ let data = {
                     "idx_list":"rare2"
                 },
                 "primagi":{
-                    "data":"プリマジ",
+                    "data":"ワッチャプリマジ！",
                     "item_list":"primagi",
                     "idx_list":"primagi"
                 }
