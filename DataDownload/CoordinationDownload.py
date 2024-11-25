@@ -22,19 +22,22 @@ def download(loadVer):
 #クロームの立ち上げ
     driver=webdriver.Chrome()
 
-    #既存Jsonファイルを読み込む
+    #CoordinationのJsonファイルを読み込む
     if os.path.isfile("./" + "Coordination.json") :
-        with open("./" + "Coordination.json", "r",encoding = "utf-8")  as coordFile:
-            data_dict = json.load(coordFile)    
+        with open("./" + "Coordination.json", "r",encoding = "utf-8")  as file:
+            data_dict = json.load(file)    
     else:
-        with open("./" + "Coordination.json", "w",encoding = "utf-8")  as coordFile:
+        with open("./" + "Coordination.json", "w",encoding = "utf-8")  as file:
                 data_dict = {}
                 data_dict.setdefault("Coordination",{})
 
-
-    #Coordination用dict
-    #data_dict.setdefault("index",{})
-    #
+    #RareNumberのJsonファイルを読み込む
+    if os.path.isfile("./" + "RareNumber.json") :
+        with open("./" + "RareNumber.json", "r",encoding = "utf-8")  as file:
+            dict_RareNumber = json.load(file)    
+    else:
+        with open("./" + "RareNumber.json", "w",encoding = "utf-8")  as file:
+                dict_RareNumber = {"rare4":0,"rare3":0,"rare2":0,"rare1":0,"tour":0,"aurora_dream":0,"pripara":0,"prichan":0,"primagi":0,"オシャレ魔女　ラブandベリー":0}
 
     #Exe化でカレントディレクトリが変わるため、パスの先頭に追加する
     dpath = os.path.dirname(sys.argv[0])
@@ -47,8 +50,6 @@ def download(loadVer):
     dirPathVer = "/" + str(loadVer) + "弾" + "/"
     if os.path.isdir(dpath + "/web" + dirPathVer) == False:
         os.makedirs(dpath + "/web" + dirPathVer)
-
-    
 
     #レア度ごとのセクションのリスト取得
     listSection = []
@@ -104,15 +105,13 @@ def download(loadVer):
                 RareText = listRare2[i]
 
         data_dict["Coordination"].setdefault(RareText,[])
-        
-        #レア度別用のフォルダ作成
-        dirPathRare = dirPathVer + RareText + "/"
-        # if os.path.isdir(".web" + dirPathRare) == False:
-        #     os.makedirs(".web" + dirPathRare)
 
         #個別のコーデのオブジェクトのリスト
         coordinats = sectionElement.find_elements(By.XPATH,".//div/div/a") 
         for coordinat in coordinats:
+            
+            tmpRareNumber = dict_RareNumber[RareText] + 1
+            dict_RareNumber[RareText] = tmpRareNumber 
 
             #全体コーデの画像保存
             #ImgファイルのURL取得
@@ -131,11 +130,6 @@ def download(loadVer):
             
             #重複なしなら                
             if coordinatFlag:
-
-                #コーデ用のフォルダ作成
-                dirPathcoordinat = dirPathRare + coordinatName + "/"
-                if os.path.isdir(dpath + "/web" + dirPathcoordinat) == False:
-                    os.makedirs(dpath + "/web" + dirPathcoordinat)
 
                 listImgPath = [0,1,2,3,4]
                 listTerm = [0,1,2,3,4]
@@ -214,6 +208,7 @@ def download(loadVer):
                         #         f.write(img_data)
 
                 coord_dict = {}
+                coord_dict.setdefault("number",dict_RareNumber[RareText])
                 coord_dict.setdefault("name",coordinatName)
                 coord_dict.setdefault("parts",cnt)
                 coord_dict.setdefault("total_id",listId[0])
@@ -255,15 +250,21 @@ def download(loadVer):
 
                 data_dict["Coordination"][RareText].append(coord_dict)
 
-    with open("./" + "Coordination.json", "w",encoding = "utf-8")  as coordFile:
-        json.dump(data_dict,coordFile,indent = 2,ensure_ascii=False)
+    #レア度ごと(集計ごと)の通し番号のJsonファイル更新
+    with open("./" + "RareNumber.json", "w",encoding = "utf-8")  as file:
+        json.dump(dict_RareNumber,file,indent = 2,ensure_ascii=False)
 
-    with open("./" + "Coordination.json","r",encoding = "utf-8") as coordFile:
-        s = coordFile.read()
-        with open ("./" + "Coordination.js", "w",encoding = "utf-8") as jsFile:
-            jsFile.write("let item =")
-            jsFile.write(s)
+    #コーデの情報のJson更新
+    with open("./" + "Coordination.json", "w",encoding = "utf-8")  as file:
+        json.dump(data_dict,file,indent = 2,ensure_ascii=False)
+
+    #コーデの情報のJsonをJSに変換して変更
+    with open("./" + "Coordination.json","r",encoding = "utf-8") as file:
+        s = file.read()
+        with open ("./" + "Coordination.js", "w",encoding = "utf-8") as file:
+            file.write("let item =")
+            file.write(s)
 
     print("fin")
 
-download(4)
+download(5)
