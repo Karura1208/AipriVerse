@@ -2,6 +2,7 @@ let item ={
   "Coordination": {
     "tour": [
       {
+        "number": 1,
         "name": "スプリングツアー2024ひがし",
         "parts": 2,
         "total_id": 0,
@@ -14,6 +15,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30210.webp"
       },
       {
+        "number": 2,
         "name": "スプリングツアー2024にし",
         "parts": 2,
         "total_id": 0,
@@ -26,6 +28,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30212.webp"
       },
       {
+        "number": 3,
         "name": "スプリングツアー2024ぜんこく",
         "parts": 2,
         "total_id": 0,
@@ -38,6 +41,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30214.webp"
       },
       {
+        "number": 4,
         "name": "レイニーツアー2024ひがし",
         "parts": 2,
         "total_id": 0,
@@ -50,6 +54,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30451.webp"
       },
       {
+        "number": 5,
         "name": "レイニーツアー2024にし",
         "parts": 2,
         "total_id": 0,
@@ -62,6 +67,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30453.webp"
       },
       {
+        "number": 6,
         "name": "レイニーツアー2024ぜんこく",
         "parts": 2,
         "total_id": 0,
@@ -74,48 +80,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30455.webp"
       },
       {
-        "name": "トロピカルサマーブルー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-214F.webp",
-        "one_piece": "トロピカルサマーブルーワンピ",
-        "one_piece_id": "V3-214",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30673.webp",
-        "shoues": "トロピカルサマーブルーシューズ",
-        "shoues_id": "V3-215",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30674.webp",
-        "accessary": "トロピカルサマーブルーアクセ",
-        "accessary_id": "V3-216",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30675.webp"
-      },
-      {
-        "name": "ひまわりサマーブルー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-217F.webp",
-        "tops": "ひまわりサマーブルートップス",
-        "tops_id": "V3-217",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30676.webp",
-        "bottoms": "ひまわりサマーブルーボトムス",
-        "bottoms_id": "V3-218",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30677.webp",
-        "shoues": "ひまわりサマーブルーシューズ",
-        "shoues_id": "V3-219",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30678.webp",
-        "accessary": "ひまわりサマーブルーアクセ",
-        "accessary_id": "V3-220",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30679.webp"
-      },
-      {
-        "name": "サマーTシャツ",
-        "parts": 1,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-221F.webp",
-        "tops": "サマーTシャツトップス",
-        "tops_id": "V3-221",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30680.webp"
-      },
-      {
+        "number": 7,
         "name": "オータムTシャツ",
         "parts": 1,
         "total_id": 0,
@@ -125,6 +90,7 @@ let item ={
         "tops_image": "https://aipri.jp/verse/item/img/4/Item_ID30879.webp"
       },
       {
+        "number": 8,
         "name": "いたずらモンスターオータムパンプキン",
         "parts": 4,
         "total_id": 0,
@@ -143,6 +109,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30883.webp"
       },
       {
+        "number": 9,
         "name": "クラシックライブラリーオータムスカイ",
         "parts": 4,
         "total_id": 0,
@@ -163,6 +130,7 @@ let item ={
     ],
     "rare2": [
       {
+        "number": 1,
         "name": "パラダイスがくえんせいふく１ねん",
         "parts": 3,
         "total_id": 0,
@@ -178,6 +146,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30099.webp"
       },
       {
+        "number": 2,
         "name": "パラダイスがくえんせいふく2ねん",
         "parts": 3,
         "total_id": 0,
@@ -193,6 +162,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30099.webp"
       },
       {
+        "number": 3,
         "name": "ラブリーアイドルイエローミント",
         "parts": 4,
         "total_id": 0,
@@ -211,6 +181,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30188.webp"
       },
       {
+        "number": 4,
         "name": "ラブリーアイドルホワイトパープル",
         "parts": 4,
         "total_id": 0,
@@ -229,6 +200,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30192.webp"
       },
       {
+        "number": 5,
         "name": "クールアイドルグリーンピンク",
         "parts": 4,
         "total_id": 0,
@@ -247,6 +219,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30196.webp"
       },
       {
+        "number": 6,
         "name": "クールアイドルレッドイエロー",
         "parts": 4,
         "total_id": 0,
@@ -265,6 +238,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30200.webp"
       },
       {
+        "number": 7,
         "name": "ハッピーチアライトグリーン",
         "parts": 4,
         "total_id": 0,
@@ -283,6 +257,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30204.webp"
       },
       {
+        "number": 8,
         "name": "セーラーカジュアルラブリーパープル",
         "parts": 4,
         "total_id": 0,
@@ -301,6 +276,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30208.webp"
       },
       {
+        "number": 11,
         "name": "ラブリーアイドルオレンジレッド",
         "parts": 4,
         "total_id": 0,
@@ -319,6 +295,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30349.webp"
       },
       {
+        "number": 12,
         "name": "クールアイドルナチュラル",
         "parts": 4,
         "total_id": 0,
@@ -337,6 +314,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30353.webp"
       },
       {
+        "number": 13,
         "name": "クールアイドルオレンジブルー",
         "parts": 4,
         "total_id": 0,
@@ -355,6 +333,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30357.webp"
       },
       {
+        "number": 14,
         "name": "ハッピーチアグレープソーダ",
         "parts": 4,
         "total_id": 0,
@@ -373,6 +352,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30361.webp"
       },
       {
+        "number": 15,
         "name": "セーラーカジュアルエメラルド",
         "parts": 4,
         "total_id": 0,
@@ -391,6 +371,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30365.webp"
       },
       {
+        "number": 16,
         "name": "チューリップビタミンイエロー",
         "parts": 3,
         "total_id": 0,
@@ -406,162 +387,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30368.webp"
       },
       {
-        "name": "パラダイスがくえんなつふく１ねん",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-113F.webp",
-        "one_piece": "パラダイスがくえんなつふく１ねんワンピ",
-        "one_piece_id": "V3-113",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30571.webp",
-        "shoues": "パラダイスがくえんなつふく１ねんシューズ",
-        "shoues_id": "V1-134",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30098.webp",
-        "accessary": "パラダイスがくえんなつふく１ねんアクセ",
-        "accessary_id": "V3-114",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30573.webp"
-      },
-      {
-        "name": "パラダイスがくえんなつふく２ねん",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-115F.webp",
-        "one_piece": "パラダイスがくえんなつふく２ねんワンピ",
-        "one_piece_id": "V3-115",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30574.webp",
-        "shoues": "パラダイスがくえんなつふく２ねんシューズ",
-        "shoues_id": "V1-134",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30098.webp",
-        "accessary": "パラダイスがくえんなつふく２ねんアクセ",
-        "accessary_id": "V3-114",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30573.webp"
-      },
-      {
-        "name": "ラブリーアイドルレッド",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-116F.webp",
-        "tops": "ラブリーアイドルレッドトップス",
-        "tops_id": "V3-116",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30575.webp",
-        "bottoms": "ラブリーアイドルレッドボトムス",
-        "bottoms_id": "V3-117",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30576.webp",
-        "shoues": "ラブリーアイドルレッドシューズ",
-        "shoues_id": "V3-118",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30577.webp",
-        "accessary": "ラブリーアイドルレッドアクセ",
-        "accessary_id": "V3-119",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30578.webp"
-      },
-      {
-        "name": "ラブリーアイドルオレンジ",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-120F.webp",
-        "tops": "ラブリーアイドルオレンジトップス",
-        "tops_id": "V3-120",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30579.webp",
-        "bottoms": "ラブリーアイドルオレンジボトムス",
-        "bottoms_id": "V3-121",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30580.webp",
-        "shoues": "ラブリーアイドルオレンジシューズ",
-        "shoues_id": "V3-122",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30581.webp",
-        "accessary": "ラブリーアイドルオレンジアクセ",
-        "accessary_id": "V3-123",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30582.webp"
-      },
-      {
-        "name": "クールアイドルイエロー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-124F.webp",
-        "tops": "クールアイドルイエロートップス",
-        "tops_id": "V3-124",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30583.webp",
-        "bottoms": "クールアイドルイエローボトムス",
-        "bottoms_id": "V3-125",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30584.webp",
-        "shoues": "クールアイドルイエローシューズ",
-        "shoues_id": "V3-126",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30585.webp",
-        "accessary": "クールアイドルイエローアクセ",
-        "accessary_id": "V3-127",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30586.webp"
-      },
-      {
-        "name": "クールアイドルネイビー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-128F.webp",
-        "tops": "クールアイドルネイビートップス",
-        "tops_id": "V3-128",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30587.webp",
-        "bottoms": "クールアイドルネイビーボトムス",
-        "bottoms_id": "V3-129",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30588.webp",
-        "shoues": "クールアイドルネイビーシューズ",
-        "shoues_id": "V3-130",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30589.webp",
-        "accessary": "クールアイドルネイビーアクセ",
-        "accessary_id": "V3-131",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30590.webp"
-      },
-      {
-        "name": "クールアイドルグリーン",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-132F.webp",
-        "tops": "クールアイドルグリーントップス",
-        "tops_id": "V3-132",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30591.webp",
-        "bottoms": "クールアイドルグリーンボトムス",
-        "bottoms_id": "V3-133",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30592.webp",
-        "shoues": "クールアイドルグリーンシューズ",
-        "shoues_id": "V3-134",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30593.webp",
-        "accessary": "クールアイドルグリーンアクセ",
-        "accessary_id": "V3-135",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30594.webp"
-      },
-      {
-        "name": "ハッピーチアグリーン",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-136F.webp",
-        "tops": "ハッピーチアグリーントップス",
-        "tops_id": "V3-136",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30595.webp",
-        "bottoms": "ハッピーチアグリーンボトムス",
-        "bottoms_id": "V3-137",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30596.webp",
-        "shoues": "ハッピーチアグリーンシューズ",
-        "shoues_id": "V3-138",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30597.webp",
-        "accessary": "ハッピーチアグリーンアクセ",
-        "accessary_id": "V3-139",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30598.webp"
-      },
-      {
-        "name": "セーラーカジュアルオレンジ",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-140F.webp",
-        "tops": "セーラーカジュアルオレンジトップス",
-        "tops_id": "V3-140",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30599.webp",
-        "bottoms": "セーラーカジュアルオレンジボトムス",
-        "bottoms_id": "V3-141",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30600.webp",
-        "shoues": "セーラーカジュアルオレンジシューズ",
-        "shoues_id": "V3-142",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30601.webp",
-        "accessary": "セーラーカジュアルオレンジアクセ",
-        "accessary_id": "V3-143",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30602.webp"
-      },
-      {
+        "number": 19,
         "name": "ラブリーアイドルグリーン",
         "parts": 4,
         "total_id": 0,
@@ -580,6 +406,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30795.webp"
       },
       {
+        "number": 20,
         "name": "ラブリーアイドルフレッシュいちご",
         "parts": 4,
         "total_id": 0,
@@ -598,6 +425,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30799.webp"
       },
       {
+        "number": 21,
         "name": "クールアイドルオレンジ",
         "parts": 4,
         "total_id": 0,
@@ -616,6 +444,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30803.webp"
       },
       {
+        "number": 22,
         "name": "クールアイドルパープル",
         "parts": 4,
         "total_id": 0,
@@ -634,6 +463,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30807.webp"
       },
       {
+        "number": 23,
         "name": "チューリップグリーン",
         "parts": 3,
         "total_id": 0,
@@ -649,6 +479,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30890.webp"
       },
       {
+        "number": 24,
         "name": "チューリップパープル",
         "parts": 3,
         "total_id": 0,
@@ -662,10 +493,106 @@ let item ={
         "accessary": "チューリップパープルアクセ",
         "accessary_id": "V4-137",
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30893.webp"
+      },
+      {
+        "number": 25,
+        "name": "ひまりのアイムゥ",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-117.webp",
+        "tops": "ひまりのアイムゥトップス",
+        "tops_id": "V5-117",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31003.webp",
+        "bottoms": "ひまりのアイムゥボトムス",
+        "bottoms_id": "V5-118",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31004.webp",
+        "shoues": "ひまりのアイムゥシューズ",
+        "shoues_id": "V5-119",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31005.webp",
+        "accessary": "ひまりのアイムゥアクセ",
+        "accessary_id": "V5-120",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31006.webp"
+      },
+      {
+        "number": 26,
+        "name": "みつきのアイムゥ",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-121.webp",
+        "tops": "みつきのアイムゥトップス",
+        "tops_id": "V5-121",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31007.webp",
+        "bottoms": "みつきのアイムゥボトムス",
+        "bottoms_id": "V5-122",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31008.webp",
+        "shoues": "みつきのアイムゥシューズ",
+        "shoues_id": "V5-123",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31009.webp",
+        "accessary": "みつきのアイムゥアクセ",
+        "accessary_id": "V5-124",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31010.webp"
+      },
+      {
+        "number": 27,
+        "name": "つむぎのアイムゥ",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-125.webp",
+        "tops": "つむぎのアイムゥトップス",
+        "tops_id": "V5-125",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31011.webp",
+        "bottoms": "つむぎのアイムゥボトムス",
+        "bottoms_id": "V5-126",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31012.webp",
+        "shoues": "つむぎのアイムゥシューズ",
+        "shoues_id": "V5-127",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31013.webp",
+        "accessary": "つむぎのアイムゥアクセ",
+        "accessary_id": "V5-128",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31014.webp"
+      },
+      {
+        "number": 28,
+        "name": "ファンタジースノー",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-129.webp",
+        "tops": "ファンタジースノートップス",
+        "tops_id": "V5-129",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31015.webp",
+        "bottoms": "ファンタジースノーボトムス",
+        "bottoms_id": "V5-130",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31016.webp",
+        "shoues": "ファンタジースノーシューズ",
+        "shoues_id": "V5-131",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31017.webp",
+        "accessary": "ファンタジースノーアクセ",
+        "accessary_id": "V5-132",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31018.webp"
+      },
+      {
+        "number": 29,
+        "name": "ファンタジースノーナイト",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-133.webp",
+        "tops": "ファンタジースノーナイトトップス",
+        "tops_id": "V5-133",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31019.webp",
+        "bottoms": "ファンタジースノーナイトボトムス",
+        "bottoms_id": "V5-134",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31020.webp",
+        "shoues": "ファンタジースノーナイトシューズ",
+        "shoues_id": "V5-135",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31021.webp",
+        "accessary": "ファンタジースノーナイトアクセ",
+        "accessary_id": "V5-136",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31022.webp"
       }
     ],
     "rare3": [
       {
+        "number": 1,
         "name": "アイプリバースポッピンハート",
         "parts": 3,
         "total_id": 0,
@@ -681,6 +608,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30051.webp"
       },
       {
+        "number": 2,
         "name": "アイプリバースポッピンハートグリーン",
         "parts": 3,
         "total_id": 0,
@@ -696,6 +624,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30054.webp"
       },
       {
+        "number": 3,
         "name": "アイプリバースミラクルムーン",
         "parts": 4,
         "total_id": 0,
@@ -714,6 +643,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30058.webp"
       },
       {
+        "number": 4,
         "name": "アイプリバースミラクルムーンオレンジ",
         "parts": 4,
         "total_id": 0,
@@ -732,6 +662,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30062.webp"
       },
       {
+        "number": 5,
         "name": "アイプリバーススカーレットバタフライ",
         "parts": 3,
         "total_id": 0,
@@ -747,6 +678,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30065.webp"
       },
       {
+        "number": 6,
         "name": "フラワーチュール",
         "parts": 4,
         "total_id": 0,
@@ -765,6 +697,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30069.webp"
       },
       {
+        "number": 7,
         "name": "フラワーチュールミント",
         "parts": 4,
         "total_id": 0,
@@ -783,6 +716,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30073.webp"
       },
       {
+        "number": 8,
         "name": "ゴージャスビジュー",
         "parts": 3,
         "total_id": 0,
@@ -798,6 +732,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30076.webp"
       },
       {
+        "number": 9,
         "name": "ゴージャスビジューモスグリーン",
         "parts": 3,
         "total_id": 0,
@@ -813,6 +748,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30176.webp"
       },
       {
+        "number": 10,
         "name": "ハニービー",
         "parts": 4,
         "total_id": 0,
@@ -831,6 +767,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30080.webp"
       },
       {
+        "number": 11,
         "name": "ハニービーリーフ",
         "parts": 4,
         "total_id": 0,
@@ -849,6 +786,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30180.webp"
       },
       {
+        "number": 12,
         "name": "スターメロディ",
         "parts": 4,
         "total_id": 0,
@@ -867,6 +805,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30084.webp"
       },
       {
+        "number": 13,
         "name": "ハートメロディ",
         "parts": 4,
         "total_id": 0,
@@ -885,6 +824,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30088.webp"
       },
       {
+        "number": 14,
         "name": "スターパーティー",
         "parts": 4,
         "total_id": 0,
@@ -903,6 +843,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30092.webp"
       },
       {
+        "number": 15,
         "name": "スターパーティーいちごチョコ",
         "parts": 4,
         "total_id": 0,
@@ -921,6 +862,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30096.webp"
       },
       {
+        "number": 16,
         "name": "スターパーティーほしぞらブルー",
         "parts": 4,
         "total_id": 0,
@@ -939,6 +881,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30184.webp"
       },
       {
+        "number": 17,
         "name": "アイプリバースフラワーマーチ",
         "parts": 3,
         "total_id": 0,
@@ -954,6 +897,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30284.webp"
       },
       {
+        "number": 18,
         "name": "アイプリバースフラワーマーチパープル",
         "parts": 3,
         "total_id": 0,
@@ -969,6 +913,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30287.webp"
       },
       {
+        "number": 19,
         "name": "アイプリバースロゼッション",
         "parts": 3,
         "total_id": 0,
@@ -984,6 +929,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30290.webp"
       },
       {
+        "number": 20,
         "name": "アイプリバースロゼッショングリーン",
         "parts": 3,
         "total_id": 0,
@@ -999,6 +945,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30293.webp"
       },
       {
+        "number": 21,
         "name": "ひまわりサマー",
         "parts": 4,
         "total_id": 0,
@@ -1017,6 +964,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30297.webp"
       },
       {
+        "number": 22,
         "name": "ひまわりサマーレッド",
         "parts": 4,
         "total_id": 0,
@@ -1035,6 +983,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30301.webp"
       },
       {
+        "number": 23,
         "name": "ぽんぽんすずらん",
         "parts": 4,
         "total_id": 0,
@@ -1053,6 +1002,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30305.webp"
       },
       {
+        "number": 24,
         "name": "ぽんぽんすずらんピンク",
         "parts": 4,
         "total_id": 0,
@@ -1071,6 +1021,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30309.webp"
       },
       {
+        "number": 25,
         "name": "ローズプリンス",
         "parts": 4,
         "total_id": 0,
@@ -1089,6 +1040,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30313.webp"
       },
       {
+        "number": 26,
         "name": "ローズプリンスライトブルー",
         "parts": 4,
         "total_id": 0,
@@ -1107,6 +1059,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30317.webp"
       },
       {
+        "number": 27,
         "name": "ミルキーウェイ",
         "parts": 4,
         "total_id": 0,
@@ -1125,6 +1078,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30321.webp"
       },
       {
+        "number": 28,
         "name": "ミルキーウェイオレンジ",
         "parts": 4,
         "total_id": 0,
@@ -1143,6 +1097,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30325.webp"
       },
       {
+        "number": 29,
         "name": "ことりメルヘン",
         "parts": 4,
         "total_id": 0,
@@ -1161,6 +1116,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30329.webp"
       },
       {
+        "number": 30,
         "name": "ことりメルヘンナイト",
         "parts": 4,
         "total_id": 0,
@@ -1179,6 +1135,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30333.webp"
       },
       {
+        "number": 31,
         "name": "クローバーメロディ",
         "parts": 4,
         "total_id": 0,
@@ -1197,6 +1154,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30337.webp"
       },
       {
+        "number": 32,
         "name": "ひらめきたんてい",
         "parts": 4,
         "total_id": 0,
@@ -1215,6 +1173,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30341.webp"
       },
       {
+        "number": 33,
         "name": "ひらめきたんていクラシック",
         "parts": 4,
         "total_id": 0,
@@ -1233,6 +1192,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30345.webp"
       },
       {
+        "number": 34,
         "name": "Ｐまるさま。コーデ",
         "parts": 3,
         "total_id": 0,
@@ -1248,6 +1208,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30449.webp"
       },
       {
+        "number": 35,
         "name": "はつねミクコーデ",
         "parts": 3,
         "total_id": 0,
@@ -1263,315 +1224,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30446.webp"
       },
       {
-        "name": "アイプリバースレインボーキャンディ",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-079F.webp",
-        "tops": "アイプリバースレインボーキャンディトップス",
-        "tops_id": "V3-079",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30537.webp",
-        "bottoms": "アイプリバースレインボーキャンディボトムス",
-        "bottoms_id": "V3-080",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30538.webp",
-        "shoues": "アイプリバースレインボーキャンディシューズ",
-        "shoues_id": "V3-081",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30539.webp",
-        "accessary": "アイプリバースレインボーキャンディアクセ",
-        "accessary_id": "V3-082",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30540.webp"
-      },
-      {
-        "name": "アイプリバースベアベアベア",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-083F.webp",
-        "one_piece": "アイプリバースベアベアベアワンピ",
-        "one_piece_id": "V3-083",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30541.webp",
-        "shoues": "アイプリバースベアベアベアシューズ",
-        "shoues_id": "V3-084",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30542.webp",
-        "accessary": "アイプリバースベアベアベアアクセ",
-        "accessary_id": "V3-085",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30543.webp"
-      },
-      {
-        "name": "さわやかマリン",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-086F.webp",
-        "tops": "さわやかマリントップス",
-        "tops_id": "V3-086",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30544.webp",
-        "bottoms": "さわやかマリンボトムス",
-        "bottoms_id": "V3-087",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30545.webp",
-        "shoues": "さわやかマリンシューズ",
-        "shoues_id": "V3-088",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30546.webp",
-        "accessary": "さわやかマリンアクセ",
-        "accessary_id": "V3-089",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30547.webp"
-      },
-      {
-        "name": "トロピカルサマー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-090F.webp",
-        "one_piece": "トロピカルサマーワンピ",
-        "one_piece_id": "V3-090",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30548.webp",
-        "shoues": "トロピカルサマーシューズ",
-        "shoues_id": "V3-091",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30549.webp",
-        "accessary": "トロピカルサマーアクセ",
-        "accessary_id": "V3-092",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30550.webp"
-      },
-      {
-        "name": "レディーフライト",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-093F.webp",
-        "tops": "レディーフライトトップス",
-        "tops_id": "V3-093",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30551.webp",
-        "bottoms": "レディーフライトボトムス",
-        "bottoms_id": "V3-094",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30552.webp",
-        "shoues": "レディーフライトシューズ",
-        "shoues_id": "V3-095",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30553.webp",
-        "accessary": "レディーフライトアクセ",
-        "accessary_id": "V3-096",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30554.webp"
-      },
-      {
-        "name": "アイスクリーム",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-097F.webp",
-        "tops": "アイスクリームトップス",
-        "tops_id": "V3-097",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30555.webp",
-        "bottoms": "アイスクリームボトムス",
-        "bottoms_id": "V3-098",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30556.webp",
-        "shoues": "アイスクリームシューズ",
-        "shoues_id": "V3-099",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30557.webp",
-        "accessary": "アイスクリームアクセ",
-        "accessary_id": "V3-100",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30558.webp"
-      },
-      {
-        "name": "アイスクリームオレンジ",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-101F.webp",
-        "tops": "アイスクリームオレンジトップス",
-        "tops_id": "V3-101",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30559.webp",
-        "bottoms": "アイスクリームオレンジボトムス",
-        "bottoms_id": "V3-102",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30560.webp",
-        "shoues": "アイスクリームオレンジシューズ",
-        "shoues_id": "V3-103",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30561.webp",
-        "accessary": "アイスクリームオレンジアクセ",
-        "accessary_id": "V3-104",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30562.webp"
-      },
-      {
-        "name": "ティーパーティー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-105F.webp",
-        "tops": "ティーパーティートップス",
-        "tops_id": "V3-105",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30563.webp",
-        "bottoms": "ティーパーティーボトムス",
-        "bottoms_id": "V3-106",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30564.webp",
-        "shoues": "ティーパーティーシューズ",
-        "shoues_id": "V3-107",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30565.webp",
-        "accessary": "ティーパーティーアクセ",
-        "accessary_id": "V3-108",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30566.webp"
-      },
-      {
-        "name": "ティーパーティーネイビー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-109F.webp",
-        "tops": "ティーパーティーネイビートップス",
-        "tops_id": "V3-109",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30567.webp",
-        "bottoms": "ティーパーティーネイビーボトムス",
-        "bottoms_id": "V3-110",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30568.webp",
-        "shoues": "ティーパーティーネイビーシューズ",
-        "shoues_id": "V3-111",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30569.webp",
-        "accessary": "ティーパーティーネイビーアクセ",
-        "accessary_id": "V3-112",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30570.webp"
-      },
-      {
-        "name": "フレッシュレモンゆめかわ",
-        "parts": 1,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-213F.webp",
-        "one_piece": "フレッシュレモンゆめかわワンピ",
-        "one_piece_id": "V3-213",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30672.webp"
-      },
-      {
-        "name": "リトルツインスターズ パーティーピンク",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-181F.webp",
-        "tops": "リトルツインスターズ パーティーピンクトップス",
-        "tops_id": "V3-181",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30640.webp",
-        "bottoms": "リトルツインスターズ パーティーピンクボトムス",
-        "bottoms_id": "V3-182",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30641.webp",
-        "shoues": "リトルツインスターズ パーティーピンクシューズ",
-        "shoues_id": "V3-183",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30642.webp",
-        "accessary": "リトルツインスターズ パーティーピンクアクセ",
-        "accessary_id": "V3-184",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30643.webp"
-      },
-      {
-        "name": "リトルツインスターズ パーティーブルー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-185F.webp",
-        "tops": "リトルツインスターズ パーティーブルートップス",
-        "tops_id": "V3-185",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30644.webp",
-        "bottoms": "リトルツインスターズ パーティーブルーボトムス",
-        "bottoms_id": "V3-186",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30645.webp",
-        "shoues": "リトルツインスターズ パーティーブルーシューズ",
-        "shoues_id": "V3-187",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30646.webp",
-        "accessary": "リトルツインスターズ パーティーブルーアクセ",
-        "accessary_id": "V3-188",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30647.webp"
-      },
-      {
-        "name": "ポムポムプリン パーティー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-189F.webp",
-        "tops": "ポムポムプリン パーティートップス",
-        "tops_id": "V3-189",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30648.webp",
-        "bottoms": "ポムポムプリン パーティーボトムス",
-        "bottoms_id": "V3-190",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30649.webp",
-        "shoues": "ポムポムプリン パーティーシューズ",
-        "shoues_id": "V3-191",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30650.webp",
-        "accessary": "ポムポムプリン パーティーアクセ",
-        "accessary_id": "V3-192",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30651.webp"
-      },
-      {
-        "name": "ハローキティ パーティー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-193F.webp",
-        "tops": "ハローキティ パーティートップス",
-        "tops_id": "V3-193",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30652.webp",
-        "bottoms": "ハローキティ パーティーボトムス",
-        "bottoms_id": "V3-194",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30653.webp",
-        "shoues": "ハローキティ パーティーシューズ",
-        "shoues_id": "V3-195",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30654.webp",
-        "accessary": "ハローキティ パーティーアクセ",
-        "accessary_id": "V3-196",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30655.webp"
-      },
-      {
-        "name": "シナモロール パーティー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-197F.webp",
-        "tops": "シナモロール パーティートップス",
-        "tops_id": "V3-197",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30656.webp",
-        "bottoms": "シナモロール パーティーボトムス",
-        "bottoms_id": "V3-198",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30657.webp",
-        "shoues": "シナモロール パーティーシューズ",
-        "shoues_id": "V3-199",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30658.webp",
-        "accessary": "シナモロール パーティーアクセ",
-        "accessary_id": "V3-200",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30659.webp"
-      },
-      {
-        "name": "ポチャッコ パーティー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-201F.webp",
-        "tops": "ポチャッコ パーティートップス",
-        "tops_id": "V3-201",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30660.webp",
-        "bottoms": "ポチャッコ パーティーボトムス",
-        "bottoms_id": "V3-202",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30661.webp",
-        "shoues": "ポチャッコ パーティーシューズ",
-        "shoues_id": "V3-203",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30662.webp",
-        "accessary": "ポチャッコ パーティーアクセ",
-        "accessary_id": "V3-204",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30663.webp"
-      },
-      {
-        "name": "マイメロディ パーティー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-205F.webp",
-        "tops": "マイメロディ パーティートップス",
-        "tops_id": "V3-205",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30664.webp",
-        "bottoms": "マイメロディ パーティーボトムス",
-        "bottoms_id": "V3-206",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30665.webp",
-        "shoues": "マイメロディ パーティーシューズ",
-        "shoues_id": "V3-207",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30666.webp",
-        "accessary": "マイメロディ パーティーアクセ",
-        "accessary_id": "V3-208",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30667.webp"
-      },
-      {
-        "name": "クロミ パーティー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-209F.webp",
-        "tops": "クロミ パーティートップス",
-        "tops_id": "V3-209",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30668.webp",
-        "bottoms": "クロミ パーティーボトムス",
-        "bottoms_id": "V3-210",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30669.webp",
-        "shoues": "クロミ パーティーシューズ",
-        "shoues_id": "V3-211",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30670.webp",
-        "accessary": "クロミ パーティーアクセ",
-        "accessary_id": "V3-212",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30671.webp"
-      },
-      {
+        "number": 36,
         "name": "アイプリバースラブマイミュージック",
         "parts": 4,
         "total_id": 0,
@@ -1590,6 +1243,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30758.webp"
       },
       {
+        "number": 37,
         "name": "ふわもこかいじゅう",
         "parts": 4,
         "total_id": 0,
@@ -1608,6 +1262,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30762.webp"
       },
       {
+        "number": 38,
         "name": "いたずらモンスター",
         "parts": 4,
         "total_id": 0,
@@ -1626,6 +1281,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30766.webp"
       },
       {
+        "number": 39,
         "name": "パンキッシュペンギン",
         "parts": 4,
         "total_id": 0,
@@ -1644,6 +1300,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30770.webp"
       },
       {
+        "number": 40,
         "name": "パンキッシュペンギンポップ",
         "parts": 4,
         "total_id": 0,
@@ -1662,6 +1319,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30774.webp"
       },
       {
+        "number": 41,
         "name": "おえかきパレット",
         "parts": 3,
         "total_id": 0,
@@ -1677,6 +1335,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30777.webp"
       },
       {
+        "number": 42,
         "name": "おえかきパレットやんちゃブルー",
         "parts": 3,
         "total_id": 0,
@@ -1692,6 +1351,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30780.webp"
       },
       {
+        "number": 43,
         "name": "スターカウガール",
         "parts": 4,
         "total_id": 0,
@@ -1710,6 +1370,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30784.webp"
       },
       {
+        "number": 44,
         "name": "ハーバリウム",
         "parts": 3,
         "total_id": 0,
@@ -1725,6 +1386,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30787.webp"
       },
       {
+        "number": 45,
         "name": "クラシックライブラリー",
         "parts": 4,
         "total_id": 0,
@@ -1741,10 +1403,227 @@ let item ={
         "accessary": "クラシックライブラリーアクセ",
         "accessary_id": "V4-115",
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30791.webp"
+      },
+      {
+        "number": 46,
+        "name": "アイプリバースフラワーマーチプリンセス",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-076.webp",
+        "one_piece": "アイプリバースフラワーマーチプリンセスワンピ",
+        "one_piece_id": "V5-076",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30962.webp",
+        "shoues": "アイプリバースフラワーマーチプリンセスシューズ",
+        "shoues_id": "V5-077",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30963.webp",
+        "accessary": "アイプリバースフラワーマーチプリンセスアクセ",
+        "accessary_id": "V5-078",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30964.webp"
+      },
+      {
+        "number": 47,
+        "name": "あめぽつぽつ",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-079.webp",
+        "tops": "あめぽつぽつトップス",
+        "tops_id": "V5-079",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30965.webp",
+        "bottoms": "あめぽつぽつボトムス",
+        "bottoms_id": "V5-080",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30966.webp",
+        "shoues": "あめぽつぽつシューズ",
+        "shoues_id": "V5-081",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30967.webp",
+        "accessary": "あめぽつぽつアクセ",
+        "accessary_id": "V5-082",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30968.webp"
+      },
+      {
+        "number": 48,
+        "name": "たいようさんさん",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-083.webp",
+        "tops": "たいようさんさんトップス",
+        "tops_id": "V5-083",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30969.webp",
+        "bottoms": "たいようさんさんボトムス",
+        "bottoms_id": "V5-084",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30970.webp",
+        "shoues": "たいようさんさんシューズ",
+        "shoues_id": "V5-085",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30971.webp",
+        "accessary": "たいようさんさんアクセ",
+        "accessary_id": "V5-086",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30972.webp"
+      },
+      {
+        "number": 49,
+        "name": "たんけんか",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-087.webp",
+        "tops": "たんけんかトップス",
+        "tops_id": "V5-087",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30973.webp",
+        "bottoms": "たんけんかボトムス",
+        "bottoms_id": "V5-088",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30974.webp",
+        "shoues": "たんけんかシューズ",
+        "shoues_id": "V5-089",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30975.webp",
+        "accessary": "たんけんかアクセ",
+        "accessary_id": "V5-090",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30976.webp"
+      },
+      {
+        "number": 50,
+        "name": "たんけんかオレンジ",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-091.webp",
+        "tops": "たんけんかオレンジトップス",
+        "tops_id": "V5-091",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30977.webp",
+        "bottoms": "たんけんかオレンジボトムス",
+        "bottoms_id": "V5-092",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30978.webp",
+        "shoues": "たんけんかオレンジシューズ",
+        "shoues_id": "V5-093",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30979.webp",
+        "accessary": "たんけんかオレンジアクセ",
+        "accessary_id": "V5-094",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30980.webp"
+      },
+      {
+        "number": 51,
+        "name": "うらないし",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-095.webp",
+        "one_piece": "うらないしワンピ",
+        "one_piece_id": "V5-095",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30981.webp",
+        "shoues": "うらないしシューズ",
+        "shoues_id": "V5-096",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30982.webp",
+        "accessary": "うらないしアクセ",
+        "accessary_id": "V5-097",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30983.webp"
+      },
+      {
+        "number": 52,
+        "name": "フラワーチュールあおぞらブルー",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-098.webp",
+        "tops": "フラワーチュールあおぞらブルートップス",
+        "tops_id": "V5-098",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30984.webp",
+        "bottoms": "フラワーチュールあおぞらブルーボトムス",
+        "bottoms_id": "V5-099",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30985.webp",
+        "shoues": "フラワーチュールあおぞらブルーシューズ",
+        "shoues_id": "V5-100",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30986.webp",
+        "accessary": "フラワーチュールあおぞらブルーアクセ",
+        "accessary_id": "V5-101",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30987.webp"
+      },
+      {
+        "number": 53,
+        "name": "ことりメルヘンブルー",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-102.webp",
+        "tops": "ことりメルヘンブルートップス",
+        "tops_id": "V5-102",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30988.webp",
+        "bottoms": "ことりメルヘンブルーボトムス",
+        "bottoms_id": "V5-103",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30989.webp",
+        "shoues": "ことりメルヘンブルーシューズ",
+        "shoues_id": "V5-104",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30990.webp",
+        "accessary": "ことりメルヘンブルーアクセ",
+        "accessary_id": "V5-105",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30991.webp"
+      },
+      {
+        "number": 54,
+        "name": "レディーフライトネイビー",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-106.webp",
+        "tops": "レディーフライトネイビートップス",
+        "tops_id": "V5-106",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30992.webp",
+        "bottoms": "レディーフライトネイビーボトムス",
+        "bottoms_id": "V5-107",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30993.webp",
+        "shoues": "レディーフライトネイビーシューズ",
+        "shoues_id": "V5-108",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30994.webp",
+        "accessary": "レディーフライトネイビーアクセ",
+        "accessary_id": "V5-109",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30995.webp"
+      },
+      {
+        "number": 55,
+        "name": "アイプリバースラブマイミュージックピンク",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-110.webp",
+        "tops": "アイプリバースラブマイミュージックピンクトップス",
+        "tops_id": "V5-110",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30996.webp",
+        "bottoms": "アイプリバースラブマイミュージックピンクボトムス",
+        "bottoms_id": "V5-111",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30997.webp",
+        "shoues": "アイプリバースラブマイミュージックピンクシューズ",
+        "shoues_id": "V5-112",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30998.webp",
+        "accessary": "アイプリバースラブマイミュージックピンクアクセ",
+        "accessary_id": "V5-113",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30999.webp"
+      },
+      {
+        "number": 56,
+        "name": "ステンドグラスクッキー",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-114.webp",
+        "one_piece": "ステンドグラスクッキーワンピ",
+        "one_piece_id": "V5-114",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31000.webp",
+        "shoues": "ステンドグラスクッキーシューズ",
+        "shoues_id": "V5-115",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31001.webp",
+        "accessary": "ステンドグラスクッキーアクセ",
+        "accessary_id": "V5-116",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31002.webp"
+      },
+      {
+        "number": 57,
+        "name": "【おしのこ】 アイ コーデ",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-169.webp",
+        "one_piece": "【おしのこ】 アイ コーデワンピ",
+        "one_piece_id": "V5-169",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31055.webp",
+        "shoues": "【おしのこ】 アイ コーデシューズ",
+        "shoues_id": "V5-170",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31056.webp",
+        "accessary": "【おしのこ】 アイ コーデアクセ",
+        "accessary_id": "V5-171",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31057.webp"
       }
     ],
     "aurora_dream": [
       {
+        "number": 1,
         "name": "ひみつのオーロラドリームあいら",
         "parts": 4,
         "total_id": 0,
@@ -1763,6 +1642,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30148.webp"
       },
       {
+        "number": 2,
         "name": "ひみつのオーロラドリームりずむ",
         "parts": 4,
         "total_id": 0,
@@ -1781,6 +1661,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30152.webp"
       },
       {
+        "number": 3,
         "name": "ひみつのオーロラドリームみおん",
         "parts": 4,
         "total_id": 0,
@@ -1799,6 +1680,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30156.webp"
       },
       {
+        "number": 4,
         "name": "ピュアプレミアムウエディング",
         "parts": 3,
         "total_id": 0,
@@ -1814,6 +1696,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID40132.webp"
       },
       {
+        "number": 5,
         "name": "ピュアホワイトウエディング",
         "parts": 3,
         "total_id": 0,
@@ -1829,6 +1712,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID40135.webp"
       },
       {
+        "number": 6,
         "name": "ピュアフレッシュウエディング",
         "parts": 3,
         "total_id": 0,
@@ -1844,6 +1728,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID40138.webp"
       },
       {
+        "number": 7,
         "name": "フレッシュピンクベアトップ",
         "parts": 3,
         "total_id": 0,
@@ -1859,6 +1744,7 @@ let item ={
         "shoues_image": "https://aipri.jp/verse/item/img/1/Item_ID40141.webp"
       },
       {
+        "number": 8,
         "name": "スターシャインベスト",
         "parts": 3,
         "total_id": 0,
@@ -1874,6 +1760,7 @@ let item ={
         "shoues_image": "https://aipri.jp/verse/item/img/1/Item_ID40144.webp"
       },
       {
+        "number": 9,
         "name": "レッドロックベアトップ",
         "parts": 3,
         "total_id": 0,
@@ -1891,6 +1778,7 @@ let item ={
     ],
     "rare4": [
       {
+        "number": 1,
         "name": "ポッピンハートバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -1906,6 +1794,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30003.webp"
       },
       {
+        "number": 2,
         "name": "ミラクルムーンバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -1921,6 +1810,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30006.webp"
       },
       {
+        "number": 3,
         "name": "おひつじざルビー",
         "parts": 4,
         "total_id": 0,
@@ -1939,6 +1829,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30140.webp"
       },
       {
+        "number": 4,
         "name": "ドーナツパティシエール",
         "parts": 3,
         "total_id": 0,
@@ -1954,6 +1845,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30021.webp"
       },
       {
+        "number": 5,
         "name": "ドーナツパティシエールオレンジ",
         "parts": 3,
         "total_id": 0,
@@ -1969,6 +1861,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30166.webp"
       },
       {
+        "number": 6,
         "name": "ぷるるんゼリーソーダ",
         "parts": 4,
         "total_id": 0,
@@ -1987,6 +1880,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30025.webp"
       },
       {
+        "number": 7,
         "name": "ぷるるんゼリーグレープ",
         "parts": 4,
         "total_id": 0,
@@ -2005,6 +1899,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30170.webp"
       },
       {
+        "number": 8,
         "name": "ウェルカムチェリー",
         "parts": 3,
         "total_id": 0,
@@ -2020,6 +1915,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30031.webp"
       },
       {
+        "number": 9,
         "name": "ウェルカムチェリーブルー",
         "parts": 3,
         "total_id": 0,
@@ -2035,6 +1931,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30034.webp"
       },
       {
+        "number": 10,
         "name": "きらきらくらげブルー",
         "parts": 3,
         "total_id": 0,
@@ -2050,6 +1947,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30037.webp"
       },
       {
+        "number": 11,
         "name": "きらきらくらげピンク",
         "parts": 3,
         "total_id": 0,
@@ -2065,6 +1963,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30040.webp"
       },
       {
+        "number": 14,
         "name": "スカーレットバタフライバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -2080,6 +1979,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30009.webp"
       },
       {
+        "number": 15,
         "name": "おうしざエメラルド",
         "parts": 4,
         "total_id": 0,
@@ -2098,6 +1998,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30144.webp"
       },
       {
+        "number": 16,
         "name": "おとぎばなしシンデレラ",
         "parts": 4,
         "total_id": 0,
@@ -2116,6 +2017,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30159.webp"
       },
       {
+        "number": 17,
         "name": "おとぎばなしシンデレライエロー",
         "parts": 4,
         "total_id": 0,
@@ -2134,6 +2036,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30164.webp"
       },
       {
+        "number": 18,
         "name": "キューティーラビット",
         "parts": 4,
         "total_id": 0,
@@ -2152,6 +2055,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30013.webp"
       },
       {
+        "number": 19,
         "name": "キューティーラビットブルー",
         "parts": 4,
         "total_id": 0,
@@ -2170,6 +2074,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30017.webp"
       },
       {
+        "number": 20,
         "name": "リッチベリータルト",
         "parts": 3,
         "total_id": 0,
@@ -2185,6 +2090,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30028.webp"
       },
       {
+        "number": 21,
         "name": "リッチベリータルトピンク",
         "parts": 3,
         "total_id": 0,
@@ -2200,6 +2106,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30173.webp"
       },
       {
+        "number": 22,
         "name": "バタフライマジック",
         "parts": 4,
         "total_id": 0,
@@ -2218,6 +2125,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30044.webp"
       },
       {
+        "number": 23,
         "name": "バタフライマジッククリムゾン",
         "parts": 4,
         "total_id": 0,
@@ -2236,6 +2144,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30048.webp"
       },
       {
+        "number": 24,
         "name": "ロゼッションバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -2251,6 +2160,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30217.webp"
       },
       {
+        "number": 26,
         "name": "ふたござシトリン",
         "parts": 4,
         "total_id": 0,
@@ -2269,6 +2179,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30224.webp"
       },
       {
+        "number": 27,
         "name": "フレッシュレモンピンク",
         "parts": 3,
         "total_id": 0,
@@ -2284,6 +2195,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30227.webp"
       },
       {
+        "number": 28,
         "name": "フレッシュレモンブルー",
         "parts": 3,
         "total_id": 0,
@@ -2299,6 +2211,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30230.webp"
       },
       {
+        "number": 29,
         "name": "マジシャンキャット",
         "parts": 4,
         "total_id": 0,
@@ -2317,6 +2230,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30234.webp"
       },
       {
+        "number": 30,
         "name": "マジシャンキャットピンク",
         "parts": 4,
         "total_id": 0,
@@ -2335,6 +2249,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30238.webp"
       },
       {
+        "number": 31,
         "name": "チェックメイト",
         "parts": 4,
         "total_id": 0,
@@ -2353,6 +2268,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30242.webp"
       },
       {
+        "number": 32,
         "name": "ロマンスシャンデリア",
         "parts": 4,
         "total_id": 0,
@@ -2371,6 +2287,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30246.webp"
       },
       {
+        "number": 33,
         "name": "ロマンスシャンデリアピンク",
         "parts": 4,
         "total_id": 0,
@@ -2389,6 +2306,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30250.webp"
       },
       {
+        "number": 34,
         "name": "ローズグランプリ",
         "parts": 3,
         "total_id": 0,
@@ -2404,6 +2322,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30220.webp"
       },
       {
+        "number": 35,
         "name": "フラワーマーチバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -2419,6 +2338,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30253.webp"
       },
       {
+        "number": 38,
         "name": "かにざコーラル",
         "parts": 4,
         "total_id": 0,
@@ -2437,6 +2357,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30257.webp"
       },
       {
+        "number": 39,
         "name": "おとぎばなししらゆきひめ",
         "parts": 3,
         "total_id": 0,
@@ -2452,6 +2373,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30260.webp"
       },
       {
+        "number": 40,
         "name": "おとぎばなししらゆきひめポイズン",
         "parts": 3,
         "total_id": 0,
@@ -2467,6 +2389,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30263.webp"
       },
       {
+        "number": 41,
         "name": "エレガントジュエルブルー",
         "parts": 3,
         "total_id": 0,
@@ -2482,6 +2405,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30266.webp"
       },
       {
+        "number": 42,
         "name": "エレガントジュエルレッド",
         "parts": 3,
         "total_id": 0,
@@ -2497,6 +2421,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30269.webp"
       },
       {
+        "number": 43,
         "name": "フラワーメモリー",
         "parts": 3,
         "total_id": 0,
@@ -2512,6 +2437,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30272.webp"
       },
       {
+        "number": 44,
         "name": "フラワーメモリーパープル",
         "parts": 3,
         "total_id": 0,
@@ -2527,6 +2453,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30275.webp"
       },
       {
+        "number": 45,
         "name": "リトルフェアリー",
         "parts": 3,
         "total_id": 0,
@@ -2542,6 +2469,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30278.webp"
       },
       {
+        "number": 46,
         "name": "リトルフェアリーグリーン",
         "parts": 3,
         "total_id": 0,
@@ -2557,378 +2485,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30281.webp"
       },
       {
-        "name": "シークレットフレンズ∞バズリウムピンク",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-001F.webp",
-        "one_piece": "シークレットフレンズ∞バズリウムピンクワンピ",
-        "one_piece_id": "V3-001",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30468.webp",
-        "shoues": "シークレットフレンズ∞バズリウムピンクシューズ",
-        "shoues_id": "V3-002",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30469.webp",
-        "accessary": "シークレットフレンズ∞バズリウムピンクアクセ",
-        "accessary_id": "V3-003",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30470.webp"
-      },
-      {
-        "name": "シークレットフレンズ∞バズリウムブルー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-004F.webp",
-        "one_piece": "シークレットフレンズ∞バズリウムブルーワンピ",
-        "one_piece_id": "V3-004",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30471.webp",
-        "shoues": "シークレットフレンズ∞バズリウムブルーシューズ",
-        "shoues_id": "V3-005",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30472.webp",
-        "accessary": "シークレットフレンズ∞バズリウムブルーアクセ",
-        "accessary_id": "V3-006",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30473.webp"
-      },
-      {
-        "name": "シークレットフレンズ∞バズリウムイエロー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-007F.webp",
-        "one_piece": "シークレットフレンズ∞バズリウムイエローワンピ",
-        "one_piece_id": "V3-007",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30474.webp",
-        "shoues": "シークレットフレンズ∞バズリウムイエローシューズ",
-        "shoues_id": "V3-008",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30475.webp",
-        "accessary": "シークレットフレンズ∞バズリウムイエローアクセ",
-        "accessary_id": "V3-009",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30476.webp"
-      },
-      {
-        "name": "ししざダイヤモンド",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-025F.webp",
-        "tops": "ししざダイヤモンドトップス",
-        "tops_id": "V3-025",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30477.webp",
-        "bottoms": "ししざダイヤモンドボトムス",
-        "bottoms_id": "V3-026",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30478.webp",
-        "shoues": "ししざダイヤモンドシューズ",
-        "shoues_id": "V3-027",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30479.webp",
-        "accessary": "ししざダイヤモンドアクセ",
-        "accessary_id": "V3-028",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30480.webp"
-      },
-      {
-        "name": "かれいなるきんぎょ",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-029F.webp",
-        "one_piece": "かれいなるきんぎょワンピ",
-        "one_piece_id": "V3-029",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30481.webp",
-        "shoues": "かれいなるきんぎょシューズ",
-        "shoues_id": "V3-030",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30482.webp",
-        "accessary": "かれいなるきんぎょアクセ",
-        "accessary_id": "V3-031",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30483.webp"
-      },
-      {
-        "name": "かれいなるきんぎょブルー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-032F.webp",
-        "one_piece": "かれいなるきんぎょブルーワンピ",
-        "one_piece_id": "V3-032",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30484.webp",
-        "shoues": "かれいなるきんぎょブルーシューズ",
-        "shoues_id": "V3-033",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30485.webp",
-        "accessary": "かれいなるきんぎょブルーアクセ",
-        "accessary_id": "V3-034",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30486.webp"
-      },
-      {
-        "name": "カラフルキャンディ",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-035F.webp",
-        "tops": "カラフルキャンディトップス",
-        "tops_id": "V3-035",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30487.webp",
-        "bottoms": "カラフルキャンディボトムス",
-        "bottoms_id": "V3-036",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30488.webp",
-        "shoues": "カラフルキャンディシューズ",
-        "shoues_id": "V3-037",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30489.webp",
-        "accessary": "カラフルキャンディアクセ",
-        "accessary_id": "V3-038",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30490.webp"
-      },
-      {
-        "name": "カラフルキャンディイエロー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-039F.webp",
-        "tops": "カラフルキャンディイエロートップス",
-        "tops_id": "V3-039",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30491.webp",
-        "bottoms": "カラフルキャンディイエローボトムス",
-        "bottoms_id": "V3-040",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30492.webp",
-        "shoues": "カラフルキャンディイエローシューズ",
-        "shoues_id": "V3-041",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30493.webp",
-        "accessary": "カラフルキャンディイエローアクセ",
-        "accessary_id": "V3-042",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30494.webp"
-      },
-      {
-        "name": "ハッピーバースデー！ひまり",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-043F.webp",
-        "tops": "ハッピーバースデー！ひまりトップス",
-        "tops_id": "V3-043",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30495.webp",
-        "bottoms": "ハッピーバースデー！ひまりボトムス",
-        "bottoms_id": "V3-044",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30496.webp",
-        "shoues": "ハッピーバースデー！ひまりシューズ",
-        "shoues_id": "V3-045",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30497.webp",
-        "accessary": "ハッピーバースデー！ひまりアクセ",
-        "accessary_id": "V3-046",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30498.webp"
-      },
-      {
-        "name": "マーメイドグランプリピンク",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-016F.webp",
-        "one_piece": "マーメイドグランプリピンクワンピ",
-        "one_piece_id": "V3-016",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30456.webp",
-        "shoues": "マーメイドグランプリピンクシューズ",
-        "shoues_id": "V3-017",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30457.webp",
-        "accessary": "マーメイドグランプリピンクアクセ",
-        "accessary_id": "V3-018",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30458.webp"
-      },
-      {
-        "name": "マーメイドグランプリブルー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-019F.webp",
-        "one_piece": "マーメイドグランプリブルーワンピ",
-        "one_piece_id": "V3-019",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30459.webp",
-        "shoues": "マーメイドグランプリブルーシューズ",
-        "shoues_id": "V3-020",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30460.webp",
-        "accessary": "マーメイドグランプリブルーアクセ",
-        "accessary_id": "V3-021",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30461.webp"
-      },
-      {
-        "name": "マーメイドグランプリイエロー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-022F.webp",
-        "one_piece": "マーメイドグランプリイエローワンピ",
-        "one_piece_id": "V3-022",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30462.webp",
-        "shoues": "マーメイドグランプリイエローシューズ",
-        "shoues_id": "V3-023",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30463.webp",
-        "accessary": "マーメイドグランプリイエローアクセ",
-        "accessary_id": "V3-024",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30464.webp"
-      },
-      {
-        "name": "レインボーキャンディバズリウム",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-010F.webp",
-        "one_piece": "レインボーキャンディバズリウムワンピ",
-        "one_piece_id": "V3-010",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30499.webp",
-        "shoues": "レインボーキャンディバズリウムシューズ",
-        "shoues_id": "V3-011",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30500.webp",
-        "accessary": "レインボーキャンディバズリウムアクセ",
-        "accessary_id": "V3-012",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30501.webp"
-      },
-      {
-        "name": "ベアベアベアバズリウム",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-013F.webp",
-        "one_piece": "ベアベアベアバズリウムワンピ",
-        "one_piece_id": "V3-013",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30502.webp",
-        "shoues": "ベアベアベアバズリウムシューズ",
-        "shoues_id": "V3-014",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30503.webp",
-        "accessary": "ベアベアベアバズリウムアクセ",
-        "accessary_id": "V3-015",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30504.webp"
-      },
-      {
-        "name": "おとめざカーネリアン",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-047F.webp",
-        "tops": "おとめざカーネリアントップス",
-        "tops_id": "V3-047",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30505.webp",
-        "bottoms": "おとめざカーネリアンボトムス",
-        "bottoms_id": "V3-048",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30506.webp",
-        "shoues": "おとめざカーネリアンシューズ",
-        "shoues_id": "V3-049",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30507.webp",
-        "accessary": "おとめざカーネリアンアクセ",
-        "accessary_id": "V3-050",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30508.webp"
-      },
-      {
-        "name": "おとぎばなしあかずきん",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-051F.webp",
-        "tops": "おとぎばなしあかずきんトップス",
-        "tops_id": "V3-051",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30509.webp",
-        "bottoms": "おとぎばなしあかずきんボトムス",
-        "bottoms_id": "V3-052",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30510.webp",
-        "shoues": "おとぎばなしあかずきんシューズ",
-        "shoues_id": "V3-053",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30511.webp",
-        "accessary": "おとぎばなしあかずきんアクセ",
-        "accessary_id": "V3-054",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30512.webp"
-      },
-      {
-        "name": "おとぎばなしあかずきんイエロー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-055F.webp",
-        "tops": "おとぎばなしあかずきんイエロートップス",
-        "tops_id": "V3-055",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30513.webp",
-        "bottoms": "おとぎばなしあかずきんイエローボトムス",
-        "bottoms_id": "V3-056",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30514.webp",
-        "shoues": "おとぎばなしあかずきんイエローシューズ",
-        "shoues_id": "V3-057",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30515.webp",
-        "accessary": "おとぎばなしあかずきんイエローアクセ",
-        "accessary_id": "V3-058",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30516.webp"
-      },
-      {
-        "name": "カワイイあめちゃん",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-059F.webp",
-        "one_piece": "カワイイあめちゃんワンピ",
-        "one_piece_id": "V3-059",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30517.webp",
-        "shoues": "カワイイあめちゃんシューズ",
-        "shoues_id": "V3-060",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30518.webp",
-        "accessary": "カワイイあめちゃんアクセ",
-        "accessary_id": "V3-061",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30519.webp"
-      },
-      {
-        "name": "カワイイくまさん",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-062F.webp",
-        "one_piece": "カワイイくまさんワンピ",
-        "one_piece_id": "V3-062",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30520.webp",
-        "shoues": "カワイイくまさんシューズ",
-        "shoues_id": "V3-063",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30521.webp",
-        "accessary": "カワイイくまさんアクセ",
-        "accessary_id": "V3-064",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30522.webp"
-      },
-      {
-        "name": "おやすみメリー",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-065F.webp",
-        "one_piece": "おやすみメリーワンピ",
-        "one_piece_id": "V3-065",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30523.webp",
-        "shoues": "おやすみメリーシューズ",
-        "shoues_id": "V3-066",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30524.webp",
-        "accessary": "おやすみメリーアクセ",
-        "accessary_id": "V3-067",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30525.webp"
-      },
-      {
-        "name": "おやすみメリーモーニング",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-068F.webp",
-        "one_piece": "おやすみメリーモーニングワンピ",
-        "one_piece_id": "V3-068",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30526.webp",
-        "shoues": "おやすみメリーモーニングシューズ",
-        "shoues_id": "V3-069",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30527.webp",
-        "accessary": "おやすみメリーモーニングアクセ",
-        "accessary_id": "V3-070",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30528.webp"
-      },
-      {
-        "name": "ハッピーバースデー！みつき",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-071F.webp",
-        "tops": "ハッピーバースデー！みつきトップス",
-        "tops_id": "V3-071",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30529.webp",
-        "bottoms": "ハッピーバースデー！みつきボトムス",
-        "bottoms_id": "V3-072",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30530.webp",
-        "shoues": "ハッピーバースデー！みつきシューズ",
-        "shoues_id": "V3-073",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30531.webp",
-        "accessary": "ハッピーバースデー！みつきアクセ",
-        "accessary_id": "V3-074",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30532.webp"
-      },
-      {
-        "name": "ハッピーバースデー！リンリン",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-075F.webp",
-        "tops": "ハッピーバースデー！リンリントップス",
-        "tops_id": "V3-075",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30533.webp",
-        "bottoms": "ハッピーバースデー！リンリンボトムス",
-        "bottoms_id": "V3-076",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30534.webp",
-        "shoues": "ハッピーバースデー！リンリンシューズ",
-        "shoues_id": "V3-077",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30535.webp",
-        "accessary": "ハッピーバースデー！リンリンアクセ",
-        "accessary_id": "V3-078",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30536.webp"
-      },
-      {
+        "number": 47,
         "name": "カルテットスターバズリウムハート",
         "parts": 3,
         "total_id": 0,
@@ -2944,6 +2501,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30691.webp"
       },
       {
+        "number": 48,
         "name": "カルテットスターバズリウムスペード",
         "parts": 3,
         "total_id": 0,
@@ -2959,6 +2517,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30694.webp"
       },
       {
+        "number": 49,
         "name": "カルテットスターバズリウムダイヤ",
         "parts": 3,
         "total_id": 0,
@@ -2974,6 +2533,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30697.webp"
       },
       {
+        "number": 50,
         "name": "カルテットスターバズリウムクラブ",
         "parts": 3,
         "total_id": 0,
@@ -2989,6 +2549,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30700.webp"
       },
       {
+        "number": 51,
         "name": "てんびんざターコイズ",
         "parts": 4,
         "total_id": 0,
@@ -3007,6 +2568,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30704.webp"
       },
       {
+        "number": 52,
         "name": "ミラクルハロウィンピンク",
         "parts": 3,
         "total_id": 0,
@@ -3022,6 +2584,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30707.webp"
       },
       {
+        "number": 53,
         "name": "ミラクルハロウィンブルー",
         "parts": 3,
         "total_id": 0,
@@ -3037,6 +2600,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30710.webp"
       },
       {
+        "number": 54,
         "name": "ミラクルハロウィンイエロー",
         "parts": 3,
         "total_id": 0,
@@ -3052,6 +2616,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30713.webp"
       },
       {
+        "number": 55,
         "name": "ゴーストハロウィン",
         "parts": 4,
         "total_id": 0,
@@ -3070,6 +2635,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30717.webp"
       },
       {
+        "number": 56,
         "name": "ゴーストハロウィングリーン",
         "parts": 4,
         "total_id": 0,
@@ -3088,6 +2654,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30721.webp"
       },
       {
+        "number": 57,
         "name": "ハッピーバースデー！アイリ",
         "parts": 4,
         "total_id": 0,
@@ -3106,6 +2673,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30725.webp"
       },
       {
+        "number": 58,
         "name": "フェザーグランプリクールレッド",
         "parts": 3,
         "total_id": 0,
@@ -3121,6 +2689,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30869.webp"
       },
       {
+        "number": 59,
         "name": "フェザーグランプリクールブルー",
         "parts": 3,
         "total_id": 0,
@@ -3136,6 +2705,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30872.webp"
       },
       {
+        "number": 60,
         "name": "フェザーグランプリラブリーグリーン",
         "parts": 3,
         "total_id": 0,
@@ -3151,6 +2721,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30875.webp"
       },
       {
+        "number": 61,
         "name": "フェザーグランプリラブリーオレンジ",
         "parts": 3,
         "total_id": 0,
@@ -3166,6 +2737,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30878.webp"
       },
       {
+        "number": 62,
         "name": "ラブマイミュージックバズリウム",
         "parts": 3,
         "total_id": 0,
@@ -3181,6 +2753,55 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30728.webp"
       },
       {
+        "number": 63,
+        "name": "シークレットフレンズ∞バズリウムピンク",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/4/V3-001.webp",
+        "one_piece": "シークレットフレンズ∞バズリウムピンクワンピ",
+        "one_piece_id": "V3-001",
+        "one_piece_image": "https://aipri.jp/verse/item/img/4/Item_ID30468.webp",
+        "shoues": "シークレットフレンズ∞バズリウムピンクシューズ",
+        "shoues_id": "V3-002",
+        "shoues_image": "https://aipri.jp/verse/item/img/4/Item_ID30469.webp",
+        "accessary": "シークレットフレンズ∞バズリウムピンクアクセ",
+        "accessary_id": "V3-003",
+        "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30470.webp"
+      },
+      {
+        "number": 64,
+        "name": "シークレットフレンズ∞バズリウムブルー",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/4/V3-004.webp",
+        "one_piece": "シークレットフレンズ∞バズリウムブルーワンピ",
+        "one_piece_id": "V3-004",
+        "one_piece_image": "https://aipri.jp/verse/item/img/4/Item_ID30471.webp",
+        "shoues": "シークレットフレンズ∞バズリウムブルーシューズ",
+        "shoues_id": "V3-005",
+        "shoues_image": "https://aipri.jp/verse/item/img/4/Item_ID30472.webp",
+        "accessary": "シークレットフレンズ∞バズリウムブルーアクセ",
+        "accessary_id": "V3-006",
+        "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30473.webp"
+      },
+      {
+        "number": 65,
+        "name": "シークレットフレンズ∞バズリウムイエロー",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/4/V3-007.webp",
+        "one_piece": "シークレットフレンズ∞バズリウムイエローワンピ",
+        "one_piece_id": "V3-007",
+        "one_piece_image": "https://aipri.jp/verse/item/img/4/Item_ID30474.webp",
+        "shoues": "シークレットフレンズ∞バズリウムイエローシューズ",
+        "shoues_id": "V3-008",
+        "shoues_image": "https://aipri.jp/verse/item/img/4/Item_ID30475.webp",
+        "accessary": "シークレットフレンズ∞バズリウムイエローアクセ",
+        "accessary_id": "V3-009",
+        "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30476.webp"
+      },
+      {
+        "number": 66,
         "name": "さそりざタイガーアイ",
         "parts": 4,
         "total_id": 0,
@@ -3199,6 +2820,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30732.webp"
       },
       {
+        "number": 67,
         "name": "おとぎばなしピーターパン",
         "parts": 3,
         "total_id": 0,
@@ -3214,6 +2836,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30735.webp"
       },
       {
+        "number": 68,
         "name": "おとぎばなしピーターパンレッド",
         "parts": 3,
         "total_id": 0,
@@ -3229,6 +2852,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30738.webp"
       },
       {
+        "number": 69,
         "name": "こあくまロック",
         "parts": 4,
         "total_id": 0,
@@ -3247,6 +2871,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30742.webp"
       },
       {
+        "number": 70,
         "name": "こあくまロックわたあめピンク",
         "parts": 4,
         "total_id": 0,
@@ -3265,6 +2890,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30746.webp"
       },
       {
+        "number": 71,
         "name": "キューティーラビットイエロー",
         "parts": 4,
         "total_id": 0,
@@ -3283,6 +2909,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30750.webp"
       },
       {
+        "number": 73,
         "name": "ハッピーバースデー！チィ",
         "parts": 4,
         "total_id": 0,
@@ -3299,10 +2926,183 @@ let item ={
         "accessary": "ハッピーバースデー！チィアクセ",
         "accessary_id": "V4-078",
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30754.webp"
+      },
+      {
+        "number": 74,
+        "name": "フラワーマーチプリンセスバズリウム",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-001.webp",
+        "one_piece": "フラワーマーチプリンセスバズリウムワンピ",
+        "one_piece_id": "V5-001",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30894.webp",
+        "shoues": "フラワーマーチプリンセスバズリウムシューズ",
+        "shoues_id": "V5-002",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30895.webp",
+        "accessary": "フラワーマーチプリンセスバズリウムアクセ",
+        "accessary_id": "V5-003",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30896.webp"
+      },
+      {
+        "number": 75,
+        "name": "いてざサファイア",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-020.webp",
+        "tops": "いてざサファイアトップス",
+        "tops_id": "V5-020",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30897.webp",
+        "bottoms": "いてざサファイアボトムス",
+        "bottoms_id": "V5-021",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30898.webp",
+        "shoues": "いてざサファイアシューズ",
+        "shoues_id": "V5-022",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30899.webp",
+        "accessary": "いてざサファイアアクセ",
+        "accessary_id": "V5-023",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30900.webp"
+      },
+      {
+        "number": 76,
+        "name": "かみなりぐも",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-024.webp",
+        "tops": "かみなりぐもトップス",
+        "tops_id": "V5-024",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30901.webp",
+        "bottoms": "かみなりぐもボトムス",
+        "bottoms_id": "V5-025",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30902.webp",
+        "shoues": "かみなりぐもシューズ",
+        "shoues_id": "V5-026",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30903.webp",
+        "accessary": "かみなりぐもアクセ",
+        "accessary_id": "V5-027",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30904.webp"
+      },
+      {
+        "number": 77,
+        "name": "かみなりぐもブラック",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-028.webp",
+        "tops": "かみなりぐもブラックトップス",
+        "tops_id": "V5-028",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30905.webp",
+        "bottoms": "かみなりぐもブラックボトムス",
+        "bottoms_id": "V5-029",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30906.webp",
+        "shoues": "かみなりぐもブラックシューズ",
+        "shoues_id": "V5-030",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30907.webp",
+        "accessary": "かみなりぐもブラックアクセ",
+        "accessary_id": "V5-031",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30908.webp"
+      },
+      {
+        "number": 78,
+        "name": "スペシャルクリスマスレッド",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-032.webp",
+        "one_piece": "スペシャルクリスマスレッドワンピ",
+        "one_piece_id": "V5-032",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30909.webp",
+        "shoues": "スペシャルクリスマスレッドシューズ",
+        "shoues_id": "V5-033",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30910.webp",
+        "accessary": "スペシャルクリスマスレッドアクセ",
+        "accessary_id": "V5-034",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
+      },
+      {
+        "number": 79,
+        "name": "スペシャルクリスマスブルー",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-035.webp",
+        "one_piece": "スペシャルクリスマスブルーワンピ",
+        "one_piece_id": "V5-035",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30912.webp",
+        "shoues": "スペシャルクリスマスブルーシューズ",
+        "shoues_id": "V5-036",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30913.webp",
+        "accessary": "スペシャルクリスマスブルーアクセ",
+        "accessary_id": "V5-034",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
+      },
+      {
+        "number": 80,
+        "name": "スペシャルクリスマスグリーン",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-037.webp",
+        "one_piece": "スペシャルクリスマスグリーンワンピ",
+        "one_piece_id": "V5-037",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30915.webp",
+        "shoues": "スペシャルクリスマスグリーンシューズ",
+        "shoues_id": "V5-038",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30916.webp",
+        "accessary": "スペシャルクリスマスグリーンアクセ",
+        "accessary_id": "V5-034",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
+      },
+      {
+        "number": 81,
+        "name": "スペシャルクリスマスオレンジ",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-039.webp",
+        "one_piece": "スペシャルクリスマスオレンジワンピ",
+        "one_piece_id": "V5-039",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30918.webp",
+        "shoues": "スペシャルクリスマスオレンジシューズ",
+        "shoues_id": "V5-040",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30919.webp",
+        "accessary": "スペシャルクリスマスオレンジアクセ",
+        "accessary_id": "V5-034",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp"
+      },
+      {
+        "number": 82,
+        "name": "フラワーメモリーピュアホワイト",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-041.webp",
+        "one_piece": "フラワーメモリーピュアホワイトワンピ",
+        "one_piece_id": "V5-041",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID30921.webp",
+        "shoues": "フラワーメモリーピュアホワイトシューズ",
+        "shoues_id": "V5-042",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30922.webp",
+        "accessary": "フラワーメモリーピュアホワイトアクセ",
+        "accessary_id": "V5-043",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30923.webp"
+      },
+      {
+        "number": 83,
+        "name": "ハッピーバースデー！つむぎ",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-044.webp",
+        "tops": "ハッピーバースデー！つむぎトップス",
+        "tops_id": "V5-044",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID30924.webp",
+        "bottoms": "ハッピーバースデー！つむぎボトムス",
+        "bottoms_id": "V5-045",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID30925.webp",
+        "shoues": "ハッピーバースデー！つむぎシューズ",
+        "shoues_id": "V5-046",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID30926.webp",
+        "accessary": "ハッピーバースデー！つむぎアクセ",
+        "accessary_id": "V5-047",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30927.webp"
       }
     ],
     "primagi": [
       {
+        "number": 1,
         "name": "ハートフェザー",
         "parts": 3,
         "total_id": 0,
@@ -3318,6 +3118,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID40150.webp"
       },
       {
+        "number": 2,
         "name": "マナマナみゃむ",
         "parts": 3,
         "total_id": 0,
@@ -3333,6 +3134,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID40153.webp"
       },
       {
+        "number": 3,
         "name": "おとめマーガレット",
         "parts": 4,
         "total_id": 0,
@@ -3351,6 +3153,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID40157.webp"
       },
       {
+        "number": 4,
         "name": "プリマジチェックピンク",
         "parts": 4,
         "total_id": 0,
@@ -3367,10 +3170,202 @@ let item ={
         "accessary": "プリマジチェックピンクアクセ",
         "accessary_id": "V1-240",
         "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID40161.webp"
+      },
+      {
+        "number": 5,
+        "name": "プリンセスハートフェザー",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-180.webp",
+        "one_piece": "プリンセスハートフェザーワンピ",
+        "one_piece_id": "V5-180",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31080.webp",
+        "shoues": "プリンセスハートフェザーシューズ",
+        "shoues_id": "V5-181",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31081.webp",
+        "accessary": "プリンセスハートフェザーアクセ",
+        "accessary_id": "V5-182",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31082.webp"
+      },
+      {
+        "number": 6,
+        "name": "ナイトドリーム",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-187.webp",
+        "tops": "ナイトドリームトップス",
+        "tops_id": "V5-187",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31087.webp",
+        "bottoms": "ナイトドリームボトムス",
+        "bottoms_id": "V5-188",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31088.webp",
+        "shoues": "ナイトドリームシューズ",
+        "shoues_id": "V5-189",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31089.webp",
+        "accessary": "ナイトドリームアクセ",
+        "accessary_id": "V5-190",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31090.webp"
+      },
+      {
+        "number": 7,
+        "name": "リトルプリンセス",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-183.webp",
+        "tops": "リトルプリンセストップス",
+        "tops_id": "V5-183",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31107.webp",
+        "bottoms": "リトルプリンセスボトムス",
+        "bottoms_id": "V5-184",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31108.webp",
+        "shoues": "リトルプリンセスシューズ",
+        "shoues_id": "V5-185",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31109.webp",
+        "accessary": "リトルプリンセスアクセ",
+        "accessary_id": "V5-186",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31110.webp"
+      },
+      {
+        "number": 8,
+        "name": "フラワーブロッサム",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-191.webp",
+        "tops": "フラワーブロッサムトップス",
+        "tops_id": "V5-191",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31083.webp",
+        "bottoms": "フラワーブロッサムボトムス",
+        "bottoms_id": "V5-192",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31084.webp",
+        "shoues": "フラワーブロッサムシューズ",
+        "shoues_id": "V5-193",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31085.webp",
+        "accessary": "フラワーブロッサムアクセ",
+        "accessary_id": "V5-194",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31086.webp"
+      },
+      {
+        "number": 9,
+        "name": "ミラクルユニコーン",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-195.webp",
+        "tops": "ミラクルユニコーントップス",
+        "tops_id": "V5-195",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31095.webp",
+        "bottoms": "ミラクルユニコーンボトムス",
+        "bottoms_id": "V5-196",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31096.webp",
+        "shoues": "ミラクルユニコーンシューズ",
+        "shoues_id": "V5-197",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31097.webp",
+        "accessary": "ミラクルユニコーンアクセ",
+        "accessary_id": "V5-198",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31098.webp"
+      },
+      {
+        "number": 10,
+        "name": "パウダースノー",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-199.webp",
+        "tops": "パウダースノートップス",
+        "tops_id": "V5-199",
+        "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31111.webp",
+        "bottoms": "パウダースノーボトムス",
+        "bottoms_id": "V5-200",
+        "bottoms_image": "https://aipri.jp/verse/item/img/5/Item_ID31112.webp",
+        "shoues": "パウダースノーシューズ",
+        "shoues_id": "V5-201",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31113.webp",
+        "accessary": "パウダースノーアクセ",
+        "accessary_id": "V5-202",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31114.webp"
+      },
+      {
+        "number": 11,
+        "name": "ひみつのプリマジまつり",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-137.webp",
+        "one_piece": "ひみつのプリマジまつりワンピ",
+        "one_piece_id": "V5-137",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31023.webp",
+        "shoues": "ひみつのプリマジまつりシューズ",
+        "shoues_id": "V5-138",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31024.webp",
+        "accessary": "ひみつのプリマジまつりアクセ",
+        "accessary_id": "V5-139",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31025.webp"
+      },
+      {
+        "number": 12,
+        "name": "ひみつのプリマジひな",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-140.webp",
+        "one_piece": "ひみつのプリマジひなワンピ",
+        "one_piece_id": "V5-140",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31026.webp",
+        "shoues": "ひみつのプリマジひなシューズ",
+        "shoues_id": "V5-141",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31027.webp",
+        "accessary": "ひみつのプリマジひなアクセ",
+        "accessary_id": "V5-142",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31028.webp"
+      },
+      {
+        "number": 13,
+        "name": "ひみつのプリマジあまね",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-143.webp",
+        "one_piece": "ひみつのプリマジあまねワンピ",
+        "one_piece_id": "V5-143",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31029.webp",
+        "shoues": "ひみつのプリマジあまねシューズ",
+        "shoues_id": "V5-144",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31030.webp",
+        "accessary": "ひみつのプリマジあまねアクセ",
+        "accessary_id": "V5-145",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31031.webp"
+      },
+      {
+        "number": 14,
+        "name": "ひみつのプリマジあうる",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-146.webp",
+        "one_piece": "ひみつのプリマジあうるワンピ",
+        "one_piece_id": "V5-146",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31032.webp",
+        "shoues": "ひみつのプリマジあうるシューズ",
+        "shoues_id": "V5-147",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31033.webp",
+        "accessary": "ひみつのプリマジあうるアクセ",
+        "accessary_id": "V5-148",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31034.webp"
+      },
+      {
+        "number": 16,
+        "name": "メカニックビート",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/5/V5-152.webp",
+        "one_piece": "メカニックビートワンピ",
+        "one_piece_id": "V5-152",
+        "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID31038.webp",
+        "shoues": "メカニックビートシューズ",
+        "shoues_id": "V5-153",
+        "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID31039.webp",
+        "accessary": "メカニックビートアクセ",
+        "accessary_id": "V5-154",
+        "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31040.webp"
       }
     ],
     "pripara": [
       {
+        "number": 1,
         "name": "ひみつのプリパラらぁら",
         "parts": 3,
         "total_id": 0,
@@ -3386,6 +3381,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30402.webp"
       },
       {
+        "number": 2,
         "name": "ひみつのプリパラみれぃ",
         "parts": 3,
         "total_id": 0,
@@ -3401,6 +3397,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30405.webp"
       },
       {
+        "number": 3,
         "name": "ひみつのプリパラそふぃ",
         "parts": 3,
         "total_id": 0,
@@ -3416,6 +3413,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30408.webp"
       },
       {
+        "number": 4,
         "name": "パラダイス",
         "parts": 3,
         "total_id": 0,
@@ -3431,6 +3429,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30411.webp"
       },
       {
+        "number": 5,
         "name": "トゥインクルリボンサイリウム",
         "parts": 3,
         "total_id": 0,
@@ -3446,6 +3445,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30414.webp"
       },
       {
+        "number": 6,
         "name": "キャンディアラモードサイリウム",
         "parts": 3,
         "total_id": 0,
@@ -3461,6 +3461,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30417.webp"
       },
       {
+        "number": 7,
         "name": "ホリックトリックサイリウム",
         "parts": 3,
         "total_id": 0,
@@ -3476,6 +3477,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30420.webp"
       },
       {
+        "number": 8,
         "name": "マリオネットミューサイリウム",
         "parts": 3,
         "total_id": 0,
@@ -3491,6 +3493,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30427.webp"
       },
       {
+        "number": 9,
         "name": "エンジェリックファンシー",
         "parts": 4,
         "total_id": 0,
@@ -3509,6 +3512,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30431.webp"
       },
       {
+        "number": 10,
         "name": "クリスタルスノープリンセス",
         "parts": 4,
         "total_id": 0,
@@ -3527,6 +3531,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30435.webp"
       },
       {
+        "number": 11,
         "name": "ウィッシュリボンアイドルL",
         "parts": 4,
         "total_id": 0,
@@ -3545,6 +3550,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30424.webp"
       },
       {
+        "number": 12,
         "name": "ウィッシュリボンアイドルM",
         "parts": 4,
         "total_id": 0,
@@ -3563,6 +3569,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30439.webp"
       },
       {
+        "number": 13,
         "name": "ウィッシュリボンアイドルS",
         "parts": 4,
         "total_id": 0,
@@ -3579,187 +3586,11 @@ let item ={
         "accessary": "ウィッシュリボンアイドルSアクセ",
         "accessary_id": "V2-229",
         "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30443.webp"
-      },
-      {
-        "name": "ひみつのアイドルタイムゆい",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-144F.webp",
-        "one_piece": "ひみつのアイドルタイムゆいワンピ",
-        "one_piece_id": "V3-144",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30603.webp",
-        "shoues": "ひみつのアイドルタイムゆいシューズ",
-        "shoues_id": "V3-145",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30604.webp",
-        "accessary": "ひみつのアイドルタイムゆいアクセ",
-        "accessary_id": "V3-146",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30605.webp"
-      },
-      {
-        "name": "ひみつのアイドルタイムにの",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-147F.webp",
-        "one_piece": "ひみつのアイドルタイムにのワンピ",
-        "one_piece_id": "V3-147",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30606.webp",
-        "shoues": "ひみつのアイドルタイムにのシューズ",
-        "shoues_id": "V3-148",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30607.webp",
-        "accessary": "ひみつのアイドルタイムにのアクセ",
-        "accessary_id": "V3-149",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30608.webp"
-      },
-      {
-        "name": "ひみつのアイドルタイムみちる",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-150F.webp",
-        "one_piece": "ひみつのアイドルタイムみちるワンピ",
-        "one_piece_id": "V3-150",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30609.webp",
-        "shoues": "ひみつのアイドルタイムみちるシューズ",
-        "shoues_id": "V3-151",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30610.webp",
-        "accessary": "ひみつのアイドルタイムみちるアクセ",
-        "accessary_id": "V3-152",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30611.webp"
-      },
-      {
-        "name": "ファンタジータイムサイリウム",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-153F.webp",
-        "one_piece": "ファンタジータイムサイリウムワンピ",
-        "one_piece_id": "V3-153",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30612.webp",
-        "shoues": "ファンタジータイムサイリウムシューズ",
-        "shoues_id": "V3-154",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30613.webp",
-        "accessary": "ファンタジータイムサイリウムアクセ",
-        "accessary_id": "V3-155",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30614.webp"
-      },
-      {
-        "name": "ネオンドロップサイリウム",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-156F.webp",
-        "one_piece": "ネオンドロップサイリウムワンピ",
-        "one_piece_id": "V3-156",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30615.webp",
-        "shoues": "ネオンドロップサイリウムシューズ",
-        "shoues_id": "V3-157",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30616.webp",
-        "accessary": "ネオンドロップサイリウムアクセ",
-        "accessary_id": "V3-158",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30617.webp"
-      },
-      {
-        "name": "メルティリリィサイリウム",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-159F.webp",
-        "one_piece": "メルティリリィサイリウムワンピ",
-        "one_piece_id": "V3-159",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30618.webp",
-        "shoues": "メルティリリィサイリウムシューズ",
-        "shoues_id": "V3-160",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30619.webp",
-        "accessary": "メルティリリィサイリウムアクセ",
-        "accessary_id": "V3-161",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30620.webp"
-      },
-      {
-        "name": "ファンタジータイムドリーム",
-        "parts": 3,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-162F.webp",
-        "one_piece": "ファンタジータイムドリームワンピ",
-        "one_piece_id": "V3-162",
-        "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30621.webp",
-        "shoues": "ファンタジータイムドリームシューズ",
-        "shoues_id": "V3-163",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30622.webp",
-        "accessary": "ファンタジータイムドリームアクセ",
-        "accessary_id": "V3-164",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30623.webp"
-      },
-      {
-        "name": "ときのコーデ",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-165F.webp",
-        "tops": "ときのコーデトップス",
-        "tops_id": "V3-165",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30624.webp",
-        "bottoms": "ときのコーデボトムス",
-        "bottoms_id": "V3-166",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30625.webp",
-        "shoues": "ときのコーデシューズ",
-        "shoues_id": "V3-167",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30626.webp",
-        "accessary": "ときのコーデアクセ",
-        "accessary_id": "V3-168",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30627.webp"
-      },
-      {
-        "name": "マイ☆ドリームミルキーブルー",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-169F.webp",
-        "tops": "マイ☆ドリームミルキーブルートップス",
-        "tops_id": "V3-169",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30628.webp",
-        "bottoms": "マイ☆ドリームミルキーブルーボトムス",
-        "bottoms_id": "V3-170",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30629.webp",
-        "shoues": "マイ☆ドリームミルキーブルーシューズ",
-        "shoues_id": "V3-171",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30630.webp",
-        "accessary": "マイ☆ドリームミルキーブルーアクセ",
-        "accessary_id": "V3-172",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30631.webp"
-      },
-      {
-        "name": "マイ☆ドリームミルキーオレンジ",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-173F.webp",
-        "tops": "マイ☆ドリームミルキーオレンジトップス",
-        "tops_id": "V3-173",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30632.webp",
-        "bottoms": "マイ☆ドリームミルキーオレンジボトムス",
-        "bottoms_id": "V3-174",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30633.webp",
-        "shoues": "マイ☆ドリームミルキーオレンジシューズ",
-        "shoues_id": "V3-175",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30634.webp",
-        "accessary": "マイ☆ドリームミルキーオレンジアクセ",
-        "accessary_id": "V3-176",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30635.webp"
-      },
-      {
-        "name": "マイ☆ドリームミルキーパープル",
-        "parts": 4,
-        "total_id": 0,
-        "total_image": "https://aipri.jp/verse/item/img/3/V3-177F.webp",
-        "tops": "マイ☆ドリームミルキーパープルトップス",
-        "tops_id": "V3-177",
-        "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30636.webp",
-        "bottoms": "マイ☆ドリームミルキーパープルボトムス",
-        "bottoms_id": "V3-178",
-        "bottoms_image": "https://aipri.jp/verse/item/img/3/Item_ID30637.webp",
-        "shoues": "マイ☆ドリームミルキーパープルシューズ",
-        "shoues_id": "V3-179",
-        "shoues_image": "https://aipri.jp/verse/item/img/3/Item_ID30638.webp",
-        "accessary": "マイ☆ドリームミルキーパープルアクセ",
-        "accessary_id": "V3-180",
-        "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30639.webp"
       }
     ],
     "オシャレ魔女 ラブandベリー": [
       {
+        "number": 1,
         "name": "ピタTガール",
         "parts": 3,
         "total_id": 0,
@@ -3775,6 +3606,7 @@ let item ={
         "shoues_image": "https://aipri.jp/verse/item/img/4/Item_ID30855.webp"
       },
       {
+        "number": 2,
         "name": "ピチッとクロT",
         "parts": 3,
         "total_id": 0,
@@ -3790,6 +3622,7 @@ let item ={
         "shoues_image": "https://aipri.jp/verse/item/img/4/Item_ID30859.webp"
       },
       {
+        "number": 3,
         "name": "キャンディテーラード",
         "parts": 3,
         "total_id": 0,
@@ -3805,6 +3638,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30863.webp"
       },
       {
+        "number": 4,
         "name": "クラシックバイオレット",
         "parts": 3,
         "total_id": 0,
@@ -3822,6 +3656,7 @@ let item ={
     ],
     "prichan": [
       {
+        "number": 1,
         "name": "ひみつのプリ☆チャンみらい",
         "parts": 3,
         "total_id": 0,
@@ -3837,6 +3672,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30818.webp"
       },
       {
+        "number": 2,
         "name": "ひみつのプリ☆チャンえも",
         "parts": 3,
         "total_id": 0,
@@ -3852,6 +3688,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30821.webp"
       },
       {
+        "number": 3,
         "name": "ひみつのプリ☆チャンりんか",
         "parts": 3,
         "total_id": 0,
@@ -3867,6 +3704,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30824.webp"
       },
       {
+        "number": 4,
         "name": "スイートハニーキラッと",
         "parts": 3,
         "total_id": 0,
@@ -3882,6 +3720,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30827.webp"
       },
       {
+        "number": 5,
         "name": "ガールズエールキラッと",
         "parts": 3,
         "total_id": 0,
@@ -3897,6 +3736,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30830.webp"
       },
       {
+        "number": 6,
         "name": "シークレットアリスキラッと",
         "parts": 3,
         "total_id": 0,
@@ -3912,6 +3752,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30833.webp"
       },
       {
+        "number": 7,
         "name": "ミラクル☆キラッツグループキラッと",
         "parts": 3,
         "total_id": 0,
@@ -3927,6 +3768,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30836.webp"
       },
       {
+        "number": 8,
         "name": "フラワーショップフリージア",
         "parts": 4,
         "total_id": 0,
@@ -3945,6 +3787,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30840.webp"
       },
       {
+        "number": 9,
         "name": "チアリーダーグリーン",
         "parts": 4,
         "total_id": 0,
@@ -3963,6 +3806,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30844.webp"
       },
       {
+        "number": 10,
         "name": "ゴシックフリルナイトブルー",
         "parts": 4,
         "total_id": 0,
@@ -3981,6 +3825,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30848.webp"
       },
       {
+        "number": 11,
         "name": "サマーメイドブラックベリー",
         "parts": 4,
         "total_id": 0,
