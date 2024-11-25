@@ -6,7 +6,7 @@ let data = {
         { "value":2,"name": "２だん"},
         { "value":3,"name": "３だん"},
         { "value":4,"name": "４だん"},
-        { "value":4,"name": "５だん"}
+        { "value":5,"name": "５だん"}
     ],
     "vol":[
         {
