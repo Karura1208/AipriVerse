@@ -1,0 +1,28 @@
+{
+    "MyCharactor":[
+        {
+            "SaveCodeID":"HYUHAMQA-NSSWPBQ",
+            "MyCharaName":"ラピス",
+            "MyCharaBirthMonth":"9",
+            "MyCharaBirthDay":"8"
+        },
+        {
+            "SaveCodeID":"H43TIGQA-CGES22A",
+            "MyCharaName":"スピネル",
+            "MyCharaBirthMonth":"8",
+            "MyCharaBirthDay":"9"
+        },
+        {
+            "SaveCodeID":"HT64AUQA-2C4GQ4I",
+            "MyCharaName":"ルナ",
+            "MyCharaBirthMonth":"12",
+            "MyCharaBirthDay":"9"
+        },
+        {
+            "SaveCodeID":"HGPDACQA-BLWQAUY",
+            "MyCharaName":"ステラ",
+            "MyCharaBirthMonth":"12",
+            "MyCharaBirthDay":"7"
+        }
+    ]
+}
