@@ -5,7 +5,7 @@ var obj
 
 async function check_write(check){
 
-    let text = "let check = " + JSON.stringify(check)
+    let text = "let check_data = " + JSON.stringify(check)
     const blob = new Blob([text], {type: "text/plain"});
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
