@@ -1,4 +1,4 @@
-let check ={
+let check_data = {
   "V1-001": "get",
   "V1-002": "get",
   "V1-003": "get",
