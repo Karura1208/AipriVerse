@@ -2,9 +2,6 @@
 
 // 表示データオブジェクト
 var obj
-//チェックボックスオブジェクト
-var check
-
 
 async function check_write(check){
 
