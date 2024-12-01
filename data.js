@@ -1665,7 +1665,7 @@ let data = {
                 {
                     "name":"スプリングブルーバタフライ",
                     "total_id":"TOY-026F",
-                    "total_image":"./total_image/special/secret1.webp",
+                    "total_image":"https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/000000027035_k5tPWeb.jpg",
                     "tops" : "スプリングブルーバタフライトップス",
                     "bottoms":"スプリングブルーバタフライボトムス",
                     "shoues" : "スプリングブルーバタフライシューズ",
