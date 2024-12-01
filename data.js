@@ -995,6 +995,30 @@ let data = {
                     "parts":4
                 },
                 {
+                    "name":"フェザーグランプリクールピンク",
+                    "total_id":"P-044F",
+                    "total_image":"https://aipri.jp/card/img/special/P-046_O.webp",
+                    "one_piece" : "フェザーグランプリクールピンクワンピ",
+                    "shoues" : "フェザーグランプリクールピンクシューズ",
+                    "accessary" : "フェザーグランプリクールピンクアクセ",
+                    "one_piece_id":"P-159",
+                    "shoues_id":"P-160",
+                    "accessary_id":"P-161",
+                    "parts":3
+                },
+                {
+                    "name":"カワイイあめちゃんげんきオレンジ",
+                    "total_id":"P-045F",
+                    "total_image":"https://aipri.jp/card/img/special/P-047_O.webp",
+                    "one_piece" : "カワイイあめちゃんげんきオレンジワンピ",
+                    "shoues" : "カワイイあめちゃんげんきオレンジシューズ",
+                    "accessary" : "カワイイあめちゃんげんきオレンジアクセ",
+                    "one_piece_id":"P-162",
+                    "shoues_id":"P-163",
+                    "accessary_id":"P-164",
+                    "parts":3
+                },
+                {
                     "name":"アイスブラウニークレープ",
                     "total_id":"P-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-023_O.webp",
@@ -1016,6 +1040,42 @@ let data = {
                     "one_piece_id":"P-023",
                     "shoues_id":"P-024",
                     "accessary_id":"P-025",
+                    "parts":3
+                },
+                {
+                    "name":"ポッピンハートバズリウムブルー",
+                    "total_id":"P-046F",
+                    "total_image":"https://aipri.jp/card/img/special/P-042_O.webp",
+                    "one_piece" : "ポッピンハートバズリウムブルーワンピ",
+                    "shoues" : "ポッピンハートバズリウムブルーシューズ",
+                    "accessary" : "ポッピンハートバズリウムブルーアクセ",
+                    "one_piece_id":"P-165",
+                    "shoues_id":"P-166",
+                    "accessary_id":"P-167",
+                    "parts":3
+                },
+                {
+                    "name":"ミラクルムーンバズリウムピンク",
+                    "total_id":"P-047F",
+                    "total_image":"https://aipri.jp/card/img/special/P-043_O.webp",
+                    "one_piece" : "ミラクルムーンバズリウムピンクワンピ",
+                    "shoues" : "ミラクルムーンバズリウムピンクシューズ",
+                    "accessary" : "ミラクルムーンバズリウムピンクアクセ",
+                    "one_piece_id":"P-168",
+                    "shoues_id":"P-169",
+                    "accessary_id":"P-170",
+                    "parts":3
+                },
+                {
+                    "name":"フラワーマーチバズリウムブルー",
+                    "total_id":"P-050F",
+                    "total_image":"https://aipri.jp/card/img/special/P-073_O.webp",
+                    "one_piece" : "フラワーマーチバズリウムブルーワンピ",
+                    "shoues" : "フラワーマーチバズリウムブルーシューズ",
+                    "accessary" : "フラワーマーチバズリウムブルーアクセ",
+                    "one_piece_id":"P-179",
+                    "shoues_id":"P-180",
+                    "accessary_id":"P-181",
                     "parts":3
                 }
             ]
@@ -1189,6 +1249,18 @@ let data = {
                     "shoues_id":"TOY-139",
                     "accessary_id":"TOY-140",
                     "parts":3
+                },
+                {
+                    "name":"アイプリバースフラワーマーチプリンセス",
+                    "total_id":"TOY-043F",
+                    "total_image":"https://aipri.jp/card/img/special/TOY-051_O.webp",
+                    "one_piece" : "アイプリバースフラワーマーチプリンセスワンピ",
+                    "shoues" : "アイプリバースフラワーマーチプリンセスシューズ",
+                    "accessary" : "アイプリバースフラワーマーチプリンセスアクセ",
+                    "one_piece_id":"TOY-156",
+                    "shoues_id":"TOY-157",
+                    "accessary_id":"TOY-158",
+                    "parts":3
                 }
             ]
         },
@@ -1336,6 +1408,34 @@ let data = {
                     "shoues_id":"TOY-077",
                     "accessary_id":"TOY-078",
                     "parts":3
+                },
+                {
+                    "name":"バタフライマジックキュート",
+                    "total_id":"TOY-048F",
+                    "total_image":"https://aipri.jp/card/img/special/TOY-052_O.webp",
+                    "tops" : "バタフライマジックキュートトップス",
+                    "bottoms":"バタフライマジックキュートボトムス",
+                    "shoues" : "バタフライマジックキュートシューズ",
+                    "accessary" : "バタフライマジックキュートアクセ",
+                    "tops_id":"TOY-171",
+                    "bottoms_id" : "TOY-172",
+                    "shoues_id":"TOY-173",
+                    "accessary_id":"TOY-174",
+                    "parts":4
+                },
+                {
+                    "name":"ウィンターパープルバタフライ",
+                    "total_id":"TOY-049F",
+                    "total_image":"https://aipri.jp/card/img/special/TOY-053_O.webp",
+                    "tops" : "ウィンターパープルバタフライトップス",
+                    "bottoms":"ウィンターパープルバタフライボトムス",
+                    "shoues" : "ウィンターパープルバタフライシューズ",
+                    "accessary" : "ウィンターパープルバタフライアクセ",
+                    "tops_id":"TOY-175",
+                    "bottoms_id" : "TOY-176",
+                    "shoues_id":"TOY-177",
+                    "accessary_id":"TOY-178",
+                    "parts":4
                 },
                 {
                     "name":"オーシャンコスメパープル",
