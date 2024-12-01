@@ -1043,6 +1043,32 @@ let data = {
                     "parts":3
                 },
                 {
+                    "name":"マジシャンキャットイエロー",
+                    "total_id":"P-051F",
+                    "total_image":"https://aipri.jp/card/img/special/P-062_O.webp",
+                    "tops" : "マジシャンキャットイエロートップス",
+                    "bottoms":"マジシャンキャットイエローボトムス",
+                    "shoues" : "マジシャンキャットイエローシューズ",
+                    "accessary" : "マジシャンキャットイエローアクセ",
+                    "tops_id":"P-182",
+                    "bottoms_id" : "P-183",
+                    "shoues_id":"P-184",
+                    "accessary_id":"P-185",
+                    "parts":4
+                },
+                {
+                    "name":"おとぎばなししらゆきひめホワイト",
+                    "total_id":"P-052F",
+                    "total_image":"https://aipri.jp/card/img/special/P-068_O.webp",
+                    "one_piece" : "おとぎばなししらゆきひめホワイトワンピ",
+                    "shoues" : "おとぎばなししらゆきひめホワイトシューズ",
+                    "accessary" : "おとぎばなししらゆきひめホワイトアクセ",
+                    "one_piece_id":"P-186",
+                    "shoues_id":"P-187",
+                    "accessary_id":"P-188",
+                    "parts":3
+                },
+                {
                     "name":"ポッピンハートバズリウムブルー",
                     "total_id":"P-046F",
                     "total_image":"https://aipri.jp/card/img/special/P-042_O.webp",
