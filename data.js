@@ -1633,7 +1633,7 @@ let data = {
                     "shoues_id":"TOY-154",
                     "accessary_id":"TOY-155",
                     "parts":4
-                }
+                },
                 {
                     "name":"ラブリーアイドルホワイトブルー",
                     "total_id":"TOY-024F",
