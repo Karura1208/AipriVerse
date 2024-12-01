@@ -1454,7 +1454,7 @@ let data = {
                 {
                     "name":"シークレットフレンズ∞バズリウムパープル",
                     "total_id":"TOY-041F",
-                    "total_image":"https://aipri.jp/card/img/special/TOY-039_O.webp,
+                    "total_image":"https://aipri.jp/card/img/special/TOY-039_O.webp",
                     "one_piece" : "シークレットフレンズ∞バズリウムパープルワンピ",
                     "shoues" : "シークレットフレンズ∞バズリウムパープルシューズ",
                     "accessary" : "シークレットフレンズ∞バズリウムパープルアクセ",
