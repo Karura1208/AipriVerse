@@ -490,7 +490,7 @@ let data = {
                 {
                     "name":"プリマジチェックヘブンズホワイト",
                     "total_id":"PM-001F",
-                    "total_image":"./total_image/special/PM_001.webp",
+                    "total_image":"https://aipri.jp/verse/event/e240314/img/img_e240314-1.webp",
                     "tops" : "プリマジチェックヘブンズホワイトトップス",
                     "bottoms":"プリマジチェックヘブンズホワイトボトムス",
                     "shoues" : "プリマジチェックヘブンズホワイトシューズ",
