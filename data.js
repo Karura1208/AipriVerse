@@ -1567,7 +1567,7 @@ let data = {
                 {
                     "name":"スプリングブロッサム",
                     "total_id":"TOY-020F",
-                    "total_image":"./total_image/special/TOY-014_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-014_O.webp",
                     "tops" : "スプリングブロッサムトップス",
                     "bottoms":"スプリングブロッサムボトムス",
                     "shoues" : "スプリングブロッサムシューズ",
@@ -1581,7 +1581,7 @@ let data = {
                 {
                     "name":"バタフライマジックブルー",
                     "total_id":"TOY-021F",
-                    "total_image":"./total_image/special/TOY-016_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-016_O.webp",
                     "tops" : "バタフライマジックブルートップス",
                     "bottoms":"バタフライマジックブルーボトムス",
                     "shoues" : "バタフライマジックブルーシューズ",
@@ -1595,7 +1595,7 @@ let data = {
                 {
                     "name":"フラワーチュールスカーレット",
                     "total_id":"TOY-022F",
-                    "total_image":"./total_image/special/TOY-017_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-017_O.webp",
                     "tops" : "フラワーチュールスカーレットトップス",
                     "bottoms":"フラワーチュールスカーレットボトムス",
                     "shoues" : "フラワーチュールスカーレットシューズ",
@@ -1609,7 +1609,7 @@ let data = {
                 {
                     "name":"スターメロディマジカル",
                     "total_id":"TOY-023F",
-                    "total_image":"./total_image/special/TOY-018_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-018_O.webp",
                     "tops" : "スターメロディマジカルトップス",
                     "bottoms":"スターメロディマジカルボトムス",
                     "shoues" : "スターメロディマジカルシューズ",
@@ -1621,9 +1621,23 @@ let data = {
                     "parts":4
                 },
                 {
+                    "name":"ハニービービビッドピンク",
+                    "total_id":"TOY-42F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-019_O.webp",
+                    "tops" : "ハニービービビッドピンクトップス",
+                    "bottoms":"ハニービービビッドピンクボトムス",
+                    "shoues" : "ハニービービビッドピンクシューズ",
+                    "accessary" : "ハニービービビッドピンクアクセ",
+                    "tops_id":"TOY-152",
+                    "bottoms_id" : "TOY-153",
+                    "shoues_id":"TOY-154",
+                    "accessary_id":"TOY-155",
+                    "parts":4
+                }
+                {
                     "name":"ラブリーアイドルホワイトブルー",
                     "total_id":"TOY-024F",
-                    "total_image":"./total_image/special/TOY-020_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-020_O.webp",
                     "tops" : "ラブリーアイドルホワイトブルートップス",
                     "bottoms":"ラブリーアイドルホワイトブルーボトムス",
                     "shoues" : "ラブリーアイドルホワイトブルーシューズ",
@@ -1637,7 +1651,7 @@ let data = {
                 {
                     "name":"クールアイドルパープルブラック",
                     "total_id":"TOY-025F",
-                    "total_image":"./total_image/special/TOY-021_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-021_O.webp",
                     "tops" : "クールアイドルパープルブラックトップス",
                     "bottoms":"クールアイドルパープルブラックボトムス",
                     "shoues" : "クールアイドルパープルブラックシューズ",
@@ -1665,7 +1679,7 @@ let data = {
                 {
                     "name":"にゃんにゃんロリータ",
                     "total_id":"TOY-027F",
-                    "total_image":"./total_image/special/TOY-031_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-031_O.webp",
                     "tops" : "にゃんにゃんロリータトップス",
                     "bottoms":"にゃんにゃんロリータボトムス",
                     "shoues" : "にゃんにゃんロリータシューズ",
@@ -1679,7 +1693,7 @@ let data = {
                 {
                     "name":"ウェルカムチェリーグリーン",
                     "total_id":"TOY-028F",
-                    "total_image":"./total_image/special/TOY-033_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-033_O.webp",
                     "one_piece" : "ウェルカムチェリーグリーンワンピ",
                     "shoues" : "ウェルカムチェリーグリーンシューズ",
                     "accessary" : "ウェルカムチェリーグリーンアクセ",
@@ -1691,7 +1705,7 @@ let data = {
                 {
                     "name":"ぽんぽんすずらんブルー",
                     "total_id":"TOY-029F",
-                    "total_image":"./total_image/special/TOY-034_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-034_O.webp",
                     "tops" : "ぽんぽんすずらんブルートップス",
                     "bottoms":"ぽんぽんすずらんブルーボトムス",
                     "shoues" : "ぽんぽんすずらんブルーシューズ",
@@ -1705,7 +1719,7 @@ let data = {
                 {
                     "name":"ことりメルヘンスカイ",
                     "total_id":"TOY-030F",
-                    "total_image":"./total_image/special/TOY-035_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-035_O.webp",
                     "tops" : "ことりメルヘンスカイトップス",
                     "bottoms":"ことりメルヘンスカイボトムス",
                     "shoues" : "ことりメルヘンスカイシューズ",
@@ -1719,7 +1733,7 @@ let data = {
                 {
                     "name":"ローズプリンスシック",
                     "total_id":"TOY-031F",
-                    "total_image":"./total_image/special/TOY-036_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-036_O.webp",
                     "tops" : "ローズプリンスシックトップス",
                     "bottoms":"ローズプリンスシックボトムス",
                     "shoues" : "ローズプリンスシックシューズ",
@@ -1733,7 +1747,7 @@ let data = {
                 {
                     "name":"ハッピーチアフレッシュ",
                     "total_id":"TOY-032F",
-                    "total_image":"./total_image/special/TOY-037_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-037_O.webp",
                     "tops" : "ハッピーチアフレッシュトップス",
                     "bottoms":"ハッピーチアフレッシュボトムス",
                     "shoues" : "ハッピーチアフレッシュシューズ",
@@ -1747,7 +1761,7 @@ let data = {
                 {
                     "name":"ゴシックマリン",
                     "total_id":"TOY-033F",
-                    "total_image":"./total_image/special/TOY-038_O.webp",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-038_O.webp",
                     "tops" : "ゴシックマリントップス",
                     "bottoms":"ゴシックマリンボトムス",
                     "shoues" : "ゴシックマリンシューズ",
@@ -1756,6 +1770,20 @@ let data = {
                     "bottoms_id" : "TOY-135",
                     "shoues_id":"TOY-136",
                     "accessary_id":"TOY-137",
+                    "parts":4
+                },
+                {
+                    "name":"わんわんロリータ",
+                    "total_id":"TOY-41F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/TOY-032_O.webp",
+                    "tops" : "わんわんロリータトップス",
+                    "bottoms":"わんわんロリータボトムス",
+                    "shoues" : "わんわんロリータシューズ",
+                    "accessary" : "わんわんロリータアクセ",
+                    "tops_id":"TOY-148",
+                    "bottoms_id" : "TOY-149",
+                    "shoues_id":"TOY-150",
+                    "accessary_id":"TOY-151",
                     "parts":4
                 }
             ]
