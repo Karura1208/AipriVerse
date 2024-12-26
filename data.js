@@ -433,6 +433,7 @@ let data = {
             "category":[
                 "ver5_1_rare4",
                 "ver5_0_rare4",
+                "bazu",
                 "grandprix_4",
                 "rare3",
                 "Oshinoko_collabo",
@@ -452,6 +453,11 @@ let data = {
                     "data":"５だん前半☆☆☆☆ピックアップ",
                     "item_list":"rare4",
                     "idx_list":"rare4_0"
+                },
+                "bazu":{
+                    "data":"バズリウムひろば",
+                    "item_list":"rare4",
+                    "idx_list":"bazu"
                 },
                 "grandprix_4":{
                     "data":"第４回アイプリグランプリ",
@@ -503,6 +509,9 @@ let data = {
                 ],
                 "grandprix_4":[
                     98,99,100
+                ],
+                "bazu":[
+                    0,1,11,21,31,53,54,79
                 ],
                 "rare3":[
                     63,64,65,66,67,68,69,70,71,72,73
