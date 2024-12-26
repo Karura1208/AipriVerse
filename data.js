@@ -431,17 +431,32 @@ let data = {
             "title":"アイプリバース５だん",
             "version":5,
             "category":[
+                "ver5_1_rare4",
                 "ver5_0_rare4",
+                "grandprix_4",
                 "rare3",
                 "Oshinoko_collabo",
                 "rare2",
-                "primagi"
+                "tour",
+                "primagi_1",
+                "primagi_2",
+                "shop_winter"
             ],
             "data":{
+                 "ver5_1_rare4":{
+                    "data":"５だん後半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_1"
+                },
                 "ver5_0_rare4":{
                     "data":"５だん前半☆☆☆☆ピックアップ",
                     "item_list":"rare4",
                     "idx_list":"rare4_0"
+                },
+                "grandprix_4":{
+                    "data":"第４回アイプリグランプリ",
+                    "item_list":"rare4",
+                    "idx_list":"grandprix_4"
                 },
                 "rare3":{
                     "data":"☆☆☆",
@@ -458,27 +473,57 @@ let data = {
                     "item_list":"rare2",
                     "idx_list":"rare2"
                 },
-                "primagi":{
-                    "data":"ワッチャプリマジ！",
+                "tour":{
+                    "data":"2024→2025ウィンターツアー",
+                    "item_list":"tour",
+                    "idx_list":"tour"
+                },
+                "primagi_1":{
+                    "data":"ワッチャプリマジ！①",
                     "item_list":"primagi",
-                    "idx_list":"primagi"
+                    "idx_list":"primagi_1"
+                },
+                "primagi_2":{
+                    "data":"ワッチャプリマジ！②",
+                    "item_list":"primagi",
+                    "idx_list":"primagi_2"
+                },
+                "shop_winter":{
+                    "data":"ショップふゆやすみキャンペーン",
+                    "item_list":"rare4",
+                    "idx_list":"shop_winter"
                 }
             },
             "items_idx":{
                 "rare4_0":[
                     87,88,89,90,91,92,93,94,95,96
                 ],
+                "rare4_1":[
+                    101,102,103,104,105,106,107,108,109
+                ],
+                "grandprix_4":[
+                    98,99,100
+                ],
                 "rare3":[
                     63,64,65,66,67,68,69,70,71,72,73
                 ],
                 "Oshinoko_collabo":[
                     74
+                ], 
+                "tour":[
+                    12,13,14
                 ],
                 "rare2":[
                     29,30,31,32,33
                 ],
-                "primagi":[
+                "primagi_1":[
                     10,11,12,13,0,14
+                ],
+                "primagi_2":[
+                    15,16,17,18
+                ],
+                "shop_winter":[
+                    97
                 ]
             }
         }
