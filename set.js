@@ -130,7 +130,8 @@ function save(){
                     }
                 }else{
                     if((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ")
-                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ")){
+                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ")
+                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ"){
                         //トップス
                         let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                         if(element.checked){
@@ -435,7 +436,8 @@ function create_disp(){
                         else{
                             //ツアー
                             if ((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ" )
-                                ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ" )){
+                                ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ" )
+                                ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ" )){
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                                 console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
