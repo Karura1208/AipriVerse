@@ -131,7 +131,7 @@ function save(){
                 }else{
                     if((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ")
                         || (obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ")
-                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ"){
+                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ")){
                         //トップス
                         let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                         if(element.checked){
