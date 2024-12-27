@@ -272,6 +272,7 @@ function get_return_from_python_first(response) {
 }
 
 function ver_change(){
+    data_save()
     let select = document.querySelector('[name="ver_select"]');
     object = {}
     object["disp_data"] = create_disp_data(select.selectedIndex)
