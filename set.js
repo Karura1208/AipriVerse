@@ -2,6 +2,8 @@
 
 // 表示データオブジェクト
 var obj
+// チェック用ワークエリア
+var check_wk
 
 async function check_write(check){
 
@@ -18,6 +20,12 @@ async function check_write(check){
 
 // データ保存
 function save(){
+    data_save()
+    //pythonでファイルに書き込み
+    check_write(check_wk)
+}
+
+function data_save(){
     //チェックボックスを確認し、チェックつきならデータを"get"に変更
     for(var i=0;i<obj["category"].length;i++){
         var category = obj["category"][i]
@@ -238,12 +246,11 @@ function save(){
                     }
                 }
             }
+            check_wk = check
             //再表示
             create_special()
         }
     }
-    //pythonでファイルに書き込み
-    check_write(check)
 }
 
 //2回目以降
@@ -268,6 +275,7 @@ function ver_change(){
     let select = document.querySelector('[name="ver_select"]');
     object = {}
     object["disp_data"] = create_disp_data(select.selectedIndex)
+    object["check"] = check_wk
     get_return_from_python(object)
 }
 
@@ -866,6 +874,7 @@ function firstscript(){
     object={}
     object["disp_data"] = create_disp_data(-1);
     object["check"] = check_data
+    check_wk = check_data
     let div_element = document.getElementById("id1");
     div_element.remove()
     get_return_from_python_first(object)
