@@ -4035,13 +4035,13 @@ let item ={
         "total_id": 0,
         "total_image": "https://aipri.jp/verse/item/img/5/20241129_150103.webp",
         "one_piece": "スペシャルクリスマスホワイトワンピ",
-        "one_piece_id": "",
+        "one_piece_id": "V5-shop1",
         "one_piece_image": "https://aipri.jp/verse/item/img/5/Item_ID40431.webp",
         "shoues": "スペシャルクリスマスホワイトシューズ",
-        "shoues_id": "",
+        "shoues_id": "V5-shop2",
         "shoues_image": "https://aipri.jp/verse/item/img/5/Item_ID40432.webp",
         "accessary": "スペシャルクリスマスホワイトアクセ",
-        "accessary_id": "",
+        "accessary_id": "V5-shop3",
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID40433.webp"
       },
       {
