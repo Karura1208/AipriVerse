@@ -2,8 +2,8 @@
 
 // 表示データオブジェクト
 var obj
-// チェック用ワークエリア
-var check_wk
+// チェック用エリア
+var check
 
 async function check_write(check){
 
@@ -22,7 +22,7 @@ async function check_write(check){
 function save(){
     data_save()
     //pythonでファイルに書き込み
-    check_write(check_wk)
+    check_write(check)
 }
 
 function data_save(){
@@ -246,7 +246,6 @@ function data_save(){
                     }
                 }
             }
-            check_wk = check
             //再表示
             create_special()
         }
@@ -276,7 +275,7 @@ function ver_change(){
     let select = document.querySelector('[name="ver_select"]');
     object = {}
     object["disp_data"] = create_disp_data(select.selectedIndex)
-    object["check"] = check_wk
+    object["check"] = check
     get_return_from_python(object)
 }
 
