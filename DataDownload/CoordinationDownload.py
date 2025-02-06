@@ -8,14 +8,17 @@ import json
 import sys
 
 #サイト内のレア度表記とCordinationファイル内の分類の対応
-listRare1 = ["★★★★","★★★","★★","★3","★2","ツアー","アイプリグランプリ","コラボ","オーロラドリーム","プリパラ","プリ☆チャン","プリマジ","TGC"]
-listRare2 = ["rare4","rare3","rare2","rare3","rare2","tour","rare4","rare3","aurora_dream","pripara","prichan","primagi","rare3"]
+listRare1 = ["★★★★","★★★","★★","★3","★2","ツアー","アイプリグランプリ","コラボ","オーロラドリーム","ディアマイフューチャー","プリパラ","プリ☆チャン","プリマジ","TGC",
+             "ショップふゆやすみキャンペーン","ショップモーリーファンタジー・PALOゲットキャンペーン","ショップナムコでプレゼントキャンペーン",]
+listRare2 = ["rare4","rare3","rare2","rare3","rare2","tour","rare4","rare3","aurora_dream","dear_my_future","pripara","prichan","primagi","rare3",
+             "rare4","rare4","rare4"]
 
 #例外のコーデ用配列
 #アクセ無のトップス、ボトムス、シューズのコーデ
-errCorde1 = ["フレッシュピンクベアトップ","スターシャインベスト","レッドロックベアトップ","ピタTガール","ピチッとクロT"]
+errCorde1 = ["フレッシュピンクベアトップ","スターシャインベスト","レッドロックベアトップ","ピタTガール","ピチッとクロT",
+             "プリズミー☆サンシャイン","プリズミー☆ナイトスター","プリズミー☆シャイニースター","プリズミー☆シャイニーリボン"]
 #1か所のみのコーデ(部分関係なく)
-errCorde2 = ["サマーTシャツ","オータムTシャツ","フレッシュレモンゆめかわ"]
+errCorde2 = ["サマーTシャツ","オータムTシャツ","フレッシュレモンゆめかわ","ウィンターTシャツ","ひみつのミラクルTシャツ"]
 
 #loadVer:最新Verの数字
 def download(loadVer):
@@ -37,7 +40,7 @@ def download(loadVer):
             dict_RareNumber = json.load(file)    
     else:
         with open("./" + "RareNumber.json", "w",encoding = "utf-8")  as file:
-                dict_RareNumber = {"rare4":-1,"rare3":-1,"rare2":-1,"tour":-1,"aurora_dream":-1,"pripara":-1,"prichan":-1,"primagi":-1,"オシャレ魔女 ラブandベリー":-1}
+                dict_RareNumber = {"rare4":-1,"rare3":-1,"rare2":-1,"tour":-1,"aurora_dream":-1,"dear_my_future":-1,"pripara":-1,"prichan":-1,"primagi":-1,"オシャレ魔女 ラブandベリー":-1}
 
     #Exe化でカレントディレクトリが変わるため、パスの先頭に追加する
     dpath = os.path.dirname(sys.argv[0])
@@ -267,4 +270,4 @@ def download(loadVer):
 
     print("fin")
 
-download(5) 
+download(6) 
