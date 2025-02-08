@@ -1078,6 +1078,20 @@ let data = {
                     "parts":3
                 },
                 {
+                    "name":"おしょうがつミント",
+                    "total_id":"P-063F",
+                    "total_image":"https://aipri.jp/card/img/special/P-063_O.webp",
+                    "tops" : "おしょうがつミントトップス",
+                    "bottoms":"おしょうがつミントボトムス",
+                    "shoues" : "おしょうがつミントシューズ",
+                    "accessary" : "おしょうがつミントアクセ",
+                    "tops_id":"P-182",
+                    "bottoms_id" : "P-183",
+                    "shoues_id":"P-184",
+                    "accessary_id":"P-185",
+                    "parts":4
+                },
+                {
                     "name":"フラワーチュールオレンジブーケ",
                     "total_id":"P-004F",
                     "total_image":"https://aipri.jp/card/img/special/P-021_O.webp",
@@ -1154,6 +1168,32 @@ let data = {
                     "parts":3
                 },
                 {
+                    "name":"オーロラスノーグランプリプレミアム",
+                    "total_id":"P-066F",
+                    "total_image":"https://aipri.jp/card/img/special/P-066_O.webp",
+                    "one_piece" : "オーロラスノーグランプリプレミアムワンピ",
+                    "shoues" : "オーロラスノーグランプリプレミアムシューズ",
+                    "accessary" : "オーロラスノーグランプリプレミアムアクセ",
+                    "one_piece_id":"P-190",
+                    "shoues_id":"P-191",
+                    "accessary_id":"P-192",
+                    "parts":3
+                },
+                {
+                    "name":"パンキッシュペンギンホワイト",
+                    "total_id":"P-067F",
+                    "total_image":"https://aipri.jp/card/img/special/P-067_O.webp",
+                    "tops" : "パンキッシュペンギンホワイトトップス",
+                    "bottoms":"パンキッシュペンギンホワイトボトムス",
+                    "shoues" : "パンキッシュペンギンホワイトシューズ",
+                    "accessary" : "パンキッシュペンギンホワイトアクセ",
+                    "tops_id":"P-193",
+                    "bottoms_id" : "P-194",
+                    "shoues_id":"P-195",
+                    "accessary_id":"P-196",
+                    "parts":4
+                },
+                {
                     "name":"アイスブラウニークレープ",
                     "total_id":"P-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-023_O.webp",
@@ -1204,6 +1244,34 @@ let data = {
                     "parts":3
                 },
                 {
+                    "name":"おとぎばなしワンダーランドピンク",
+                    "total_id":"P-069F",
+                    "total_image":"https://aipri.jp/card/img/special/P-069_O.webp",
+                    "tops" : "おとぎばなしワンダーランドピンクトップス",
+                    "bottoms":"おとぎばなしワンダーランドピンクボトムス",
+                    "shoues" : "おとぎばなしワンダーランドピンクシューズ",
+                    "accessary" : "おとぎばなしワンダーランドピンクアクセ",
+                    "tops_id":"P-186",
+                    "bottoms_id" : "P-187",
+                    "shoues_id":"P-188",
+                    "accessary_id":"P-189",
+                    "parts":4
+                },
+                {
+                    "name":"バレンタインレターパープル",
+                    "total_id":"P-090F",
+                    "total_image":"https://aipri.jp/card/img/special/P-090_O.webp",
+                    "tops" : "バレンタインレターパープルトップス",
+                    "bottoms":"バレンタインレターパープルボトムス",
+                    "shoues" : "バレンタインレターパープルシューズ",
+                    "accessary" : "バレンタインレターパープルアクセ",
+                    "tops_id":"P-196",
+                    "bottoms_id" : "P-197",
+                    "shoues_id":"P-198",
+                    "accessary_id":"P-199",
+                    "parts":4
+                },
+                {
                     "name":"ポッピンハートバズリウムブルー",
                     "total_id":"P-046F",
                     "total_image":"https://aipri.jp/card/img/special/P-042_O.webp",
@@ -1237,6 +1305,18 @@ let data = {
                     "one_piece_id":"P-179",
                     "shoues_id":"P-180",
                     "accessary_id":"P-181",
+                    "parts":3
+                },
+                {
+                    "name":"カルテットスターバズリウムハートピンク",
+                    "total_id":"P-071F",
+                    "total_image":"https://aipri.jp/card/img/special/P-071_O.webp",
+                    "one_piece" : "カルテットスターバズリウムハートピンクワンピ",
+                    "shoues" : "カルテットスターバズリウムハートピンクシューズ",
+                    "accessary" : "カルテットスターバズリウムハートピンクアクセ",
+                    "one_piece_id":"P-193",
+                    "shoues_id":"P-194",
+                    "accessary_id":"P-195",
                     "parts":3
                 }
             ]
