@@ -1251,10 +1251,10 @@ let data = {
                     "bottoms":"おとぎばなしワンダーランドピンクボトムス",
                     "shoues" : "おとぎばなしワンダーランドピンクシューズ",
                     "accessary" : "おとぎばなしワンダーランドピンクアクセ",
-                    "tops_id":"P-186",
-                    "bottoms_id" : "P-187",
-                    "shoues_id":"P-188",
-                    "accessary_id":"P-189",
+                    "tops_id":"P-196",
+                    "bottoms_id" : "P-197",
+                    "shoues_id":"P-198",
+                    "accessary_id":"P-199",
                     "parts":4
                 },
                 {
@@ -1265,10 +1265,10 @@ let data = {
                     "bottoms":"バレンタインレターパープルボトムス",
                     "shoues" : "バレンタインレターパープルシューズ",
                     "accessary" : "バレンタインレターパープルアクセ",
-                    "tops_id":"P-196",
-                    "bottoms_id" : "P-197",
-                    "shoues_id":"P-198",
-                    "accessary_id":"P-199",
+                    "tops_id":"P-200",
+                    "bottoms_id" : "P-201",
+                    "shoues_id":"P-202",
+                    "accessary_id":"P-203",
                     "parts":4
                 },
                 {
