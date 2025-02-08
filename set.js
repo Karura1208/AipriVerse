@@ -41,6 +41,10 @@ function data_save(){
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
                     ){
                         //トップス
                         let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
@@ -139,7 +143,9 @@ function data_save(){
                 }else{
                     if((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ")
                         || (obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ")
-                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ")){
+                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ")
+                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
+                        ){
                         //トップス
                         let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                         if(element.checked){
@@ -403,6 +409,10 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"        
                             ){
                                 //トップス
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
@@ -444,7 +454,9 @@ function create_disp(){
                             //ツアー
                             if ((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ" )
                                 ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ" )
-                                ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ" )){
+                                ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ" )
+                                || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
+                            ){
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                                 console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
@@ -484,6 +496,10 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"        
                             ){
                                 //ボトムス
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
@@ -548,6 +564,10 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"        
                             ){
                                 //シューズ
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
