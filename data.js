@@ -6,7 +6,8 @@ let data = {
         { "value":2,"name": "２だん"},
         { "value":3,"name": "３だん"},
         { "value":4,"name": "４だん"},
-        { "value":5,"name": "５だん"}
+        { "value":5,"name": "５だん"},
+        { "value}:6,"name": "６だん"}
     ],
     "vol":[
         {
@@ -549,6 +550,70 @@ let data = {
                 ],
                 "shop_molly":[
                     0
+                ]
+            }
+        },
+        {
+            "title":"アイプリバース６だん",
+            "version":6,
+            "category":[
+                "ver6_0_rare4",
+                "rare3",
+                "Miku_collabo",
+                "rare2",
+                "tour",
+                "dear_mu_future"
+            ],
+            "data":{
+                "ver6_0_rare4":{
+                    "data":"６だん前半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare6_0"
+                },
+                "rare3":{
+                    "data":"☆☆☆",
+                    "item_list":"rare3",
+                    "idx_list":"rare3"
+                },
+                "Miku_collabo":{
+                    "data":"はつねミクコラボ",
+                    "item_list":"rare3",
+                    "idx_list":"LoveBelly_collabo"
+                },
+                "rare2":{
+                    "data":"☆☆",
+                    "item_list":"rare2",
+                    "idx_list":"rare2"
+                },
+                "tour":{
+                    "data":"ひみつのミラクルツアー2025",
+                    "item_list":"tour",
+                    "idx_list":"tour"
+                },
+                "dear_mu_future":{
+                    "data":"ディアマイフューチャー",
+                    "item_list":"dear_mu_future",
+                    "idx_list":"dear_mu_future_1"
+                }
+            },
+            "items_idx":{
+                "rare4_0":[
+                    109,110,111,112,113,114,115,116,117,118
+                ],
+                "rare3":[
+                    75,76,77,78,79,80,81,82,83,84,85
+                ],
+                "Miku_collabo":[
+                    86,34
+                ],
+                "rare2":[
+                    34,35,36,37,38,39
+                ],
+                "tour":[
+                    15,16,17
+                ],
+                "dear_mu_future_1":[
+                    0,1,2,3,4,5
                 ]
             }
         }
