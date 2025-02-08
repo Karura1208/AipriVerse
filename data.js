@@ -568,7 +568,7 @@ let data = {
                 "ver6_0_rare4":{
                     "data":"６だん前半☆☆☆☆ピックアップ",
                     "item_list":"rare4",
-                    "idx_list":"rare6_0"
+                    "idx_list":"rare4_0"
                 },
                 "rare3":{
                     "data":"☆☆☆",
