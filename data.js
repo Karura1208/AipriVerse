@@ -578,7 +578,7 @@ let data = {
                 "Miku_collabo":{
                     "data":"はつねミクコラボ",
                     "item_list":"rare3",
-                    "idx_list":"LoveBelly_collabo"
+                    "idx_list":"Miku_collabo"
                 },
                 "rare2":{
                     "data":"☆☆",
