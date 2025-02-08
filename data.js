@@ -495,20 +495,30 @@ let data = {
                     "idx_list":"primagi_2"
                 },
                 "shop_winter":{
-                    "data":"ショップふゆやすみキャンペーン",
-                    "item_list":"rare4",
+                    "data":"ショップ ふゆやすみキャンペーン",
+                    "item_list":"shop",
                     "idx_list":"shop_winter"
+                },
+                "shop_namco":{
+                    "data":"ショップ ナムコでプレゼントキャンペーン",
+                    "item_list":"shop",
+                    "idx_list":"shop_namco"
+                },
+                 "shop_molly":{
+                    "data":"ショップ モーリーファンタジー・PALOゲットキャンペーン",
+                    "item_list":"shop",
+                    "idx_list":"shop_molly"
                 }
             },
             "items_idx":{
                 "rare4_0":[
-                    87,88,89,90,91,92,93,94,95,96
+                    86,87,88,89,90,91,92,93,94,95
                 ],
                 "rare4_1":[
-                    101,102,103,104,105,106,107,108,109
+                    100,101,102,103,104,105,106,107,108
                 ],
                 "grandprix_4":[
-                    98,99,100
+                    97,98,99
                 ],
                 "bazu":[
                     0,1,11,21,31,53,54,79
@@ -532,7 +542,13 @@ let data = {
                     15,16,17,18
                 ],
                 "shop_winter":[
-                    97
+                    2
+                ],
+                "shop_namco":[
+                    1   
+                ],
+                "shop_molly":[
+                    0
                 ]
             }
         }
