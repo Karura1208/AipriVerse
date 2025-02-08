@@ -442,7 +442,9 @@ let data = {
                 "tour",
                 "primagi_1",
                 "primagi_2",
-                "shop_winter"
+                "shop_winter",
+                "shop_namco",
+                "shop_molly"
             ],
             "data":{
                  "ver5_1_rare4":{
