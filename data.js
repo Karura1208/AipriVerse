@@ -562,7 +562,7 @@ let data = {
                 "Miku_collabo",
                 "rare2",
                 "tour",
-                "dear_mu_future"
+                "dear_my_future"
             ],
             "data":{
                 "ver6_0_rare4":{
@@ -590,10 +590,10 @@ let data = {
                     "item_list":"tour",
                     "idx_list":"tour"
                 },
-                "dear_mu_future":{
+                "dear_my_future":{
                     "data":"ディアマイフューチャー",
-                    "item_list":"dear_mu_future",
-                    "idx_list":"dear_mu_future_1"
+                    "item_list":"dear_my_future",
+                    "idx_list":"dear_my_future_1"
                 }
             },
             "items_idx":{
@@ -612,7 +612,7 @@ let data = {
                 "tour":[
                     15,16,17
                 ],
-                "dear_mu_future_1":[
+                "dear_my_future_1":[
                     0,1,2,3,4,5
                 ]
             }
