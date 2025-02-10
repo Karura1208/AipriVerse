@@ -31,6 +31,9 @@ let data = {
                 "primagi_campaign":{
                     "data":"「ワッチャプリマジ！」ひきつぎキャンペーン"
                 },
+                "verse_code":{
+                    "data":"アイプリバース プレゼントコード"
+                },
                 "Aipri_1":{
                     "data":"ひみつのアイプリ１だん"
                 },
@@ -442,6 +445,7 @@ let data = {
                 "tour",
                 "primagi_1",
                 "primagi_2",
+                "shop_primagi",
                 "shop_winter",
                 "shop_namco",
                 "shop_molly"
@@ -497,6 +501,11 @@ let data = {
                     "item_list":"primagi",
                     "idx_list":"primagi_2"
                 },
+                "shop_primagi":{
+                    "data":"ショップ ワッチャプリマジ！",
+                    "item_list":"shop",
+                    "idx_list":"shop_primagi"
+                },
                 "shop_winter":{
                     "data":"ショップ ふゆやすみキャンペーン",
                     "item_list":"shop",
@@ -507,7 +516,8 @@ let data = {
                     "item_list":"shop",
                     "idx_list":"shop_namco"
                 },
-                 "shop_molly":{
+
+                "shop_molly":{
                     "data":"ショップ モーリーファンタジー・PALOゲットキャンペーン",
                     "item_list":"shop",
                     "idx_list":"shop_molly"
@@ -544,6 +554,9 @@ let data = {
                 "primagi_2":[
                     9,10,11,12
                 ],
+                "shop_primagi":[
+                    3,4,5,6,7,8
+                ],
                 "shop_winter":[
                     2
                 ],
@@ -564,7 +577,8 @@ let data = {
                 "Miku_collabo",
                 "rare2",
                 "tour",
-                "dear_my_future"
+                "dear_my_future",
+                "shop_primagi"
             ],
             "data":{
                 "ver6_0_rare4":{
@@ -596,6 +610,11 @@ let data = {
                     "data":"ディアマイフューチャー",
                     "item_list":"dear_my_future",
                     "idx_list":"dear_my_future_1"
+                },
+                "shop_primagi":{
+                    "data":"ショップ ワッチャプリマジ！",
+                    "item_list":"shop",
+                    "idx_list":"shop_primagi"
                 }
             },
             "items_idx":{
@@ -616,6 +635,9 @@ let data = {
                 ],
                 "dear_my_future_1":[
                     0,1,2,3,4,5
+                ],
+                "shop_primagi":[
+                    9,10,11
                 ]
             }
         }
@@ -638,6 +660,49 @@ let data = {
                     "accessary_id":"PM-004",
                     "parts":4
                 }
+            ]
+        },
+        {
+            "title":"アイプリバース プレゼントコード",
+            "item_list":[
+                {
+                    "name":"ひみつのはつねミクコーデ",
+                    "total_id":"CD-001F",
+                    "total_image":"https://blog.piapro.net/wp-content/uploads/2024/06/c24060609.jpg",
+                    "one_piece" : "ひみつのはつねミクコーデワンピ",
+                    "shoues" : "ひみつのはつねミクコーデシューズ",
+                    "accessary" : "ひみつのはつねミクコーデアクセ",
+                    "one_piece_id":"CD-001",
+                    "shoues_id":"CD-002",
+                    "accessary_id":"CD-003",
+                    "parts":4
+                },
+                {
+                    "name":"アイプリバースフラワーマーチピンク",
+                    "total_id":"CD-002F",
+                    "total_image":"https://img.fril.jp/img/702312455/m/2336079670.jpg?1722640270",
+                    "one_piece" : "アイプリバースフラワーマーチピンクワンピ",
+                    "shoues" : "アイプリバースフラワーマーチピンクシューズ",
+                    "accessary" : "アイプリバースフラワーマーチピンクアクセ",
+                    "one_piece_id":"CD-004",
+                    "shoues_id":"CD-005",
+                    "accessary_id":"CD-006",
+                    "parts":4
+                },
+                {
+                    "name":"カワイイあめちゃんポップ",
+                    "total_id":"CD-003F",
+                    "total_image":"https://pbs.twimg.com/media/Gb1dxK4bAAAHXAW.jpg",
+                    "one_piece" : "カワイイあめちゃんポップワンピ",
+                    "shoues" : "カワイイあめちゃんポップシューズ",
+                    "accessary" : "カワイイあめちゃんポップアクセ",
+                    "one_piece_id":"CD-007",
+                    "shoues_id":"CD-008",
+                    "accessary_id":"CD-009",
+                    "parts":4
+                }
+
+
             ]
         },
         {

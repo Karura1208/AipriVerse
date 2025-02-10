@@ -336,6 +336,18 @@ function create_disp_first(){
 
 }
 
+// 該当コーデのURLを取得
+function get_url(name){
+    var count = url["url"].length
+    for (i=0;i<count;i++){
+        work_name = url["url"][i].name
+        if (work_name == name){
+            return url["url"][i].url
+        }
+    }
+    return ""
+}
+
 //スペシャルコーデ以外の時
 function create_disp(){
     const h2 = document.getElementById('h2')
@@ -375,7 +387,18 @@ function create_disp(){
                     if(k==0 && l==0){
                         var th = document.createElement('th')
                         th.colSpan = 2
-                        th.textContent = obj[obj["disp_data"][category]["idx_list"]][j].name
+                        var str_url = get_url(obj[obj["disp_data"][category]["idx_list"]][j].name)
+                        if (str_url != ""){
+                                var href = document.createElement('a')
+                                href.href = str_url
+                                href.target = "_blank"
+                                href.text = obj[obj["disp_data"][category]["idx_list"]][j].name
+                                th.appendChild(href)
+                        }
+                        else
+                        {
+                            th.textContent = obj[obj["disp_data"][category]["idx_list"]][j].name
+                        }
                         tr.appendChild(th)
                     }
                     // フルコーデ画像を表示
