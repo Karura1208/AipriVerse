@@ -701,7 +701,18 @@ function create_special(){
                     if(k==0 && l==0){
                         var th = document.createElement('th')
                         th.colSpan = 2
-                        th.textContent = obj["special"][i]["item_list"][j].name
+                        var str_url = get_url(obj["special"][i]["item_list"][j].name)
+                        if (str_url != ""){
+                                var href = document.createElement('a')
+                                href.href = str_url
+                                href.target = "_blank"
+                                href.text = obj["special"][i]["item_list"][j].name
+                                th.appendChild(href)
+                        }
+                        else
+                        {
+                            th.textContent = obj["special"][i]["item_list"][j].name
+                        }
                         tr.appendChild(th)
                     }
                     // フルコーデ画像を表示

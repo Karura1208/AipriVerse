@@ -15,6 +15,7 @@ let data = {
             "version":0,
             "category":[
                 "primagi_campaign",
+                "verse_code",
                 "Aipri_1",
                 "Aipri_2",
                 "Aipri_3",
