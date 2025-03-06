@@ -45,6 +45,7 @@ function data_save(){
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
                     ){
                         //トップス
                         let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
@@ -436,6 +437,7 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"        
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
                             ){
                                 //トップス
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
@@ -523,6 +525,7 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"        
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"    
                             ){
                                 //ボトムス
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
@@ -591,6 +594,7 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"        
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
                             ){
                                 //シューズ
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
