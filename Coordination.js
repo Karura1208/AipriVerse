@@ -6362,7 +6362,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31276.webp"
       },
       {
-        "number": 7,
+        "number": 10,
         "name": "ひみつのディアマイフューチャーあやみ",
         "parts": 4,
         "total_id": 0,
@@ -6381,9 +6381,9 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31280.webp"
       },
       {
-        "number": 8,
+        "number": 11,
         "name": "じょうねつのシンフォニア",
-        "parts": 2,
+        "parts": 3,
         "total_id": 0,
         "total_image": "https://aipri.jp/verse/item/img/6/V6-177.webp",
         "one_piece": "じょうねつのシンフォニアワンピ",
@@ -6391,10 +6391,13 @@ let item ={
         "one_piece_image": "https://aipri.jp/verse/item/img/6/Item_ID31281.webp",
         "accessary": "じょうねつのシンフォニアアクセ",
         "accessary_id": "V6-178",
-        "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31282.webp"
+        "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31282.webp",
+        "shoues": "じょうねつのシンフォニアシューズ",
+        "shoues_id": "V6-181",
+        "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31285.webp"
       },
       {
-        "number": 9,
+        "number": 12,
         "name": "はばたきのシンフォニア",
         "parts": 3,
         "total_id": 0,
