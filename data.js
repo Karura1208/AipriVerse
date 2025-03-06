@@ -573,6 +573,8 @@ let data = {
             "title":"アイプリバース６だん",
             "version":6,
             "category":[
+                "ver6_1_rare4",
+                "dear_my_future_2",
                 "ver6_0_rare4",
                 "rare3",
                 "Miku_collabo",
@@ -582,6 +584,11 @@ let data = {
                 "shop_primagi"
             ],
             "data":{
+                "ver6_1_rare4":{
+                    "data":"６だん後半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_1"
+                },
                 "ver6_0_rare4":{
                     "data":"６だん前半☆☆☆☆ピックアップ",
                     "item_list":"rare4",
@@ -608,9 +615,14 @@ let data = {
                     "idx_list":"tour"
                 },
                 "dear_my_future":{
-                    "data":"ディアマイフューチャー",
+                    "data":"ディアマイフューチャー①",
                     "item_list":"dear_my_future",
                     "idx_list":"dear_my_future_1"
+                },
+                "dear_my_future_2":{
+                    "data":"ディアマイフューチャー②",
+                    "item_list":"dear_my_future",
+                    "idx_list":"dear_my_future_2"
                 },
                 "shop_primagi":{
                     "data":"ショップ ワッチャプリマジ！",
@@ -619,6 +631,9 @@ let data = {
                 }
             },
             "items_idx":{
+                "rare4_1":[
+                    122,123,124,125,126,127,128,129,130,131,132,133
+                ],
                 "rare4_0":[
                     109,110,111,112,113,114,115,116,117,118
                 ],
@@ -626,7 +641,7 @@ let data = {
                     75,76,77,78,79,80,81,82,83,84,85
                 ],
                 "Miku_collabo":[
-                    86,34
+                    86,34,87
                 ],
                 "rare2":[
                     34,35,36,37,38,39
@@ -637,8 +652,11 @@ let data = {
                 "dear_my_future_1":[
                     0,1,2,3,4,5
                 ],
+                "dear_my_future_2":[
+                    6,7,8,9
+                ],
                 "shop_primagi":[
-                    9,10,11
+                    9,10,11,12,13,14
                 ]
             }
         }
