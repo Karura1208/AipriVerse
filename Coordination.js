@@ -6130,7 +6130,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31114.webp"
       },
       {
-        "number": 9,
+        "number": 21,
         "name": "フォーチュンスター",
         "parts": 4,
         "total_id": 0,
@@ -6143,10 +6143,13 @@ let item ={
         "bottoms_image": "https://aipri.jp/verse/item/img/6/Item_ID31318.webp",
         "shoues": "フォーチュンスターシューズ",
         "shoues_id": "V6-199",
-        "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31319.webp"
+        "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31319.webp",
+        "accessary": "フォーチュンスターヘアアクセ",
+        "accessary_id": "V6-200",
+        "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31320.webp"
       },
       {
-        "number": 10,
+        "number": 22,
         "name": "ローズクイーン",
         "parts": 4,
         "total_id": 0,
@@ -6159,10 +6162,13 @@ let item ={
         "bottoms_image": "https://aipri.jp/verse/item/img/6/Item_ID31322.webp",
         "shoues": "ローズクイーンシューズ",
         "shoues_id": "V6-203",
-        "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31323.webp"
+        "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31323.webp",
+        "accessary": "ローズクイーンヘアアクセ",
+        "accessary_id": "V6-204",
+        "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31324.webp"
       },
       {
-        "number": 11,
+        "number": 23,
         "name": "フライングスカイ",
         "parts": 4,
         "total_id": 0,
@@ -6181,7 +6187,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31328.webp"
       },
       {
-        "number": 12,
+        "number": 24,
         "name": "ネオンチェッカー",
         "parts": 4,
         "total_id": 0,
@@ -6200,7 +6206,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31332.webp"
       },
       {
-        "number": 13,
+        "number": 25,
         "name": "チャイナネオン",
         "parts": 4,
         "total_id": 0,
@@ -6219,7 +6225,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31336.webp"
       },
       {
-        "number": 14,
+        "number": 26,
         "name": "イースターバニー",
         "parts": 4,
         "total_id": 0,
