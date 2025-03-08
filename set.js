@@ -45,7 +45,6 @@ function data_save(){
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "じょうねつのシンフォニア"
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
                     ){
                         //トップス
@@ -437,8 +436,7 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"      
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "じょうねつのシンフォニア"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
                             ){
                                 //トップス
@@ -526,8 +524,7 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"     
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "じょうねつのシンフォニア"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"    
                             ){
                                 //ボトムス
@@ -596,8 +593,7 @@ function create_disp(){
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"        
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "じょうねつのシンフォニア"
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
                                 ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
                             ){
                                 //シューズ
