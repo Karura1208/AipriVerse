@@ -74,7 +74,7 @@ async def on_message(message):
             channel = client.get_channel(id)
             async for messages in channel.history(limit=1000):
                 name = messages.content
-                print(name)
+
                 url = messages.attachments[0].url
                 dict_msg = {}
                 dict_msg.setdefault("name",name)
