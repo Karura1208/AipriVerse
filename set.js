@@ -127,19 +127,42 @@ function data_save(){
                 }
                 // ツアー(1,2弾)
                 else if(item_cnt == 2){
-                    //トップス
-                    let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                    if(element.checked){
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = "get"
-                    }else{
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = ""
+                    // アクセなしコーデ
+                    if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                    ){
+                        //ワンピ
+                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                        if(element.checked){
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = "get"
+                        }else{
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = ""
+                        }
+                        //シューズ
+                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                        if(element.checked){
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = "get"
+                        }else{
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = ""
+                        }
                     }
-                    //ボトムス
-                    element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                    if(element.checked){
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = "get"
-                    }else{
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = ""
+                    else
+                    {                    
+                        //トップス
+                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                        if(element.checked){
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = "get"
+                        }else{
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = ""
+                        }
+                        //ボトムス
+                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                        if(element.checked){
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = "get"
+                        }else{
+                            check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = ""
+                        }
                     }
                 }else{
                     if((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ")
@@ -441,7 +464,7 @@ function create_disp(){
                             ){
                                 //トップス
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
-                                console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
                                 }
@@ -451,7 +474,7 @@ function create_disp(){
                             else
                             {
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                console.log(ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
                                 }
@@ -462,17 +485,34 @@ function create_disp(){
                         }
                         // アイテム数 4 , 2 = トップス
                         else if(item_cnt == 4 || item_cnt == 2 ){
-                            ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                            console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
-                            if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
-                                ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                            // アクセなしコーデ
+                            if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                            ){
+                                // ワンピ
+                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
+                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                }
+                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
                             }
-                            label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                            label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
-                            if(item_cnt==4){
-                                td.height = "45"
-                            }else{
-                                td.height = "90"
+                            else
+                            {
+                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
+                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                }
+                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+                                if(item_cnt==4){
+                                    td.height = "45"
+                                }else{
+                                    td.height = "90"
+                                }
                             }
                         }
                         else{
@@ -483,7 +523,7 @@ function create_disp(){
                                 || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
                             ){
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
                                 }
@@ -492,7 +532,7 @@ function create_disp(){
                             }
                             else if (obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュレモンゆめかわ" ){
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
                                 }
@@ -529,7 +569,7 @@ function create_disp(){
                             ){
                                 //ボトムス
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
-                                console.log(ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
                                 }
@@ -539,7 +579,7 @@ function create_disp(){
                             else
                             {
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
                                 }
@@ -551,7 +591,7 @@ function create_disp(){
                         // アイテム数 4 = ボトムス
                         else if(item_cnt == 4){
                             ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                            console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
+                            console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
                             if (check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] == "get"){
                                 ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
                             }
@@ -561,14 +601,31 @@ function create_disp(){
                         }
                         // アイテム数 2 = アクセ
                         else if(item_cnt == 2){
-                            ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                            console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
-                            if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
-                                ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                            // アクセなしコーデ
+                            if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
+                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                            ){
+                                //シューズ
+                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
+                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                }
+                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
                             }
-                            label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                            label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
-                            td.height = "90"
+                            else
+                            {
+                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
+                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                }
+                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
+                                td.height = "90"
+                            }
                         }
                         td.appendChild(ch)
                         td.appendChild(label)
@@ -598,7 +655,7 @@ function create_disp(){
                             ){
                                 //シューズ
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
                                 }
@@ -608,7 +665,7 @@ function create_disp(){
                             else
                             {
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
                                 }
@@ -620,7 +677,7 @@ function create_disp(){
                         // アイテム数 4 = シューズ
                         else if(item_cnt == 4){
                             ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                            console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                            console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                             if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
                                 ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
                             }
@@ -643,7 +700,7 @@ function create_disp(){
                         // アイテム数 4 = アクセ
                         if (item_cnt == 4){
                             ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                            console.log(check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                            console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
                             if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
                                 ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
                             }

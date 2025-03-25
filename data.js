@@ -7,7 +7,8 @@ let data = {
         { "value":3,"name": "３だん"},
         { "value":4,"name": "４だん"},
         { "value":5,"name": "５だん"},
-        { "value":6,"name": "６だん"}
+        { "value":6,"name": "６だん"},
+        { "value":7, "name":"リング１だん"}
     ],
     "vol":[
         {
@@ -576,6 +577,7 @@ let data = {
                 "ver6_1_rare4",
                 "dear_my_future_2",
                 "ver6_0_rare4",
+                "grandprix_5",
                 "rare3",
                 "Miku_collabo",
                 "rare2",
@@ -619,6 +621,11 @@ let data = {
                     "item_list":"dear_my_future",
                     "idx_list":"dear_my_future_1"
                 },
+                "grandprix_5":{
+                    "data":"第５回アイプリグランプリ",
+                    "item_list":"rare4",
+                    "idx_list":"grandprix_5"
+                },
                 "dear_my_future_2":{
                     "data":"ディアマイフューチャー②",
                     "item_list":"dear_my_future",
@@ -652,6 +659,9 @@ let data = {
                 "dear_my_future_1":[
                     0,1,2,3,4,5
                 ],
+                "grandprix_5":[
+                    119,120,121
+                ],
                 "dear_my_future_2":[
                     6,7,8,9
                 ],
@@ -659,7 +669,90 @@ let data = {
                     9,10,11,12,13,14
                 ]
             }
+        },
+        {
+            "title":"アイプリバースリング１だん",
+            "version":7,
+            "category":[
+                "dream",
+                "ver7_0_rare4",
+                "raindow_live",
+                "Licca_collabo",
+                "Tokisen_collabo",
+                "rare3",
+                "rare2",
+                "shop_primagi"
+            ],
+            "data":{
+                "dream":{
+                    "data":"バズリウムドリーム",
+                    "item_list":"rare4",
+                    "idx_list":"dream"
+                },
+                "ver7_0_rare4":{
+                    "data":"リング１だん前半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_0"
+                },
+                "rare3":{
+                    "data":"☆☆☆",
+                    "item_list":"rare3",
+                    "idx_list":"rare3"
+                },
+                "Licca_collabo":{
+                    "data":"リカちゃんコラボ",
+                    "item_list":"rare3",
+                    "idx_list":"Licca_collabo"
+                },
+                "Tokisen_collabo":{
+                    "data":"超ときめき♡宣伝部コラボ",
+                    "item_list":"rare3",
+                    "idx_list":"Tokisen_collabo"
+                },
+                "rare2":{
+                    "data":"☆☆",
+                    "item_list":"rare2",
+                    "idx_list":"rare2"
+                },
+                "raindow_live":{
+                    "data":"レインボーライブ①",
+                    "item_list":"rainbow_live",
+                    "idx_list":"rainbow_live_1"
+                },
+                "shop_primagi":{
+                    "data":"ショップ ワッチャプリマジ！",
+                    "item_list":"shop",
+                    "idx_list":"shop_primagi"
+                }
+            },
+            "items_idx":{
+                "dream":[
+                    142,143
+                ],
+                "rare4_0":[
+                    134,135,136,137,138,139,140,141
+                ],
+                "rare3":[
+                    88,89,90,91,92,93,94,95,96,97
+                ],
+                "Licca_collabo":[
+                    100
+                ],
+                "Tokisen_collabo":[
+                    98,99
+                ],
+                "rare2":[
+                    1,0,41,42,43,44,45,46
+                ],
+                "rainbow_live_1":[
+                    0,1,2,3,4,5
+                ],
+                "shop_primagi":[
+                    15,16,17
+                ]
+            }
         }
+
    ],
    "special":[
         {
