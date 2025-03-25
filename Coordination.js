@@ -7015,7 +7015,7 @@ let item ={
     ],
     "rainbow_live": [
       {
-        "number": 1,
+        "number": 0,
         "name": "ひみつのレインボーライブなる",
         "parts": 4,
         "total_id": 0,
@@ -7034,7 +7034,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31491.webp"
       },
       {
-        "number": 2,
+        "number": 1,
         "name": "ひみつのレインボーライブあん",
         "parts": 4,
         "total_id": 0,
@@ -7053,7 +7053,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31495.webp"
       },
       {
-        "number": 3,
+        "number": 2,
         "name": "ひみつのレインボーライブいと",
         "parts": 4,
         "total_id": 0,
@@ -7072,7 +7072,7 @@ let item ={
         "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31499.webp"
       },
       {
-        "number": 4,
+        "number": 3,
         "name": "セブンスコーデラブリー",
         "parts": 2,
         "total_id": 0,
@@ -7085,7 +7085,7 @@ let item ={
         "shoues_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31501.webp"
       },
       {
-        "number": 5,
+        "number": 4,
         "name": "セブンスコーデポップ",
         "parts": 2,
         "total_id": 0,
@@ -7098,7 +7098,7 @@ let item ={
         "shoues_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31503.webp"
       },
       {
-        "number": 6,
+        "number": 5,
         "name": "セブンスコーデクール",
         "parts": 2,
         "total_id": 0,
