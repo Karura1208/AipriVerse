@@ -7209,6 +7209,78 @@ let item ={
         "shoues_id": "APR1-174",
         "shoues_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31505.webp"
       }
+    ],
+    "itioshi_hiroba": [
+      {
+        "number": 0,
+        "name": "フラワーマーチバズリウムパープル",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/ring1/APR1-251.webp",
+        "one_piece": "フラワーマーチバズリウムパープルワンピ",
+        "one_piece_id": "APR1-251",
+        "one_piece_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31594.webp",
+        "shoues": "フラワーマーチバズリウムパープルシューズ",
+        "shoues_id": "APR1-252",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31595.webp",
+        "accessary": "フラワーマーチバズリウムパープルアクセ",
+        "accessary_id": "APR1-253",
+        "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31596.webp"
+      },
+      {
+        "number": 1,
+        "name": "ラブマイミュージックバズリウムイエロー",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/ring1/APR1-254.webp",
+        "one_piece": "ラブマイミュージックバズリウムイエローワンピ",
+        "one_piece_id": "APR1-254",
+        "one_piece_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31597.webp",
+        "shoues": "ラブマイミュージックバズリウムイエローシューズ",
+        "shoues_id": "APR1-255",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31598.webp",
+        "accessary": "ラブマイミュージックバズリウムイエローアクセ",
+        "accessary_id": "APR1-256",
+        "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31599.webp"
+      },
+      {
+        "number": 2,
+        "name": "こあくまロックイエロー",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/ring1/APR1-257.webp",
+        "tops": "こあくまロックイエロートップス",
+        "tops_id": "APR1-257",
+        "tops_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31600.webp",
+        "bottoms": "こあくまロックイエローボトムス",
+        "bottoms_id": "APR1-258",
+        "bottoms_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31601.webp",
+        "shoues": "こあくまロックイエローシューズ",
+        "shoues_id": "APR1-259",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31602.webp",
+        "accessary": "こあくまロックイエローアクセ",
+        "accessary_id": "APR1-260",
+        "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31603.webp"
+      },
+      {
+        "number": 3,
+        "name": "ぽんぽんすずらんパープル",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/ring1/APR1-261.webp",
+        "tops": "ぽんぽんすずらんパープルトップス",
+        "tops_id": "APR1-261",
+        "tops_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31604.webp",
+        "bottoms": "ぽんぽんすずらんパープルボトムス",
+        "bottoms_id": "APR1-262",
+        "bottoms_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31605.webp",
+        "shoues": "ぽんぽんすずらんパープルシューズ",
+        "shoues_id": "APR1-263",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31606.webp",
+        "accessary": "ぽんぽんすずらんパープルアクセ",
+        "accessary_id": "APR1-264",
+        "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31607.webp"
+      }
     ]
   }
 }
