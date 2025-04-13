@@ -681,6 +681,7 @@ let data = {
             "category":[
                 "dream",
                 "ver7_0_rare4",
+                "itioshi",
                 "raindow_live",
                 "Licca_collabo",
                 "Tokisen_collabo",
@@ -698,6 +699,11 @@ let data = {
                     "data":"リング１だん前半☆☆☆☆ピックアップ",
                     "item_list":"rare4",
                     "idx_list":"rare4_0"
+                },
+                "itioshi":{
+                    "data":"つむぎ&チィイチオシひろば",
+                    "item_list": "itioshi_hiroba",
+                    "idx_list":"itioshi"
                 },
                 "rare3":{
                     "data":"☆☆☆",
@@ -736,6 +742,9 @@ let data = {
                 ],
                 "rare4_0":[
                     134,135,136,137,138,139,140,141,142,143
+                ],
+                "itioshi":[
+                    0,1,2,3,
                 ],
                 "rare3":[
                     88,89,90,91,92,93,94,95,96,97,98,99
