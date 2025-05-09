@@ -680,11 +680,13 @@ let data = {
             "version":7,
             "category":[
                 "dream",
+                "ver7_1_rare4",
                 "ver7_0_rare4",
                 "itioshi",
                 "raindow_live",
                 "Licca_collabo",
                 "Tokisen_collabo",
+                "contest_1",
                 "rare3",
                 "rare2",
                 "shop_primagi"
@@ -694,6 +696,16 @@ let data = {
                     "data":"バズリウムドリーム",
                     "item_list":"rare4",
                     "idx_list":"dream"
+                },
+                "contest_1":{
+                    "data":"第1回アイプリコンテスト",
+                    "item_list":"rare4",
+                    "idx_list":"contest"
+                },
+                "ver7_1_rare4":{
+                    "data":"リング１だん後半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_1"
                 },
                 "ver7_0_rare4":{
                     "data":"リング１だん前半☆☆☆☆ピックアップ",
@@ -726,7 +738,7 @@ let data = {
                     "idx_list":"rare2"
                 },
                 "raindow_live":{
-                    "data":"レインボーライブ①",
+                    "data":"プリティーリズム・レインボーライブ",
                     "item_list":"rainbow_live",
                     "idx_list":"rainbow_live_1"
                 },
@@ -740,11 +752,17 @@ let data = {
                 "dream":[
                     144,145
                 ],
+                "contest":[
+                    146,147
+                ],
+                "rare4_1":[
+                    148,149,150,151,152,153,154,155,156,157,158
+                ],
                 "rare4_0":[
                     134,135,136,137,138,139,140,141,142,143
                 ],
                 "itioshi":[
-                    0,1,2,3,4,5,6,7,8
+                    0,1,2,3,
                 ],
                 "rare3":[
                     88,89,90,91,92,93,94,95,96,97,98,99
@@ -756,13 +774,13 @@ let data = {
                     100,101
                 ],
                 "rare2":[
-                    1,41,42,43,44,45,46,47
+                    40,41,42,43,44,45,46,47
                 ],
                 "rainbow_live_1":[
                     0,1,2,3,4,5
                 ],
                 "shop_primagi":[
-                    15,16,17
+                    15,16,17,18,19,20
                 ]
             }
         }
