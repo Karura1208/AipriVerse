@@ -4,6 +4,7 @@
 var obj
 // チェック用エリア
 var check
+var url_check = false
 
 async function check_write(check){
 
@@ -301,7 +302,10 @@ function get_return_from_python_first(response) {
 }
 
 function ver_change(){
-    data_save()
+    let element = document.getElementById("url")
+    if(url_check== false){
+        data_save()
+    }
     let select = document.querySelector('[name="ver_select"]');
     object = {}
     object["disp_data"] = create_disp_data(select.selectedIndex)
@@ -332,6 +336,15 @@ function create_disp_first(){
     btn.textContent = "データ保存";
     btn.setAttribute("onclick","save()")
 
+    var ch = document.createElement('input');
+    ch.setAttribute('type','checkbox');
+    ch.setAttribute('name','name');
+    ch.setAttribute('id',"url");
+    ch.checked = url_check
+
+    var label = document.createElement('label')
+    label.innerHTML = "所持済みコーデのみ表示"
+
 //    let expVerText = document.createElement("input")
 //    expVerText.type = "text"
 //    expVerText.setAttribute("id","expVerText")
@@ -344,6 +357,8 @@ function create_disp_first(){
     document.body.appendChild(btn)
 //    document.body.appendChild(expVerText)
 //    document.body.appendChild(btn_exp)
+    document.body.appendChild(ch)
+    document.body.appendChild(label)
 
     document.body.appendChild(h2)
 
@@ -400,184 +415,285 @@ function create_disp(){
             table.width = "600"
 
             item_cnt = obj[obj["disp_data"][category]["idx_list"]][j].parts
+            var str_url = get_url(obj[obj["disp_data"][category]["idx_list"]][j].name)
 
-            //1テーブル生成1
-            //tr(行)生成ループ
-            for (var k=0;k<item_cnt+1;k++){
-                //th(列)生成ループ
-                var tr = document.createElement('tr')
-                for (var l=0;l<2;l++){
-                    //1行目にコーデ名を入れる見出しを作成
-                    if(k==0 && l==0){
-                        var th = document.createElement('th')
-                        th.colSpan = 2
-                        var str_url = get_url(obj[obj["disp_data"][category]["idx_list"]][j].name)
-                        if (str_url != ""){
-                                var href = document.createElement('a')
-                                href.href = str_url
-                                href.target = "_blank"
-                                href.text = obj[obj["disp_data"][category]["idx_list"]][j].name
-                                th.appendChild(href)
-                        }
-                        else
-                        {
-                            th.textContent = obj[obj["disp_data"][category]["idx_list"]][j].name
-                        }
-                        tr.appendChild(th)
-                    }
-                    // フルコーデ画像を表示
-                    else if(k==1 && l==0){
-                        var td = document.createElement('td')
-                        td.rowSpan = 4
-                        //画像パス 
-                        var img = document.createElement("img")
-                        img.src = obj[obj["disp_data"][category]["idx_list"]][j].total_image
-                        img.height = "180"
-                        img.width = "120"
-                        td.appendChild(img)
-                        tr.appendChild(td)
-                    }
-                    // ワンピ or トップス
-                    else if(k==1 && l==1){
-                        var td = document.createElement('td')
-                        td.width = "480"
-
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
-
-                        var label = document.createElement('label')
-
-                        // アイテム数 3 = ワンピ
-                        if (item_cnt == 3){
-                            // アクセなしコーデ
-                            if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
-                            ){
-                                //トップス
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+            let element = document.getElementById("url")
+            url_check = element.checked
+            if((element.checked && str_url != "") || element.checked == false){
+                //1テーブル生成1
+                //tr(行)生成ループ
+                for (var k=0;k<item_cnt+1;k++){
+                    //th(列)生成ループ
+                    var tr = document.createElement('tr')
+                    for (var l=0;l<2;l++){
+                        //1行目にコーデ名を入れる見出しを作成
+                        if(k==0 && l==0){
+                            var th = document.createElement('th')
+                            th.colSpan = 2
+                            if (str_url != ""){
+                                    var href = document.createElement('a')
+                                    href.href = str_url
+                                    href.target = "_blank"
+                                    href.text = obj[obj["disp_data"][category]["idx_list"]][j].name
+                                    th.appendChild(href)
                             }
                             else
                             {
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
+                                th.textContent = obj[obj["disp_data"][category]["idx_list"]][j].name
                             }
-                            td.height = "60"
+                            tr.appendChild(th)
                         }
-                        // アイテム数 4 , 2 = トップス
-                        else if(item_cnt == 4 || item_cnt == 2 ){
-                            // アクセなしコーデ
-                            if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
-                            ){
-                                // ワンピ
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
-                            }
-                            else
-                            {
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
-                                if(item_cnt==4){
-                                    td.height = "45"
-                                }else{
-                                    td.height = "90"
-                                }
-                            }
+                        // フルコーデ画像を表示
+                        else if(k==1 && l==0){
+                            var td = document.createElement('td')
+                            td.rowSpan = 4
+                            //画像パス 
+                            var img = document.createElement("img")
+                            img.src = obj[obj["disp_data"][category]["idx_list"]][j].total_image
+                            img.height = "180"
+                            img.width = "120"
+                            td.appendChild(img)
+                            tr.appendChild(td)
                         }
-                        else{
-                            //ツアー
-                            if ((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ" )
-                                ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ" )
-                                ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ" )
-                                || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
-                            ){
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
-                            }
-                            else if (obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュレモンゆめかわ" ){
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
-                            }
+                        // ワンピ or トップス
+                        else if(k==1 && l==1){
+                            var td = document.createElement('td')
+                            td.width = "480"
 
-                        }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
-                    }
-                    //　シューズ or ボトムス
-                    else if(k==2 && l==1){
-                        var td = document.createElement('td')
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
 
-                        var label = document.createElement('label')
-                        // アイテム数 3 = シューズ
-                        if (item_cnt == 3){
-                            // アクセなしコーデ
-                            if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"    
-                            ){
-                                //ボトムス
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
+                            var label = document.createElement('label')
+
+                            // アイテム数 3 = ワンピ
+                            if (item_cnt == 3){
+                                // アクセなしコーデ
+                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
+                                ){
+                                    //トップス
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+                                }
+                                else
+                                {
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
+                                }
+                                td.height = "60"
+                            }
+                            // アイテム数 4 , 2 = トップス
+                            else if(item_cnt == 4 || item_cnt == 2 ){
+                                // アクセなしコーデ
+                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                                ){
+                                    // ワンピ
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
+                                }
+                                else
+                                {
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+                                    if(item_cnt==4){
+                                        td.height = "45"
+                                    }else{
+                                        td.height = "90"
+                                    }
+                                }
+                            }
+                            else{
+                                //ツアー
+                                if ((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ" )
+                                    ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ" )
+                                    ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ" )
+                                    || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
+                                ){
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+                                }
+                                else if (obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュレモンゆめかわ" ){
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
+                                }
+
+                            }
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
+                        }
+                        //　シューズ or ボトムス
+                        else if(k==2 && l==1){
+                            var td = document.createElement('td')
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
+
+                            var label = document.createElement('label')
+                            // アイテム数 3 = シューズ
+                            if (item_cnt == 3){
+                                // アクセなしコーデ
+                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"    
+                                ){
+                                    //ボトムス
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].bottoms
+                                }
+                                else
+                                {
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                }
+                                td.height = "60"
+                            }
+                            // アイテム数 4 = ボトムス
+                            else if(item_cnt == 4){
+                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
                                 console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] == "get"){
                                     ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
                                 }
                                 label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
                                 label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].bottoms
+                                td.height = "45"
                             }
-                            else
-                            {
+                            // アイテム数 2 = アクセ
+                            else if(item_cnt == 2){
+                                // アクセなしコーデ
+                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                                ){
+                                    //シューズ
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                }
+                                else
+                                {
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
+                                    td.height = "90"
+                                }
+                            }
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
+                        }
+                        //　アクセ or シューズ
+                        else if(k==3 && l==1){
+                            var td = document.createElement('td')
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
+
+                            var label = document.createElement('label')
+                            // アイテム数 3 = アクセ
+                            if (item_cnt == 3){
+                                // アクセなしコーデ
+                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
+                                ){
+                                    //シューズ
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                }
+                                else
+                                {
+                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
+                                    if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
+                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                    }
+                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
+                                }
+                                td.height = "60"
+                            }
+                            // アイテム数 4 = シューズ
+                            else if(item_cnt == 4){
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
                                 console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
@@ -585,38 +701,22 @@ function create_disp(){
                                 }
                                 label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
                                 label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                td.height = "45"
                             }
-                            td.height = "60"
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
                         }
-                        // アイテム数 4 = ボトムス
-                        else if(item_cnt == 4){
-                            ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                            console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
-                            if (check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] == "get"){
-                                ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
-                            }
-                            label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                            label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].bottoms
-                            td.height = "45"
-                        }
-                        // アイテム数 2 = アクセ
-                        else if(item_cnt == 2){
-                            // アクセなしコーデ
-                            if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
-                            ){
-                                //シューズ
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
-                            }
-                            else
-                            {
+                        //　アクセ
+                        else if(k==4 && l==1){
+                            var td = document.createElement('td')
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
+
+                            var label = document.createElement('label')
+                            // アイテム数 4 = アクセ
+                            if (item_cnt == 4){
                                 ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
                                 console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
                                 if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
@@ -624,97 +724,16 @@ function create_disp(){
                                 }
                                 label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
                                 label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
-                                td.height = "90"
+                                td.height = "45"
                             }
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
                         }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
-                    }
-                    //　アクセ or シューズ
-                    else if(k==3 && l==1){
-                        var td = document.createElement('td')
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
 
-                        var label = document.createElement('label')
-                        // アイテム数 3 = アクセ
-                        if (item_cnt == 3){
-                            // アクセなしコーデ
-                            if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
-                                ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
-                            ){
-                                //シューズ
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
-                            }
-                            else
-                            {
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                                if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
-                                    ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
-                                }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
-                            }
-                            td.height = "60"
-                        }
-                        // アイテム数 4 = シューズ
-                        else if(item_cnt == 4){
-                            ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                            console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                            if (check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] == "get"){
-                                ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
-                            }
-                            label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                            label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
-                            td.height = "45"
-                        }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
                     }
-                    //　アクセ
-                    else if(k==4 && l==1){
-                        var td = document.createElement('td')
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
-
-                        var label = document.createElement('label')
-                        // アイテム数 4 = アクセ
-                        if (item_cnt == 4){
-                            ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                            console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                            if (check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] == "get"){
-                                ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
-                            }
-                            label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                            label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
-                            td.height = "45"
-                        }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
-                    }
-
+                    table.appendChild(tr)
                 }
-                table.appendChild(tr)
             }
 
             div.appendChild(table)
