@@ -681,14 +681,15 @@ let data = {
             "category":[
                 "dream",
                 "ver7_1_rare4",
-                "ver7_0_rare4",
-                "itioshi",
+                "itioshi_quartet",
                 "raindow_live",
                 "Licca_collabo",
                 "Tokisen_collabo",
-                "contest_1",
                 "rare3",
                 "rare2",
+                "contest_1",
+                "ver7_0_rare4",
+                "itioshi_tsumugi_chii",
                 "shop_primagi"
             ],
             "data":{
@@ -707,15 +708,20 @@ let data = {
                     "item_list":"rare4",
                     "idx_list":"rare4_1"
                 },
+                    "itioshi_quartet":{
+                    "data":"カルテットスターイチオシひろば",
+                    "item_list": "itioshi_hiroba",
+                    "idx_list":"itioshi_quartet"
+                },
                 "ver7_0_rare4":{
                     "data":"リング１だん前半☆☆☆☆ピックアップ",
                     "item_list":"rare4",
                     "idx_list":"rare4_0"
                 },
-                "itioshi":{
+                "itioshi_tsumugi_chii":{
                     "data":"つむぎ&チィイチオシひろば",
                     "item_list": "itioshi_hiroba",
-                    "idx_list":"itioshi"
+                    "idx_list":"itioshi_tsumugi_chii"
                 },
                 "rare3":{
                     "data":"☆☆☆",
@@ -761,8 +767,11 @@ let data = {
                 "rare4_0":[
                     134,135,136,137,138,139,140,141,142,143
                 ],
-                "itioshi":[
-                    0,1,2,3,
+                "itioshi_quartet":[
+                    27,28,29,30,31,32,33,34
+                ],
+                "itioshi_tsumugi_chii":[
+                    0,1,2,3,4,5,6,7,8
                 ],
                 "rare3":[
                     88,89,90,91,92,93,94,95,96,97,98,99
