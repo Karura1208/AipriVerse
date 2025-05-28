@@ -8,7 +8,8 @@ let data = {
         { "value":4,"name": "４だん"},
         { "value":5,"name": "５だん"},
         { "value":6,"name": "６だん"},
-        { "value":7, "name":"リング１だん"}
+        { "value":7, "name":"リング１だん"},
+        { "value":8, "name":"リング２だん"}
     ],
     "vol":[
         {
@@ -695,12 +696,12 @@ let data = {
             "data":{
                 "dream":{
                     "data":"バズリウムドリーム",
-                    "item_list":"rare4",
+                    "item_list":"bazzrium_dream",
                     "idx_list":"dream"
                 },
                 "contest_1":{
                     "data":"第1回アイプリコンテスト",
-                    "item_list":"rare4",
+                    "item_list":"contest",
                     "idx_list":"contest"
                 },
                 "ver7_1_rare4":{
@@ -756,19 +757,19 @@ let data = {
             },
             "items_idx":{
                 "dream":[
-                    144,145
+                    0,1
                 ],
                 "contest":[
-                    146,147
+                    0,1
                 ],
                 "rare4_1":[
-                    148,149,150,151,152,153,154,155,156,157,158
+                    144,145,146,147,148,149,150,151,152,153,154
                 ],
                 "rare4_0":[
                     134,135,136,137,138,139,140,141,142,143
                 ],
                 "itioshi_quartet":[
-                    27,28,29,30,31,32,33,34
+                    9,10,11,12,13,14,15,16
                 ],
                 "itioshi_tsumugi_chii":[
                     0,1,2,3,4,5,6,7,8
@@ -792,8 +793,89 @@ let data = {
                     15,16,17,18,19,20
                 ]
             }
+        },
+        {
+            "title":"アイプリバースリング２だん",
+            "version":8,
+            "category":[
+                "dream",
+                "ring",
+                "ver8_0_rare4",
+                "sanrio_collabo",
+                "Tokisen_collabo",
+                "rare3",
+                "rare2",
+                "shop_primagi"
+            ],
+            "data":{
+                "dream":{
+                    "data":"バズリウムドリーム",
+                    "item_list":"bazzrium_dream",
+                    "idx_list":"dream"
+                },
+                "ring":{
+                    "data":"プレミアムリングシリーズ",
+                    "item_list":"premium_ring",
+                    "idx_list":"ring"
+                },
+                "ver8_0_rare4":{
+                    "data":"リング２だん前半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_0"
+                },
+                "rare3":{
+                    "data":"☆☆☆",
+                    "item_list":"rare3",
+                    "idx_list":"rare3"
+                },
+                "sanrio_collabo":{
+                    "data":"サンリオコラボ",
+                    "item_list":"rare3",
+                    "idx_list":"sanrio_collabo"
+                },
+                "Tokisen_collabo":{
+                    "data":"超ときめき♡宣伝部コラボ",
+                    "item_list":"rare3",
+                    "idx_list":"Tokisen_collabo"
+                },
+                "rare2":{
+                    "data":"☆☆",
+                    "item_list":"rare2",
+                    "idx_list":"rare2"
+                },
+                "shop_primagi":{
+                    "data":"ショップ ワッチャプリマジ！",
+                    "item_list":"shop",
+                    "idx_list":"shop_primagi"
+                }
+            },
+            "items_idx":{
+                "dream":[
+                    2,3
+                ],
+                "ring":[
+                    0,1
+                ],
+                "rare4_0":[
+                    155,156,157,158,159,160,161,162,163,164,165,166
+                ],
+                "rare3":[
+                    103,104,105,106,107,108,109,110,111,112,113,114
+                ],
+                "sanrio_collabo":[
+                    117,118,119,120,121,122,123,124
+                ],
+                "Tokisen_collabo":[
+                    115,116
+                ],
+                "rare2":[
+                    48,49,50,51,52,53,54,55
+                ],
+                "shop_primagi":[
+                    21,22,23
+                ]
+            }
         }
-
    ],
    "special":[
         {
