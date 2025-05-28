@@ -414,6 +414,12 @@ function create_disp(){
             table.style = "border-collapse: collapse"
             table.width = "600"
 
+            // ブランド画像
+            img = document.createElement("img")
+            img.src = "brand/"+obj[obj["disp_data"][category]["idx_list"]][j].brand_name+".webp"
+            img.height = "20"
+            img.width = "80"
+
             item_cnt = obj[obj["disp_data"][category]["idx_list"]][j].parts
             var str_url = get_url(obj[obj["disp_data"][category]["idx_list"]][j].name)
 
@@ -441,6 +447,7 @@ function create_disp(){
                             {
                                 th.textContent = obj[obj["disp_data"][category]["idx_list"]][j].name
                             }
+                            th.appendChild(img)
                             tr.appendChild(th)
                         }
                         // フルコーデ画像を表示
