@@ -1574,8 +1574,21 @@ let data = {
                     "shoues_id":"fan-014",
                     "accessary_id":"fan-015",
                     "parts":4
+                },
+                {
+                    "name":"アイドルチェッククールモカベージュ",
+                    "total_id":"fan-005F",
+                    "total_image":"https://aipri.jp/card/img/special/P-139_O.webp",
+                    "tops" : "アイドルチェッククールモカベージュトップス",
+                    "bottoms":"アイドルチェッククールモカベージュボトムス",
+                    "shoues" : "アイドルチェッククールモカベージュシューズ",
+                    "accessary" : "アイドルチェッククールモカベージュアクセ",
+                    "tops_id":"fan-016",
+                    "bottoms_id" : "fan-017",
+                    "shoues_id":"fan-018",
+                    "accessary_id":"fan-019",
+                    "parts":4
                 }
-
             ]
         },
         {
