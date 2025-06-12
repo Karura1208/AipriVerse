@@ -777,192 +777,196 @@ function create_special(){
             table.width = "600"
 
             item_cnt = obj["special"][i]["item_list"][j].parts
+            var str_url = get_url(obj["special"][i]["item_list"][j].name)
 
-            //1テーブル生成1
-            //tr(行)生成ループ
-            for (var k=0;k<item_cnt+1;k++){
-                //th(列)生成ループ
-                var tr = document.createElement('tr')
-                for (var l=0;l<2;l++){
-                    //1行目にコーデ名を入れる見出しを作成
-                    if(k==0 && l==0){
-                        var th = document.createElement('th')
-                        th.colSpan = 2
-                        var str_url = get_url(obj["special"][i]["item_list"][j].name)
-                        if (str_url != ""){
-                                var href = document.createElement('a')
-                                href.href = str_url
-                                href.target = "_blank"
-                                href.text = obj["special"][i]["item_list"][j].name
-                                th.appendChild(href)
+            let element = document.getElementById("url")
+            url_check = element.checked
+            if((element.checked && str_url != "") || element.checked == false){
+                //1テーブル生成1
+                //tr(行)生成ループ
+                for (var k=0;k<item_cnt+1;k++){
+                    //th(列)生成ループ
+                    var tr = document.createElement('tr')
+                    for (var l=0;l<2;l++){
+                        //1行目にコーデ名を入れる見出しを作成
+                        if(k==0 && l==0){
+                            var th = document.createElement('th')
+                            th.colSpan = 2
+                            var str_url = get_url(obj["special"][i]["item_list"][j].name)
+                            if (str_url != ""){
+                                    var href = document.createElement('a')
+                                    href.href = str_url
+                                    href.target = "_blank"
+                                    href.text = obj["special"][i]["item_list"][j].name
+                                    th.appendChild(href)
+                            }
+                            else
+                            {
+                                th.textContent = obj["special"][i]["item_list"][j].name
+                            }
+                            tr.appendChild(th)
                         }
-                        else
-                        {
-                            th.textContent = obj["special"][i]["item_list"][j].name
+                        // フルコーデ画像を表示
+                        else if(k==1 && l==0){
+                            var td = document.createElement('td')
+                            td.rowSpan = 4
+                            //画像パス 
+                            var img = document.createElement("img")
+                            img.src = obj["special"][i]["item_list"][j].total_image
+                            if(item_cnt == 1){
+                                img.height = "100"
+                                img.width = "100"
+                            }else{
+                                img.height = "180"
+                                img.width = "120"
+                            }
+                            td.appendChild(img)
+                            tr.appendChild(td)
                         }
-                        tr.appendChild(th)
-                    }
-                    // フルコーデ画像を表示
-                    else if(k==1 && l==0){
-                        var td = document.createElement('td')
-                        td.rowSpan = 4
-                        //画像パス 
-                        var img = document.createElement("img")
-                        img.src = obj["special"][i]["item_list"][j].total_image
-                        if(item_cnt == 1){
-                            img.height = "100"
-                            img.width = "100"
-                        }else{
-                            img.height = "180"
-                            img.width = "120"
-                        }
-                        td.appendChild(img)
-                        tr.appendChild(td)
-                    }
-                    // ワンピ or トップス
-                    else if(k==1 && l==1){
-                        var td = document.createElement('td')
-                        td.width = "480"
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
+                        // ワンピ or トップス
+                        else if(k==1 && l==1){
+                            var td = document.createElement('td')
+                            td.width = "480"
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
 
-                        var label = document.createElement('label')
+                            var label = document.createElement('label')
 
-                        // アイテム数 3 = ワンピ
-                        if (item_cnt == 3){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].one_piece_id);
-                            if (check[obj["special"][i]["item_list"][j].one_piece_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].one_piece_id])
+                            // アイテム数 3 = ワンピ
+                            if (item_cnt == 3){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].one_piece_id);
+                                if (check[obj["special"][i]["item_list"][j].one_piece_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].one_piece_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].one_piece_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].one_piece
+                                td.height = "60"
                             }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].one_piece_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].one_piece
-                            td.height = "60"
+                            // アイテム数 4 = トップス
+                            else if(item_cnt == 4 ){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].tops_id)
+                                if (check[obj["special"][i]["item_list"][j].tops_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].tops_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].tops_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].tops
+                                td.height = "45"
+                            }
+                            // アイテム数 1 = アクセのみ
+                            else if(item_cnt == 1){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
+                                if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].accessary
+                                td.height = "100"
                         }
-                        // アイテム数 4 = トップス
-                        else if(item_cnt == 4 ){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].tops_id)
-                            if (check[obj["special"][i]["item_list"][j].tops_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].tops_id])
-                            }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].tops_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].tops
-                            td.height = "45"
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
                         }
-                        // アイテム数 1 = アクセのみ
-                        else if(item_cnt == 1){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
-                            if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                            }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].accessary
-                            td.height = "100"
-                       }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
-                    }
-                    //　シューズ or ボトムス
-                    else if(k==2 && l==1){
-                        var td = document.createElement('td')
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
+                        //　シューズ or ボトムス
+                        else if(k==2 && l==1){
+                            var td = document.createElement('td')
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
 
-                        var label = document.createElement('label')
-                        // アイテム数 3 = シューズ
-                        if (item_cnt == 3){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].shoues_id)
-                            if (check[obj["special"][i]["item_list"][j].shoues_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
+                            var label = document.createElement('label')
+                            // アイテム数 3 = シューズ
+                            if (item_cnt == 3){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].shoues_id)
+                                if (check[obj["special"][i]["item_list"][j].shoues_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].shoues_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].shoues
+                                td.height = "60"
                             }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].shoues_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].shoues
-                            td.height = "60"
-                        }
-                        // アイテム数 4 = ボトムス
-                        else if(item_cnt == 4){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].bottoms_id)
-                            if (check[obj["special"][i]["item_list"][j].bottoms_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].bottoms_id])
+                            // アイテム数 4 = ボトムス
+                            else if(item_cnt == 4){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].bottoms_id)
+                                if (check[obj["special"][i]["item_list"][j].bottoms_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].bottoms_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].bottoms_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].bottoms
+                                td.height = "45"
                             }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].bottoms_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].bottoms
-                            td.height = "45"
-                        }
-                        // アイテム数 2 = アクセ
-                        else if(item_cnt == 2){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
-                            if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
-                                ch.setAttribute('checked',chcheck[obj["special"][i]["item_list"][j].accessary_id])
+                            // アイテム数 2 = アクセ
+                            else if(item_cnt == 2){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
+                                if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
+                                    ch.setAttribute('checked',chcheck[obj["special"][i]["item_list"][j].accessary_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
+                                label.innerHTML = obj["special"][i]["item"][j].accessary
+                                td.height = "90"
                             }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
-                            label.innerHTML = obj["special"][i]["item"][j].accessary
-                            td.height = "90"
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
                         }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
-                    }
-                    //　アクセ or シューズ
-                    else if(k==3 && l==1){
-                        var td = document.createElement('td')
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
+                        //　アクセ or シューズ
+                        else if(k==3 && l==1){
+                            var td = document.createElement('td')
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
 
-                        var label = document.createElement('label')
-                        // アイテム数 3 = アクセ
-                        if (item_cnt == 3){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
-                            if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
+                            var label = document.createElement('label')
+                            // アイテム数 3 = アクセ
+                            if (item_cnt == 3){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
+                                if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].accessary
+                                td.height = "60"
                             }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].accessary
-                            td.height = "60"
-                        }
-                        // アイテム数 4 = シューズ
-                        else if(item_cnt == 4){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].shoues_id)
-                            if (check[obj["special"][i]["item_list"][j].shoues_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
+                            // アイテム数 4 = シューズ
+                            else if(item_cnt == 4){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].shoues_id)
+                                if (check[obj["special"][i]["item_list"][j].shoues_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].shoues_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].shoues
+                                td.height = "45"
                             }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].shoues_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].shoues
-                            td.height = "45"
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
                         }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
-                    }
-                    //　アクセ
-                    else if(k==4 && l==1){
-                        var td = document.createElement('td')
-                        var ch = document.createElement('input');
-                        ch.setAttribute('type','checkbox');
-                        ch.setAttribute('name','name');
-                        var label = document.createElement('label')
-                        // アイテム数 4 = アクセ
-                        if (item_cnt == 4){
-                            ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
-                            if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
-                                ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
+                        //　アクセ
+                        else if(k==4 && l==1){
+                            var td = document.createElement('td')
+                            var ch = document.createElement('input');
+                            ch.setAttribute('type','checkbox');
+                            ch.setAttribute('name','name');
+                            var label = document.createElement('label')
+                            // アイテム数 4 = アクセ
+                            if (item_cnt == 4){
+                                ch.setAttribute('id',obj["special"][i]["item_list"][j].accessary_id)
+                                if (check[obj["special"][i]["item_list"][j].accessary_id] == "get"){
+                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
+                                }
+                                label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
+                                label.innerHTML = obj["special"][i]["item_list"][j].accessary
+                                td.height = "45"
                             }
-                            label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
-                            label.innerHTML = obj["special"][i]["item_list"][j].accessary
-                            td.height = "45"
+                            td.appendChild(ch)
+                            td.appendChild(label)
+                            tr.appendChild(td)
                         }
-                        td.appendChild(ch)
-                        td.appendChild(label)
-                        tr.appendChild(td)
-                    }
 
+                    }
+                    table.appendChild(tr)
                 }
-                table.appendChild(tr)
             }
-
             div.appendChild(table)
 
         }

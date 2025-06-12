@@ -1431,7 +1431,74 @@ let data = {
                     "shoues_id":"GM3-010",
                     "accessary_id":"GM3-011",
                     "parts":4
-                },            ]
+                },
+                {
+                    "name":"インフルブルームあじさいブルー",
+                    "total_id":"GM4-001F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G4-001_O.webp",
+                    "tops" : "インフルブルームあじさいブルートップス",
+                    "bottoms":"インフルブルームあじさいブルーボトムス",
+                    "shoues" : "インフルブルームあじさいブルシーューズ",
+                    "accessary" : "インフルブルームあじさいブルーアクセ",
+                    "tops_id":"GM4-001",
+                    "bottoms_id" : "GM4-002",
+                    "shoues_id":"GM4-003",
+                    "accessary_id":"GM4-004",
+                    "parts":4
+                }, 
+                {
+                    "name":"ジュエルバズリウムルビーイエロー",
+                    "total_id":"GM4-002F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G4-005_O.webp",
+                    "one_piece" : "ジュエルバズリウムルビーイエローワンピ",
+                    "shoues" : "ジュエルバズリウムルビーイエローシューズ",
+                    "accessary" : "ジュエルバズリウムルビーイエローアクセ",
+                    "one_piece_id":"GM4-005",
+                    "shoues_id":"GM4-006",
+                    "accessary_id":"GM4-007",
+                    "parts":3
+                },
+                {
+                    "name":"うらないしピンク",
+                    "total_id":"GM4-003F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G4-006_O.webp",
+                    "one_piece" : "うらないしピンクワンピ",
+                    "shoues" : "うらないしピンクシューズ",
+                    "accessary" : "ジうらないしピンクアクセ",
+                    "one_piece_id":"GM4-008",
+                    "shoues_id":"GM4-009",
+                    "accessary_id":"GM4-010",
+                    "parts":3
+                },
+                {
+                    "name":"アイプリバースラブマイミュージックイエロー",
+                    "total_id":"GM4-004F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G4-008_O.webp",
+                    "tops" : "アイプリバースラブマイミュージックイエロートップス",
+                    "bottoms":"アイプリバースラブマイミュージックイエローボトムス",
+                    "shoues" : "アイプリバースラブマイミュージックイエローシューズ",
+                    "accessary" : "アイプリバースラブマイミュージックイエローアクセ",
+                    "tops_id":"GM4-011",
+                    "bottoms_id" : "GM4-012",
+                    "shoues_id":"GM4-013",
+                    "accessary_id":"GM4-014",
+                    "parts":4
+                }, 
+                {
+                    "name":"アイスクリームオレンジ",
+                    "total_id":"GM4-005F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G4-010_O.webp",
+                    "tops" : "アイスクリームオレンジトップス",
+                    "bottoms":"アイスクリームオレンジボトムス",
+                    "shoues" : "アイスクリームオレンジューズ",
+                    "accessary" : "アイスクリームオレンジアクセ",
+                    "tops_id":"GM4-015",
+                    "bottoms_id" : "GM4-016",
+                    "shoues_id":"GM4-017",
+                    "accessary_id":"GM4-018",
+                    "parts":4
+                }
+            ]
         },
         {
             "title":"雑誌付録",
