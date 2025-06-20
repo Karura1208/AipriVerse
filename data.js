@@ -798,6 +798,7 @@ let data = {
             "title":"アイプリバースリング２だん",
             "version":8,
             "category":[
+                "itioshi_himari_mituki",
                 "dream",
                 "ring",
                 "ver8_0_rare4",
@@ -808,6 +809,11 @@ let data = {
                 "shop_primagi"
             ],
             "data":{
+                "itioshi_himari_mituki":{
+                    "data":"ひまり&みつきイチオシひろば",
+                    "item_list":"itioshi_hiroba",
+                    "idx_list":"itioshi_himari_mituki"
+                },
                 "dream":{
                     "data":"バズリウムドリーム",
                     "item_list":"bazzrium_dream",
@@ -850,6 +856,9 @@ let data = {
                 }
             },
             "items_idx":{
+                "itioshi_himari_mituki":[
+                    17,18,19,20,21,22,23,24
+                ],
                 "dream":[
                     2,3
                 ],
