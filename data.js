@@ -798,22 +798,20 @@ let data = {
             "title":"アイプリバースリング２だん",
             "version":8,
             "category":[
-                "itioshi_himari_mituki",
                 "dream",
                 "ring",
+                "ver8_1_rare4",
+                "itioshi_boys",
                 "ver8_0_rare4",
+                "itioshi_himari_mituki",
                 "sanrio_collabo",
                 "Tokisen_collabo",
+                "contest_2",
                 "rare3",
                 "rare2",
                 "shop_primagi"
             ],
             "data":{
-                "itioshi_himari_mituki":{
-                    "data":"ひまり&みつきイチオシひろば",
-                    "item_list":"itioshi_hiroba",
-                    "idx_list":"itioshi_himari_mituki"
-                },
                 "dream":{
                     "data":"バズリウムドリーム",
                     "item_list":"bazzrium_dream",
@@ -824,10 +822,30 @@ let data = {
                     "item_list":"premium_ring",
                     "idx_list":"ring"
                 },
+                "ver8_1_rare4":{
+                    "data":"リング２だん後半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_1"
+                },
+                "itioshi_boys":{
+                    "data":"プリティーボーイズイチオシひろば",
+                    "item_list":"itioshi_hiroba",
+                    "idx_list":"itioshi_boys"
+                },
                 "ver8_0_rare4":{
                     "data":"リング２だん前半☆☆☆☆ピックアップ",
                     "item_list":"rare4",
                     "idx_list":"rare4_0"
+                },
+                "itioshi_himari_mituki":{
+                    "data":"ひまり&みつきイチオシひろば",
+                    "item_list":"itioshi_hiroba",
+                    "idx_list":"itioshi_himari_mituki"
+                },
+                "contest_2":{
+                    "data":"第2回アイプリコンテスト",
+                    "item_list":"contest",
+                    "idx_list":"contest"
                 },
                 "rare3":{
                     "data":"☆☆☆",
@@ -856,17 +874,23 @@ let data = {
                 }
             },
             "items_idx":{
-                "itioshi_himari_mituki":[
-                    17,18,19,20,21,22,23,24
-                ],
                 "dream":[
                     2,3
                 ],
                 "ring":[
                     0,1
                 ],
+                "rare4_1":[
+                    167,168,169,170,171,172,173,174,175,176
+                ],
+                "itioshi_boys":[
+                    25,26,27,28,29,30
+                ],
                 "rare4_0":[
                     155,156,157,158,159,160,161,162,163,164,165,166
+                ],
+                "itioshi_himari_mituki":[
+                    17,18,19,20,21,22,23,24
                 ],
                 "rare3":[
                     103,104,105,106,107,108,109,110,111,112,113,114
@@ -876,6 +900,9 @@ let data = {
                 ],
                 "Tokisen_collabo":[
                     115,116
+                ],
+                "contest":[
+                    2,3
                 ],
                 "rare2":[
                     48,49,50,51,52,53,54,55
