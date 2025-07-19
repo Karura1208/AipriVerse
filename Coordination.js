@@ -8675,6 +8675,23 @@ let item ={
         "accessary": "ハッピーセーラーアクセ",
         "accessary_id": "APR2-266",
         "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31878.webp"
+      },
+      {
+        "number": 28,
+        "name": "ポッピンハートバズリウム１５しゅうねん",
+        "brand_name": "ポッピンハート",
+        "parts": 3,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/ring2/APR2-15th.webp",
+        "one_piece": "ポッピンハートバズリウム１５しゅうねんワンピ",
+        "one_piece_id": "VM-014",
+        "one_piece_image": "https://aipri.jp/verse/item/img/ring2/Item_ID40711.webp",
+        "shoues": "ポッピンハートバズリウム１５しゅうねんシューズ",
+        "shoues_id": "VM-015",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring2/Item_ID40713.webp",
+        "accessary": "ポッピンハートバズリウム１５しゅうねんアクセ",
+        "accessary_id": "VM-016",
+        "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID40714.webp"
       }
     ],
     "バズリウムひろば": [],
