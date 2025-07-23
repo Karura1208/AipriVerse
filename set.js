@@ -387,8 +387,30 @@ function get_url(name){
     return ""
 }
 
+function create_menu(){
+    ul = document.getElementById('menu_list')
+    while(ul.firstChild){
+        ul.removeChild(ul.firstChild);
+    }    
+
+    for(var i=0;i<obj["category"].length;i++){
+        var category = obj["category"][i]
+        li = document.createElement("li")
+        a = document.createElement("a")
+        a.href="#h3_"+(i+1)
+        a.textContent = obj["disp_data"][category]["data"]
+        li.appendChild(a)
+        ul.appendChild(li)
+    }
+
+}
+
 //スペシャルコーデ以外の時
 function create_disp(){
+
+    //メニューのリストを作成するメソッド呼び出し
+    create_menu()
+
     const h2 = document.getElementById('h2')
     document.getElementById('h2').textContent = obj.title
     // テーブルの要素をクリア
@@ -405,6 +427,7 @@ function create_disp(){
         //サブタイトルを表示させる
         const h3 = document.createElement('h3')
         h3.textContent = obj["disp_data"][category]["data"]
+        h3.setAttribute("id","h3_"+(i+1))
         div.appendChild(h3)
 
         //該当箇所のアイテム数テーブルを作成
@@ -750,8 +773,29 @@ function create_disp(){
     }
 }
 
+function create_menu_sp(){
+    ul = document.getElementById('menu_list')
+    while(ul.firstChild){
+        ul.removeChild(ul.firstChild);
+    }    
+
+    for(var i=0;i<obj["category"].length;i++){
+        li = document.createElement("li")
+        a = document.createElement("a")
+        a.href="#h3_"+(i+1)
+        a.textContent = obj["special"][i].title
+        li.appendChild(a)
+        ul.appendChild(li)
+    }
+
+}
+
 //スペシャルコーデの時
 function create_special(){
+
+    //メニューのリストを作成するメソッド呼び出し
+    create_menu_sp()
+
     const h2 = document.getElementById('h2')
     document.getElementById('h2').textContent = obj.title
     // テーブルの要素をクリア
@@ -766,6 +810,7 @@ function create_special(){
     for(var i=0;i<obj["category"].length;i++){
         //サブタイトルを表示させる
         const h3 = document.createElement('h3')
+        h3.setAttribute("id","h3_"+(i+1))
         h3.textContent = obj["special"][i].title
         div.appendChild(h3)
 
@@ -1036,3 +1081,14 @@ function firstscript(){
 //    version = textbox.value
 //    pywebview.api.expImg(version).then()
 //}
+
+
+$(function() {
+  // ハンバーガーメニューをクリックしたときの処理
+  $('.hamburger').click(function() {
+    // メニューの表示切替
+    $('.menu').toggleClass('open'); // メニューを開閉
+    // ハンバーガーボタンのアクティブクラスを切り替えて三本線をバツにする
+    $(this).toggleClass('active');
+  });
+});

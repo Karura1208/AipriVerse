@@ -9,3 +9,55 @@ font-family: "BIZ UDPGothic" ;
 body {
 font-family: "BIZ UDPGothic" ;
 }
+/* ハンバーガーメニューのスタイル */
+.hamburger {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+
+/* ハンバーガーメニューのアイコンのスタイル */
+.hamburger-line {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+* バツ印に変化するスタイル */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* メニューのスタイル */
+.menu {
+  position: fixed;
+  top: -100%; /* 初期状態でメニューを画面の外に */
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #ff8080;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 5;
+  transition: top 0.3s ease; /* スライドアニメーション */
+}
+
+/* メニューが表示される時 */
+.menu.open {
+  top: 0; /* メニューが表示される位置 */
+}
