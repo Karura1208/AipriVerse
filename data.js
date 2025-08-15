@@ -1810,7 +1810,22 @@ let data = {
                     "shoues_id":"fan-018",
                     "accessary_id":"fan-019",
                     "parts":4
+                },
+                {
+                    "name":"アニマルロックピンク",
+                    "total_id":"fan-006F",
+                    "total_image":"",
+                    "tops" : "アニマルロックピンクトップス",
+                    "bottoms":"アニマルロックピンクボトムス",
+                    "shoues" : "アニマルロックピンクシューズ",
+                    "accessary" : "アニマルロックピンクアクセ",
+                    "tops_id":"fan-020",
+                    "bottoms_id" : "fan-021",
+                    "shoues_id":"fan-022",
+                    "accessary_id":"fan-023",
+                    "parts":4
                 }
+
             ]
         },
         {
@@ -1917,7 +1932,20 @@ let data = {
                     "shoues_id":"taikai-026",
                     "accessary_id":"taikai-027",
                     "parts":4
+                },
+                {
+                    "name":"エターナルジュエルブルーピンク",
+                    "total_id":"taikai-009F",
+                    "total_image":"https://aipri.jp/card/img/special/P-144_O.webp",
+                    "one_piece" : "エターナルジュエルブルーピンクワンピ",
+                    "shoues" : "エターナルジュエルブルーピンクシューズ",
+                    "accessary" : "エターナルジュエルブルーピンクアクセ",
+                    "one_piece_id":"taikai-028",
+                    "shoues_id":"taikai-029",
+                    "accessary_id":"taikai-030",
+                    "parts":3
                 }
+
             ]
         },
         {
@@ -2023,6 +2051,20 @@ let data = {
                     "bottoms_id" : "toku-025",
                     "shoues_id":"toku-026",
                     "accessary_id":"toku-027",
+                    "parts":4
+                },
+                {
+                    "name":"プリうさおでかけブルー",
+                    "total_id":"toku-009F",
+                    "total_image":"https://aipri.jp/card/img/special/P-146_O.webp",
+                    "tops" : "プリうさおでかけブルートップス",
+                    "bottoms":"プリうさおでかけブルーボトムス",
+                    "shoues" : "プリうさおでかけブルーシューズ",
+                    "accessary" : "プリうさおでかけブルーアクセ",
+                    "tops_id":"toku-028",
+                    "bottoms_id" : "toku-029",
+                    "shoues_id":"toku-030",
+                    "accessary_id":"toku-031",
                     "parts":4
                 }
             ]
