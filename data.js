@@ -937,6 +937,7 @@ let data = {
             "category":[
                 "dream",
                 "ring",
+                "ver9_1_rare4",
                 "ver9_0_rare4",
                 "itioshi_15",
                 "sumikko_collabo",
@@ -944,7 +945,8 @@ let data = {
                 "rare3",
                 "rare2",
                 "shop_primagi",
-                "15anniversary"
+                "15anniversary",
+                "shop_morry"
             ],
             "data":{
                 "dream":{
@@ -956,6 +958,11 @@ let data = {
                     "data":"プレミアムリングシリーズ",
                     "item_list":"premium_ring",
                     "idx_list":"ring"
+                },
+                "ver9_1_rare4":{
+                    "data":"リング３だん後半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_1"
                 },
                 "ver9_0_rare4":{
                     "data":"リング３だん前半☆☆☆☆ピックアップ",
@@ -996,6 +1003,11 @@ let data = {
                     "data":"ショップ プリティーシリーズ１５周年",
                     "item_list":"shop",
                     "idx_list":"shop_15"
+                },
+                "shop_morry":{
+                    "data":"ショップ モーリーファンタジー・PALOゲットキャンペーン",
+                    "item_list":"shop",
+                    "idx_list":"shop_morry"
                 }
             },
             "items_idx":{
@@ -1004,6 +1016,9 @@ let data = {
                 ],
                 "ring":[
                     2,3
+                ],
+                "rare4_1":[
+                    186,187,188,189,190,191,192,193,194
                 ],
                 "rare4_0":[
                     177,178,179,180,181,182,183,184,185
@@ -1024,10 +1039,13 @@ let data = {
                     56,57,58,59,60,61
                 ],
                 "shop_primagi":[
-                    30,31,32
+                    30,31,32,33,34,35
                 ],
                 "shop_15":[
                     29
+                ],
+                "shop_morry":[
+                    36
                 ]
             }
         }
