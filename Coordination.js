@@ -9578,6 +9578,26 @@ let item ={
         "accessary": "くまくまパークアクセ",
         "accessary_id": "APR3-219",
         "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32112.webp"
+      },
+      {
+        "number": 36,
+        "name": "マジシャンキャットミステリアス",
+        "brand_name": "ミラクルムーン",
+        "parts": 4,
+        "total_id": 0,
+        "total_image": "https://aipri.jp/verse/item/img/ring3/molly-palo.webp",
+        "tops": "マジシャンキャットミステリアストップス",
+        "tops_id": "VM-020",
+        "tops_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40462.webp",
+        "bottoms": "マジシャンキャットミステリアスボトムス",
+        "bottoms_id": "VM-021",
+        "bottoms_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40463.webp",
+        "shoues": "マジシャンキャットミステリアスシューズ",
+        "shoues_id": "VM-022",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40464.webp",
+        "accessary": "マジシャンキャットミステリアスアクセ",
+        "accessary_id": "VM-023",
+        "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40465.webp"
       }
     ],
     "バズリウムひろば": [],
