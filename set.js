@@ -132,6 +132,7 @@ function data_save(){
                     if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
                     ){
                         //ワンピ
                         let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
@@ -537,6 +538,7 @@ function create_disp(){
                                 if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
                                 ){
                                     // ワンピ
                                     ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
@@ -653,6 +655,7 @@ function create_disp(){
                                 if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
                                 ){
                                     //シューズ
                                     ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
