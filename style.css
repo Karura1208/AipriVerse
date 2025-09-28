@@ -49,7 +49,7 @@ font-family: "BIZ UDPGothic" ;
   top: -100%; /* 初期状態でメニューを画面の外に */
   left: 0;
   width: 250px;
-  height: 900px;
+  height: 100%;
   background-color: #ff8080;
   padding: 20px;
   box-sizing: border-box;
