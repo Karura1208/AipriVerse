@@ -55,6 +55,8 @@ font-family: "BIZ UDPGothic" ;
   box-sizing: border-box;
   z-index: 5;
   transition: top 0.3s ease; /* スライドアニメーション */
+  font-family: "BIZ UDPGothic" ;
+  line-height: 2;
 }
 
 /* メニューが表示される時 */
@@ -87,3 +89,4 @@ html {
     border-top: 3px solid #000;
     border-right: 3px solid #000;
     transform: translateY(20%) rotate(-45deg);
+}
