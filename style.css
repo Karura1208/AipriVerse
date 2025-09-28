@@ -73,7 +73,7 @@ html {
     width: 50px;
     position: fixed;
     right: 30px;
-    bottom: 30px;
+    top: 30px;
     background: #fff;
     border: solid 2px #000;
     border-radius: 50%;
