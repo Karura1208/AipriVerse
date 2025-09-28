@@ -233,6 +233,14 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454348512333834/1263455867550957710/IMG_6422.jpg?ex=68d9c338&is=68d871b8&hm=c469abc182c47b49589e185315a36491f27204213f8543d84dcf749bbef8d60c&"
     },
     {
+      "name": "ミラクルムーンバズリウム１５しゅうねん",
+      "url": "https://cdn.discordapp.com/attachments/1263454391873175655/1421729430824292412/IMG_8942.jpg?ex=68da1836&is=68d8c6b6&hm=013aa7df47b3a67da66daa9d0dd99f95f14012ba2412563109db45cc395d1f37&"
+    },
+    {
+      "name": "アニマルバズリウムプードルブルー",
+      "url": "https://cdn.discordapp.com/attachments/1263454391873175655/1421726521533403176/IMG_8935.jpg?ex=68da1581&is=68d8c401&hm=fbde6e8047901a66a84067e95f93cd046e67d41280ec12bd6b5e568a7d815390&"
+    },
+    {
       "name": "フルーツソーダブルーベリー",
       "url": "https://cdn.discordapp.com/attachments/1263454391873175655/1403659440296820759/IMG_8813.jpg?ex=68d99d79&is=68d84bf9&hm=05f6a8e155f189f0442a8c7534116c312479f6becbe42938ad14c2502355874e&"
     },
@@ -266,7 +274,7 @@ let url ={
     },
     {
       "name": "ジュエルバズリウムサファイア",
-      "url": "https://cdn.discordapp.com/attachments/1263454391873175655/1358301518083788890/IMG_8259.jpg?ex=68d9661d&is=68d8149d&hm=61c63ffb58ed50005a1b19e2f2f4f7a1fea53c2b22e23df3ad49ab362060184c&"
+      "url": "https://cdn.discordapp.com/attachments/1263454391873175655/1358301518083788890/IMG_8259.jpg?ex=68da0edd&is=68d8bd5d&hm=3ee265fd1dfebd4f8d064e1bf28b2cf79ff4f6eb5d1c38497356be0a08232e12&"
     },
     {
       "name": "ガーリーピアノ",
@@ -409,6 +417,10 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454391873175655/1263456935072497685/IMG_6430.jpg?ex=68d9c437&is=68d872b7&hm=a2a66dc0855d79f9c4a9a8205921e0cc21b717d1dc15027deaab78f1fb521aaa&"
     },
     {
+      "name": "ダークカルテットスターバズリウムホワイトレッド",
+      "url": "https://cdn.discordapp.com/attachments/1263454431022809088/1421726371700281344/IMG_8936.jpg?ex=68da155d&is=68d8c3dd&hm=d305ea4d6248588473d33516c28c97ca50d9e2292fd4ed65a1fb92db56ef91e2&"
+    },
+    {
       "name": "たいようさんさんイエロー",
       "url": "https://cdn.discordapp.com/attachments/1263454431022809088/1403659159492231298/IMG_8812.jpg?ex=68d99d36&is=68d84bb6&hm=3369a8894f019b747693998fcc770e7cb3adf1662e74505d28171d46a9ffc847&"
     },
@@ -541,6 +553,10 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454431022809088/1263457304766972064/IMG_6434.jpg?ex=68d9c48f&is=68d8730f&hm=1eee61d7b997dea216bc78a3e7f5ff31e0e0cc58d5070c26942562470bc23593&"
     },
     {
+      "name": "ダークカルテットスターバズリウムホワイトブルー",
+      "url": "https://cdn.discordapp.com/attachments/1263454457874743367/1421726347620782090/IMG_8938.jpg?ex=68da1557&is=68d8c3d7&hm=08e9baab6c9c40008d052902fba3fd75592eac9fdd25da1e0f2420463d48864a&"
+    },
+    {
       "name": "ローズグランプリピンク",
       "url": "https://cdn.discordapp.com/attachments/1263454457874743367/1396754675537150082/IMG_6632.jpg?ex=68d98b69&is=68d839e9&hm=39bb29cdd15906358bdeed1d710e4fc38a479c4f045a2d4dca5558db0dfd2728&"
     },
@@ -562,7 +578,7 @@ let url ={
     },
     {
       "name": "カルテットスターバズリウムスペード",
-      "url": "https://cdn.discordapp.com/attachments/1263454457874743367/1297420516864295012/IMG_3483.jpg?ex=68d96644&is=68d814c4&hm=e2d2a58e99af38922833f0fe47689ba7150f1b2a4cae432d50892d9ddead7b72&"
+      "url": "https://cdn.discordapp.com/attachments/1263454457874743367/1297420516864295012/IMG_3483.jpg?ex=68da0f04&is=68d8bd84&hm=442b78250e6f1bb0cce3456f8294d00d1a3bff42785a81c780ef3d547df2971a&"
     },
     {
       "name": "ひらめきたんていクラシック",
@@ -613,6 +629,10 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454457874743367/1263460529813585952/IMG_6862.jpg?ex=68d9c790&is=68d87610&hm=1a8ef6235aa78b5a7fc33f81e9ef5b4dfe49a548c0929d1020600221ef940bdf&"
     },
     {
+      "name": "フラワーガーデンブルー",
+      "url": "https://cdn.discordapp.com/attachments/1263454489952780329/1421730024993853460/IMG_8933.jpg?ex=68da18c4&is=68d8c744&hm=38eddb686957bcb9b24a5bc9683964f10ce35dd6a89b3adb8e6ff45c7b65f40c&"
+    },
+    {
       "name": "フラワーガーデン",
       "url": "https://cdn.discordapp.com/attachments/1263454489952780329/1406088349365829722/IMG_6930.jpg?ex=68d9e1d2&is=68d89052&hm=4d79dbcee937ee9db17aa4fb8193bedbc68a67108cff391fe489ff8949ef7f83&"
     },
@@ -638,7 +658,7 @@ let url ={
     },
     {
       "name": "こぎみゅん なかよし",
-      "url": "https://cdn.discordapp.com/attachments/1263454489952780329/1382583098688143442/IMG_6224.jpg?ex=68d96799&is=68d81619&hm=1516d4f2bed8e6ca1eb74640bc315d68460661dc9f5af325522cd530306e1f7b&"
+      "url": "https://cdn.discordapp.com/attachments/1263454489952780329/1382583098688143442/IMG_6224.jpg?ex=68da1059&is=68d8bed9&hm=0743744f83161d448a3a7db54ebd139b36d33eba72302ce041ff18abb93e79b2&"
     },
     {
       "name": "きらきらくらげピュアホワイト",
@@ -781,6 +801,10 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454489952780329/1263469873129066597/IMG_2380.jpg?ex=68d9d043&is=68d87ec3&hm=aaa3e2502d6960ea9721f8b11ab9e58ca273e68c320488489702078f2df656ef&"
     },
     {
+      "name": "ダークカルテットスターバズリウムホワイトグリーン",
+      "url": "https://cdn.discordapp.com/attachments/1263454523494629417/1421726269254533220/IMG_8939.jpg?ex=68da1544&is=68d8c3c4&hm=d77c46b68288e8b452048b5dda1379db7620f27259eab7691f5a85e2f9664613&"
+    },
+    {
       "name": "たんけんかレッド",
       "url": "https://cdn.discordapp.com/attachments/1263454523494629417/1403659852277874750/IMG_8814.jpg?ex=68d99ddb&is=68d84c5b&hm=e8e6b4d6e96f3c3bd036387acc7f58fe592a6c2085c4b5c4aface8532951824c&"
     },
@@ -822,11 +846,11 @@ let url ={
     },
     {
       "name": "カルテットスターバズリウムダイヤ",
-      "url": "https://cdn.discordapp.com/attachments/1263454523494629417/1294893501825286144/IMG_3426.jpg?ex=68d96f4c&is=68d81dcc&hm=25268a43dfc51a8d0fadde85c9f266f8889bfa3decd49f9cc431c8b7a627242d&"
+      "url": "https://cdn.discordapp.com/attachments/1263454523494629417/1294893501825286144/IMG_3426.jpg?ex=68da180c&is=68d8c68c&hm=527121d9a3dfc8af0cd844985f72d4c4f3af3c9f6cc2458f0560f8a1272304cd&"
     },
     {
       "name": "ハッピーバースデー！アイリ",
-      "url": "https://cdn.discordapp.com/attachments/1263454523494629417/1294893470561079296/IMG_3425.jpg?ex=68d96f45&is=68d81dc5&hm=c0d5eef7748e6ffbd9f19c56834fa6f468f2edaaa6a2775c64d09fcd9cbad88f&"
+      "url": "https://cdn.discordapp.com/attachments/1263454523494629417/1294893470561079296/IMG_3425.jpg?ex=68da1805&is=68d8c685&hm=d844e2b2724cbd57a6a0e110b80c13d98981dc01415fc0a579871c2bf13dc081&"
     },
     {
       "name": "トロピカルサマーブルー",
@@ -869,6 +893,10 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454523494629417/1269165760375291934/IMG_7206.jpg?ex=68d970f9&is=68d81f79&hm=45c882d0b76f3f9e6bed20501afdf51ebf6dee9edeb9f38cc5aced9fc3a44bc0&"
     },
     {
+      "name": "ダークカルテットスターバズリウムホワイトオレンジ",
+      "url": "https://cdn.discordapp.com/attachments/1263454645309800499/1421726395519860736/IMG_8937.jpg?ex=68da1563&is=68d8c3e3&hm=ae3e17b0f6227f7e6336c9ef8f67c2c0e2e693b49cfd23dadd91cb44a33e72ef&"
+    },
+    {
       "name": "クラシックヴァイオリンブルー",
       "url": "https://cdn.discordapp.com/attachments/1263454645309800499/1367044667375357972/IMG_8418.jpg?ex=68d990cf&is=68d83f4f&hm=4ee78d2cc0f9e64f9eb8cbf63e258de4c1d0cfab23db54c77bf0ca3bd4b34c6a&"
     },
@@ -894,7 +922,7 @@ let url ={
     },
     {
       "name": "カルテットスターバズリウムクラブ",
-      "url": "https://cdn.discordapp.com/attachments/1263454645309800499/1297420586825551924/IMG_3484.jpg?ex=68d96654&is=68d814d4&hm=03d59fa609fe290c17e735c8feec27f0501d760c3e64a703ffdbffbe4ff732b9&"
+      "url": "https://cdn.discordapp.com/attachments/1263454645309800499/1297420586825551924/IMG_3484.jpg?ex=68da0f14&is=68d8bd94&hm=66a98815f73403076e97a41f2762e55d6d3c05f8082282a16a0fcc13d47d67dc&"
     },
     {
       "name": "カワイイくまさん",
@@ -911,6 +939,10 @@ let url ={
     {
       "name": "ハッピーバースデー！リンリン",
       "url": "https://cdn.discordapp.com/attachments/1263454645309800499/1290653747755749418/IMG_7441.jpg?ex=68d9d4b8&is=68d88338&hm=72028840759dbf24acbae5ec6a167c6647a627a4527d2c8a7bc43f27671fdd14&"
+    },
+    {
+      "name": "アニマルロックレッド",
+      "url": "https://cdn.discordapp.com/attachments/1263454682961936386/1421726610457100349/IMG_8934.jpg?ex=68da1596&is=68d8c416&hm=0df08fe010c9152ca4b8942e25fd21d2c4436ed918b19909ede7739563c79e5e&"
     },
     {
       "name": "パンキッシュペンギンパステル",
@@ -979,6 +1011,18 @@ let url ={
     {
       "name": "クロミパーティー",
       "url": "https://cdn.discordapp.com/attachments/1263454682961936386/1282323768949346314/IMG_2987.jpg?ex=68d9d952&is=68d887d2&hm=19768734a134d73a1f1d2dd8c92130238c91839ebe8967507ff04bddb2eebc7c&"
+    },
+    {
+      "name": "ひみつのディアマイフューチャーみつき",
+      "url": "https://cdn.discordapp.com/attachments/1263454721075581009/1421729360745857094/IMG_8940.jpg?ex=68da1826&is=68d8c6a6&hm=971c0269032bbbfae576346b862a60914e709e5df6f051b863aacacdf8cd4b5e&"
+    },
+    {
+      "name": "くまくまパーク",
+      "url": "https://cdn.discordapp.com/attachments/1263454721075581009/1421727057171185766/IMG_8925.jpg?ex=68da1600&is=68d8c480&hm=e74ce435566f8ded39f92243f4090d9062b27807cc01b74595db919851f75b41&"
+    },
+    {
+      "name": "タテジマなりきり",
+      "url": "https://cdn.discordapp.com/attachments/1263454721075581009/1421727047704776704/IMG_8924.jpg?ex=68da15fe&is=68d8c47e&hm=8f7da91e990c8819e3bd3c0fcef8c47d958f8aa27480352bc451aead76c9586e&"
     },
     {
       "name": "ひみつのプリマジひまり",
@@ -1273,6 +1317,10 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454721075581009/1263455715817820170/IMG_0374.jpg?ex=68d9c314&is=68d87194&hm=c3d64d4258abdf59ed57365f7c22b43061506145853be1f1ef617d82ac957f70&"
     },
     {
+      "name": "ときせん ひとちゃん コーデ",
+      "url": "https://cdn.discordapp.com/attachments/1263454745830363148/1421727017115586611/IMG_8926.jpg?ex=68da15f7&is=68d8c477&hm=a2accd9f3d74e62104794129adedc1c14cf76d9aad67540d941d23c261f7dfcf&"
+    },
+    {
       "name": "ときせん あきちゃん コーデ",
       "url": "https://cdn.discordapp.com/attachments/1263454745830363148/1421684940931862539/IMG_7303.jpg?ex=68d9eec7&is=68d89d47&hm=7df2fd80d79677140fa440a867ce45d763abc6333b2e8a9cd03d1eee4f379c51&"
     },
@@ -1341,6 +1389,14 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263454745830363148/1263456422046334997/IMG_6427.jpg?ex=68d9c3bc&is=68d8723c&hm=20e43d7f52edff75c08a29c23e7ab0e1b24aa54bec66ff2bb1960d8acb0da697&"
     },
     {
+      "name": "おとぎばなしアラビアンナイトブルー",
+      "url": "https://cdn.discordapp.com/attachments/1263460076107202601/1421726445746786385/IMG_8931.jpg?ex=68da156f&is=68d8c3ef&hm=14febb5242499a356bf2e85509ce1f235c8d17c15032ba00e51785371bb5dd49&"
+    },
+    {
+      "name": "おとぎばなしアラビアンナイトピンク",
+      "url": "https://cdn.discordapp.com/attachments/1263460076107202601/1421726425064538164/IMG_8932.jpg?ex=68da156a&is=68d8c3ea&hm=c4e448f5f33fb877e4d69669795e344928212e1da26bc74ed670ebec66ad9793&"
+    },
+    {
       "name": "しあわせナース",
       "url": "https://cdn.discordapp.com/attachments/1263460076107202601/1421687617358921778/IMG_7304.jpg?ex=68d9f145&is=68d89fc5&hm=2f839f325967e019fa02f143277e62e2b6883ccb23bff958548bff01ac436c29&"
     },
@@ -1366,7 +1422,7 @@ let url ={
     },
     {
       "name": "こいのクリスタルピンク",
-      "url": "https://cdn.discordapp.com/attachments/1263460076107202601/1358301427671236780/IMG_8260.jpg?ex=68d96608&is=68d81488&hm=d45adf21e9b8b6895eb4c17a51bac10a5d890da26ace71ed84e2aa0dbcc75751&"
+      "url": "https://cdn.discordapp.com/attachments/1263460076107202601/1358301427671236780/IMG_8260.jpg?ex=68da0ec8&is=68d8bd48&hm=da6ca4be76f9581b376a06a8573993299d83dd57249f41c30d3a7999b9a269f1&"
     },
     {
       "name": "おとぎばなしアラビアンナイト",
@@ -1425,7 +1481,15 @@ let url ={
       "url": "https://cdn.discordapp.com/attachments/1263460076107202601/1263460131430207581/IMG_6870.jpg?ex=68d9c731&is=68d875b1&hm=cf7d6ca4aafa82598b2768a7999b2b563a037b484cc95ca787bbc68a7f67716c&"
     },
     {
-      "name": "ときめきビジューツイン える",
+      "name": "エターナルジュエルラブジュリエル　える",
+      "url": "https://cdn.discordapp.com/attachments/1357323052957831329/1421726849985286196/IMG_8930.jpg?ex=68da15cf&is=68d8c44f&hm=7db994abf9b88d7f8ea4ec71bb4e2dffc9fa685130e8e2e920fa4ebec33cbadb&"
+    },
+    {
+      "name": "エターナルジュエルラブジュリエル　じゅりあ",
+      "url": "https://cdn.discordapp.com/attachments/1357323052957831329/1421726840086593587/IMG_8929.jpg?ex=68da15cd&is=68d8c44d&hm=511fafda64ca7ded0d4cd085fb77134e98f60fee118ecfa8117e7fff6d1d14fa&"
+    },
+    {
+      "name": "ときめきビジューツイン　える",
       "url": "https://cdn.discordapp.com/attachments/1357323052957831329/1396758273889402972/IMG_8764.jpg?ex=68d98ec3&is=68d83d43&hm=70aea03f9ded7f9458797195961646e7084dc17314a2855f0c557ed17f201a5f&"
     },
     {
@@ -1479,6 +1543,14 @@ let url ={
     {
       "name": "ベリキューデニムピンク",
       "url": "https://cdn.discordapp.com/attachments/1357323052957831329/1357323102270390372/IMG_5582.jpg?ex=68d9cb65&is=68d879e5&hm=31ad8898bdb07a17cdd80c608bc4f55dc4133095f1baabd86a3184d4e13ecad2&"
+    },
+    {
+      "name": "エターナルスペースジャンピンロケットクール",
+      "url": "https://cdn.discordapp.com/attachments/1374733216056868864/1421726960383557692/IMG_8927.jpg?ex=68da15e9&is=68d8c469&hm=8895b32d4a438c55307ef31c5bc41942bbb84dc57a84c598f82ed23d9d932210&"
+    },
+    {
+      "name": "エターナルスペースジャンピンロケットラブリー",
+      "url": "https://cdn.discordapp.com/attachments/1374733216056868864/1421726945292587008/IMG_8928.jpg?ex=68da15e6&is=68d8c466&hm=ee2f6ea144959c11bcabb7705f644a5e15fed8fd43e4476221cf91e3defc3977&"
     },
     {
       "name": "あこがれコズミックツイン　おとめ",
