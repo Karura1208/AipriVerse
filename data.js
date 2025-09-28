@@ -1200,7 +1200,7 @@ let data = {
                 },
                 {
                     "name":"フレッシュレモンパープル",
-                    "total_id":"CD-004F",
+                    "total_id":"CD-003F",
                     "total_image":"https://pbs.twimg.com/media/GRXg5KGasAAsWY9.jpg:large",
                     "one_piece" : "フレッシュレモンパープルワンピ",
                     "shoues" : "フレッシュレモンパープルシューズ",
@@ -1212,7 +1212,7 @@ let data = {
                 },
                 {
                     "name":"カワイイあめちゃんポップ",
-                    "total_id":"CD-003F",
+                    "total_id":"CD-004F",
                     "total_image":"https://pbs.twimg.com/media/Gb1dxK4bAAAHXAW.jpg",
                     "one_piece" : "カワイイあめちゃんポップワンピ",
                     "shoues" : "カワイイあめちゃんポップシューズ",
@@ -1232,6 +1232,96 @@ let data = {
                     "one_piece_id":"CD-013",
                     "shoues_id":"CD-014",
                     "accessary_id":"CD-015",
+                    "parts":3
+                },
+                {
+                    "name":"フラワーマーチプリンセスバズリウムひみつ",
+                    "total_id":"CD-006F",
+                    "total_image":"https://pbs.twimg.com/media/GuXsdOUbEAES7fS?format=jpg&name=medium",
+                    "one_piece" : "フラワーマーチプリンセスバズリウムひみつワンピ",
+                    "shoues" : "フラワーマーチプリンセスバズリウムひみつシューズ",
+                    "accessary" : "フラワーマーチプリンセスバズリウムひみつアクセ",
+                    "one_piece_id":"CD-016",
+                    "shoues_id":"CD-017",
+                    "accessary_id":"CD-018",
+                    "parts":3
+                },
+                {
+                    "name":"フィーバーエンジェルパープル",
+                    "total_id":"CD-007F",
+                    "total_image":"https://pbs.twimg.com/media/GzAWUilboAE0XKM?format=jpg&name=medium",
+                    "tops" : "フィーバーエンジェルパープルトップス",
+                    "bottoms":"フィーバーエンジェルパープルボトムス",
+                    "shoues" : "フィーバーエンジェルパープルシューズ",
+                    "accessary" : "フィーバーエンジェルパープルアクセ",
+                    "tops_id":"CD-019",
+                    "bottoms_id" : "CD-020",
+                    "shoues_id":"CD-021",
+                    "accessary_id":"CD-022",
+                    "parts":4
+                },
+                {
+                    "name":"マジシャンキャットイエロー",
+                    "total_id":"Blu-001F",
+                    "total_image":"https://aipri.jp/card/img/special/P-062_O.webp",
+                    "tops" : "マジシャンキャットイエロートップス",
+                    "bottoms":"マジシャンキャットイエローボトムス",
+                    "shoues" : "マジシャンキャットイエローシューズ",
+                    "accessary" : "マジシャンキャットイエローアクセ",
+                    "tops_id":"Blu-001",
+                    "bottoms_id" : "Blu-002",
+                    "shoues_id":"Blu-003",
+                    "accessary_id":"Blu-004",
+                    "parts":4
+                },
+                {
+                    "name":"エレガントジュエルピンク",
+                    "total_id":"Blu-002F",
+                    "total_image":"https://pbs.twimg.com/media/GcpkFDKasAAxS_q?format=jpg&name=medium",
+                    "one_piece" : "エレガントジュエルピンクワンピ",
+                    "shoues" : "エレガントジュエルピンクシューズ",
+                    "accessary" : "エレガントジュエルピンクアクセ",
+                    "one_piece_id":"Blu-005",
+                    "shoues_id":"Blu-006",
+                    "accessary_id":"Blu-007",
+                    "parts":3
+                },
+                {
+                    "name":"フラワーメモリーピンク",
+                    "total_id":"Blu-003F",
+                    "total_image":"https://pbs.twimg.com/media/GlkBwT8acAAlnPv.jpg",
+                    "one_piece" : "フラワーメモリーピンクワンピ",
+                    "shoues" : "フラワーメモリーピンクシューズ",
+                    "accessary" : "フラワーメモリーピンクアクセ",
+                    "one_piece_id":"Blu-008",
+                    "shoues_id":"Blu-009",
+                    "accessary_id":"Blu-010",
+                    "parts":3
+                },
+                {
+                    "name":"こあくまロックグリーンパープル",
+                    "total_id":"Blu-004F",
+                    "total_image":"https://pbs.twimg.com/media/GrDWu2UaAAM3Tlt.jpg",
+                    "tops" : "こあくまロックグリーンパープルトップス",
+                    "bottoms":"こあくまロックグリーンパープルボトムス",
+                    "shoues" : "こあくまロックグリーンパープルシューズ",
+                    "accessary" : "こあくまロックグリーンパープルアクセ",
+                    "tops_id":"Blu-011",
+                    "bottoms_id" : "Blu-012",
+                    "shoues_id":"Blu-013",
+                    "accessary_id":"Blu-014",
+                    "parts":4
+                },
+                {
+                    "name":"スペースバズリウムスターズメモリー",
+                    "total_id":"Blu-005F",
+                    "total_image":"https://pbs.twimg.com/media/G0pWMeEboAAvPDQ?format=jpg&name=medium",
+                    "one_piece" : "スペースバズリウムスターズメモリーワンピ",
+                    "shoues" : "スペースバズリウムスターズメモリーシューズ",
+                    "accessary" : "スペースバズリウムスターズメモリーアクセ",
+                    "one_piece_id":"Blu-015",
+                    "shoues_id":"Blu-016",
+                    "accessary_id":"Blu-017",
                     "parts":3
                 }
             ]
@@ -1856,6 +1946,32 @@ let data = {
                     "shoues_id":"furoku-021",
                     "accessary_id":"furoku-022",
                     "parts":3
+                },
+                {
+                    "name":"スペースダイナーミント",
+                    "total_id":"furoku-007F",
+                    "total_image":"https://aipri.jp/card/img/special/P-140_O.webp",
+                    "one_piece" : "スペースダイナーミントワンピ",
+                    "shoues" : "スペースダイナーミントシューズ",
+                    "accessary" : "スペースダイナーミントアクセ",
+                    "one_piece_id":"furoku-023",
+                    "shoues_id":"furoku-024",
+                    "accessary_id":"furoku-025",
+                    "parts":3
+                },
+                {
+                    "name":"スポーティバレエコアブルー",
+                    "total_id":"furoku-008F",
+                    "total_image":"https://aipri.jp/card/img/special/P-176_O.webp",
+                    "tops" : "スポーティバレエコアブルートップス",
+                    "bottoms":"スポーティバレエコアブルーボトムス",
+                    "shoues" : "スポーティバレエコアブルーシューズ",
+                    "accessary" : "スポーティバレエコアブルーアクセ",
+                    "tops_id":"furoku-026",
+                    "bottoms_id" : "furoku-027",
+                    "shoues_id":"furoku-028",
+                    "accessary_id":"furoku-029",
+                    "parts":4
                 }
             ]
         },
@@ -1933,7 +2049,7 @@ let data = {
                 {
                     "name":"アニマルロックピンク",
                     "total_id":"fan-006F",
-                    "total_image":"",
+                    "total_image":"https://aipri.jp/card/img/special/P-175_O.webp",
                     "tops" : "アニマルロックピンクトップス",
                     "bottoms":"アニマルロックピンクボトムス",
                     "shoues" : "アニマルロックピンクシューズ",
@@ -1943,8 +2059,21 @@ let data = {
                     "shoues_id":"fan-022",
                     "accessary_id":"fan-023",
                     "parts":4
+                },
+                {
+                    "name":"おとぎばなしシンデレラグリーン",
+                    "total_id":"fan-007F",
+                    "total_image":"https://aipri.jp/card/img/special/P-210_O.webp",
+                    "tops" : "おとぎばなしシンデレラグリーントップス",
+                    "bottoms":"おとぎばなしシンデレラグリーンボトムス",
+                    "shoues" : "おとぎばなしシンデレラグリーンシューズ",
+                    "accessary" : "おとぎばなしシンデレラグリーンアクセ",
+                    "tops_id":"fan-024",
+                    "bottoms_id" : "fan-025",
+                    "shoues_id":"fan-026",
+                    "accessary_id":"fan-027",
+                    "parts":4
                 }
-
             ]
         },
         {
@@ -2063,8 +2192,31 @@ let data = {
                     "shoues_id":"taikai-029",
                     "accessary_id":"taikai-030",
                     "parts":3
+                },
+                {
+                    "name":"エターナルスペースジャンピンロケットラブリーパープル",
+                    "total_id":"taikai-010F",
+                    "total_image":"https://aipri.jp/card/img/special/P-177_O.webp",
+                    "one_piece" : "エターナルスペースジャンピンロケットラブリーパープルワンピ",
+                    "shoues" : "エターナルスペースジャンピンロケットラブリーパープルシューズ",
+                    "accessary" : "エターナルスペースジャンピンロケットラブリーパープルアクセ",
+                    "one_piece_id":"taikai-031",
+                    "shoues_id":"taikai-032",
+                    "accessary_id":"taikai-033",
+                    "parts":3
+                },
+                {
+                    "name":"エターナルスペースジャンピンロケットクールレッド",
+                    "total_id":"taikai-011F",
+                    "total_image":"https://aipri.jp/card/img/special/P-178_O.webp",
+                    "one_piece" : "エターナルスペースジャンピンロケットクールレッドワンピ",
+                    "shoues" : "エターナルスペースジャンピンロケットクールレッドシューズ",
+                    "accessary" : "エターナルスペースジャンピンロケットクールレッドアクセ",
+                    "one_piece_id":"taikai-034",
+                    "shoues_id":"taikai-035",
+                    "accessary_id":"taikai-036",
+                    "parts":3
                 }
-
             ]
         },
         {
@@ -2083,108 +2235,106 @@ let data = {
                     "parts":3
                 },
                 {
-                    "name":"マジシャンキャットイエロー",
-                    "total_id":"toku-002F",
-                    "total_image":"https://aipri.jp/card/img/special/P-062_O.webp",
-                    "tops" : "マジシャンキャットイエロートップス",
-                    "bottoms":"マジシャンキャットイエローボトムス",
-                    "shoues" : "マジシャンキャットイエローシューズ",
-                    "accessary" : "マジシャンキャットイエローアクセ",
-                    "tops_id":"toku-004",
-                    "bottoms_id" : "toku-005",
-                    "shoues_id":"toku-006",
-                    "accessary_id":"toku-007",
-                    "parts":4
-                },
-                {
-                    "name":"エレガントジュエルピンク",
-                    "total_id":"toku-003F",
-                    "total_image":"https://pbs.twimg.com/media/GcpkFDKasAAxS_q?format=jpg&name=medium",
-                    "one_piece" : "エレガントジュエルピンクワンピ",
-                    "shoues" : "エレガントジュエルピンクシューズ",
-                    "accessary" : "エレガントジュエルピンクアクセ",
-                    "one_piece_id":"toku-008",
-                    "shoues_id":"toku-009",
-                    "accessary_id":"toku-010",
-                    "parts":3
-                },
-                {
                     "name":"フラワーマーチバズリウムブルー",
-                    "total_id":"toku-004F",
+                    "total_id":"toku-002F",
                     "total_image":"https://aipri.jp/card/img/special/P-073_O.webp",
                     "one_piece" : "フラワーマーチバズリウムブルーワンピ",
                     "shoues" : "フラワーマーチバズリウムブルーシューズ",
                     "accessary" : "フラワーマーチバズリウムブルーアクセ",
+                    "one_piece_id":"toku-004",
+                    "shoues_id":"toku-005",
+                    "accessary_id":"toku-006",
+                    "parts":3
+                },
+                {
+                    "name":"バレンタインレターパープル",
+                    "total_id":"toku-003F",
+                    "total_image":"https://aipri.jp/card/img/special/P-090_O.webp",
+                    "tops" : "バレンタインレターパープルトップス",
+                    "bottoms":"バレンタインレターパープルボトムス",
+                    "shoues" : "バレンタインレターパープルシューズ",
+                    "accessary" : "バレンタインレターパープルアクセ",
+                    "tops_id":"toku-007",
+                    "bottoms_id" : "toku-008",
+                    "shoues_id":"toku-009",
+                    "accessary_id":"toku-010",
+                    "parts":4
+                },
+                {
+                    "name":"ドーナツパティシエールパープル",
+                    "total_id":"toku-004F",
+                    "total_image":"https://aipri.jp/card/img/special/P-099_O.webp",
+                    "one_piece" : "ドーナツパティシエールパープルワンピ",
+                    "shoues" : "ドーナツパティシエールパープルシューズ",
+                    "accessary" : "ドーナツパティシエールパープルアクセ",
                     "one_piece_id":"toku-011",
                     "shoues_id":"toku-012",
                     "accessary_id":"toku-013",
                     "parts":3
                 },
                 {
-                    "name":"バレンタインレターパープル",
-                    "total_id":"toku-005F",
-                    "total_image":"https://aipri.jp/card/img/special/P-090_O.webp",
-                    "tops" : "バレンタインレターパープルトップス",
-                    "bottoms":"バレンタインレターパープルボトムス",
-                    "shoues" : "バレンタインレターパープルシューズ",
-                    "accessary" : "バレンタインレターパープルアクセ",
-                    "tops_id":"toku-014",
-                    "bottoms_id" : "toku-015",
-                    "shoues_id":"toku-016",
-                    "accessary_id":"toku-017",
-                    "parts":4
-                },
-                {
-                    "name":"ドーナツパティシエールパープル",
-                    "total_id":"toku-006F",
-                    "total_image":"https://aipri.jp/card/img/special/P-099_O.webp",
-                    "one_piece" : "ドーナツパティシエールパープルワンピ",
-                    "shoues" : "ドーナツパティシエールパープルシューズ",
-                    "accessary" : "ドーナツパティシエールパープルアクセ",
-                    "one_piece_id":"toku-018",
-                    "shoues_id":"toku-019",
-                    "accessary_id":"toku-020",
-                    "parts":3
-                },
-                {
                     "name":"きらきらくらげレッド",
-                    "total_id":"toku-007F",
+                    "total_id":"toku-005F",
                     "total_image":"https://aipri.jp/card/img/special/P-001_O.webp",
                     "one_piece" : "きらきらくらげレッドワンピ",
                     "shoues" : "きらきらくらげレッドシューズ",
                     "accessary" : "きらきらくらげレッドアクセ",
-                    "one_piece_id":"toku-021",
-                    "shoues_id":"toku-022",
-                    "accessary_id":"toku-023",
+                    "one_piece_id":"toku-014",
+                    "shoues_id":"toku-015",
+                    "accessary_id":"toku-016",
                     "parts":3
                 },
                 {
                     "name":"ぴょんぴょんうさぎファンシー",
-                    "total_id":"toku-008F",
+                    "total_id":"toku-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-107_O.webp",
                     "tops" : "ぴょんぴょんうさぎファンシートップス",
                     "bottoms":"ぴょんぴょんうさぎファンシーボトムス",
                     "shoues" : "ぴょんぴょんうさぎファンシーシューズ",
                     "accessary" : "ぴょんぴょんうさぎファンシーアクセ",
-                    "tops_id":"toku-024",
-                    "bottoms_id" : "toku-025",
-                    "shoues_id":"toku-026",
-                    "accessary_id":"toku-027",
+                    "tops_id":"toku-017",
+                    "bottoms_id" : "toku-018",
+                    "shoues_id":"toku-019",
+                    "accessary_id":"toku-020",
                     "parts":4
                 },
                 {
                     "name":"プリうさおでかけブルー",
-                    "total_id":"toku-009F",
+                    "total_id":"toku-007F",
                     "total_image":"https://aipri.jp/card/img/special/P-146_O.webp",
                     "tops" : "プリうさおでかけブルートップス",
                     "bottoms":"プリうさおでかけブルーボトムス",
                     "shoues" : "プリうさおでかけブルーシューズ",
                     "accessary" : "プリうさおでかけブルーアクセ",
-                    "tops_id":"toku-028",
-                    "bottoms_id" : "toku-029",
-                    "shoues_id":"toku-030",
-                    "accessary_id":"toku-031",
+                    "tops_id":"toku-021",
+                    "bottoms_id" : "toku-022",
+                    "shoues_id":"toku-023",
+                    "accessary_id":"toku-024",
                     "parts":4
+                },
+                {
+                    "name":"ミラクルムーンバズリウムシークレットフレンズ∞",
+                    "total_id":"toku-008F",
+                    "total_image":"https://aipri.jp/card/img/special/P-145_O.webp",
+                    "one_piece" : "ミラクルムーンバズリウムシークレットフレンズ∞ワンピ",
+                    "shoues" : "ミラクルムーンバズリウムシークレットフレンズ∞シューズ",
+                    "accessary" : "ミラクルムーンバズリウムシークレットフレンズ∞アクセ",
+                    "one_piece_id":"toku-025",
+                    "shoues_id":"toku-026",
+                    "accessary_id":"toku-027",
+                    "parts":3
+                },
+                {
+                    "name":"フラワーマーチバズリウムシークレットフレンズ∞",
+                    "total_id":"toku-009F",
+                    "total_image":"https://aipri.jp/card/img/special/P-181_O.webp",
+                    "one_piece" : "フラワーマーチバズリウムシークレットフレンズ∞ワンピ",
+                    "shoues" : "フラワーマーチバズリウムシークレットフレンズ∞シューズ",
+                    "accessary" : "フラワーマーチバズリウムシークレットフレンズ∞アクセ",
+                    "one_piece_id":"toku-028",
+                    "shoues_id":"toku-029",
+                    "accessary_id":"toku-030",
+                    "parts":3
                 }
             ]
         },
@@ -2303,6 +2453,20 @@ let data = {
                     "bottoms_id" : "mise-028",
                     "shoues_id":"mise-029",
                     "accessary_id":"mise-030",
+                    "parts":4
+                },
+                {
+                    "name":"カラフルシャインレッド",
+                    "total_id":"mise-009F",
+                    "total_image":"https://aipri.jp/card/img/special/P-215_O.webp",
+                    "tops" : "カラフルシャインレッドトップス",
+                    "bottoms":"カラフルシャインレッドボトムス",
+                    "shoues" : "カラフルシャインレッドシューズ",
+                    "accessary" : "カラフルシャインレッドアクセ",
+                    "tops_id":"mise-031",
+                    "bottoms_id" : "mise-032",
+                    "shoues_id":"mise-033",
+                    "accessary_id":"mise-034",
                     "parts":4
                 }
             ]
