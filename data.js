@@ -1,5 +1,5 @@
 let data = {
-    "now_version":9,
+    "now_version":10,
     "version":[
         { "value":0,"name": "スペシャルコーデアイテム"},
         { "value":1,"name": "１だん"},
@@ -3533,4 +3533,5 @@ let data = {
             ]
         }
    ]
+
 }
