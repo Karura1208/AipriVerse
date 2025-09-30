@@ -1,4 +1,4 @@
-let item ={
+{
   "Coordination": {
     "tour": [
       {
@@ -4489,7 +4489,10 @@ let item ={
         "one_piece_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32283.webp",
         "accessary": "シンデレラのラララ ジュリ コーデアクセ",
         "accessary_id": "APR4-186",
-        "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32284.webp"
+        "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32284.webp",
+        "shoues": "シンデレラのラララ ジュリ コーデシューズ",
+        "shoues_id": "APR4-187",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32362.webp"
       },
       {
         "number": 153,
@@ -4503,7 +4506,10 @@ let item ={
         "one_piece_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32285.webp",
         "accessary": "シンデレラのラララ かなみん コーデアクセ",
         "accessary_id": "APR4-189",
-        "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32286.webp"
+        "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32286.webp",
+        "shoues": "シンデレラのラララ かなみん コーデシューズ",
+        "shoues_id": "APR4-190",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32287.webp"
       }
     ],
     "aurora_dream": [
