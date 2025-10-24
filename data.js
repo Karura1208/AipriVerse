@@ -1075,6 +1075,7 @@ let data = {
                 "dream",
                 "ring",
                 "ver10_0_rare4",
+                "itioshi_jurielu",
                 "aikatu_pripara",
                 "Tokisen_collabo",
                 "rare3",
@@ -1102,6 +1103,11 @@ let data = {
                     "item_list":"rare3",
                     "idx_list":"rare3"
                 },
+                "itioshi_jurielu":{
+                    "data":"じゅりあ＆える イチオシひろば",
+                    "item_list":"itioshi_hiroba",
+                    "idx_list":"itioshi_jurielu"
+                },                
                 "aikatu_pripara":{
                     "data":"アイカツ！×プリパラひろば",
                     "item_list":"pripara",
@@ -1136,6 +1142,9 @@ let data = {
                 "rare3":[
                     141,142,143,144,145,146,147,148,149,150,151
                 ],
+                "itioshi_jurielu":[
+                    48,49,50,51,52,53,54,55
+                ], 
                 "aikatu_pripara":[
                     24,25,26,27,28,29,5,6,10
                 ],
@@ -3533,5 +3542,4 @@ let data = {
             ]
         }
    ]
-
 }
