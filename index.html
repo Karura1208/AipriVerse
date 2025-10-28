@@ -5,42 +5,73 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>アイプリバース アイテムリスト</title>
-
   </head>
   <body>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <div class="hamburger">
       <div class="hamburger-line"></div>
       <div class="hamburger-line"></div>
       <div class="hamburger-line"></div>
     </div>
+
     <nav class = "menu">
       <ul id = "menu_list">
 
       </ul>
     </nav>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>
   </body>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>  
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+
+<script>
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAp_kHJS78IzYITJNzUwWet6Uq81g6wcaM",
+      authDomain: "aipriverse-item.firebaseapp.com",
+      projectId: "aipriverse-item",
+      storageBucket: "aipriverse-item.firebasestorage.app",
+      messagingSenderId: "735483267133",
+      appId: "1:735483267133:web:3274418dd0b6ca73d80254",
+      measurementId: "G-DZYP87GLXR"
+    };
+
+      // Initialize Firebase
+      var app = firebase.initializeApp(firebaseConfig);
+      // var analytics = getAnalytics(app);
+      var auth = app.auth();
+      // Cloud Firestore サービスへの参照を取得し、グローバル変数 db に代入
+      var db = app.firestore();
+
+  </script>
+
   <script src="Coordination.js"></script>
   <script src="data.js"></script>
   <script src="check.js"></script>
   <script src="set.js"></script>
   <script src="url.js"></script>
-  <body>
   </body>
   <h1>　　 アイプリバース</h1>
   <div id="id1">
 
+    <div id="login">
+      <p>メールアドレス<br>
+      <input type="text" id = "mail"></p>
+      <p>パスワード<br>
+      <input type="password" id = "pass"></p>
+      <p><input type="button" value="ログイン" id="button2" onclick="login()"></p>
+    </div>
+
   </div>
   
-  <script>
-    object={}
-    object["disp_data"] = create_disp_data(-1);
-    object["check"] = check_data
-    let div_element = document.getElementById("id1");
-    div_element.remove()
-    get_return_from_python_first(object)
-  </script>
 </html>
