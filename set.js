@@ -23,57 +23,73 @@ function login(){
 
     email = document.getElementById("mail").value;
     password = document.getElementById("pass").value;
-
-    auth.signInWithEmailAndPassword(email, password)
-    .then((userCredential) => {
-          // ログイン成功
-          // message要素がないため、この行はコメントアウトまたはHTMLにmessage要素を追加してください
-          // message.textContent = "ログインに成功しました！";
-          console.log("ログイン成功", userCredential.user);
-
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        // ログイン済みならそのまま表示
+        console.log("ログイ済み:", user.email);
         object={}
         object["disp_data"] = create_disp_data(-1);
         object["check"] = check_data
         let div_element = document.getElementById("id1");
         div_element.remove()
         get_return_from_python_first(object)
+    } else {
+        // 未ログインならログインページへ
+        console.log("未ログイン:", user.email);
+        auth.signInWithEmailAndPassword(email, password)
+        .then((userCredential) => {
+            // ログイン成功
+            // message要素がないため、この行はコメントアウトまたはHTMLにmessage要素を追加してください
+            // message.textContent = "ログインに成功しました！";
+            console.log("ログイン成功", userCredential.user);
 
-      })
-      .catch((error) => {
-          const errorCode = error.code;
-      let errorMessage = "ログイン中に不明なエラーが発生しました。";
+            object={}
+            object["disp_data"] = create_disp_data(-1);
+            object["check"] = check_data
+            let div_element = document.getElementById("id1");
+            div_element.remove()
+            get_return_from_python_first(object)
 
-      // エラーコードによる分岐
-      switch (errorCode) {
-          case 'auth/user-not-found':
-          case 'auth/wrong-password':
-              // ユーザーが存在しないか、パスワードが間違っている場合の一般的なメッセージ
-              errorMessage = "メールアドレスまたはパスワードが正しくありません。";
-              break;
-          case 'auth/invalid-email':
-              errorMessage = "無効なメールアドレスの形式です。";
-              break;
-          case 'auth/user-disabled':
-              errorMessage = "このアカウントは無効化されています。管理者にお問い合わせください。";
-              break;
-          case 'auth/too-many-requests':
-              errorMessage = "連続したログイン試行により、一時的にアカウントがロックされました。しばらくしてから再度お試しください。";
-              break;
-          default:
-              // その他のエラー
-              console.error("その他のログインエラー:", error);
-              break;
-      }
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            let errorMessage = "ログイン中に不明なエラーが発生しました。";
 
-      // ユーザーにエラーメッセージを表示
-      // HTMLに <p id="message"></p> があることを想定
-      const messageElement = document.getElementById('message');
-      if (messageElement) {
-          messageElement.textContent = errorMessage;
-      } else {
-          alert(`ログインエラー: ${errorMessage} (${errorCode})`);
-      }
-      });
+            // エラーコードによる分岐
+            switch (errorCode) {
+                case 'auth/user-not-found':
+                case 'auth/wrong-password':
+                    // ユーザーが存在しないか、パスワードが間違っている場合の一般的なメッセージ
+                    errorMessage = "メールアドレスまたはパスワードが正しくありません。";
+                    break;
+                case 'auth/invalid-email':
+                    errorMessage = "無効なメールアドレスの形式です。";
+                    break;
+                case 'auth/user-disabled':
+                    errorMessage = "このアカウントは無効化されています。管理者にお問い合わせください。";
+                    break;
+                case 'auth/too-many-requests':
+                    errorMessage = "連続したログイン試行により、一時的にアカウントがロックされました。しばらくしてから再度お試しください。";
+                    break;
+                default:
+                    // その他のエラー
+                    console.error("その他のログインエラー:", error);
+                    break;
+            }
+
+            // ユーザーにエラーメッセージを表示
+            // HTMLに <p id="message"></p> があることを想定
+            const messageElement = document.getElementById('message');
+            if (messageElement) {
+                messageElement.textContent = errorMessage;
+            } else {
+                alert(`ログインエラー: ${errorMessage} (${errorCode})`);
+            }
+            });
+    }
+    });
+
+    
 
 }
 
@@ -2010,4 +2026,10 @@ $(function() {
     // ハンバーガーボタンのアクティブクラスを切り替えて三本線をバツにする
     $(this).toggleClass('active');
   });
+});
+
+// ⬇️ このイベントが発火したときに...
+document.addEventListener('DOMContentLoaded', () => {
+    // ⬇️ 💡 ここで関数が実行されます。
+    login(); 
 });
