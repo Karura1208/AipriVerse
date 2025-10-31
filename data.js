@@ -1074,12 +1074,15 @@ let data = {
             "category":[
                 "dream",
                 "ring",
+                "ver10_1_rare4",
                 "ver10_0_rare4",
                 "itioshi_jurielu",
                 "aikatu_pripara",
                 "Tokisen_collabo",
+                "contest_4",
                 "rare3",
                 "rare2",
+                "shop_namco",
                 "shop_primagi",
             ],
             "data":{
@@ -1092,6 +1095,11 @@ let data = {
                     "data":"プレミアムリングシリーズ",
                     "item_list":"premium_ring",
                     "idx_list":"ring"
+                },
+                "ver10_1_rare4":{
+                    "data":"リング４だん後半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_1"
                 },
                 "ver10_0_rare4":{
                     "data":"リング４だん前半☆☆☆☆ピックアップ",
@@ -1118,10 +1126,20 @@ let data = {
                     "item_list":"rare3",
                     "idx_list":"Tokisen_collabo"
                 },
+                "contest_4":{
+                    "data":"第4回アイプリコンテスト",
+                    "item_list":"contest",
+                    "idx_list":"contest"
+                },
                 "rare2":{
                     "data":"☆☆",
                     "item_list":"rare2",
                     "idx_list":"rare2"
+                },
+                "shop_namco":{
+                    "data":"ショップ ナムコでゲット♪「カラフルシャインブルー」キャンペーン",
+                    "item_list":"shop",
+                    "idx_list":"shop_namco"
                 },
                 "shop_primagi":{
                     "data":"ショップ ワッチャプリマジ！",
@@ -1135,6 +1153,9 @@ let data = {
                 ],
                 "ring":[
                     4,5
+                ],
+                "rare4_1":[
+                    204,205,206,207,208,209,210,211,212
                 ],
                 "rare4_0":[
                     195,196,197,198,199,200,201,202,203
@@ -1151,11 +1172,17 @@ let data = {
                 "Tokisen_collabo":[
                     152,153
                 ],
+                "contest":[
+                    6,7
+                ],
                 "rare2":[
                     62,63,64,65,66,67
                 ],
+                "shop_namco":[
+                    40
+                ],
                 "shop_primagi":[
-                    37,38,39
+                    37,38,39,41,42,43
                 ]
             }
         }
