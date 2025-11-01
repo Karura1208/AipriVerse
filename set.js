@@ -20,11 +20,14 @@ async function check_write(check){
 }
 
 function login(){
-        alert("ログイン処理開始");
+    alert("ログイン処理開始");
     email = document.getElementById("mail").value;
     password = document.getElementById("pass").value;
+    alert("ログイン処理開始");
     firebase.auth().onAuthStateChanged(function(user) {
-      if (user) {
+    alert("ログイン処理開始");
+
+    if (user) {
         // ログイン済みならそのまま表示
         console.log("ログイ済み:", user.email);
         alert("ログイ済み:", user.email);
