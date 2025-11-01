@@ -20,7 +20,7 @@ async function check_write(check){
 }
 
 function login(){
-
+        alert("ログイン処理開始");
     email = document.getElementById("mail").value;
     password = document.getElementById("pass").value;
     firebase.auth().onAuthStateChanged(function(user) {
