@@ -36,8 +36,8 @@ function login(){
         get_return_from_python_first(object)
     } else {
         // 未ログインならログインページへ
-        console.log("未ログイン:", user.email);
-        alert("未ログイン:", user.email);
+        console.log("未ログイン");
+        alert("未ログイン");
         auth.signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             // ログイン成功
