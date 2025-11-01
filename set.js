@@ -27,6 +27,7 @@ function login(){
       if (user) {
         // ログイン済みならそのまま表示
         console.log("ログイ済み:", user.email);
+        alert("ログイ済み:", user.email);
         object={}
         object["disp_data"] = create_disp_data(-1);
         object["check"] = check_data
@@ -36,13 +37,14 @@ function login(){
     } else {
         // 未ログインならログインページへ
         console.log("未ログイン:", user.email);
+        alert("未ログイン:", user.email);
         auth.signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             // ログイン成功
             // message要素がないため、この行はコメントアウトまたはHTMLにmessage要素を追加してください
             // message.textContent = "ログインに成功しました！";
             console.log("ログイン成功", userCredential.user);
-
+            alert("ログイン成功", userCredential.user);
             object={}
             object["disp_data"] = create_disp_data(-1);
             object["check"] = check_data
@@ -74,6 +76,7 @@ function login(){
                 default:
                     // その他のエラー
                     console.error("その他のログインエラー:", error);
+                    alert("その他のログインエラー:", error);
                     break;
             }
 
