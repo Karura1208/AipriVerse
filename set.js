@@ -21,20 +21,41 @@ async function check_write(check){
 
 function  loginCheck(){
     alert("リログイン処理");
-    const user = firebase.auth().currentUser;
-    if(user){
-        // ログイン済みならそのまま表示
-        console.log("ログイ済み:", user.email);
-        alert("ログイ済み:", user.email);
+
+    firebase.auth().onAuthStateChanged((user) => {
+    if (user) {
+        // ユーザーがログインしている状態（復元後も含む）
+        // 例: ログイン後のページを表示、ユーザー情報を取得
+        alert("ログインユーザー:", user.uid);
         object={}
         object["disp_data"] = create_disp_data(-1);
         object["check"] = check_data
         let div_element = document.getElementById("id1");
-        div_element.remove()
-        get_return_from_python_first(object)
-    }else{
-        alert("未ログイ済みリログ処理");
+        if(div_element != null){
+            div_element.remove()
+            get_return_from_python_first(object)
+        }
+    } else {
+        // ユーザーがログアウトしている状態
+        // 例: ログインページにリダイレクト
+        alert("ログアウト状態");
     }
+    });
+
+// const user = firebase.auth().currentUser;
+//     if(user){
+//         // ログイン済みならそのまま表示
+//         console.log("ログイ済み:", user.email);
+//         alert("ログイ済み:", user.email);
+//         object={}
+//         object["disp_data"] = create_disp_data(-1);
+//         object["check"] = check_data
+//         let div_element = document.getElementById("id1");
+//         div_element.remove()
+//         get_return_from_python_first(object)
+//     }else{
+//         alert("未ログイ済みリログ処理");
+//     }
 }
 
 function login(){
@@ -56,8 +77,10 @@ function login(){
         object["disp_data"] = create_disp_data(-1);
         object["check"] = check_data
         let div_element = document.getElementById("id1");
-        div_element.remove()
-        get_return_from_python_first(object)
+        if(div_element != null){
+            div_element.remove()
+            get_return_from_python_first(object)
+        }
 
     })
     .catch((error) => {
