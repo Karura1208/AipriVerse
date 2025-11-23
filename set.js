@@ -20,7 +20,7 @@ async function check_write(check){
 }
 
 function  loginCheck(){
-    alert("リログイン処理");
+    //alert("リログイン処理");
 
     firebase.auth().onAuthStateChanged((user) => {
     if (user) {
@@ -2061,4 +2061,5 @@ $(function() {
 document.addEventListener('DOMContentLoaded', () => {
     // ⬇️ 💡 ここで関数が実行されます。
     loginCheck(); 
+
 });
