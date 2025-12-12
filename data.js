@@ -1,5 +1,5 @@
 let data = {
-    "now_version":10,
+    "now_version":11,
     "version":[
         { "value":0,"name": "スペシャルコーデアイテム"},
         { "value":1,"name": "１だん"},
@@ -11,7 +11,8 @@ let data = {
         { "value":7, "name":"リング１だん"},
         { "value":8, "name":"リング２だん"},
         { "value":9, "name":"リング３だん"},
-        { "value":10, "name":"リング４だん"}
+        { "value":10, "name":"リング４だん"},
+        { "value":11, "name":"リング５だん"}
     ],
     "vol":[
         {
@@ -1075,6 +1076,7 @@ let data = {
                 "dream",
                 "ring",
                 "ver10_1_rare4",
+                "itioshi_quartet",
                 "ver10_0_rare4",
                 "itioshi_jurielu",
                 "aikatu_pripara",
@@ -1115,6 +1117,11 @@ let data = {
                     "data":"じゅりあ＆える イチオシひろば",
                     "item_list":"itioshi_hiroba",
                     "idx_list":"itioshi_jurielu"
+                },                
+                "itioshi_quartet":{
+                    "data":"カルテットスター イチオシひろば",
+                    "item_list":"itioshi_hiroba",
+                    "idx_list":"itioshi_quartet"
                 },                
                 "aikatu_pripara":{
                     "data":"アイカツ！×プリパラひろば",
@@ -1166,6 +1173,9 @@ let data = {
                 "itioshi_jurielu":[
                     48,49,50,51,52,53,54,55
                 ], 
+                "itioshi_quartet":[
+                    56,57,58,59,60,61,62,63
+                ], 
                 "aikatu_pripara":[
                     24,25,26,27,28,29,5,6,10
                 ],
@@ -1183,6 +1193,106 @@ let data = {
                 ],
                 "shop_primagi":[
                     37,38,39,41,42,43
+                ]
+            }
+        },
+        {
+            "title":"アイプリバースリング５だん",
+            "version":11,
+            "category":[
+                "dream",
+                "ring",
+                "ver11_0_rare4",
+                "prichan",
+                "Tokisen_collabo",
+                "oshinoko_collabo",
+                "rare3",
+                "rare2",
+                // "shop_winter",
+                "shop_primagi"
+            ],
+            "data":{
+                "dream":{
+                    "data":"バズリウムドリーム",
+                    "item_list":"bazzrium_dream",
+                    "idx_list":"dream"
+                },
+                "ring":{
+                    "data":"プレミアムリングシリーズ",
+                    "item_list":"premium_ring",
+                    "idx_list":"ring"
+                },
+                "ver11_0_rare4":{
+                    "data":"リング５だん前半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_0"
+                },
+                "prichan":{
+                    "data":"キラッとプリ☆チャン",
+                    "item_list":"prichan",
+                    "idx_list":"prichan"
+                },
+                "rare3":{
+                    "data":"☆☆☆",
+                    "item_list":"rare3",
+                    "idx_list":"rare3"
+                },
+                "Tokisen_collabo":{
+                    "data":"超ときめき♡宣伝部コラボ",
+                    "item_list":"rare3",
+                    "idx_list":"Tokisen_collabo"
+                },
+                "oshinoko_collabo":{
+                    "data":"第5弾推しの子コラボ",
+                    "item_list":"rare3",
+                    "idx_list":"oshinoko_collabo"
+                },
+                "rare2":{
+                    "data":"☆☆",
+                    "item_list":"rare2",
+                    "idx_list":"rare2"
+                },
+                // "shop_winter":{
+                //     "data":"ショップ ふゆやすみキャンペーン",
+                //     "item_list":"shop",
+                //     "idx_list":"shop_winter"
+                // },
+                "shop_primagi":{
+                    "data":"ショップ ワッチャプリマジ！",
+                    "item_list":"shop",
+                    "idx_list":"shop_primagi"
+                }
+            },
+            "items_idx":{
+                "dream":[
+                    8,9
+                ],
+                "ring":[
+                    6,7
+                ],
+                "rare4_0":[
+                    213,214,215,216,217,218,219,220,221
+                ],
+                "prichan":[
+                    11,12,13,3
+                ],
+                "rare3":[
+                    154,155,156,157,158,159,160,161,162,163,164,165
+                ],
+                "Tokisen_collabo":[
+                    166,167
+                ],
+                "oshinoko_collabo":[
+                    168
+                ],
+                "rare2":[
+                    68,69,70,71,72,73,74
+                ],
+                "shop_winter":[
+                    40
+                ],
+                "shop_primagi":[
+                    44,45,46
                 ]
             }
         }

@@ -201,6 +201,7 @@ async function reload(){
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
                                 ){
                                     // ワンピ
                                     ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
@@ -365,6 +366,7 @@ async function reload(){
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
                                 ){
                                     //シューズ
                                     ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
@@ -820,6 +822,7 @@ function data_save(){
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
                         ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
+                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
                     ){
                         //ワンピ
                         let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
@@ -1251,6 +1254,7 @@ async function create_disp(){
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
                                 ){
                                     // ワンピ
                                     ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
@@ -1457,6 +1461,7 @@ async function create_disp(){
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
                                     ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
+                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
                                 ){
                                     //シューズ
                                     ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
