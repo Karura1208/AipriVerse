@@ -4871,7 +4871,7 @@ let item ={
         "number": 166,
         "name": "シンデレラのラララ ひとちゃん コーデ",
         "brand_name": "プリズムストーン",
-        "parts": 2,
+        "parts": 3,
         "total_id": 0,
         "total_image": "https://aipri.jp/verse/item/img/ring5/APR5-157.webp",
         "one_piece": "シンデレラのラララ ひとちゃん コーデワンピ",
@@ -4879,13 +4879,16 @@ let item ={
         "one_piece_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32510.webp",
         "accessary": "シンデレラのラララ ひとちゃん コーデアクセ",
         "accessary_id": "APR5-158",
-        "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32511.webp"
+        "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32511.webp",
+        "shoues": "シンデレラのラララ ひとちゃん コーデシューズ",
+        "shoues_id": "APR5-159",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32512.webp"
       },
       {
         "number": 167,
         "name": "シンデレラのラララ おはる コーデ",
         "brand_name": "プリズムストーン",
-        "parts": 2,
+        "parts": 3,
         "total_id": 0,
         "total_image": "https://aipri.jp/verse/item/img/ring5/APR5-160.webp",
         "one_piece": "シンデレラのラララ おはる コーデワンピ",
@@ -4893,7 +4896,10 @@ let item ={
         "one_piece_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32513.webp",
         "accessary": "シンデレラのラララ おはる コーデアクセ",
         "accessary_id": "APR5-161",
-        "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32514.webp"
+        "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32514.webp",
+        "shoues": "シンデレラのラララ おはる コーデシューズ",
+        "shoues_id": "APR5-162",
+        "shoues_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32515.webp"
       },
       {
         "number": 168,
