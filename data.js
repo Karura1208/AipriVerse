@@ -1203,7 +1203,8 @@ let data = {
                 "dream",
                 "ring",
                 "ver11_0_rare4",
-                "prichan",
+                "prichan",                
+                "itioshi_otosuba",
                 "Tokisen_collabo",
                 "oshinoko_collabo",
                 "rare3",
@@ -1252,6 +1253,11 @@ let data = {
                     "item_list":"rare2",
                     "idx_list":"rare2"
                 },
+                "itioshi_otosuba":{
+                    "data":"すばる＆おとめ イチオシひろば",
+                    "item_list":"itioshi_hiroba",
+                    "idx_list":"itioshi_otosuba"
+                },
                 // "shop_winter":{
                 //     "data":"ショップ ふゆやすみキャンペーン",
                 //     "item_list":"shop",
@@ -1272,6 +1278,9 @@ let data = {
                 ],
                 "rare4_0":[
                     213,214,215,216,217,218,219,220,221
+                ],
+                "itioshi_otosuba":[
+                    64,65,67,68,69,70,71
                 ],
                 "prichan":[
                     11,12,13,3
