@@ -121,9 +121,14 @@ function login(){
     });
 }
 
+let currentRequestId = 0; // 現在の最新リクエストIDを保持
 
 // チェックデータ読み込み
 async function reload(){
+
+    // 1. リクエスト開始時にIDをインクリメントし、この関数内でのIDを固定する
+    const thisRequestId = ++currentRequestId;
+    console.log(`リクエスト開始: ID ${thisRequestId}`);
 
     let select = document.querySelector('[name="ver_select"]');
     // スペシャル以外
@@ -160,6 +165,13 @@ async function reload(){
                                     ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                                     checkDoc = await checkDocRef.get()
+
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -180,6 +192,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -208,6 +227,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -227,6 +253,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -252,6 +285,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -270,6 +310,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -307,6 +354,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -326,6 +380,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -345,7 +406,14 @@ async function reload(){
                                 ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
                                 console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
                                 checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -373,6 +441,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -392,6 +467,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -428,6 +510,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -447,6 +536,13 @@ async function reload(){
                                     console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
                                     checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
@@ -466,7 +562,14 @@ async function reload(){
                                 ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
                                 console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
                                 checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -488,7 +591,14 @@ async function reload(){
                                 ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id);
                                 console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
                                 checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -528,7 +638,14 @@ async function reload(){
                             if (item_cnt == 3){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].one_piece_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].one_piece_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -543,7 +660,14 @@ async function reload(){
                             else if(item_cnt == 4 ){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].tops_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].tops_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -558,7 +682,14 @@ async function reload(){
                             else if(item_cnt == 1){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -576,7 +707,14 @@ async function reload(){
                             if (item_cnt == 3){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].shoues_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].shoues_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -591,7 +729,14 @@ async function reload(){
                             else if(item_cnt == 4){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].bottoms_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].bottoms_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -606,7 +751,14 @@ async function reload(){
                             else if(item_cnt == 2){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -624,7 +776,14 @@ async function reload(){
                             if (item_cnt == 3){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -639,7 +798,14 @@ async function reload(){
                             else if(item_cnt == 4){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].shoues_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].shoues_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -657,7 +823,14 @@ async function reload(){
                             if (item_cnt == 4){
                                 ch = document.getElementById(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
-                                checkDoc = await checkDocRef.get()
+                                    checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
