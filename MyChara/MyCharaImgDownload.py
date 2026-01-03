@@ -13,9 +13,6 @@ import time
 
 def download():
 
-    getingDate = input("取得する年月を入れてね！ (yyyymm)") 
-    getingCharactor= input("取得するマイキャラ名を入れてね！")
-
     #Exe化でカレントディレクトリが変わるため、パスの先頭に追加する
     dpath = os.path.dirname(sys.argv[0]) 
 
@@ -24,14 +21,23 @@ def download():
     with open(MyChara_filePath,encoding="utf-8") as f:
         dict_MyChara = json.load(f)
 
-    #
+    #マイキャラ情報の取得
+    i=0
+    SaveCodeID=[]
+    MyCharaName=[]
+    BirthMonth=[]
+    BirthDay=[]
     for MyChara in dict_MyChara["MyCharactor"]:
-        if MyChara["MyCharaName"] == getingCharactor:
-            SaveCodeID = MyChara["SaveCodeID"]
-            MyCharaName = MyChara["MyCharaName"]
-            BirthMonth = MyChara["MyCharaBirthMonth"] 
-            BirthDay = MyChara["MyCharaBirthDay"] 
-
+        SaveCodeID.append(MyChara["SaveCodeID"])
+        MyCharaName.append(MyChara["MyCharaName"])
+        BirthMonth.append(MyChara["MyCharaBirthMonth"] )
+        BirthDay.append(MyChara["MyCharaBirthDay"])
+        print(str(i) + ":" + MyCharaName[i])        
+        i=i+1
+    
+    getingDate = input("取得する年月を入れてね！ (yyyymm)") 
+    getingCharactorNumber = input("取得するマイキャラの番号を入れてね！")
+            
     #クロームの立ち上げ
     driver=webdriver.Chrome()
 
@@ -43,20 +49,20 @@ def download():
     driver.get(url)
     
     target = driver.find_element(By.XPATH,"/html/body/div[1]/main/div[2]/div/div[1]/div/div[1]/div/form/div[1]/div/input")
-    target.send_keys(SaveCodeID)
+    target.send_keys(SaveCodeID[int(getingCharactorNumber)])
     target = driver.find_element(By.XPATH,"/html/body/div[1]/main/div[2]/div/div[1]/div/div[1]/div/form/div[2]/input")
-    target.send_keys(MyCharaName)
+    target.send_keys(MyCharaName[int(getingCharactorNumber)])
     target = driver.find_element(By.XPATH,"/html/body/div[1]/main/div[2]/div/div[1]/div/div[1]/div/form/div[3]/div/div[1]/input")
-    target.send_keys(BirthMonth)
+    target.send_keys(BirthMonth[int(getingCharactorNumber)])
     target = driver.find_element(By.XPATH,"/html/body/div[1]/main/div[2]/div/div[1]/div/div[1]/div/form/div[3]/div/div[2]/input")
-    target.send_keys(BirthDay)
+    target.send_keys(BirthDay[int(getingCharactorNumber)])
     btn = driver.find_element(By.XPATH,"/html/body/div[1]/main/div[2]/div/div[1]/div/div[1]/div/form/div[4]/button").click()
 
     # ログイン後のページ遷移を待つ
     wait.until(EC.url_contains("/mypage"))
     print(driver.current_url)
     #キャラの月のフォルダ作成
-    dirMonth = "/" + getingCharactor + "/" + str(getingDate) + "/"
+    dirMonth = "/" + MyCharaName[int(getingCharactorNumber)] + "/" + str(getingDate) + "/"
     if os.path.isdir(dpath + dirMonth) == False:
         os.makedirs(dpath + dirMonth)
 
