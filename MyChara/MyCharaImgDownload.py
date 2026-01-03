@@ -2,11 +2,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 import urllib
 import os
 import sys
 import json
+import time 
 
 def download():
 
@@ -14,7 +17,7 @@ def download():
     getingCharactor= input("取得するマイキャラ名を入れてね！")
 
     #Exe化でカレントディレクトリが変わるため、パスの先頭に追加する
-    dpath = os.path.dirname(sys.argv[0])
+    dpath = os.path.dirname(sys.argv[0]) 
 
     #マイキャラ情報ファイルの取得
     MyChara_filePath = dpath + "\MyChara.json"
@@ -32,6 +35,8 @@ def download():
     #クロームの立ち上げ
     driver=webdriver.Chrome()
 
+    #処理待機用
+    wait = WebDriverWait(driver, 60)
 
     #マイキャラルームログイン
     url  =  "https://aipri.jp/mypage/login/"
@@ -47,17 +52,29 @@ def download():
     target.send_keys(BirthDay)
     btn = driver.find_element(By.XPATH,"/html/body/div[1]/main/div[2]/div/div[1]/div/div[1]/div/form/div[4]/button").click()
 
-
+    # ログイン後のページ遷移を待つ
+    wait.until(EC.url_contains("/mypage"))
+    print(driver.current_url)
     #キャラの月のフォルダ作成
     dirMonth = "/" + getingCharactor + "/" + str(getingDate) + "/"
     if os.path.isdir(dpath + dirMonth) == False:
         os.makedirs(dpath + dirMonth)
 
     monthUrl = "https://aipri.jp/mypage/myphoto/?setDate=" + str(getingDate)
+    time.sleep(5)
     driver.get(monthUrl)
 
+    wait.until(EC.url_contains(getingDate))
+
+    #★★★ここにブレイクポイントつけると失敗しにくい、Sleepじゃダメだった。
     #プリフォトのliのリスト取得
-    liElements = driver.find_elements(By.XPATH,"/html/body/div[1]/main/div[2]/div/section/div/div[3]/ul/li")
+    #ページの生成を待つ
+    liElements = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "/html/body/div[1]/main/div[2]/div/section/div/div[3]/ul/li")
+        )
+    )
+    #liElements = driver.find_elements(By.XPATH,"/html/body/div[1]/main/div[2]/div/section/div/div[3]/ul/li")
 
     i = 0
 
@@ -76,7 +93,7 @@ def download():
         #画像詳細のページへ移動
         driver.get(urlText)
 
-        #画像詳細ページから画像srcの取得
+        #画像詳細ページから画像の取得
         imgElement = driver.find_element(By.XPATH,"/html/body/div[1]/main/div[2]/div/section/div/div[1]/div[1]/div[1]/div/img")  
         imgUrl = imgElement.get_attribute("src")
 
