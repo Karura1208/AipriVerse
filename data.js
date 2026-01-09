@@ -21,9 +21,9 @@ let data = {
             "category":[
                 "primagi_campaign",
                 "verse_code",
-                "Aipri_1",
-                "Aipri_2",
-                "Aipri_3",
+                // "Aipri_1",
+                // "Aipri_2",
+                // "Aipri_3",
                 "gumi",
                 "furoku",
                 "fanbook",
@@ -1202,9 +1202,9 @@ let data = {
             "category":[
                 "dream",
                 "ring",
+                "ver11_1_rare4",
                 "ver11_0_rare4",
-                "prichan",                
-                "itioshi_otosuba",
+                "prichan",
                 "Tokisen_collabo",
                 "oshinoko_collabo",
                 "rare3",
@@ -1222,6 +1222,11 @@ let data = {
                     "data":"プレミアムリングシリーズ",
                     "item_list":"premium_ring",
                     "idx_list":"ring"
+                },
+                "ver11_1_rare4":{
+                    "data":"リング５だん後半☆☆☆☆ピックアップ",
+                    "item_list":"rare4",
+                    "idx_list":"rare4_1"
                 },
                 "ver11_0_rare4":{
                     "data":"リング５だん前半☆☆☆☆ピックアップ",
@@ -1253,11 +1258,6 @@ let data = {
                     "item_list":"rare2",
                     "idx_list":"rare2"
                 },
-                "itioshi_otosuba":{
-                    "data":"すばる＆おとめ イチオシひろば",
-                    "item_list":"itioshi_hiroba",
-                    "idx_list":"itioshi_otosuba"
-                },
                 // "shop_winter":{
                 //     "data":"ショップ ふゆやすみキャンペーン",
                 //     "item_list":"shop",
@@ -1276,11 +1276,11 @@ let data = {
                 "ring":[
                     6,7
                 ],
+                "rare4_1":[
+                    222,223,224,225,226,227,228,229,230
+                ],
                 "rare4_0":[
                     213,214,215,216,217,218,219,220,221
-                ],
-                "itioshi_otosuba":[
-                    64,65,66,67,68,69,70,71
                 ],
                 "prichan":[
                     11,12,13,3
@@ -1301,7 +1301,7 @@ let data = {
                     40
                 ],
                 "shop_primagi":[
-                    44,45,46
+                    44,45,46,48,49,50
                 ]
             }
         }
@@ -1478,291 +1478,6 @@ let data = {
                     "shoues_id":"Blu-016",
                     "accessary_id":"Blu-017",
                     "parts":3
-                }
-            ]
-        },
-        {
-            "title":"ひみつのアイプリ１だん",
-            "item_list":[
-                {
-                    "name":"ラブリーアイドルピンク",
-                    "total_id":"AP1-001F",
-                    "total_image":"https://aipri.jp/card/img/4/AP4-053_O.webp",
-                    "tops" : "ラブリーアイドルピンクトップス",
-                    "bottoms":"ラブリーアイドルピンクボトムス",
-                    "shoues" : "ラブリーアイドルピンクシューズ",
-                    "accessary" : "ラブリーアイドルピンクアクセ",
-                    "tops_id":"AP1-001",
-                    "bottoms_id" : "AP1-002",
-                    "shoues_id":"AP1-003",
-                    "accessary_id":"AP1-004",
-                    "parts":4
-                },
-                {
-                    "name":"ラブリーアイドルブルー",
-                    "total_id":"AP1-002F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-044_O.webp",
-                    "tops" : "ラブリーアイドルブルートップス",
-                    "bottoms":"ラブリーアイドルブルーボトムス",
-                    "shoues" : "ラブリーアイドルブルーシューズ",
-                    "accessary" : "ラブリーアイドルブルーアクセ",
-                    "tops_id":"AP1-005",
-                    "bottoms_id" : "AP1-006",
-                    "shoues_id":"AP1-007",
-                    "accessary_id":"AP1-008",
-                    "parts":4
-                },
-                {
-                    "name":"クールアイドルピンク",
-                    "total_id":"AP1-003F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-045_O.webp",
-                    "tops" : "クールアイドルピンクトップス",
-                    "bottoms":"クールアイドルピンクボトムス",
-                    "shoues" : "クールアイドルピンクシューズ",
-                    "accessary" : "クールアイドルピンクアクセ",
-                    "tops_id":"AP1-009",
-                    "bottoms_id" : "AP1-010",
-                    "shoues_id":"AP1-011",
-                    "accessary_id":"AP1-012",
-                    "parts":4
-                },
-                {
-                    "name":"クールアイドルブルー",
-                    "total_id":"AP1-004F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-048_O.webp",
-                    "tops" : "クールアイドルブルートップス",
-                    "bottoms":"クールアイドルブルーボトムス",
-                    "shoues" : "クールアイドルブルーシューズ",
-                    "accessary" : "クールアイドルブルーアクセ",
-                    "tops_id":"AP1-013",
-                    "bottoms_id" : "AP1-014",
-                    "shoues_id":"AP1-015",
-                    "accessary_id":"AP1-016",
-                    "parts":4
-                },
-                {
-                    "name":"クールアイドルレッド",
-                    "total_id":"AP1-005F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-049_O.webp",
-                    "tops" : "クールアイドルレッドトップス",
-                    "bottoms":"クールアイドルレッドボトムス",
-                    "shoues" : "クールアイドルレッドシューズ",
-                    "accessary" : "クールアイドルレッドアクセ",
-                    "tops_id":"AP1-017",
-                    "bottoms_id" : "AP1-018",
-                    "shoues_id":"AP1-019",
-                    "accessary_id":"AP1-020",
-                    "parts":4
-                },
-                {
-                    "name":"ハッピーチアピンク",
-                    "total_id":"AP1-006F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-050_O.webp",
-                    "tops" : "ハッピーチアピンクトップス",
-                    "bottoms":"ハッピーチアピンクボトムス",
-                    "shoues" : "ハッピーチアピンクシューズ",
-                    "accessary" : "ハッピーチアピンクアクセ",
-                    "tops_id":"AP1-021",
-                    "bottoms_id" : "AP1-022",
-                    "shoues_id":"AP1-023",
-                    "accessary_id":"AP1-024",
-                    "parts":4
-                },
-                {
-                    "name":"ハッピーチアブルー",
-                    "total_id":"AP1-007F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-053_O.webp",
-                    "tops" : "ハッピーチアブルートップス",
-                    "bottoms":"ハッピーチアブルーボトムス",
-                    "shoues" : "ハッピーチアブルーシューズ",
-                    "accessary" : "ハッピーチアブルーアクセ",
-                    "tops_id":"AP1-025",
-                    "bottoms_id" : "AP1-026",
-                    "shoues_id":"AP1-027",
-                    "accessary_id":"AP1-028",
-                    "parts":4
-                },
-                {
-                    "name":"セーラーカジュアルピンク",
-                    "total_id":"AP1-008F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-055_O.webp",
-                    "tops" : "セーラーカジュアルピンクトップス",
-                    "bottoms":"セーラーカジュアルピンクボトムス",
-                    "shoues" : "セーラーカジュアルピンクシューズ",
-                    "accessary" : "セーラーカジュアルピンクアクセ",
-                    "tops_id":"AP1-029",
-                    "bottoms_id" : "AP1-030",
-                    "shoues_id":"AP1-031",
-                    "accessary_id":"AP1-032",
-                    "parts":4
-                },
-                {
-                    "name":"セーラーカジュアルブルー",
-                    "total_id":"AP1-009F",
-                    "total_image":"https://aipri.jp/card/img/1/AP1-056_O.webp",
-                    "tops" : "セーラーカジュアルブルートップス",
-                    "bottoms":"セーラーカジュアルブルーボトムス",
-                    "shoues" : "セーラーカジュアルブルーシューズ",
-                    "accessary" : "セーラーカジュアルブルーアクセ",
-                    "tops_id":"AP1-033",
-                    "bottoms_id" : "AP1-034",
-                    "shoues_id":"AP1-035",
-                    "accessary_id":"AP1-036",
-                    "parts":4
-                }
-            ]
-        },
-        {
-            "title":"ひみつのアイプリ２だん",
-            "item_list":[
-                {
-                    "name":"ラブリーアイドルイエロー",
-                    "total_id":"AP2-001F",
-                    "total_image":"https://aipri.jp/card/img/4/AP4-055_O.webp",
-                    "tops" : "ラブリーアイドルイエロートップス",
-                    "bottoms":"ラブリーアイドルイエローボトムス",
-                    "shoues" : "ラブリーアイドルイエローシューズ",
-                    "accessary" : "ラブリーアイドルイエローアクセ",
-                    "tops_id":"AP2-001",
-                    "bottoms_id" : "AP2-002",
-                    "shoues_id":"AP2-003",
-                    "accessary_id":"AP2-004",
-                    "parts":4
-                },
-                {
-                    "name":"ラブリーアイドルネイビー",
-                    "total_id":"AP2-002F",
-                    "total_image":"https://aipri.jp/card/img/4/AP4-056_O.webp",
-                    "tops" : "ラブリーアイドルネイビートップス",
-                    "bottoms":"ラブリーアイドルネイビーボトムス",
-                    "shoues" : "ラブリーアイドルネイビーシューズ",
-                    "accessary" : "ラブリーアイドルネイビーアクセ",
-                    "tops_id":"AP2-005",
-                    "bottoms_id" : "AP2-006",
-                    "shoues_id":"AP2-007",
-                    "accessary_id":"AP2-008",
-                    "parts":4
-                },
-                {
-                    "name":"ハッピーチアイエロー",
-                    "total_id":"AP2-003F",
-                    "total_image":"https://aipri.jp/card/img/2/AP2-050_O.webp",
-                    "tops" : "ハッピーチアイエロートップス",
-                    "bottoms":"ハッピーチアイエローボトムス",
-                    "shoues" : "ハッピーチアイエローシューズ",
-                    "accessary" : "ハッピーチアイエローアクセ",
-                    "tops_id":"AP2-009",
-                    "bottoms_id" : "AP2-010",
-                    "shoues_id":"AP2-011",
-                    "accessary_id":"AP2-012",
-                    "parts":4
-                },
-                {
-                    "name":"セーラーカジュアルネイビー",
-                    "total_id":"AP2-004F",
-                    "total_image":"https://aipri.jp/card/img/2/AP2-051_O.webp",
-                    "tops" : "セーラーカジュアルネイビートップス",
-                    "bottoms":"セーラーカジュアルネイビーボトムス",
-                    "shoues" : "セーラーカジュアルネイビーシューズ",
-                    "accessary" : "セーラーカジュアルネイビーアクセ",
-                    "tops_id":"AP2-013",
-                    "bottoms_id" : "AP2-014",
-                    "shoues_id":"AP2-015",
-                    "accessary_id":"AP2-016",
-                    "parts":4
-                },
-                {
-                    "name":"チューリップピンク",
-                    "total_id":"AP2-005F",
-                    "total_image":"https://aipri.jp/card/img/2/AP2-052_O.webp",
-                    "one_piece" : "チューリップピンクワンピ",
-                    "shoues" : "チューリップピンクシューズ",
-                    "accessary" : "チューリップピンクアクセ",
-                    "one_piece_id":"AP2-017",
-                    "shoues_id":"AP2-018",
-                    "accessary_id":"AP2-019",
-                    "parts":3
-                },
-                {
-                    "name":"チューリップブルー",
-                    "total_id":"AP2-006F",
-                    "total_image":"https://aipri.jp/card/img/2/AP2-053_O.webp",
-                    "one_piece" : "チューリップブルーワンピ",
-                    "shoues" : "チューリップブルーシューズ",
-                    "accessary" : "チューリップブルーアクセ",
-                    "one_piece_id":"AP2-020",
-                    "shoues_id":"AP2-021",
-                    "accessary_id":"AP2-022",
-                    "parts":3
-                },
-                {
-                    "name":"チューリップイエロー",
-                    "total_id":"AP2-007F",
-                    "total_image":"https://aipri.jp/card/img/2/AP2-054_O.webp",
-                    "one_piece" : "チューリップイエローワンピ",
-                    "shoues" : "チューリップイエローシューズ",
-                    "accessary" : "チューリップイエローアクセ",
-                    "one_piece_id":"AP2-023",
-                    "shoues_id":"AP2-024",
-                    "accessary_id":"AP2-025",
-                    "parts":3
-                },
-                {
-                    "name":"チューリップレッド",
-                    "total_id":"AP2-008F",
-                    "total_image":"https://aipri.jp/card/img/2/AP2-055_O.webp",
-                    "one_piece" : "チューリップレッドワンピ",
-                    "shoues" : "チューリップレッドシューズ",
-                    "accessary" : "チューリップレッドアクセ",
-                    "one_piece_id":"AP2-026",
-                    "shoues_id":"AP2-027",
-                    "accessary_id":"AP2-028",
-                    "parts":3
-                },
-                {
-                    "name":"チューリップネイビー",
-                    "total_id":"AP2-009F",
-                    "total_image":"https://aipri.jp/card/img/2/AP2-056_O.webp",
-                    "one_piece" : "チューリップネイビーワンピ",
-                    "shoues" : "チューリップネイビーシューズ",
-                    "accessary" : "チューリップネイビーアクセ",
-                    "one_piece_id":"AP2-029",
-                    "shoues_id":"AP2-030",
-                    "accessary_id":"AP2-031",
-                    "parts":3
-                }
-            ]
-        },
-        {
-            "title":"ひみつのアイプリ3だん",
-            "item_list":[
-                {
-                    "name":"スターメロディレッド",
-                    "total_id":"AP3-001F",
-                    "total_image":"https://aipri.jp/card/img/3/AP3-037_O.webp",
-                    "tops" : "スターメロディレッドトップス",
-                    "bottoms":"スターメロディレッドボトムス",
-                    "shoues" : "スターメロディレッドシューズ",
-                    "accessary" : "スターメロディレッドアクセ",
-                    "tops_id":"AP3-001",
-                    "bottoms_id" : "AP3-002",
-                    "shoues_id":"AP3-003",
-                    "accessary_id":"AP3-004",
-                    "parts":4
-                },
-                {
-                    "name":"ハートメロディネイビー",
-                    "total_id":"AP3-002F",
-                    "total_image":"https://aipri.jp/card/img/3/AP3-038_O.webp",
-                    "tops" : "ハートメロディネイビートップス",
-                    "bottoms":"ハートメロディネイビーボトムス",
-                    "shoues" : "ハートメロディネイビーシューズ",
-                    "accessary" : "ハートメロディネイビーアクセ",
-                    "tops_id":"AP3-005",
-                    "bottoms_id" : "AP3-006",
-                    "shoues_id":"AP3-007",
-                    "accessary_id":"AP3-008",
-                    "parts":4
                 }
             ]
         },
@@ -2304,6 +2019,18 @@ let data = {
                     "shoues_id":"fan-026",
                     "accessary_id":"fan-027",
                     "parts":4
+                },
+                {
+                    "name":"ひみつのクリスマスイエロー",
+                    "total_id":"fan-008F",
+                    "total_image":"https://aipri.jp/card/img/special/P-224_O.webp",
+                    "one_piece" : "ひみつのクリスマスイエローワンピ",
+                    "shoues" : "ひみつのクリスマスイエローシューズ",
+                    "accessary" : "ひみつのクリスマスイエローアクセ",
+                    "one_piece_id":"fan-028",
+                    "shoues_id":"fan-029",
+                    "accessary_id":"fan-030",
+                    "parts":3
                 }
             ]
         },
@@ -2772,6 +2499,18 @@ let data = {
                     "one_piece_id":"mise-042",
                     "shoues_id":"mise-043",
                     "accessary_id":"mise-044",
+                    "parts":3
+                },
+                {
+                    "name":"メロディバズリウムアンサンブルミルキーブルー",
+                    "total_id":"mise-013F",
+                    "total_image":"https://aipri.jp/card/img/special/P-229_O.webp",
+                    "one_piece" : "メロディバズリウムアンサンブルミルキーブルーワンピ",
+                    "shoues" : "メロディバズリウムアンサンブルミルキーブルーシューズ",
+                    "accessary" : "メロディバズリウムアンサンブルミルキーブルーアクセ",
+                    "one_piece_id":"mise-045",
+                    "shoues_id":"mise-046",
+                    "accessary_id":"mise-047",
                     "parts":3
                 }
             ]
@@ -4075,6 +3814,290 @@ let data = {
                 }
             ]
         }
+        // {
+        //     "title":"ひみつのアイプリ１だん",
+        //     "item_list":[
+        //         {
+        //             "name":"ラブリーアイドルピンク",
+        //             "total_id":"AP1-001F",
+        //             "total_image":"https://aipri.jp/card/img/4/AP4-053_O.webp",
+        //             "tops" : "ラブリーアイドルピンクトップス",
+        //             "bottoms":"ラブリーアイドルピンクボトムス",
+        //             "shoues" : "ラブリーアイドルピンクシューズ",
+        //             "accessary" : "ラブリーアイドルピンクアクセ",
+        //             "tops_id":"AP1-001",
+        //             "bottoms_id" : "AP1-002",
+        //             "shoues_id":"AP1-003",
+        //             "accessary_id":"AP1-004",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"ラブリーアイドルブルー",
+        //             "total_id":"AP1-002F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-044_O.webp",
+        //             "tops" : "ラブリーアイドルブルートップス",
+        //             "bottoms":"ラブリーアイドルブルーボトムス",
+        //             "shoues" : "ラブリーアイドルブルーシューズ",
+        //             "accessary" : "ラブリーアイドルブルーアクセ",
+        //             "tops_id":"AP1-005",
+        //             "bottoms_id" : "AP1-006",
+        //             "shoues_id":"AP1-007",
+        //             "accessary_id":"AP1-008",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"クールアイドルピンク",
+        //             "total_id":"AP1-003F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-045_O.webp",
+        //             "tops" : "クールアイドルピンクトップス",
+        //             "bottoms":"クールアイドルピンクボトムス",
+        //             "shoues" : "クールアイドルピンクシューズ",
+        //             "accessary" : "クールアイドルピンクアクセ",
+        //             "tops_id":"AP1-009",
+        //             "bottoms_id" : "AP1-010",
+        //             "shoues_id":"AP1-011",
+        //             "accessary_id":"AP1-012",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"クールアイドルブルー",
+        //             "total_id":"AP1-004F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-048_O.webp",
+        //             "tops" : "クールアイドルブルートップス",
+        //             "bottoms":"クールアイドルブルーボトムス",
+        //             "shoues" : "クールアイドルブルーシューズ",
+        //             "accessary" : "クールアイドルブルーアクセ",
+        //             "tops_id":"AP1-013",
+        //             "bottoms_id" : "AP1-014",
+        //             "shoues_id":"AP1-015",
+        //             "accessary_id":"AP1-016",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"クールアイドルレッド",
+        //             "total_id":"AP1-005F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-049_O.webp",
+        //             "tops" : "クールアイドルレッドトップス",
+        //             "bottoms":"クールアイドルレッドボトムス",
+        //             "shoues" : "クールアイドルレッドシューズ",
+        //             "accessary" : "クールアイドルレッドアクセ",
+        //             "tops_id":"AP1-017",
+        //             "bottoms_id" : "AP1-018",
+        //             "shoues_id":"AP1-019",
+        //             "accessary_id":"AP1-020",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"ハッピーチアピンク",
+        //             "total_id":"AP1-006F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-050_O.webp",
+        //             "tops" : "ハッピーチアピンクトップス",
+        //             "bottoms":"ハッピーチアピンクボトムス",
+        //             "shoues" : "ハッピーチアピンクシューズ",
+        //             "accessary" : "ハッピーチアピンクアクセ",
+        //             "tops_id":"AP1-021",
+        //             "bottoms_id" : "AP1-022",
+        //             "shoues_id":"AP1-023",
+        //             "accessary_id":"AP1-024",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"ハッピーチアブルー",
+        //             "total_id":"AP1-007F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-053_O.webp",
+        //             "tops" : "ハッピーチアブルートップス",
+        //             "bottoms":"ハッピーチアブルーボトムス",
+        //             "shoues" : "ハッピーチアブルーシューズ",
+        //             "accessary" : "ハッピーチアブルーアクセ",
+        //             "tops_id":"AP1-025",
+        //             "bottoms_id" : "AP1-026",
+        //             "shoues_id":"AP1-027",
+        //             "accessary_id":"AP1-028",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"セーラーカジュアルピンク",
+        //             "total_id":"AP1-008F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-055_O.webp",
+        //             "tops" : "セーラーカジュアルピンクトップス",
+        //             "bottoms":"セーラーカジュアルピンクボトムス",
+        //             "shoues" : "セーラーカジュアルピンクシューズ",
+        //             "accessary" : "セーラーカジュアルピンクアクセ",
+        //             "tops_id":"AP1-029",
+        //             "bottoms_id" : "AP1-030",
+        //             "shoues_id":"AP1-031",
+        //             "accessary_id":"AP1-032",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"セーラーカジュアルブルー",
+        //             "total_id":"AP1-009F",
+        //             "total_image":"https://aipri.jp/card/img/1/AP1-056_O.webp",
+        //             "tops" : "セーラーカジュアルブルートップス",
+        //             "bottoms":"セーラーカジュアルブルーボトムス",
+        //             "shoues" : "セーラーカジュアルブルーシューズ",
+        //             "accessary" : "セーラーカジュアルブルーアクセ",
+        //             "tops_id":"AP1-033",
+        //             "bottoms_id" : "AP1-034",
+        //             "shoues_id":"AP1-035",
+        //             "accessary_id":"AP1-036",
+        //             "parts":4
+        //         }
+        //     ]
+        // },
+        // {
+        //     "title":"ひみつのアイプリ２だん",
+        //     "item_list":[
+        //         {
+        //             "name":"ラブリーアイドルイエロー",
+        //             "total_id":"AP2-001F",
+        //             "total_image":"https://aipri.jp/card/img/4/AP4-055_O.webp",
+        //             "tops" : "ラブリーアイドルイエロートップス",
+        //             "bottoms":"ラブリーアイドルイエローボトムス",
+        //             "shoues" : "ラブリーアイドルイエローシューズ",
+        //             "accessary" : "ラブリーアイドルイエローアクセ",
+        //             "tops_id":"AP2-001",
+        //             "bottoms_id" : "AP2-002",
+        //             "shoues_id":"AP2-003",
+        //             "accessary_id":"AP2-004",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"ラブリーアイドルネイビー",
+        //             "total_id":"AP2-002F",
+        //             "total_image":"https://aipri.jp/card/img/4/AP4-056_O.webp",
+        //             "tops" : "ラブリーアイドルネイビートップス",
+        //             "bottoms":"ラブリーアイドルネイビーボトムス",
+        //             "shoues" : "ラブリーアイドルネイビーシューズ",
+        //             "accessary" : "ラブリーアイドルネイビーアクセ",
+        //             "tops_id":"AP2-005",
+        //             "bottoms_id" : "AP2-006",
+        //             "shoues_id":"AP2-007",
+        //             "accessary_id":"AP2-008",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"ハッピーチアイエロー",
+        //             "total_id":"AP2-003F",
+        //             "total_image":"https://aipri.jp/card/img/2/AP2-050_O.webp",
+        //             "tops" : "ハッピーチアイエロートップス",
+        //             "bottoms":"ハッピーチアイエローボトムス",
+        //             "shoues" : "ハッピーチアイエローシューズ",
+        //             "accessary" : "ハッピーチアイエローアクセ",
+        //             "tops_id":"AP2-009",
+        //             "bottoms_id" : "AP2-010",
+        //             "shoues_id":"AP2-011",
+        //             "accessary_id":"AP2-012",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"セーラーカジュアルネイビー",
+        //             "total_id":"AP2-004F",
+        //             "total_image":"https://aipri.jp/card/img/2/AP2-051_O.webp",
+        //             "tops" : "セーラーカジュアルネイビートップス",
+        //             "bottoms":"セーラーカジュアルネイビーボトムス",
+        //             "shoues" : "セーラーカジュアルネイビーシューズ",
+        //             "accessary" : "セーラーカジュアルネイビーアクセ",
+        //             "tops_id":"AP2-013",
+        //             "bottoms_id" : "AP2-014",
+        //             "shoues_id":"AP2-015",
+        //             "accessary_id":"AP2-016",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"チューリップピンク",
+        //             "total_id":"AP2-005F",
+        //             "total_image":"https://aipri.jp/card/img/2/AP2-052_O.webp",
+        //             "one_piece" : "チューリップピンクワンピ",
+        //             "shoues" : "チューリップピンクシューズ",
+        //             "accessary" : "チューリップピンクアクセ",
+        //             "one_piece_id":"AP2-017",
+        //             "shoues_id":"AP2-018",
+        //             "accessary_id":"AP2-019",
+        //             "parts":3
+        //         },
+        //         {
+        //             "name":"チューリップブルー",
+        //             "total_id":"AP2-006F",
+        //             "total_image":"https://aipri.jp/card/img/2/AP2-053_O.webp",
+        //             "one_piece" : "チューリップブルーワンピ",
+        //             "shoues" : "チューリップブルーシューズ",
+        //             "accessary" : "チューリップブルーアクセ",
+        //             "one_piece_id":"AP2-020",
+        //             "shoues_id":"AP2-021",
+        //             "accessary_id":"AP2-022",
+        //             "parts":3
+        //         },
+        //         {
+        //             "name":"チューリップイエロー",
+        //             "total_id":"AP2-007F",
+        //             "total_image":"https://aipri.jp/card/img/2/AP2-054_O.webp",
+        //             "one_piece" : "チューリップイエローワンピ",
+        //             "shoues" : "チューリップイエローシューズ",
+        //             "accessary" : "チューリップイエローアクセ",
+        //             "one_piece_id":"AP2-023",
+        //             "shoues_id":"AP2-024",
+        //             "accessary_id":"AP2-025",
+        //             "parts":3
+        //         },
+        //         {
+        //             "name":"チューリップレッド",
+        //             "total_id":"AP2-008F",
+        //             "total_image":"https://aipri.jp/card/img/2/AP2-055_O.webp",
+        //             "one_piece" : "チューリップレッドワンピ",
+        //             "shoues" : "チューリップレッドシューズ",
+        //             "accessary" : "チューリップレッドアクセ",
+        //             "one_piece_id":"AP2-026",
+        //             "shoues_id":"AP2-027",
+        //             "accessary_id":"AP2-028",
+        //             "parts":3
+        //         },
+        //         {
+        //             "name":"チューリップネイビー",
+        //             "total_id":"AP2-009F",
+        //             "total_image":"https://aipri.jp/card/img/2/AP2-056_O.webp",
+        //             "one_piece" : "チューリップネイビーワンピ",
+        //             "shoues" : "チューリップネイビーシューズ",
+        //             "accessary" : "チューリップネイビーアクセ",
+        //             "one_piece_id":"AP2-029",
+        //             "shoues_id":"AP2-030",
+        //             "accessary_id":"AP2-031",
+        //             "parts":3
+        //         }
+        //     ]
+        // },
+        // {
+        //     "title":"ひみつのアイプリ3だん",
+        //     "item_list":[
+        //         {
+        //             "name":"スターメロディレッド",
+        //             "total_id":"AP3-001F",
+        //             "total_image":"https://aipri.jp/card/img/3/AP3-037_O.webp",
+        //             "tops" : "スターメロディレッドトップス",
+        //             "bottoms":"スターメロディレッドボトムス",
+        //             "shoues" : "スターメロディレッドシューズ",
+        //             "accessary" : "スターメロディレッドアクセ",
+        //             "tops_id":"AP3-001",
+        //             "bottoms_id" : "AP3-002",
+        //             "shoues_id":"AP3-003",
+        //             "accessary_id":"AP3-004",
+        //             "parts":4
+        //         },
+        //         {
+        //             "name":"ハートメロディネイビー",
+        //             "total_id":"AP3-002F",
+        //             "total_image":"https://aipri.jp/card/img/3/AP3-038_O.webp",
+        //             "tops" : "ハートメロディネイビートップス",
+        //             "bottoms":"ハートメロディネイビーボトムス",
+        //             "shoues" : "ハートメロディネイビーシューズ",
+        //             "accessary" : "ハートメロディネイビーアクセ",
+        //             "tops_id":"AP3-005",
+        //             "bottoms_id" : "AP3-006",
+        //             "shoues_id":"AP3-007",
+        //             "accessary_id":"AP3-008",
+        //             "parts":4
+        //         }
+        //     ]
+        // },
    ]
-
 }
