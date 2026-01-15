@@ -1,23 +1,11 @@
-
-
 // 表示データオブジェクト
 var obj
 // チェック用エリア
 var check
 var url_check = false
 
-async function check_write(check){
-
-    let text = "let check_data = " + JSON.stringify(check)
-    const blob = new Blob([text], {type: "text/plain"});
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "check.js";
-    a.click();
-    URL.revokeObjectURL(url);
-    
-}
+var select_version
+var ver_data
 
 function  loginCheck(){
     //alert("リログイン処理");
@@ -28,12 +16,10 @@ function  loginCheck(){
         // 例: ログイン後のページを表示、ユーザー情報を取得
         alert("ログインユーザー:", user.uid);
         object={}
-        object["disp_data"] = create_disp_data(-1);
-        object["check"] = check_data
         let div_element = document.getElementById("id1");
         if(div_element != null){
             div_element.remove()
-            get_return_from_python_first(object)
+            firstscript()
         }
     } else {
         // ユーザーがログアウトしている状態
@@ -42,20 +28,6 @@ function  loginCheck(){
     }
     });
 
-// const user = firebase.auth().currentUser;
-//     if(user){
-//         // ログイン済みならそのまま表示
-//         console.log("ログイ済み:", user.email);
-//         alert("ログイ済み:", user.email);
-//         object={}
-//         object["disp_data"] = create_disp_data(-1);
-//         object["check"] = check_data
-//         let div_element = document.getElementById("id1");
-//         div_element.remove()
-//         get_return_from_python_first(object)
-//     }else{
-//         alert("未ログイ済みリログ処理");
-//     }
 }
 
 function login(){
@@ -73,13 +45,10 @@ function login(){
         // message.textContent = "ログインに成功しました！";
         console.log("ログイン成功", userCredential.user);
         alert("ログイン成功", userCredential.user);
-        object={}
-        object["disp_data"] = create_disp_data(-1);
-        object["check"] = check_data
         let div_element = document.getElementById("id1");
         if(div_element != null){
             div_element.remove()
-            get_return_from_python_first(object)
+            firstscript()
         }
 
     })
@@ -133,13 +102,19 @@ async function reload(){
     let select = document.querySelector('[name="ver_select"]');
     // スペシャル以外
     if(select.selectedIndex != 0){
-        for(var i=0;i<obj["category"].length;i++){
-            var category = obj["category"][i]
+
+        // 該当バージョンのカテゴリ一覧(アイテム名含む)を取り出し
+        ver = select.selectedIndex
+        ver_list = ver_item[version[ver].name]
+
+        for(var i=0;i<Object.keys(ver_list).length;i++){
+
+            category_item = Object.values(ver_list)[i]
 
             //該当箇所のアイテム数テーブルを作成
-            for(var j=0;j<obj[obj["disp_data"][category]["idx_list"]].length;j++){
+            for(var j=0;j<Object.keys(category_item).length;j++){
 
-                item_cnt = obj[obj["disp_data"][category]["idx_list"]][j].parts
+                item_cnt = obj.parts
 
                 //1テーブル生成1
                 //tr(行)生成ループ
@@ -150,20 +125,20 @@ async function reload(){
                             // アイテム数 3 = ワンピ
                             if (item_cnt == 3){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
+                                if(Object.values(category_item)[j] == "フレッシュピンクベアトップ" 
+                                    ||  Object.values(category_item)[j] == "スターシャインベスト" 
+                                    ||  Object.values(category_item)[j] == "レッドロックベアトップ" 
+                                    ||  Object.values(category_item)[j] == "ピタTガール"
+                                    ||  Object.values(category_item)[j] == "ピチッとクロT"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆サンシャイン"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆ナイトスター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニースター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニーリボン" 
+                                    ||  Object.values(category_item)[j] == "はばたきのシンフォニア"
                                 ){
                                     //トップス
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    ch = document.getElementById(obj.tops_id);
+                                    checkDocRef =  db.collection("checklists").doc(obj.tops_id)
                                     checkDoc = await checkDocRef.get()
 
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -178,19 +153,19 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                            ch.setAttribute('checked',ch[obj.tops_id])
                                         }
                                     }
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                        console.log("ドキュメントなし : ",obj.tops_id)
                                     }
                                 }
                                 else
                                 {
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    ch = document.getElementById(obj.one_piece_id);
+                                    ch.setAttribute('data-item-id',obj.one_piece_id);
+                                    console.log(obj.one_piece)
+                                    checkDocRef =  db.collection("checklists").doc(obj.one_piece_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -205,27 +180,27 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                            ch.setAttribute('checked',ch[obj.one_piece_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                        console.log("ドキュメントなし : ",obj.one_piece_id)
                                     }
                                 }
                             }
                             // アイテム数 4 , 2 = トップス
                             else if(item_cnt == 4 || item_cnt == 2 ){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
+                                if(Object.values(category_item)[j] == "セブンスコーデラブリー" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデポップ" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデクール" 
+                                    ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
+                                    ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
                                 ){
                                     // ワンピ
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    ch = document.getElementById(obj.one_piece_id);
+                                    console.log(obj.one_piece)
+                                    checkDocRef =  db.collection("checklists").doc(obj.one_piece_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -240,18 +215,18 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                            ch.setAttribute('checked',ch[obj.one_piece_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                        console.log("ドキュメントなし : ",obj.one_piece_id)
                                     }
                                 }
                                 else
                                 {
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    ch = document.getElementById(obj.tops_id);
+                                    console.log(obj.tops)
+                                    checkDocRef =  db.collection("checklists").doc(obj.tops_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -266,24 +241,24 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                            ch.setAttribute('checked',ch[obj.tops_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                        console.log("ドキュメントなし : ",obj.tops_id)
                                     }
                                 }
                             }
                             else{
                                 //ツアー
-                                if ((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ" )
-                                    ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ" )
-                                    ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ" )
-                                    || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
+                                if ((Object.values(category_item)[j] == "サマーTシャツ" )
+                                    ||(Object.values(category_item)[j] == "オータムTシャツ" )
+                                    ||(Object.values(category_item)[j] == "ウィンターTシャツ" )
+                                    || (Object.values(category_item)[j] == "ひみつのミラクルTシャツ")
                                 ){
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    ch = document.getElementById(obj.tops_id);
+                                    console.log(obj.tops)
+                                    checkDocRef =  db.collection("checklists").doc(obj.tops_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -298,17 +273,17 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                            ch.setAttribute('checked',ch[obj.tops_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                        console.log("ドキュメントなし : ",obj.tops_id)
                                     }
                                 }
-                                else if (obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュレモンゆめかわ" ){
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                else if (Object.values(category_item)[j] == "フレッシュレモンゆめかわ" ){
+                                    ch = document.getElementById(obj.one_piece_id);
+                                    console.log(obj.one_piece)
+                                    checkDocRef =  db.collection("checklists").doc(obj.one_piece_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -323,11 +298,11 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                            ch.setAttribute('checked',ch[obj.one_piece_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                        console.log("ドキュメントなし : ",obj.one_piece_id)
                                     }
                                 }
 
@@ -338,21 +313,21 @@ async function reload(){
                             // アイテム数 3 = シューズ
                             if (item_cnt == 3){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"    
+                                if(Object.values(category_item)[j] == "フレッシュピンクベアトップ" 
+                                    ||  Object.values(category_item)[j] == "スターシャインベスト" 
+                                    ||  Object.values(category_item)[j] == "レッドロックベアトップ" 
+                                    ||  Object.values(category_item)[j] == "ピタTガール"
+                                    ||  Object.values(category_item)[j] == "ピチッとクロT"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆サンシャイン"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆ナイトスター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニースター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニーリボン" 
+                                    ||  Object.values(category_item)[j] == "はばたきのシンフォニア"    
                                 ){
                                     //ボトムス
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                    ch = document.getElementById(obj.bottoms_id);
+                                    console.log(obj.bottoms)
+                                    checkDocRef =  db.collection("checklists").doc(obj.bottoms_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -367,18 +342,18 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
+                                            ch.setAttribute('checked',ch[obj.bottoms_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                        console.log("ドキュメントなし : ",obj.bottoms_id)
                                     }
                                 }
                                 else
                                 {
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    ch = document.getElementById(obj.shoues_id);
+                                    console.log(obj.shoues)
+                                    checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -393,19 +368,19 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                            ch.setAttribute('checked',ch[obj.shoues_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
                                 }
                             }
                             // アイテム数 4 = ボトムス
                             else if(item_cnt == 4){
-                                ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
-                                checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                ch = document.getElementById(obj.bottoms_id);
+                                console.log(obj.bottoms)
+                                checkDocRef =  db.collection("checklists").doc(obj.bottoms_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -420,26 +395,26 @@ async function reload(){
 
                                     console.log("ドキュメントデータ:", checkData);
                                     if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
+                                        ch.setAttribute('checked',ch[obj.bottoms_id])
                                     }
                                 } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                        console.log("ドキュメントなし : ",obj.bottoms_id)
                                     }
                             }
                             // アイテム数 2 = アクセ
                             else if(item_cnt == 2){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
+                                if(Object.values(category_item)[j] == "セブンスコーデラブリー" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデポップ" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデクール" 
+                                    ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
+                                    ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
                                 ){
                                     //シューズ
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    ch = document.getElementById(obj.shoues_id);
+                                    console.log(obj.shoues)
+                                    checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -454,18 +429,18 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                            ch.setAttribute('checked',ch[obj.shoues_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
                                 }
                                 else
                                 {
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    ch = document.getElementById(obj.accessary_id);
+                                    console.log(obj.accessary)
+                                    checkDocRef =  db.collection("checklists").doc(obj.accessary_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -480,11 +455,11 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                            ch.setAttribute('checked',ch[obj.accessary_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                        console.log("ドキュメントなし : ",obj.accessary_id)
                                     }
                                 }
                             }
@@ -494,21 +469,21 @@ async function reload(){
                             // アイテム数 3 = アクセ
                             if (item_cnt == 3){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
+                                if(Object.values(category_item)[j] == "フレッシュピンクベアトップ" 
+                                    ||  Object.values(category_item)[j] == "スターシャインベスト" 
+                                    ||  Object.values(category_item)[j] == "レッドロックベアトップ" 
+                                    ||  Object.values(category_item)[j] == "ピタTガール"
+                                    ||  Object.values(category_item)[j] == "ピチッとクロT"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆サンシャイン"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆ナイトスター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニースター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニーリボン"
+                                    ||  Object.values(category_item)[j] == "はばたきのシンフォニア"
                                 ){
                                     //シューズ
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    ch = document.getElementById(obj.shoues_id);
+                                    console.log(obj.shoues)
+                                    checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -523,18 +498,18 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                            ch.setAttribute('checked',ch[obj.shoues_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
                                 }
                                 else
                                 {
-                                    ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    ch = document.getElementById(obj.accessary_id);
+                                    console.log(obj.accessary)
+                                    checkDocRef =  db.collection("checklists").doc(obj.accessary_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -549,19 +524,19 @@ async function reload(){
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                            ch.setAttribute('checked',ch[obj.accessary_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                        console.log("ドキュメントなし : ",obj.accessary_id)
                                     }
                                 }
                             }
                             // アイテム数 4 = シューズ
                             else if(item_cnt == 4){
-                                ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                ch = document.getElementById(obj.shoues_id);
+                                console.log(obj.shoues)
+                                checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -576,11 +551,11 @@ async function reload(){
 
                                     console.log("ドキュメントデータ:", checkData);
                                     if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                        ch.setAttribute('checked',ch[obj.shoues_id])
                                     }
                                 } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
                             }
                         }
@@ -588,9 +563,9 @@ async function reload(){
                         else if(k==4 && l==1){
                             // アイテム数 4 = アクセ
                             if (item_cnt == 4){
-                                ch = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id);
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                                checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                ch = document.getElementById(obj.accessary_id);
+                                console.log(obj.accessary)
+                                checkDocRef =  db.collection("checklists").doc(obj.accessary_id)
                                     checkDoc = await checkDocRef.get()
                                     
                                     // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
@@ -605,11 +580,11 @@ async function reload(){
 
                                     console.log("ドキュメントデータ:", checkData);
                                     if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                        ch.setAttribute('checked',ch[obj.accessary_id])
                                     }
                                 } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                        console.log("ドキュメントなし : ",obj.accessary_id)
                                     }
                             }
                         }
@@ -854,9 +829,6 @@ async function reload(){
 
 // データ保存
 function save(checkbox){
-    // data_save()
-    // //pythonでファイルに書き込み
-    // check_write(check)
 
     // チェックボックスから項目ID（ドキュメントID）を取得
     const itemId = checkbox.getAttribute('data-item-id');
@@ -886,298 +858,37 @@ function save(checkbox){
     })
     .catch((error) => {
         console.error("Firestoreへの書き込み中にエラーが発生しました: ", error);
-    });}
-
-function data_save(){
-    //チェックボックスを確認し、チェックつきならデータを"get"に変更
-    for(var i=0;i<obj["category"].length;i++){
-        var category = obj["category"][i]
-        if(obj["select_version"] != 0){
-            //該当箇所のアイテム数
-            for(var j=0;j<obj[obj["disp_data"][category]["idx_list"]].length;j++){
-                item_cnt = obj[obj["disp_data"][category]["idx_list"]][j].parts
-                //ワンピタイプのコーデ
-                if(item_cnt == 3){
-                    // アクセなしコーデ
-                    if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
-                    ){
-                        //トップス
-                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = ""
-                        }
-                        //ボトムス
-                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] = ""
-                        }
-                        //シューズ
-                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = ""
-                        }
-                    }
-                    else
-                    {
-                        //ワンピ
-                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = ""
-                        }
-                        //シューズ
-                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = ""
-                        }
-                        //アクセ
-                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = ""
-                        }
-                    }
-                }
-                //トップスタイプのコーデ
-                else if(item_cnt == 4){
-                    //トップス
-                    let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                    if(element.checked){
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = "get"
-                    }else{
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = ""
-                    }
-                    //ボトムス
-                    element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                    if(element.checked){
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] = "get"
-                    }else{
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id] = ""
-                    }
-                    //シューズ
-                    element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                    if(element.checked){
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = "get"
-                    }else{
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = ""
-                    }
-                    //アクセ
-                    element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                    if(element.checked){
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = "get"
-                    }else{
-                        check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = ""
-                    }
-                }
-                // ツアー(1,2弾)
-                else if(item_cnt == 2){
-                    // アクセなしコーデ
-                    if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
-                        ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
-                    ){
-                        //ワンピ
-                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = ""
-                        }
-                        //シューズ
-                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id] = ""
-                        }
-                    }
-                    else
-                    {                    
-                        //トップス
-                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = ""
-                        }
-                        //ボトムス
-                        element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id] = ""
-                        }
-                    }
-                }else{
-                    if((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ")
-                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ")
-                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ")
-                        || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
-                        ){
-                        //トップス
-                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].tops_id] = ""
-                        }
-                    }else if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュレモンゆめかわ"){
-                        //ワンピ
-                        let element = document.getElementById(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                        if(element.checked){
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = "get"
-                        }else{
-                            check[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id] = ""
-                        }
-                    }
-                }
-            }
-        }
-        else{
-        //該当箇所のアイテム数
-            for(var j=0;j<obj["special"].length;j++){
-                for(var k=0;k<obj["special"][j]["item_list"].length;k++){
-                    item_cnt = obj["special"][j]["item_list"][k].parts
-                    //ワンピタイプのコーデ
-                    if(item_cnt == 3){
-                            //ワンピ
-                            let element = document.getElementById(obj["special"][j]["item_list"][k].one_piece_id)
-                            if(element.checked){
-                                check[obj["special"][j]["item_list"][k].one_piece_id] = "get"
-                            }else{
-                                check[obj["special"][j]["item_list"][k].one_piece_id] = ""
-                            }
-                            //シューズ
-                            element = document.getElementById(obj["special"][j]["item_list"][k].shoues_id)
-                            if(element.checked){
-                                check[obj["special"][j]["item_list"][k].shoues_id] = "get"
-                            }else{
-                                check[obj["special"][j]["item_list"][k].shoues_id] = ""
-                            }
-                            //アクセ
-                            element = document.getElementById(obj["special"][j]["item_list"][k].accessary_id)
-                            if(element.checked){
-                                check[obj["special"][j]["item_list"][k].accessary_id] = "get"
-                            }else{
-                                check[obj["special"][j]["item_list"][k].accessary_id] = ""
-                            }
-                    }
-                    //トップスタイプのコーデ
-                    else if(item_cnt == 4){
-                        //トップス
-                        let element = document.getElementById(obj["special"][j]["item_list"][k].tops_id)
-                        if(element.checked){
-                            check[obj["special"][j]["item_list"][k].tops_id] = "get"
-                        }else{
-                            check[obj["special"][j]["item_list"][k].tops_id] = ""
-                        }
-                        //ボトムス
-                        element = document.getElementById(obj["special"][j]["item_list"][k].bottoms_id)
-                        if(element.checked){
-                            check[obj["special"][j]["item_list"][k].bottoms_id] = "get"
-                        }else{
-                            check[obj["special"][j]["item_list"][k].bottoms_id] = ""
-                        }
-                        //シューズ
-                        element = document.getElementById(obj["special"][j]["item_list"][k].shoues_id)
-                        if(element.checked){
-                            check[obj["special"][j]["item_list"][k].shoues_id] = "get"
-                        }else{
-                            check[obj["special"][j]["item_list"][k].shoues_id] = ""
-                        }
-                        //アクセ
-                        element = document.getElementById(obj["special"][j]["item_list"][k].accessary_id)
-                        if(element.checked){
-                            check[obj["special"][j]["item_list"][k].accessary_id] = "get"
-                        }else{
-                            check[obj["special"][j]["item_list"][k].accessary_id] = ""
-                        }
-                    }
-                    // ツアー
-                    else if(item_cnt == 2){
-                        //トップス
-                        let element = document.getElementById(obj["special"][j]["item_list"][k].tops_id)
-                        if(element.checked){
-                            check[obj["special"][j]["item_list"][k].tops_id] = "get"
-                        }else{
-                            check[obj["special"][j]["item_list"][k].tops_id] = ""
-                        }
-                        //アクセ
-                        element = document.getElementById(obj["special"][j]["item_list"][k].accessary_id)
-                        if(element.checked){
-                            check[obj["special"][j]["item_list"][k].accessary_id] = "get"
-                        }else{
-                            check[obj["special"][j]["item_list"][k].accessary_id] = ""
-                        }
-                    }
-                    else if(item_cnt == 1){
-                        element = document.getElementById(obj["special"][j]["item_list"][k].accessary_id)
-                        if(element.checked){
-                            check[obj["special"][j]["item_list"][k].accessary_id] = "get"
-                        }else{
-                            check[obj["special"][j]["item_list"][k].accessary_id] = ""
-                        }
-                    }
-                }
-            }
-            //再表示
-            create_special()
-        }
-    }
+    });
 }
 
 //2回目以降
-function get_return_from_python(response) {
-    obj = response["disp_data"]
-    check = response["check"]
+function get_return_from_python() {
+    ver_data = data["version"][select_version]
     //スペシャル以外のテーブル作成
-    if(obj["select_version"]>=1){
+    if(select_version >= 1){
         create_disp()
     }else{
         create_special()
     }
 }
 
-function get_return_from_python_first(response) {
-    obj = response["disp_data"]
-    check = response["check"]
+function get_return_from_python_first() {
+    ver_data = data["version"][select_version]
     create_disp_first()
 }
 
 function ver_change(){
-    // let element = document.getElementById("url")
-    // if(url_check== false){
-    //     data_save()
-    // }
     let select = document.querySelector('[name="ver_select"]');
-    object = {}
-    object["disp_data"] = create_disp_data(select.selectedIndex)
-    object["check"] = check
-    get_return_from_python(object)
+    if (select.selectedIndex < 0){
+        select_version = data["now_version"]
+    }else{
+        select_version = select.selectedIndex
+    }
+    ver_data = data["version"][select_version]
+    get_return_from_python()
 }
 
-//初回の表示作成
+//初回の表示作成(画面上部部品)
 function create_disp_first(){
     //要素追加
     const select = document.createElement('select')
@@ -1186,7 +897,7 @@ function create_disp_first(){
     select.onchange = ver_change
     select.classList.add('select')
     
-    obj["version"].forEach((v) => {
+    data["version"].forEach((v) => {
         const option = document.createElement('option');
         option.value = v.value;
         option.textContent = v.name;
@@ -1209,26 +920,15 @@ function create_disp_first(){
     var label = document.createElement('label')
     label.innerHTML = "所持済みコーデのみ表示"
 
-//    let expVerText = document.createElement("input")
-//    expVerText.type = "text"
-//    expVerText.setAttribute("id","expVerText")
-
-//    let btn_exp = document.createElement("button");
-//    btn_exp.textContent = "データ出力";
-//    btn_exp.setAttribute("onclick","expImg()")
 
     document.body.appendChild(select)
     document.body.appendChild(btn)
-//    document.body.appendChild(expVerText)
-//    document.body.appendChild(btn_exp)
     document.body.appendChild(ch)
     document.body.appendChild(label)
 
     document.body.appendChild(h2)
 
-
-    
-    select.selectedIndex = obj["now_version"];
+    select.selectedIndex = data["now_version"];
 
     //テーブル用要素
     const div = document.createElement("div")
@@ -1257,12 +957,14 @@ function create_menu(){
         ul.removeChild(ul.firstChild);
     }    
 
-    for(var i=0;i<obj["category"].length;i++){
-        var category = obj["category"][i]
+    // 該当バージョンのカテゴリ一覧(アイテム名含む)を取り出し
+    ver_list = ver_item[data["version"][select_version].name]
+
+    for(var i=0;i<Object.keys(ver_list).length;i++){
         li = document.createElement("li")
         a = document.createElement("a")
         a.href="#h3_"+(i+1)
-        a.textContent = obj["disp_data"][category]["data"]
+        a.textContent = Object.keys(ver_list)[i]
         li.appendChild(a)
         ul.appendChild(li)
     }
@@ -1272,11 +974,18 @@ function create_menu(){
 //スペシャルコーデ以外の時
 async function create_disp(){
 
+    obj = {}
+
+    // 1. リクエスト開始時にIDをインクリメントし、この関数内でのIDを固定する
+    const thisRequestId = ++currentRequestId;
+    console.log(`リクエスト開始: ID ${thisRequestId}`);
+
     //メニューのリストを作成するメソッド呼び出し
     create_menu()
 
     const h2 = document.getElementById('h2')
-    document.getElementById('h2').textContent = obj.title
+    document.getElementById('h2').textContent = data["vol"][select_version].title
+
     // テーブルの要素をクリア
     const div_old = document.getElementById("div1")
     div_old.remove()
@@ -1284,31 +993,38 @@ async function create_disp(){
     div.setAttribute("id","div1")
     document.body.appendChild(div)
 
+    // 該当バージョンのカテゴリ一覧(アイテム名含む)を取り出し
+    ver_list = ver_item[data["version"][select_version].name]
+
     //テーブル作成
     //☆4、☆3...の数だけテーブルの塊を作る
-    for(var i=0;i<obj["category"].length;i++){
-        var category = obj["category"][i]
+    for(var i=0;i<Object.keys(ver_list).length;i++){
         //サブタイトルを表示させる
         const h3 = document.createElement('h3')
-        h3.textContent = obj["disp_data"][category]["data"]
+        h3.textContent = Object.keys(ver_list)[i]
         h3.setAttribute("id","h3_"+(i+1))
         div.appendChild(h3)
 
+        category_item = Object.values(ver_list)[i]
+
         //該当箇所のアイテム数テーブルを作成
-        for(var j=0;j<obj[obj["disp_data"][category]["idx_list"]].length;j++){
+        for(var j=0;j<Object.keys(category_item).length;j++){
             const table = document.createElement("table")
             table.border = 1
             table.style = "border-collapse: collapse"
             table.width = "600"
 
+            // アイテム名からアイテムデータ取り出し
+            obj = item[Object.values(category_item)[j]]
+
             // ブランド画像
             img = document.createElement("img")
-            img.src = "brand/"+obj[obj["disp_data"][category]["idx_list"]][j].brand_name+".webp"
+            img.src = "brand/" + obj.brand_name + ".webp"
             img.height = "20"
             img.width = "80"
 
-            item_cnt = obj[obj["disp_data"][category]["idx_list"]][j].parts
-            var str_url = get_url(obj[obj["disp_data"][category]["idx_list"]][j].name)
+            item_cnt = obj.parts
+            var str_url = get_url(obj.name)
 
             let element = document.getElementById("url")
             url_check = element.checked
@@ -1327,12 +1043,12 @@ async function create_disp(){
                                     var href = document.createElement('a')
                                     href.href = str_url
                                     href.target = "_blank"
-                                    href.text = obj[obj["disp_data"][category]["idx_list"]][j].name
+                                    href.text = Object.values(category_item)[j]
                                     th.appendChild(href)
                             }
                             else
                             {
-                                th.textContent = obj[obj["disp_data"][category]["idx_list"]][j].name
+                                th.textContent = Object.values(category_item)[j]
                             }
                             th.appendChild(img)
                             tr.appendChild(th)
@@ -1343,7 +1059,7 @@ async function create_disp(){
                             td.rowSpan = 4
                             //画像パス 
                             var img = document.createElement("img")
-                            img.src = obj[obj["disp_data"][category]["idx_list"]][j].total_image
+                            img.src = obj.total_image
                             img.height = "180"
                             img.width = "120"
                             td.appendChild(img)
@@ -1364,115 +1080,143 @@ async function create_disp(){
                             // アイテム数 3 = ワンピ
                             if (item_cnt == 3){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
+                                if(Object.values(category_item)[j] == "フレッシュピンクベアトップ" 
+                                    ||  Object.values(category_item)[j] == "スターシャインベスト" 
+                                    ||  Object.values(category_item)[j] == "レッドロックベアトップ" 
+                                    ||  Object.values(category_item)[j] == "ピタTガール"
+                                    ||  Object.values(category_item)[j] == "ピチッとクロT"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆サンシャイン"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆ナイトスター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニースター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニーリボン" 
+                                    ||  Object.values(category_item)[j] == "はばたきのシンフォニア"
                                 ){
                                     //トップス
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    ch.setAttribute('id',obj.tops_id);
+                                    ch.setAttribute('data-item-id',obj.tops_id);
+                                    console.log(obj.tops)
+                                    checkDocRef =  db.collection("checklists").doc(obj.tops_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                            ch.setAttribute('checked',ch[obj.tops_id])
                                         }
                                     }
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                        console.log("ドキュメントなし : ",obj.tops_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+                                    label.setAttribute("for",obj.tops_id)
+                                    label.innerHTML = obj.tops
                                 }
                                 else
                                 {
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    ch.setAttribute('id',obj.one_piece_id);
+                                    ch.setAttribute('data-item-id',obj.one_piece_id);
+                                    console.log(obj.one_piece)
+                                    checkDocRef =  db.collection("checklists").doc(obj.one_piece_id)
                                     checkDoc = await checkDocRef.get()
+
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                            ch.setAttribute('checked',ch[obj.one_piece_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                        console.log("ドキュメントなし : ",obj.one_piece_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
+                                    label.setAttribute("for",obj.one_piece_id)
+                                    label.innerHTML = obj.one_piece
                                 }
                                 td.height = "60"
                             }
                             // アイテム数 4 , 2 = トップス
                             else if(item_cnt == 4 || item_cnt == 2 ){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
+                                if(Object.values(category_item)[j] == "セブンスコーデラブリー" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデポップ" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデクール" 
+                                    ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
+                                    ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
                                 ){
                                     // ワンピ
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                    ch.setAttribute('id',obj.one_piece_id)
+                                    ch.setAttribute('data-item-id',obj.one_piece_id)
+                                    console.log(obj.one_piece)
+                                    checkDocRef =  db.collection("checklists").doc(obj.one_piece_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                            ch.setAttribute('checked',ch[obj.one_piece_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                        console.log("ドキュメントなし : ",obj.one_piece_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
+                                    label.setAttribute("for",obj.one_piece_id)
+                                    label.setAttribute("for",obj.one_piece_id)
+                                    label.innerHTML = obj.one_piece
                                 }
                                 else
                                 {
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    ch.setAttribute('id',obj.tops_id)
+                                    ch.setAttribute('data-item-id',obj.tops_id)
+                                    console.log(obj.tops)
+                                    checkDocRef =  db.collection("checklists").doc(obj.tops_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                            ch.setAttribute('checked',ch[obj.tops_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                        console.log("ドキュメントなし : ",obj.tops_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+                                    label.setAttribute("for",obj.one_piece_id)
+                                    label.setAttribute("for",obj.tops_id)
+                                    label.innerHTML = obj.tops
                                     if(item_cnt==4){
                                         td.height = "45"
                                     }else{
@@ -1482,53 +1226,67 @@ async function create_disp(){
                             }
                             else{
                                 //ツアー
-                                if ((obj[obj["disp_data"][category]["idx_list"]][j].name == "サマーTシャツ" )
-                                    ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "オータムTシャツ" )
-                                    ||(obj[obj["disp_data"][category]["idx_list"]][j].name == "ウィンターTシャツ" )
-                                    || (obj[obj["disp_data"][category]["idx_list"]][j].name == "ひみつのミラクルTシャツ")
+                                if ((Object.values(category_item)[j] == "サマーTシャツ" )
+                                    ||(Object.values(category_item)[j] == "オータムTシャツ" )
+                                    ||(Object.values(category_item)[j] == "ウィンターTシャツ" )
+                                    || (Object.values(category_item)[j] == "ひみつのミラクルTシャツ")
                                 ){
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].tops)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                    ch.setAttribute('id',obj.tops_id)
+                                    ch.setAttribute('data-item-id',obj.tops_id)
+                                    console.log(obj.tops)
+                                    checkDocRef =  db.collection("checklists").doc(obj.tops_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].tops_id])
+                                            ch.setAttribute('checked',ch[obj.tops_id])
                                         }
                                     }                                    
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
+                                        console.log("ドキュメントなし : ",obj.tops_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].tops_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].tops
+                                    label.setAttribute("for",obj.one_piece_id)
+                                    label.setAttribute("for",obj.tops_id)
+                                    label.innerHTML = obj.tops
                                 }
-                                else if (obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュレモンゆめかわ" ){
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].one_piece)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                else if (Object.values(category_item)[j] == "フレッシュレモンゆめかわ" ){
+                                    ch.setAttribute('id',obj.one_piece_id)
+                                    ch.setAttribute('data-item-id',obj.one_piece_id)
+                                    console.log(obj.one_piece)
+                                    checkDocRef =  db.collection("checklists").doc(obj.one_piece_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id])
+                                            ch.setAttribute('checked',ch[obj.one_piece_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
+                                        console.log("ドキュメントなし : ",obj.one_piece_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].one_piece_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].one_piece
+                                    label.setAttribute("for",obj.one_piece_id)
+                                    label.setAttribute("for",obj.one_piece_id)
+                                    label.innerHTML = obj.one_piece
                                 }
 
                             }
@@ -1548,136 +1306,171 @@ async function create_disp(){
                             // アイテム数 3 = シューズ
                             if (item_cnt == 3){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"    
+                                if(Object.values(category_item)[j] == "フレッシュピンクベアトップ" 
+                                    ||  Object.values(category_item)[j] == "スターシャインベスト" 
+                                    ||  Object.values(category_item)[j] == "レッドロックベアトップ" 
+                                    ||  Object.values(category_item)[j] == "ピタTガール"
+                                    ||  Object.values(category_item)[j] == "ピチッとクロT"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆サンシャイン"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆ナイトスター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニースター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニーリボン" 
+                                    ||  Object.values(category_item)[j] == "はばたきのシンフォニア"    
                                 ){
                                     //ボトムス
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                    ch.setAttribute('id',obj.bottoms_id);
+                                    ch.setAttribute('data-item-id',obj.bottoms_id);
+                                    console.log(obj.bottoms)
+                                    checkDocRef =  db.collection("checklists").doc(obj.bottoms_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
+                                            ch.setAttribute('checked',ch[obj.bottoms_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                        console.log("ドキュメントなし : ",obj.bottoms_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].bottoms
+                                    label.setAttribute("for",obj.bottoms_id)
+                                    label.innerHTML = obj.bottoms
                                 }
                                 else
                                 {
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    ch.setAttribute('id',obj.shoues_id)
+                                    ch.setAttribute('data-item-id',obj.shoues_id)
+                                    console.log(obj.shoues)
+                                    checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                            ch.setAttribute('checked',ch[obj.shoues_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                    label.setAttribute("for",obj.shoues_id)
+                                    label.innerHTML = obj.shoues
                                 }
                                 td.height = "60"
                             }
                             // アイテム数 4 = ボトムス
                             else if(item_cnt == 4){
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                                ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].bottoms)
-                                checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                ch.setAttribute('id',obj.bottoms_id)
+                                ch.setAttribute('data-item-id',obj.bottoms_id)
+                                console.log(obj.bottoms)
+                                checkDocRef =  db.collection("checklists").doc(obj.bottoms_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
                                     if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id])
+                                        ch.setAttribute('checked',ch[obj.bottoms_id])
                                     }
                                 } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
+                                        console.log("ドキュメントなし : ",obj.bottoms_id)
                                     }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].bottoms_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].bottoms
+                                label.setAttribute("for",obj.bottoms_id)
+                                label.innerHTML = obj.bottoms
                                 td.height = "45"
                             }
                             // アイテム数 2 = アクセ
                             else if(item_cnt == 2){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデラブリー" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデポップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "セブンスコーデクール" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピンクパレードコーデ"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "パラダイスがくえんせいふくすばる"
+                                if(Object.values(category_item)[j] == "セブンスコーデラブリー" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデポップ" 
+                                    ||  Object.values(category_item)[j] == "セブンスコーデクール" 
+                                    ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
+                                    ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
                                 ){
                                     //シューズ
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    ch.setAttribute('id',obj.shoues_id);
+                                    ch.setAttribute('data-item-id',obj.shoues_id);
+                                    console.log(obj.shoues)
+                                    checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                            ch.setAttribute('checked',ch[obj.shoues_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                    label.setAttribute("for",obj.shoues_id)
+                                    label.innerHTML = obj.shoues
                                 }
                                 else
                                 {
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    ch.setAttribute('id',obj.accessary_id)
+                                    ch.setAttribute('data-item-id',obj.accessary_id)
+                                    console.log(obj.accessary)
+                                    checkDocRef =  db.collection("checklists").doc(obj.accessary_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                            ch.setAttribute('checked',ch[obj.accessary_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                        console.log("ドキュメントなし : ",obj.accessary_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
+                                    label.setAttribute("for",obj.accessary_id)
+                                    label.innerHTML = obj.accessary
                                     td.height = "90"
                                 }
                             }
@@ -1697,83 +1490,104 @@ async function create_disp(){
                             // アイテム数 3 = アクセ
                             if (item_cnt == 3){
                                 // アクセなしコーデ
-                                if(obj[obj["disp_data"][category]["idx_list"]][j].name == "フレッシュピンクベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "スターシャインベスト" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "レッドロックベアトップ" 
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピタTガール"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "ピチッとクロT"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆サンシャイン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆ナイトスター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニースター"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "プリズミー☆シャイニーリボン"
-                                    ||  obj[obj["disp_data"][category]["idx_list"]][j].name == "はばたきのシンフォニア"
+                                if(Object.values(category_item)[j] == "フレッシュピンクベアトップ" 
+                                    ||  Object.values(category_item)[j] == "スターシャインベスト" 
+                                    ||  Object.values(category_item)[j] == "レッドロックベアトップ" 
+                                    ||  Object.values(category_item)[j] == "ピタTガール"
+                                    ||  Object.values(category_item)[j] == "ピチッとクロT"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆サンシャイン"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆ナイトスター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニースター"
+                                    ||  Object.values(category_item)[j] == "プリズミー☆シャイニーリボン"
+                                    ||  Object.values(category_item)[j] == "はばたきのシンフォニア"
                                 ){
                                     //シューズ
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id);
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                    ch.setAttribute('id',obj.shoues_id);
+                                    ch.setAttribute('data-item-id',obj.shoues_id);
+                                    console.log(obj.shoues)
+                                    checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                            ch.setAttribute('checked',ch[obj.shoues_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                    label.setAttribute("for",obj.shoues_id)
+                                    label.innerHTML = obj.shoues
                                 }
                                 else
                                 {
-                                    ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                    ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                    console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                                    checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                    ch.setAttribute('id',obj.accessary_id)
+                                    ch.setAttribute('data-item-id',obj.accessary_id)
+                                    console.log(obj.accessary)
+                                    checkDocRef =  db.collection("checklists").doc(obj.accessary_id)
                                     checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                     if (checkDoc.exists) {
                                         // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
                                         if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                            ch.setAttribute('checked',ch[obj.accessary_id])
                                         }
                                     } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                        console.log("ドキュメントなし : ",obj.accessary_id)
                                     }
-                                    label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                    label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
+                                    label.setAttribute("for",obj.accessary_id)
+                                    label.innerHTML = obj.accessary
                                 }
                                 td.height = "60"
                             }
                             // アイテム数 4 = シューズ
                             else if(item_cnt == 4){
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].shoues)
-                                checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                ch.setAttribute('id',obj.shoues_id)
+                                ch.setAttribute('data-item-id',obj.shoues_id)
+                                console.log(obj.shoues)
+                                checkDocRef =  db.collection("checklists").doc(obj.shoues_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
                                     if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].shoues_id])
+                                        ch.setAttribute('checked',ch[obj.shoues_id])
                                     }
                                 } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
+                                        console.log("ドキュメントなし : ",obj.shoues_id)
                                     }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].shoues_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].shoues
+                                label.setAttribute("for",obj.shoues_id)
+                                label.innerHTML = obj.shoues
                                 td.height = "45"
                             }
                             td.appendChild(ch)
@@ -1791,25 +1605,32 @@ async function create_disp(){
                             var label = document.createElement('label')
                             // アイテム数 4 = アクセ
                             if (item_cnt == 4){
-                                ch.setAttribute('id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                ch.setAttribute('data-item-id',obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                console.log(obj[obj["disp_data"][category]["idx_list"]][j].accessary)
-                                checkDocRef =  db.collection("checklists").doc(obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                ch.setAttribute('id',obj.accessary_id)
+                                ch.setAttribute('data-item-id',obj.accessary_id)
+                                console.log(obj.accessary)
+                                checkDocRef =  db.collection("checklists").doc(obj.accessary_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
                                     if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj[obj["disp_data"][category]["idx_list"]][j].accessary_id])
+                                        ch.setAttribute('checked',ch[obj.accessary_id])
                                     }
                                 } 
                                     else{
-                                        console.log("ドキュメントなし : ",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
+                                        console.log("ドキュメントなし : ",obj.accessary_id)
                                     }
-                                label.setAttribute("for",obj[obj["disp_data"][category]["idx_list"]][j].accessary_id)
-                                label.innerHTML = obj[obj["disp_data"][category]["idx_list"]][j].accessary
+                                label.setAttribute("for",obj.accessary_id)
+                                label.innerHTML = obj.accessary
                                 td.height = "45"
                             }
                             td.appendChild(ch)
@@ -1829,6 +1650,7 @@ async function create_disp(){
     }
 }
 
+//スペシャルコーデの時
 function create_menu_sp(){
     ul = document.getElementById('menu_list')
     while(ul.firstChild){
@@ -1848,6 +1670,15 @@ function create_menu_sp(){
 
 //スペシャルコーデの時
 async function create_special(){
+
+    obj = {}
+
+    // 1. リクエスト開始時にIDをインクリメントし、この関数内でのIDを固定する
+    const thisRequestId = ++currentRequestId;
+    console.log(`リクエスト開始: ID ${thisRequestId}`);
+
+    obj["category"]= data["vol"][0]["category"]
+    obj["special"] = data["special"]
 
     //メニューのリストを作成するメソッド呼び出し
     create_menu_sp()
@@ -1941,6 +1772,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].one_piece_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].one_piece_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -1960,6 +1798,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].tops_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].tops_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -1979,6 +1824,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].accessary_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -2011,6 +1863,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].shoues_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].shoues_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -2030,6 +1889,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].bottoms_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].bottoms_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -2049,6 +1915,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].accessary_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -2081,6 +1954,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].accessary_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -2100,6 +1980,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].shoues_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].shoues_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -2132,6 +2019,13 @@ async function create_special(){
                                 ch.setAttribute('data-item-id',obj["special"][i]["item_list"][j].accessary_id);
                                 checkDocRef =  db.collection("checklists").doc(obj["special"][i]["item_list"][j].accessary_id)
                                 checkDoc = await checkDocRef.get()
+                                    
+                                    // データが返ってきた時、自分のIDが「最新のID」のままかチェックする
+                                    if (thisRequestId !== currentRequestId) {
+                                    console.warn(`ID ${thisRequestId} の結果を破棄しました（最新は ID ${currentRequestId} です）`);
+                                    return; 
+                                    }
+
                                 if (checkDoc.exists) {
                                     // ⭕️ .data() を関数として呼び出して、データオブジェクトを取り出す
                                     const checkData = checkDoc.data(); 
@@ -2161,69 +2055,10 @@ async function create_special(){
     }
 }
 
-//JSONから表示データの作成
-function create_disp_data(ver){
-    ver_list = {}
-    work = {}
-    list = []
-
-    if (ver < 0){
-        ver = data["now_version"]
-    }
-    version_data = data["vol"][ver]
-
-    ver_list["select_version"] = ver
-    ver_list["now_version"]=data["now_version"]
-    ver_list["title"]=data["vol"][ver]["title"]
-    ver_list["version"]=data["version"]
-    ver_list["category"]=version_data["category"]
-    ver_list["disp_data"]=version_data["data"]
-
-    //全アイテムリストから該当弾のアイテムだけを抽出
-    //コーデ名と部位数、最終的にパスの辞書と結合して表示用データとする
-    //スペシャルコーデアイテムは別で作成
-    if (ver>=1){
-        version_data["category"].forEach(function(list_data){
-            list.splice(0)
-            category = version_data["data"][list_data]["item_list"]
-            version_data["items_idx"][version_data["data"][list_data]["idx_list"]].forEach(function(idx){
-                work = {}
-                work = Object.assign(work,item["Coordination"][category][idx])
-                if (!(version_data["data"][list_data]["idx_list"] in ver_list)) ver_list[version_data["data"][list_data]["idx_list"]] = []
-                ver_list[version_data["data"][list_data]["idx_list"]].push(work)
-            })
-        })
-        }
-        else{
-        ver_list["special"] = data["special"]
-    }
-
-    return ver_list
-
-}
-
 function firstscript(){
-    object={}
-    object["disp_data"] = create_disp_data(-1);
-    object["check"] = check_data
-    check_wk = check_data
-    let div_element = document.getElementById("id1");
-    div_element.remove()
-    get_return_from_python_first(object)
+    select_version = data["now_version"]
+    get_return_from_python_first()
 }
-
-//function download(){
-//    textbox = document.getElementById("new_version")
-//    version = textbox.value
-//    pywebview.api.download(version).then()
-//}
-
-//function expImg(){
-//    textbox = document.getElementById("expVerText")
-//    version = textbox.value
-//    pywebview.api.expImg(version).then()
-//}
-
 
 $(function() {
   // ハンバーガーメニューをクリックしたときの処理
