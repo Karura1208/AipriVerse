@@ -3397,12 +3397,12 @@ let data = {
                     "parts":4
                 },
                 {
-                    "name":"アイプリバーススカーレットバタフライピンク",
+                    "name":"アイプリバーススカーレットバタフライラブピンク",
                     "total_id":"TOY-045F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-045_O.webp",
-                    "one_piece" : "アイプリバーススカーレットバタフライピンクワンピ",
-                    "shoues" : "アイプリバーススカーレットバタフライピンクシューズ",
-                    "accessary" : "アイプリバーススカーレットバタフライピンクアクセ",
+                    "one_piece" : "アイプリバーススカーレットバタフライラブピンクワンピ",
+                    "shoues" : "アイプリバーススカーレットバタフライラブピンクシューズ",
+                    "accessary" : "アイプリバーススカーレットバタフライラブピンクアクセ",
                     "one_piece_id":"MIL-159",
                     "shoues_id":"MIL-160",
                     "accessary_id":"MIL-161",
