@@ -1312,6 +1312,7 @@ let data = {
             "item_list":[
                 {
                     "name":"プリマジチェックヘブンズホワイト",
+                    "brand_name": "プリティーコレクション",
                     "total_id":"PM-001F",
                     "total_image":"https://aipri.jp/verse/event/e240314/img/img_e240314-1.webp",
                     "tops" : "プリマジチェックヘブンズホワイトトップス",
@@ -1331,6 +1332,7 @@ let data = {
             "item_list":[
                 {
                     "name":"ひみつのはつねミクコーデ",
+                    "brand_name": "プリズムストーン",
                     "total_id":"CD-001F",
                     "total_image":"https://blog.piapro.net/wp-content/uploads/2024/06/c24060609.jpg",
                     "one_piece" : "ひみつのはつねミクコーデワンピ",
@@ -1343,6 +1345,7 @@ let data = {
                 },
                 {
                     "name":"アイプリバースフラワーマーチピンク",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"CD-002F",
                     "total_image":"https://img.fril.jp/img/702312455/m/2336079670.jpg?1722640270",
                     "one_piece" : "アイプリバースフラワーマーチピンクワンピ",
@@ -1355,6 +1358,7 @@ let data = {
                 },
                 {
                     "name":"フレッシュレモンパープル",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"CD-003F",
                     "total_image":"https://pbs.twimg.com/media/GRXg5KGasAAsWY9.jpg:large",
                     "one_piece" : "フレッシュレモンパープルワンピ",
@@ -1367,6 +1371,7 @@ let data = {
                 },
                 {
                     "name":"カワイイあめちゃんポップ",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"CD-004F",
                     "total_image":"https://pbs.twimg.com/media/Gb1dxK4bAAAHXAW.jpg",
                     "one_piece" : "カワイイあめちゃんポップワンピ",
@@ -1379,6 +1384,7 @@ let data = {
                 },
                 {
                     "name":"リトルフェアリーパープル",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"CD-005F",
                     "total_image":"https://pbs.twimg.com/media/GhDovDBbQAAezjR.jpg",
                     "one_piece" : "リトルフェアリーパープルワンピ",
@@ -1391,6 +1397,7 @@ let data = {
                 },
                 {
                     "name":"フラワーマーチプリンセスバズリウムひみつ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"CD-006F",
                     "total_image":"https://pbs.twimg.com/media/GuXsdOUbEAES7fS?format=jpg&name=medium",
                     "one_piece" : "フラワーマーチプリンセスバズリウムひみつワンピ",
@@ -1403,6 +1410,7 @@ let data = {
                 },
                 {
                     "name":"フィーバーエンジェルパープル",
+                    "brand_name": "キューティーカラット",
                     "total_id":"CD-007F",
                     "total_image":"https://pbs.twimg.com/media/GzAWUilboAE0XKM?format=jpg&name=medium",
                     "tops" : "フィーバーエンジェルパープルトップス",
@@ -1417,6 +1425,7 @@ let data = {
                 },
                 {
                     "name":"マジシャンキャットイエロー",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"Blu-001F",
                     "total_image":"https://aipri.jp/card/img/special/P-062_O.webp",
                     "tops" : "マジシャンキャットイエロートップス",
@@ -1431,6 +1440,7 @@ let data = {
                 },
                 {
                     "name":"エレガントジュエルピンク",
+                    "brand_name": "ロゼッション",
                     "total_id":"Blu-002F",
                     "total_image":"https://pbs.twimg.com/media/GcpkFDKasAAxS_q?format=jpg&name=medium",
                     "one_piece" : "エレガントジュエルピンクワンピ",
@@ -1443,6 +1453,7 @@ let data = {
                 },
                 {
                     "name":"フラワーメモリーピンク",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"Blu-003F",
                     "total_image":"https://pbs.twimg.com/media/GlkBwT8acAAlnPv.jpg",
                     "one_piece" : "フラワーメモリーピンクワンピ",
@@ -1455,6 +1466,7 @@ let data = {
                 },
                 {
                     "name":"こあくまロックグリーンパープル",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"Blu-004F",
                     "total_image":"https://pbs.twimg.com/media/GrDWu2UaAAM3Tlt.jpg",
                     "tops" : "こあくまロックグリーンパープルトップス",
@@ -1469,6 +1481,7 @@ let data = {
                 },
                 {
                     "name":"スペースバズリウムスターズメモリー",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"Blu-005F",
                     "total_image":"https://pbs.twimg.com/media/G0pWMeEboAAvPDQ?format=jpg&name=medium",
                     "one_piece" : "スペースバズリウムスターズメモリーワンピ",
@@ -1486,6 +1499,7 @@ let data = {
             "item_list":[
                 {
                     "name":"ポッピンハートバズリウムミント",
+                    "brand_name": "ポッピンハート",
                     "total_id":"GM1-001F",
                     "total_image":"https://aipri.jp/card/img/gumi/G1-001_O.webp",
                     "one_piece" : "ポッピンハートバズリウムミントワンピ",
@@ -1498,6 +1512,7 @@ let data = {
                 },
                 {
                     "name":"ぷるるんゼリーメロン",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"GM1-002F",
                     "total_image":"https://aipri.jp/card/img/gumi/G1-002_O.webp",
                     "tops" : "ぷるるんゼリーメロントップス",
@@ -1512,6 +1527,7 @@ let data = {
                 },
                 {
                     "name":"ゴージャスビジューイエロー",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"GM1-003F",
                     "total_image":"https://aipri.jp/card/img/gumi/G1-005_O.webp",
                     "one_piece" : "ゴージャスビジューイエローワンピ",
@@ -1524,6 +1540,7 @@ let data = {
                 },
                 {
                     "name":"アイプリバースミラクルムーングレー",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"GM1-004F",
                     "total_image":"https://aipri.jp/card/img/gumi/G1-008_O.webp",
                     "tops" : "アイプリバースミラクルムーングレートップス",
@@ -1538,6 +1555,7 @@ let data = {
                 },
                 {
                     "name":"ハッピーチアシックブルー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"GM1-005F",
                     "total_image":"https://aipri.jp/card/img/gumi/G1-011_O.webp",
                     "tops" : "ハッピーチアシックブルートップス",
@@ -1552,6 +1570,7 @@ let data = {
                 },
                 {
                     "name":"クールアイドルネイビーピンク",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"GM1-006F",
                     "total_image":"https://aipri.jp/card/img/gumi/G1-013_O.webp",
                     "tops" : "クールアイドルネイビーピンクトップス",
@@ -1566,6 +1585,7 @@ let data = {
                 },
                 {
                     "name":"ゴシックベアパープル",
+                    "brand_name": "ロゼッション",
                     "total_id":"GM2-001F",
                     "total_image":"https://aipri.jp/card/img/gumi/G2-002_O.webp",
                     "one_piece" : "ゴシックベアパープルワンピ",
@@ -1578,6 +1598,7 @@ let data = {
                 },
                 {
                     "name":"スターカウガールブラウン",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"GM2-006F",
                     "total_image":"https://aipri.jp/card/img/gumi/G2-006_O.webp",
                     "tops" : "スターカウガールブラウントップス",
@@ -1592,6 +1613,7 @@ let data = {
                 },
                 {
                     "name":"ハーバリウムピンク",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"GM2-011F",
                     "total_image":"https://aipri.jp/card/img/gumi/G2-011_O.webp",
                     "one_piece" : "ハーバリウムピンクワンピ",
@@ -1604,6 +1626,7 @@ let data = {
                 },
                 {
                     "name":"ゴシックベアブルー",
+                    "brand_name": "ロゼッション",
                     "total_id":"GM2-002F",
                     "total_image":"https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/0000000292582_cvHTEFJ.jpg",
                     "one_piece" : "ゴシックベアブルーワンピ",
@@ -1616,6 +1639,7 @@ let data = {
                 },
                 {
                     "name":"ギフトリボン",
+                    "brand_name": "ベアベアベア",
                     "total_id":"GM3-001F",
                     "total_image":"https://aipri.jp/card/img/gumi/G3-001_O.webp",
                     "one_piece" : "ギフトリボンワンピ",
@@ -1628,6 +1652,7 @@ let data = {
                 },
                 {
                     "name":"ギフトリボンゴールド",
+                    "brand_name": "ベアベアベア",
                     "total_id":"GM3-002F",
                     "total_image":"https://item-shopping.c.yimg.jp/i/n/lead-netstore_222503s112i3t05",
                     "one_piece" : "ギフトリボンゴールドワンピ",
@@ -1640,6 +1665,7 @@ let data = {
                 },
                 {
                     "name":"あめぽつぽつゆうやけオレンジ",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"GM3-006F",
                     "total_image":"https://aipri.jp/card/img/gumi/G3-006_O.webp",
                     "tops" : "あめぽつぽつゆうやけオレンジトップス",
@@ -1654,6 +1680,7 @@ let data = {
                 },
                 {
                     "name":"パンキッシュペンギンレッド",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"GM3-009F",
                     "total_image":"https://aipri.jp/card/img/gumi/G3-009_O.webp",
                     "tops" : "パンキッシュペンギンレッドトップス",
@@ -1668,6 +1695,7 @@ let data = {
                 },
                 {
                     "name":"インフルブルームあじさいブルー",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"GM4-001F",
                     "total_image":"https://aipri.jp/card/img/gumi/G4-001_O.webp",
                     "tops" : "インフルブルームあじさいブルートップス",
@@ -1682,6 +1710,7 @@ let data = {
                 }, 
                 {
                     "name":"ジュエルバズリウムルビーイエロー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"GM4-002F",
                     "total_image":"https://aipri.jp/card/img/gumi/G4-005_O.webp",
                     "one_piece" : "ジュエルバズリウムルビーイエローワンピ",
@@ -1694,6 +1723,7 @@ let data = {
                 },
                 {
                     "name":"うらないしピンク",
+                    "brand_name": "ベアベアベア",
                     "total_id":"GM4-003F",
                     "total_image":"https://aipri.jp/card/img/gumi/G4-006_O.webp",
                     "one_piece" : "うらないしピンクワンピ",
@@ -1706,6 +1736,7 @@ let data = {
                 },
                 {
                     "name":"アイプリバースラブマイミュージックイエロー",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"GM4-004F",
                     "total_image":"https://aipri.jp/card/img/gumi/G4-008_O.webp",
                     "tops" : "アイプリバースラブマイミュージックイエロートップス",
@@ -1720,6 +1751,7 @@ let data = {
                 }, 
                 {
                     "name":"アイスクリームオレンジ",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"GM4-005F",
                     "total_image":"https://aipri.jp/card/img/gumi/G4-010_O.webp",
                     "tops" : "アイスクリームオレンジトップス",
@@ -1734,11 +1766,12 @@ let data = {
                 },
                 {
                     "name":"インフルブルームあじさいホワイト",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"GM4-006F",
                     "total_image":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSWkIqK7Ij0UCL62gtsvhafxjqV7XzYiXp-wVLmsiHwe6NFSbfvBAWL-HgtidbFtxCwINWycxqZN7rPnwMlm6VXAP5-zklm3A",
                     "tops" : "インフルブルームあじさいホワイトトップス",
                     "bottoms":"インフルブルームあじさいホワイトボトムス",
-                    "shoues" : "インフルブルームあじさいホワイトシーューズ",
+                    "shoues" : "インフルブルームあじさいホワイトシューズ",
                     "accessary" : "インフルブルームあじさいホワイトアクセ",
                     "tops_id":"GM4-019",
                     "bottoms_id" : "GM4-020",
@@ -1748,6 +1781,7 @@ let data = {
                 },
                 {
                     "name":"ほしぞらのまほうつかいブルー",
+                    "brand_name": "フューチャースクール",
                     "total_id":"GM5-001F",
                     "total_image":"https://aipri.jp/card/img/gumi/G5-001_O.webp",
                     "one_piece" : "ほしぞらのまほうつかいブルーワンピ",
@@ -1760,6 +1794,7 @@ let data = {
                 },
                 {
                     "name":"アニマルバズリウムパンサービビッド",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"GM5-002F",
                     "total_image":"https://aipri.jp/card/img/gumi/G5-005_O.webp",
                     "one_piece" : "アニマルバズリウムパンサービビッドワンピ",
@@ -1772,6 +1807,7 @@ let data = {
                 },
                 {
                     "name":"アイプリバースロゼッションレッド",
+                    "brand_name": "ロゼッション",
                     "total_id":"GM5-003F",
                     "total_image":"https://aipri.jp/card/img/gumi/G5-006_O.webp",
                     "one_piece" : "アイプリバースロゼッションレッドワンピ",
@@ -1784,11 +1820,12 @@ let data = {
                 },
                 {
                     "name":"ハートメロディゴールドシルバー",
+                    "brand_name": "キューティーカラット",
                     "total_id":"GM5-004F",
                     "total_image":"https://aipri.jp/card/img/gumi/G5-009_O.webp",
                     "tops" : "ハートメロディゴールドシルバートップス",
                     "bottoms":"ハートメロディゴールドシルバーボトムス",
-                    "shoues" : "ハートメロディゴールドシルバーシーューズ",
+                    "shoues" : "ハートメロディゴールドシルバーシューズ",
                     "accessary" : "ハートメロディゴールドシルバーアクセ",
                     "tops_id":"GM5-010",
                     "bottoms_id" : "GM5-011",
@@ -1798,6 +1835,7 @@ let data = {
                 },
                 {
                     "name":"ほしぞらのまほうつかいブラック",
+                    "brand_name": "フューチャースクール",
                     "total_id":"GM5-005F",
                     "total_image":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSc3XOZjmATfD2r8bMMA204SfSEfQOxJfdLQ-__uGorBHt_9T4ut8eSxPq2AnzFNBH5uV9FMUvkL1gzniAnUXVkMnlfOkj17A",
                     "one_piece" : "ほしぞらのまほうつかいブラックワンピ",
@@ -1807,6 +1845,64 @@ let data = {
                     "shoues_id":"GM5-015",
                     "accessary_id":"GM5-016",
                     "parts":3
+                },
+                {
+                    "name":"ゆきうさぎケープアイスブルー",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"GM6-001F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G6-001_O.webp",
+                    "tops" : "ゆきうさぎケープアイスブルートップス",
+                    "bottoms":"ゆきうさぎケープアイスブルーボトムス",
+                    "shoues" : "ゆきうさぎケープアイスブルーシューズ",
+                    "accessary" : "ゆきうさぎケープアイスブルーアクセ",
+                    "tops_id":"GM6-001",
+                    "bottoms_id" : "GM6-002",
+                    "shoues_id":"GM6-003",
+                    "accessary_id":"GM6-004",
+                    "parts":4
+                },
+                {
+                    "name":"スペースバズリウムギャラクシーレッド",
+                    "brand_name": "フューチャースクール",
+                    "total_id":"GM6-002F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G6-005_O.webp",
+                    "one_piece" : "スペースバズリウムギャラクシーレッドワンピ",
+                    "shoues" : "スペースバズリウムギャラクシーレッドシューズ",
+                    "accessary" : "スペースバズリウムギャラクシーレッドアクセ",
+                    "one_piece_id":"GM6-005",
+                    "shoues_id":"GM6-006",
+                    "accessary_id":"GM6-007",
+                    "parts":3
+                },
+                {
+                    "name":"マジカルカラットゴールド",
+                    "brand_name": "キューティーカラット",
+                    "total_id":"GM6-003F",
+                    "total_image":"https://aipri.jp/card/img/gumi/G6-006_O.webp",
+                    "tops" : "マジカルカラットゴールドトップス",
+                    "bottoms":"マジカルカラットゴールドボトムス",
+                    "shoues" : "マジカルカラットゴールドシューズ",
+                    "accessary" : "マジカルカラットゴールドアクセ",
+                    "tops_id":"GM6-008",
+                    "bottoms_id" : "GM6-009",
+                    "shoues_id":"GM6-010",
+                    "accessary_id":"GM6-011",
+                    "parts":4
+                },
+                {
+                    "name":"ゆきうさぎケープミルキーピンク",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"GM6-001F",
+                    "total_image":"https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/000000034568_d8sm61H.jpg",
+                    "tops" : "ゆきうさぎケープミルキーピンクトップス",
+                    "bottoms":"ゆきうさぎケープミルキーピンクボトムス",
+                    "shoues" : "ゆきうさぎケープミルキーピンクシューズ",
+                    "accessary" : "ゆきうさぎケープミルキーピンクアクセ",
+                    "tops_id":"GM6-012",
+                    "bottoms_id" : "GM6-0013",
+                    "shoues_id":"GM6-014",
+                    "accessary_id":"GM6-015",
+                    "parts":4
                 }
             ]
         },
@@ -1815,6 +1911,7 @@ let data = {
             "item_list":[
                 {
                     "name":"スターパーティーミントベリー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"furoku-001F",
                     "total_image":"https://aipri.jp/card/img/special/P-004_O.webp",
                     "tops" : "スターパーティーミントベリートップス",
@@ -1829,6 +1926,7 @@ let data = {
                 },
                 {
                     "name":"スターメロディパッション",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"furoku-002F",
                     "total_image":"https://aipri.jp/card/img/special/P-005_O.webp",
                     "tops" : "スターメロディパッショントップス",
@@ -1843,6 +1941,7 @@ let data = {
                 },
                 {
                     "name":"リトルフェアリーブルー",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"furoku-003F",
                     "total_image":"https://aipri.jp/card/img/special/P-033_O.webp",
                     "one_piece" : "リトルフェアリーブルーワンピ",
@@ -1855,6 +1954,7 @@ let data = {
                 },
                 {
                     "name":"ロマンスルージュピンク",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"furoku-004F",
                     "total_image":"https://aipri.jp/card/img/special/P-100_O.webp",
                     "tops" : "ロマンスルージュピンクトップス",
@@ -1869,6 +1969,7 @@ let data = {
                 },
                 {
                     "name":"ぴょんぴょんうさぎ",
+                    "brand_name": "ポッピンハート",
                     "total_id":"furoku-005F",
                     "total_image":"https://aipri.jp/card/img/special/P-103_O.webp",
                     "tops" : "ぴょんぴょんうさぎトップス",
@@ -1883,6 +1984,7 @@ let data = {
                 },
                 {
                     "name":"フラワーマーチプリンセスバズリウムピンク",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"furoku-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-096_O.webp",
                     "one_piece" : "フラワーマーチプリンセスバズリウムピンクワンピ",
@@ -1895,6 +1997,7 @@ let data = {
                 },
                 {
                     "name":"スペースダイナーミント",
+                    "brand_name": "フューチャースクール",
                     "total_id":"furoku-007F",
                     "total_image":"https://aipri.jp/card/img/special/P-140_O.webp",
                     "one_piece" : "スペースダイナーミントワンピ",
@@ -1907,6 +2010,7 @@ let data = {
                 },
                 {
                     "name":"スポーティバレエコアブルー",
+                    "brand_name": "キューティーカラット",
                     "total_id":"furoku-008F",
                     "total_image":"https://aipri.jp/card/img/special/P-176_O.webp",
                     "tops" : "スポーティバレエコアブルートップス",
@@ -1926,6 +2030,7 @@ let data = {
             "item_list":[
                 {
                     "name":"キューティーラビットレッド",
+                    "brand_name": "ポッピンハート",
                     "total_id":"fan-001F",
                     "total_image":"https://aipri.jp/card/img/special/P-006_O.webp",
                     "tops" : "キューティーラビットレッドトップス",
@@ -1940,6 +2045,7 @@ let data = {
                 },
                 {
                     "name":"かわいいくまさんゆめかわ",
+                    "brand_name": "ベアベアベア",
                     "total_id":"fan-002F",
                     "total_image":"https://aipri.jp/card/img/special/P-031_O.webp",
                     "one_piece" : "かわいいくまさんゆめかわワンピ",
@@ -1952,6 +2058,7 @@ let data = {
                 },
                 {
                     "name":"おしょうがつミント",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"fan-003F",
                     "total_image":"https://aipri.jp/card/img/special/P-063_O.webp",
                     "tops" : "おしょうがつミントトップス",
@@ -1966,6 +2073,7 @@ let data = {
                 },
                 {
                     "name":"ベリキューデニムラブパープル",
+                    "brand_name": "キューティーカラット",
                     "total_id":"fan-004F",
                     "total_image":"https://aipri.jp/card/img/special/P-102_O.webp",
                     "tops" : "ベリキューデニムラブパープルトップス",
@@ -1980,6 +2088,7 @@ let data = {
                 },
                 {
                     "name":"アイドルチェッククールモカベージュ",
+                    "brand_name": "フューチャースクール",
                     "total_id":"fan-005F",
                     "total_image":"https://aipri.jp/card/img/special/P-139_O.webp",
                     "tops" : "アイドルチェッククールモカベージュトップス",
@@ -1994,6 +2103,7 @@ let data = {
                 },
                 {
                     "name":"アニマルロックピンク",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"fan-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-175_O.webp",
                     "tops" : "アニマルロックピンクトップス",
@@ -2008,6 +2118,7 @@ let data = {
                 },
                 {
                     "name":"おとぎばなしシンデレラグリーン",
+                    "brand_name": "クリスタルバース",
                     "total_id":"fan-007F",
                     "total_image":"https://aipri.jp/card/img/special/P-210_O.webp",
                     "tops" : "おとぎばなしシンデレラグリーントップス",
@@ -2022,6 +2133,7 @@ let data = {
                 },
                 {
                     "name":"ひみつのクリスマスイエロー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"fan-008F",
                     "total_image":"https://aipri.jp/card/img/special/P-224_O.webp",
                     "one_piece" : "ひみつのクリスマスイエローワンピ",
@@ -2039,6 +2151,7 @@ let data = {
             "item_list":[
                 {
                     "name":"フラワーチュールオレンジブーケ",
+                    "brand_name": "ポッピンハート",
                     "total_id":"taikai-001F",
                     "total_image":"https://aipri.jp/card/img/special/P-021_O.webp",
                     "tops" : "フラワーチュールオレンジブーケトップス",
@@ -2053,6 +2166,7 @@ let data = {
                 },
                 {
                     "name":"ローズグランプリノーブルブルー",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"taikai-002F",
                     "total_image":"https://aipri.jp/card/img/special/P-022_O.webp",
                     "one_piece" : "ローズグランプリノーブルブルーワンピ",
@@ -2065,6 +2179,7 @@ let data = {
                 },
                 {
                     "name":"マーメイドグランプリパープル",
+                    "brand_name": "ポッピンハート",
                     "total_id":"taikai-003F",
                     "total_image":"https://aipri.jp/card/img/special/P-027_O.webp",
                     "one_piece" : "マーメイドグランプリパープルワンピ",
@@ -2077,6 +2192,7 @@ let data = {
                 },
                 {
                     "name":"ミルキーウェイピンク",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"taikai-004F",
                     "total_image":"https://aipri.jp/card/img/special/P-028_O.webp",
                     "tops" : "ミルキーウェイピンクトップス",
@@ -2091,6 +2207,7 @@ let data = {
                 },
                 {
                     "name":"フェザーグランプリクールピンク",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"taikai-005F",
                     "total_image":"https://aipri.jp/card/img/special/P-046_O.webp",
                     "one_piece" : "フェザーグランプリクールピンクワンピ",
@@ -2103,6 +2220,7 @@ let data = {
                 },
                 {
                     "name":"カワイイあめちゃんげんきオレンジ",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"taikai-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-047_O.webp",
                     "one_piece" : "カワイイあめちゃんげんきオレンジワンピ",
@@ -2115,6 +2233,7 @@ let data = {
                 },
                 {
                     "name":"オーロラスノーグランプリプレミアム",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"taikai-007F",
                     "total_image":"https://aipri.jp/card/img/special/P-066_O.webp",
                     "one_piece" : "オーロラスノーグランプリプレミアムワンピ",
@@ -2127,6 +2246,7 @@ let data = {
                 },
                 {
                     "name":"パンキッシュペンギンホワイト",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"taikai-008F",
                     "total_image":"https://aipri.jp/card/img/special/P-067_O.webp",
                     "tops" : "パンキッシュペンギンホワイトトップス",
@@ -2141,6 +2261,7 @@ let data = {
                 },
                 {
                     "name":"エターナルジュエルブルーピンク　じゅりあ",
+                    "brand_name": "キューティーカラット",
                     "total_id":"taikai-009F",
                     "total_image":"https://aipri.jp/card/img/special/P-144_O.webp",
                     "one_piece" : "エターナルジュエルブルーピンク　じゅりあワンピ",
@@ -2153,6 +2274,7 @@ let data = {
                 },
                 {
                     "name":"エターナルジュエルブルーピンク　える",
+                    "brand_name": "キューティーカラット",
                     "total_id":"taikai-009F",
                     "total_image":"https://aipri.jp/card/img/special/P-143_O.webp",
                     "one_piece" : "エターナルジュエルブルーピンク　えるワンピ",
@@ -2165,6 +2287,7 @@ let data = {
                 },
                 {
                     "name":"エターナルスペースジャンピンロケットラブリーパープル",
+                    "brand_name": "フューチャースクール",
                     "total_id":"taikai-010F",
                     "total_image":"https://aipri.jp/card/img/special/P-177_O.webp",
                     "one_piece" : "エターナルスペースジャンピンロケットラブリーパープルワンピ",
@@ -2177,6 +2300,7 @@ let data = {
                 },
                 {
                     "name":"エターナルスペースジャンピンロケットクールレッド",
+                    "brand_name": "フューチャースクール",
                     "total_id":"taikai-011F",
                     "total_image":"https://aipri.jp/card/img/special/P-178_O.webp",
                     "one_piece" : "エターナルスペースジャンピンロケットクールレッドワンピ",
@@ -2189,6 +2313,7 @@ let data = {
                 },
                 {
                     "name":"エターナルアニマルビビアンチィフローラ　ビビ",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"taikai-012F",
                     "total_image":"https://aipri.jp/card/img/special/P-211_O.webp",
                     "one_piece" : "エターナルアニマルビビアンチィフローラ　ビビワンピ",
@@ -2201,14 +2326,41 @@ let data = {
                 },
                 {
                     "name":"エターナルアニマルビビアンチィフローラ　チィ",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"taikai-012F",
                     "total_image":"https://aipri.jp/card/img/special/P-212_O.webp",
                     "one_piece" : "エターナルアニマルビビアンチィフローラ　チィワンピ",
                     "shoues" : "エターナルアニマルビビアンチィフローラ　チィシューズ",
                     "accessary" : "エターナルアニマルビビアンチィフローラ　チィアクセ",
                     "one_piece_id":"taikai-041",
-                    "shoues_id":"taikai-039",
-                    "accessary_id":"taikai-040",
+                    "shoues_id":"taikai-042",
+                    "accessary_id":"taikai-043",
+                    "parts":3
+                },
+                {
+                    "name":"エターナルフラワールミナスフローラノーブル　リング",
+                    "brand_name": "プリンセスリング",
+                    "total_id":"taikai-013F",
+                    "total_image":"https://aipri.jp/card/img/special/P-222_O.webp",
+                    "one_piece" : "エターナルフラワールミナスフローラノーブル　リングワンピ",
+                    "shoues" : "エターナルフラワールミナスフローラノーブル　リングシューズ",
+                    "accessary" : "エターナルフラワールミナスフローラノーブル　リングアクセ",
+                    "one_piece_id":"taikai-044",
+                    "shoues_id":"taikai-045",
+                    "accessary_id":"taikai-046",
+                    "parts":3
+                },
+                {
+                    "name":"エターナルフラワールミナスフローラノーブル　つむぎ",
+                    "brand_name": "フラワーマーチ",
+                    "total_id":"taikai-013F",
+                    "total_image":"https://aipri.jp/card/img/special/P-223_O.webp",
+                    "one_piece" : "エターナルフラワールミナスフローラノーブル　つむぎワンピ",
+                    "shoues" : "エターナルフラワールミナスフローラノーブル　つむぎシューズ",
+                    "accessary" : "エターナルフラワールミナスフローラノーブル　つむぎアクセ",
+                    "one_piece_id":"taikai-047",
+                    "shoues_id":"taikai-048",
+                    "accessary_id":"taikai-049",
                     "parts":3
                 }
             ]
@@ -2218,6 +2370,7 @@ let data = {
             "item_list":[
                 {
                     "name":"アイスブラウニークレープ",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"toku-001F",
                     "total_image":"https://aipri.jp/card/img/special/P-023_O.webp",
                     "one_piece" : "アイスブラウニークレープワンピ",
@@ -2230,6 +2383,7 @@ let data = {
                 },
                 {
                     "name":"フラワーマーチバズリウムブルー",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"toku-002F",
                     "total_image":"https://aipri.jp/card/img/special/P-073_O.webp",
                     "one_piece" : "フラワーマーチバズリウムブルーワンピ",
@@ -2242,6 +2396,7 @@ let data = {
                 },
                 {
                     "name":"バレンタインレターパープル",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"toku-003F",
                     "total_image":"https://aipri.jp/card/img/special/P-090_O.webp",
                     "tops" : "バレンタインレターパープルトップス",
@@ -2256,6 +2411,7 @@ let data = {
                 },
                 {
                     "name":"ドーナツパティシエールパープル",
+                    "brand_name": "ポッピンハート",
                     "total_id":"toku-004F",
                     "total_image":"https://aipri.jp/card/img/special/P-099_O.webp",
                     "one_piece" : "ドーナツパティシエールパープルワンピ",
@@ -2268,6 +2424,7 @@ let data = {
                 },
                 {
                     "name":"きらきらくらげレッド",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"toku-005F",
                     "total_image":"https://aipri.jp/card/img/special/P-001_O.webp",
                     "one_piece" : "きらきらくらげレッドワンピ",
@@ -2280,6 +2437,7 @@ let data = {
                 },
                 {
                     "name":"ぴょんぴょんうさぎファンシー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"toku-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-107_O.webp",
                     "tops" : "ぴょんぴょんうさぎファンシートップス",
@@ -2294,6 +2452,7 @@ let data = {
                 },
                 {
                     "name":"プリうさおでかけブルー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"toku-007F",
                     "total_image":"https://aipri.jp/card/img/special/P-146_O.webp",
                     "tops" : "プリうさおでかけブルートップス",
@@ -2308,6 +2467,7 @@ let data = {
                 },
                 {
                     "name":"ミラクルムーンバズリウムシークレットフレンズ∞",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"toku-008F",
                     "total_image":"https://aipri.jp/card/img/special/P-145_O.webp",
                     "one_piece" : "ミラクルムーンバズリウムシークレットフレンズ∞ワンピ",
@@ -2320,6 +2480,7 @@ let data = {
                 },
                 {
                     "name":"フラワーマーチバズリウムシークレットフレンズ∞",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"toku-009F",
                     "total_image":"https://aipri.jp/card/img/special/P-181_O.webp",
                     "one_piece" : "フラワーマーチバズリウムシークレットフレンズ∞ワンピ",
@@ -2329,6 +2490,32 @@ let data = {
                     "shoues_id":"toku-029",
                     "accessary_id":"toku-030",
                     "parts":3
+                },
+                {
+                    "name":"きらきらくらげオレンジ",
+                    "brand_name": "ミラクルムーン",
+                    "total_id":"toku-010F",
+                    "total_image":"https://aipri.jp/card/img/special/P-263_O.webp",
+                    "one_piece" : "きらきらくらげオレンジワンピ",
+                    "shoues" : "きらきらくらげオレンジシューズ",
+                    "accessary" : "きらきらくらげオレンジアクセ",
+                    "one_piece_id":"toku-031",
+                    "shoues_id":"toku-032",
+                    "accessary_id":"toku-033",
+                    "parts":3
+                },
+                {
+                    "name":"エターナルジュエルシークレットフレンズ∞",
+                    "brand_name": "ミラクルムーン",
+                    "total_id":"toku-011F",
+                    "total_image":"https://aipri.jp/card/img/special/P-231_O.webp",
+                    "one_piece" : "エターナルジュエルシークレットフレンズ∞ワンピ",
+                    "shoues" : "エターナルジュエルシークレットフレンズ∞シューズ",
+                    "accessary" : "エターナルジュエルシークレットフレンズ∞アクセ",
+                    "one_piece_id":"toku-034",
+                    "shoues_id":"toku-035",
+                    "accessary_id":"toku-036",
+                    "parts":3
                 }
             ]
         },
@@ -2337,6 +2524,7 @@ let data = {
             "item_list":[
                 {
                     "name":"フレッシュレモンミント",
+                    "brand_name": "ポッピンハート",
                     "total_id":"mise-001F",
                     "total_image":"https://aipri.jp/card/img/special/P-024_O.webp",
                     "one_piece" : "フレッシュレモンミントワンピ",
@@ -2349,6 +2537,7 @@ let data = {
                 },
                 {
                     "name":"おとぎばなししらゆきひめホワイト",
+                    "brand_name": "クリスタルバース",
                     "total_id":"mise-002F",
                     "total_image":"https://aipri.jp/card/img/special/P-068_O.webp",
                     "one_piece" : "おとぎばなししらゆきひめホワイトワンピ",
@@ -2361,6 +2550,7 @@ let data = {
                 },
                 {
                     "name":"おとぎばなしワンダーランドピンク",
+                    "brand_name": "クリスタルバース",
                     "total_id":"mise-003F",
                     "total_image":"https://aipri.jp/card/img/special/P-069_O.webp",
                     "tops" : "おとぎばなしワンダーランドピンクトップス",
@@ -2375,6 +2565,7 @@ let data = {
                 },
                 {
                     "name":"ポッピンハートバズリウムブルー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"mise-004F",
                     "total_image":"https://aipri.jp/card/img/special/P-042_O.webp",
                     "one_piece" : "ポッピンハートバズリウムブルーワンピ",
@@ -2387,6 +2578,7 @@ let data = {
                 },
                 {
                     "name":"ミラクルムーンバズリウムピンク",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"mise-005F",
                     "total_image":"https://aipri.jp/card/img/special/P-043_O.webp",
                     "one_piece" : "ミラクルムーンバズリウムピンクワンピ",
@@ -2399,6 +2591,7 @@ let data = {
                 },
                 {
                     "name":"カルテットスターバズリウムハートピンク",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"mise-006F",
                     "total_image":"https://aipri.jp/card/img/special/P-071_O.webp",
                     "one_piece" : "カルテットスターバズリウムハートピンクワンピ",
@@ -2411,6 +2604,7 @@ let data = {
                 },
                 {
                     "name":"ポッピンハートバズリウムシークレットフレンズ∞",
+                    "brand_name": "ポッピンハート",
                     "total_id":"mise-007F",
                     "total_image":"https://aipri.jp/card/img/special/P-092_O.webp",
                     "one_piece" : "ポッピンハートバズリウムシークレットフレンズ∞ワンピ",
@@ -2423,6 +2617,7 @@ let data = {
                 },
                 {
                     "name":"キューティーラビット",
+                    "brand_name": "ポッピンハート",
                     "total_id":"mise-008F",
                     "total_image":"https://aipri.jp/card/img/special/P-097_O.webp",
                     "tops" : "キューティーラビットトップス",
@@ -2437,6 +2632,7 @@ let data = {
                 },
                 {
                     "name":"マジシャンキャット",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"mise-009F",
                     "total_image":"https://aipri.jp/card/img/special/P-098_O.webp",
                     "tops" : "マジシャンキャットトップス",
@@ -2451,6 +2647,7 @@ let data = {
                 },
                 {
                     "name":"カラフルシャインレッド",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"mise-009F",
                     "total_image":"https://aipri.jp/card/img/special/P-215_O.webp",
                     "tops" : "カラフルシャインレッドトップス",
@@ -2465,6 +2662,7 @@ let data = {
                 },
                 {
                     "name":"フラワーバズリウムカンパニュラピンク",
+                    "brand_name": "プリンセスリング",
                     "total_id":"mise-010F",
                     "total_image":"https://aipri.jp/card/img/special/P-216_O.webp",
                     "one_piece" : "フラワーバズリウムカンパニュラピンクワンピ",
@@ -2477,6 +2675,7 @@ let data = {
                 },
                 {
                     "name":"おとめざみつきブルー",
+                    "brand_name": "クリスタルバース",
                     "total_id":"mise-011F",
                     "total_image":"https://aipri.jp/card/img/special/P-227_O.webp",
                     "tops" : "おとめざみつきブルートップス",
@@ -2491,6 +2690,7 @@ let data = {
                 },
                 {
                     "name":"カルテットレジェンドピンク",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"mise-012F",
                     "total_image":"https://aipri.jp/card/img/special/P-228_O.webp",
                     "one_piece" : "カルテットレジェンドピンクワンピ",
@@ -2503,6 +2703,7 @@ let data = {
                 },
                 {
                     "name":"メロディバズリウムアンサンブルミルキーブルー",
+                    "brand_name": "ロゼッション",
                     "total_id":"mise-013F",
                     "total_image":"https://aipri.jp/card/img/special/P-229_O.webp",
                     "one_piece" : "メロディバズリウムアンサンブルミルキーブルーワンピ",
@@ -2512,6 +2713,34 @@ let data = {
                     "shoues_id":"mise-046",
                     "accessary_id":"mise-047",
                     "parts":3
+                },
+                {
+                    "name":"わんわん アリ・リオ コーデ",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"mise-014F",
+                    "total_image":"https://aipri.jp/card/img/special/P-142_O.webp",
+                    "tops" : "わんわん アリ・リオ コーデトップス",
+                    "bottoms":"わんわん アリ・リオ コーデボトムス",
+                    "shoues" : "わんわん アリ・リオ コーデシューズ",
+                    "accessary" : "わんわん アリ・リオ コーデアクセ",
+                    "tops_id":"mise-048",
+                    "bottoms_id" : "mise-049",
+                    "shoues_id":"mise-050",
+                    "accessary_id":"mise-051",
+                    "parts":4
+                },
+                {
+                    "name":"プリンセスバズリウムハートイエロー",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"mise-015F",
+                    "total_image":"https://aipri.jp/card/img/special/P-269_O.webp",
+                    "one_piece" : "プリンセスバズリウムハートイエローワンピ",
+                    "shoues" : "プリンセスバズリウムハートイエローシューズ",
+                    "accessary" : "プリンセスバズリウムハートイエローアクセ",
+                    "one_piece_id":"mise-052",
+                    "shoues_id":"mise-053",
+                    "accessary_id":"mise-054",
+                    "parts":3
                 }
             ]
         },
@@ -2520,6 +2749,7 @@ let data = {
             "item_list":[
                 {
                     "name":"レインボースカイ",
+                    "brand_name": "ポッピンハート",
                     "total_id":"debut-001F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-000_O.webp",
                     "tops" : "レインボースカイトップス",
@@ -2534,6 +2764,7 @@ let data = {
                 },
                 {
                     "name":"パティシエストロベリー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"debut-002F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-001_O.webp",
                     "tops" : "パティシエストロベリートップス",
@@ -2548,6 +2779,7 @@ let data = {
                 },
                 {
                     "name":"ギンガムチェックチェリー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"debut-003F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-002_O.webp",
                     "tops" : "ギンガムチェックチェリートップス",
@@ -2562,6 +2794,7 @@ let data = {
                 },
                 {
                     "name":"スターリースカイ",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"debut-004F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-003_O.webp",
                     "tops" : "スターリースカイトップス",
@@ -2576,6 +2809,7 @@ let data = {
                 },
                 {
                     "name":"パティシエチョコミント",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"debut-005F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-004_O.webp",
                     "tops" : "パティシエチョコミントトップス",
@@ -2590,6 +2824,7 @@ let data = {
                 },
                 {
                     "name":"ギンガムチェックグレープ",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"debut-006F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-005_O.webp",
                     "tops" : "ギンガムチェックグレープトップス",
@@ -2604,6 +2839,7 @@ let data = {
                 },
                 {
                     "name":"サニースカイ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"debut-007F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-022_O.webp",
                     "tops" : "サニースカイトップス",
@@ -2618,6 +2854,7 @@ let data = {
                 },
                 {
                     "name":"パティシエはちみつパンケーキ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"debut-005F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-023_O.webp",
                     "tops" : "パティシエはちみつパンケーキトップス",
@@ -2632,6 +2869,7 @@ let data = {
                 },
                 {
                     "name":"ギンガムチェックレモン",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"debut-006F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-024_O.webp",
                     "tops" : "ギンガムチェックレモントップス",
@@ -2646,6 +2884,7 @@ let data = {
                 },
                 {
                     "name":"フレンドスターグランプリパステル",
+                    "brand_name": "ポッピンハート",
                     "total_id":"debut-007F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-054_O.webp",
                     "one_piece" : "フレンドスターグランプリパステルワンピ",
@@ -2655,45 +2894,60 @@ let data = {
                     "shoues_id":"debut-038",
                     "accessary_id":"debut-039",
                     "parts":3
+                },                {
+                    "name":"フレンドスターグランプリパステル",
+                    "brand_name": "ミラクルムーン",
+                    "total_id":"debut-008F",
+                    "total_image":"https://aipri.jp/card/img/special/TOY-055_O.webp",
+                    "one_piece" : "フレンドスターグランプリパステルワンピ",
+                    "shoues" : "フレンドスターグランプリパステルシューズ",
+                    "accessary" : "フレンドスターグランプリパステルアクセ",
+                    "one_piece_id":"debut-040",
+                    "shoues_id":"debut-041",
+                    "accessary_id":"debut-042",
+                    "parts":3
                 },
                 {
                     "name":"フラワーペイント",
-                    "total_id":"debut-008F",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"debut-009F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-057_O.webp",
                     "tops" : "フラワーペイントトップス",
                     "bottoms":"フラワーペイントボトムス",
                     "shoues" : "フラワーペイントシューズ",
                     "accessary" : "フラワーペイントアクセ",
-                    "tops_id":"debut-040",
-                    "bottoms_id" : "debut-041",
-                    "shoues_id":"debut-042",
-                    "accessary_id":"debut-043",
+                    "tops_id":"debut-043",
+                    "bottoms_id" : "debut-044",
+                    "shoues_id":"debut-045",
+                    "accessary_id":"debut-046",
                     "parts":4
                 },
                 {
                     "name":"シャイニービジュー",
-                    "total_id":"debut-009F",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"debut-010F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-060_O.webp",
                     "one_piece" : "シャイニービジューワンピ",
                     "shoues" : "シャイニービジューシューズ",
                     "accessary" : "シャイニービジューアクセ",
-                    "one_piece_id":"debut-044",
-                    "shoues_id":"debut-045",
-                    "accessary_id":"debut-046",
+                    "one_piece_id":"debut-047",
+                    "shoues_id":"debut-048",
+                    "accessary_id":"debut-049",
                     "parts":3
                 },
                 {
                     "name":"フレンチチェックブルー",
-                    "total_id":"debut-010F",
+                    "brand_name": "ミラクルムーン",
+                    "total_id":"debut-011F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-063_O.webp",
                     "tops" : "フレンチチェックブルートップス",
                     "bottoms":"フレンチチェックブルーボトムス",
                     "shoues" : "フレンチチェックブルーシューズ",
                     "accessary" : "フレンチチェックブルーアクセ",
-                    "tops_id":"debut-047",
-                    "bottoms_id" : "debut-048",
-                    "shoues_id":"debut-049",
-                    "accessary_id":"debut-050",
+                    "tops_id":"debut-050",
+                    "bottoms_id" : "debut-051",
+                    "shoues_id":"debut-052",
+                    "accessary_id":"debut-053",
                     "parts":4
                 }
             ]
@@ -2703,6 +2957,7 @@ let data = {
             "item_list":[
                 {
                     "name":"ピンクジュエル",
+                    "brand_name": "ポッピンハート",
                     "total_id":"bress-001F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-006_O.webp",
                     "one_piece" : "ピンクジュエルワンピ",
@@ -2715,6 +2970,7 @@ let data = {
                 },
                 {
                     "name":"ブルージュエル",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"bress-002F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-007_O.webp",
                     "one_piece" : "ブルージュエルワンピ",
@@ -2727,6 +2983,7 @@ let data = {
                 },
                 {
                     "name":"イエローグリーンジュエル",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"bress-003F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-025_O.webp",
                     "one_piece" : "イエローグリーンジュエルワンピ",
@@ -2739,6 +2996,7 @@ let data = {
                 },
                 {
                     "name":"アイプリバースフラワーマーチプリンセス",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"bress-004F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-051_O.webp",
                     "one_piece" : "アイプリバースフラワーマーチプリンセスワンピ",
@@ -2751,6 +3009,7 @@ let data = {
                 },
                 {
                     "name":"ファンタジーハート",
+                    "brand_name": "ポッピンハート",
                     "total_id":"bress-005F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-058_O.webp",
                     "tops" : "ファンタジーハートトップス",
@@ -2765,6 +3024,7 @@ let data = {
                 },
                 {
                     "name":"ファンタジームーン",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"bress-006F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-059_O.webp",
                     "tops" : "ファンタジームーントップス",
@@ -2779,6 +3039,7 @@ let data = {
                 },
                 {
                     "name":"ファンタジーリング",
+                    "brand_name": "プリンセスリング",
                     "total_id":"bress-007F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-090_O.webp",
                     "tops" : "ファンタジーリングトップス",
@@ -2798,6 +3059,7 @@ let data = {
             "item_list":[
                 {
                     "name":"ラブリーコスメ",
+                    "brand_name": "ポッピンハート",
                     "total_id":"lip-001F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-010_O.webp",
                     "tops" : "ラブリーコスメトップス",
@@ -2812,6 +3074,7 @@ let data = {
                 },
                 {
                     "name":"クールコスメ",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"lip-002F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-011_O.webp",
                     "tops" : "クールコスメトップス",
@@ -2826,6 +3089,7 @@ let data = {
                 },
                 {
                     "name":"パッションコスメ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"lip-003F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-027_O.webp",
                     "tops" : "パッションコスメトップス",
@@ -2845,6 +3109,7 @@ let data = {
             "item_list":[
                 {
                     "name":"ネイルポリッシュラブリー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"nail-001F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-008_O.webp",
                     "one_piece" : "ネイルポリッシュラブリーワンピ",
@@ -2857,6 +3122,7 @@ let data = {
                 },
                 {
                     "name":"ネイルポリッシュクール",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"nail-002F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-009_O.webp",
                     "one_piece" : "ネイルポリッシュクールワンピ",
@@ -2869,6 +3135,7 @@ let data = {
                 },
                 {
                     "name":"ネイルポリッシュナチュラル",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"nail-003F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-026_O.webp",
                     "one_piece" : "ネイルポリッシュナチュラルワンピ",
@@ -2881,6 +3148,7 @@ let data = {
                 },
                 {
                     "name":"フォーチュンコスメタロット",
+                    "brand_name": "ポッピンハート",
                     "total_id":"nail-004F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-066_O.webp",
                     "tops" : "フォーチュンコスメタロットトップス",
@@ -2900,6 +3168,7 @@ let data = {
             "item_list":[
                 {
                     "name":"フラワーチュールローズ",
+                    "brand_name": "ポッピンハート",
                     "total_id":"goods-001F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-012_O.webp",
                     "tops" : "フラワーチュールローズトップス",
@@ -2914,6 +3183,7 @@ let data = {
                 },
                 {
                     "name":"フラワーチュールジャスミン",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"goods-002F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-013_O.webp",
                     "tops" : "フラワーチュールジャスミントップス",
@@ -2928,6 +3198,7 @@ let data = {
                 },
                 {
                     "name":"フラワーチュールすずらん",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"goods-003F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-028_O.webp",
                     "tops" : "フラワーチュールすずらんトップス",
@@ -2942,6 +3213,7 @@ let data = {
                 },
                 {
                     "name":"さわやかブルーシャボン",
+                    "brand_name": "ポッピンハート",
                     "total_id":"goods-004F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-029_O.webp",
                     "one_piece" : "さわやかブルーシャボンワンピ",
@@ -2954,6 +3226,7 @@ let data = {
                 },
                 {
                     "name":"バタフライマジックキュート",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"goods-005F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-052_O.webp",
                     "tops" : "バタフライマジックキュートトップス",
@@ -2968,6 +3241,7 @@ let data = {
                 },
                 {
                     "name":"ウィンターパープルバタフライ",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"goods-006F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-053_O.webp",
                     "tops" : "ウィンターパープルバタフライトップス",
@@ -2982,6 +3256,7 @@ let data = {
                 },
                 {
                     "name":"オーシャンコスメパープル",
+                    "brand_name": "ポッピンハート",
                     "total_id":"goods-007F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-030_O.webp",
                     "tops" : "オーシャンコスメパープルトップス",
@@ -2996,6 +3271,7 @@ let data = {
                 },
                 {
                     "name":"シークレットフレンズ∞バズリウムパープル",
+                    "brand_name": "ポッピンハート",
                     "total_id":"goods-008F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-039_O.webp",
                     "one_piece" : "シークレットフレンズ∞バズリウムパープルワンピ",
@@ -3008,6 +3284,7 @@ let data = {
                 },
                 {
                     "name":"ウィンタースノー",
+                    "brand_name": "ロゼッション",
                     "total_id":"goods-009F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-050_O.webp",
                     "tops" : "ウィンタースノートップス",
@@ -3022,6 +3299,7 @@ let data = {
                 },
                 {
                     "name":"ゆめみるリカちゃんピンクドレス",
+                    "brand_name": "ポッピンハート",
                     "total_id":"goods-010F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-064_O.webp",
                     "one_piece" : "ゆめみるリカちゃんピンクドレスワンピ",
@@ -3034,6 +3312,7 @@ let data = {
                 },
                 {
                     "name":"ゆめみるリカちゃんブルードレス",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"goods-011F",
                     "total_image":"https://aipri.jp/card/img/special/TOY-065_O.webp",
                     "one_piece" : "ゆめみるリカちゃんブルードレスワンピ",
@@ -3046,6 +3325,7 @@ let data = {
                 },
                 {
                     "name":"プリうさムギちゃんぬいぐるみ",
+                    "brand_name": "ポッピンハート",
                     "total_id":"nui-001F",
                     "total_image":"https://aipri.jp/verse/item/img/special/Item_ID40103.webp",
                     "accessary" : "プリうさムギちゃんアクセ",
@@ -3054,6 +3334,7 @@ let data = {
                 },
                 {
                     "name":"ひみつのアイプリぬいぐるみ　ひまり",
+                    "brand_name": "ポッピンハート",
                     "total_id":"nui-002F",
                     "total_image":"https://aipri.jp/verse/item/img/special/Item_ID40104.webp",
                     "accessary" : "ひまりぬいぐるみアクセ",
@@ -3062,6 +3343,7 @@ let data = {
                 },
                 {
                     "name":"ひみつのアイプリぬいぐるみ　みつき",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"nui-003F",
                     "total_image":"https://aipri.jp/verse/item/img/special/Item_ID40105.webp",
                     "accessary" : "みつきぬいぐるみアクセ",
@@ -3070,6 +3352,7 @@ let data = {
                 },
                 {
                     "name":"ひみつのアイプリぬいぐるみ　つむぎ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"nui-004F",
                     "total_image":"https://aipri.jp/verse/item/img/special/Item_ID40238.webp",
                     "accessary" : "ぬいぐるみつむぎアクセ",
@@ -3078,6 +3361,7 @@ let data = {
                 },
                 {
                     "name":"アイムゥマスコット　ひまり",
+                    "brand_name": "ポッピンハート",
                     "total_id":"nui-005F",
                     "total_image":"https://aipri.jp/verse/item/img/special/Item_ID40106.webp",
                     "accessary" : "ひまりのアイムゥアクセ",
@@ -3086,6 +3370,7 @@ let data = {
                 },
                 {
                     "name":"アイムゥマスコット　みつき",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"nui-006F",
                     "total_image":"https://aipri.jp/verse/item/img/special/Item_ID40107.webp",
                     "accessary" : "みつきのアイムゥアクセ",
@@ -3094,6 +3379,7 @@ let data = {
                 },
                 {
                     "name":"アイムゥマスコット　つむぎ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"nui-007F",
                     "total_image":"https://aipri.jp/verse/item/img/special/Item_ID40239.webp",
                     "accessary" : "つむぎのアイムゥアクセ",
@@ -3107,6 +3393,7 @@ let data = {
             "item_list":[
                 {
                     "name":"ゆめみるリカちゃんホワイトドレス",
+                    "brand_name": "ポッピンハート",
                     "total_id":"happy-001F",
                     "total_image":"https://aipri.jp/card/img/special/P-109_O.webp",
                     "one_piece" : "ゆめみるリカちゃんホワイトドレスワンピ",
@@ -3119,6 +3406,7 @@ let data = {
                 },
                 {
                     "name":"リカちゃんシャイニングブルードレス",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"happy-002F",
                     "total_image":"https://aipri.jp/card/img/special/P-110_O.webp",
                     "tops" : "リカちゃんシャイニングブルードレストップス",
@@ -3133,6 +3421,7 @@ let data = {
                 },
                 {
                     "name":"リカちゃんフラワードレス",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"happy-003F",
                     "total_image":"https://aipri.jp/card/img/special/P-111_O.webp",
                     "one_piece" : "リカちゃんフラワードレスワンピ",
@@ -3150,6 +3439,7 @@ let data = {
             "item_list":[
                 {
                     "name":"スプリングブロッサム",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-020F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-014_O.webp",
                     "tops" : "スプリングブロッサムトップス",
@@ -3164,6 +3454,7 @@ let data = {
                 },
                 {
                     "name":"バタフライマジックブルー",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-021F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-016_O.webp",
                     "tops" : "バタフライマジックブルートップス",
@@ -3178,6 +3469,7 @@ let data = {
                 },
                 {
                     "name":"フラワーチュールスカーレット",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-022F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-017_O.webp",
                     "tops" : "フラワーチュールスカーレットトップス",
@@ -3192,6 +3484,7 @@ let data = {
                 },
                 {
                     "name":"スターメロディマジカル",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-023F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-018_O.webp",
                     "tops" : "スターメロディマジカルトップス",
@@ -3206,6 +3499,7 @@ let data = {
                 },
                 {
                     "name":"ハニービービビッドピンク",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-42F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-019_O.webp",
                     "tops" : "ハニービービビッドピンクトップス",
@@ -3220,6 +3514,7 @@ let data = {
                 },
                 {
                     "name":"ラブリーアイドルホワイトブルー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-024F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-020_O.webp",
                     "tops" : "ラブリーアイドルホワイトブルートップス",
@@ -3234,6 +3529,7 @@ let data = {
                 },
                 {
                     "name":"クールアイドルパープルブラック",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"TOY-025F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-021_O.webp",
                     "tops" : "クールアイドルパープルブラックトップス",
@@ -3248,6 +3544,7 @@ let data = {
                 },
                 {
                     "name":"スプリングブルーバタフライ",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-026F",
                     "total_image":"https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/000000027035_k5tPWeb.jpg",
                     "tops" : "スプリングブルーバタフライトップス",
@@ -3262,6 +3559,7 @@ let data = {
                 },
                 {
                     "name":"にゃんにゃんロリータ",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-027F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-031_O.webp",
                     "tops" : "にゃんにゃんロリータトップス",
@@ -3276,6 +3574,7 @@ let data = {
                 },
                 {
                     "name":"ウェルカムチェリーグリーン",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-028F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-033_O.webp",
                     "one_piece" : "ウェルカムチェリーグリーンワンピ",
@@ -3288,6 +3587,7 @@ let data = {
                 },
                 {
                     "name":"ぽんぽんすずらんブルー",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"TOY-029F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-034_O.webp",
                     "tops" : "ぽんぽんすずらんブルートップス",
@@ -3302,6 +3602,7 @@ let data = {
                 },
                 {
                     "name":"ことりメルヘンスカイ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"TOY-030F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-035_O.webp",
                     "tops" : "ことりメルヘンスカイトップス",
@@ -3316,6 +3617,7 @@ let data = {
                 },
                 {
                     "name":"ローズプリンスシック",
+                    "brand_name": "ロゼッション",
                     "total_id":"TOY-031F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-036_O.webp",
                     "tops" : "ローズプリンスシックトップス",
@@ -3330,6 +3632,7 @@ let data = {
                 },
                 {
                     "name":"ハッピーチアフレッシュ",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-032F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-037_O.webp",
                     "tops" : "ハッピーチアフレッシュトップス",
@@ -3344,6 +3647,7 @@ let data = {
                 },
                 {
                     "name":"ゴシックマリン",
+                    "brand_name": "ロゼッション",
                     "total_id":"TOY-033F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-038_O.webp",
                     "tops" : "ゴシックマリントップス",
@@ -3358,6 +3662,7 @@ let data = {
                 },
                 {
                     "name":"わんわんロリータ",
+                    "brand_name": "フラワーマーチ",
                     "total_id":"TOY-41F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-032_O.webp",
                     "tops" : "わんわんロリータトップス",
@@ -3372,6 +3677,7 @@ let data = {
                 },
                 {
                     "name":"おとぎばなしかぐやひめ",
+                    "brand_name": "クリスタルバース",
                     "total_id":"TOY-042F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-042_O.webp",
                     "one_piece" : "おとぎばなしかぐやひめワンピ",
@@ -3384,6 +3690,7 @@ let data = {
                 },
                 {
                     "name":"おとぎばなしシンデレラピンク",
+                    "brand_name": "クリスタルバース",
                     "total_id":"TOY-43F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-043_O.webp",
                     "tops" : "おとぎばなしシンデレラピンクトップス",
@@ -3398,6 +3705,7 @@ let data = {
                 },
                 {
                     "name":"アイプリバーススカーレットバタフライラブピンク",
+                    "brand_name": "スプリングブルーバタフライ",
                     "total_id":"TOY-045F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-045_O.webp",
                     "one_piece" : "アイプリバーススカーレットバタフライラブピンクワンピ",
@@ -3410,6 +3718,7 @@ let data = {
                 },
                 {
                     "name":"アイスクリームグレープ",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"TOY-46F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-046_O.webp",
                     "tops" : "アイスクリームグレープトップス",
@@ -3424,6 +3733,7 @@ let data = {
                 },
                 {
                     "name":"ラブリーアイドルグリーンオレンジ",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"TOY-47F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-047_O.webp",
                     "tops" : "ラブリーアイドルグリーンオレンジトップス",
@@ -3438,6 +3748,7 @@ let data = {
                 },
                 {
                     "name":"セーラーカジュアルネイビーイエロー",
+                    "brand_name": "ロゼッション",
                     "total_id":"TOY-48F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-048_O.webp",
                     "tops" : "セーラーカジュアルネイビーイエロートップス",
@@ -3452,6 +3763,7 @@ let data = {
                 },
                 {
                     "name":"チューリップレトロブラウン",
+                    "brand_name": "ベアベアベア",
                     "total_id":"TOY-045F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-049_O.webp",
                     "one_piece" : "チューリップレトロブラウンワンピ",
@@ -3464,6 +3776,7 @@ let data = {
                 },
                 {
                     "name":"おとぎばなしあかずきんブルー",
+                    "brand_name": "クリスタルバース",
                     "total_id":"TOY-44F",
                     "total_image":"https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/0000000299732_Yhe8snC.jpg",
                     "tops" : "おとぎばなしあかずきんブルートップス",
@@ -3478,6 +3791,7 @@ let data = {
                 },
                 {
                     "name":"ロマンチックローズブルーム",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-068_O.webp",
                     "tops" : "ロマンチックローズブルームトップス",
@@ -3492,6 +3806,7 @@ let data = {
                 },
                 {
                     "name":"ロマンチックリボンリボン",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-069_O.webp",
                     "tops" : "ロマンチックリボンリボントップス",
@@ -3506,6 +3821,7 @@ let data = {
                 },
                 {
                     "name":"ベリキューデニムピンク",
+                    "brand_name": "キューティーカラット",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-070_O.webp",
                     "tops" : "ベリキューデニムピンクトップス",
@@ -3520,6 +3836,7 @@ let data = {
                 },
                 {
                     "name":"アイプリバースミラクルムーンデニム",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-071_O.webp",
                     "tops" : "アイプリバースミラクルムーンデニムトップス",
@@ -3534,6 +3851,7 @@ let data = {
                 },
                 {
                     "name":"ふわもこかいじゅうミルキー",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-072_O.webp",
                     "tops" : "ふわもこかいじゅうミルキートップス",
@@ -3548,6 +3866,7 @@ let data = {
                 },
                 {
                     "name":"ティーパーティーはるかぜイエロー",
+                    "brand_name": "ベアベアベア",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-073_O.webp",
                     "tops" : "ティーパーティーはるかぜイエロートップス",
@@ -3562,6 +3881,7 @@ let data = {
                 },
                 {
                     "name":"スターカウガールブルー",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-074_O.webp",
                     "tops" : "スターカウガールブルートップス",
@@ -3576,6 +3896,7 @@ let data = {
                 },
                 {
                     "name":"パンキッシュペンギンパープル",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"TOY-44F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-075_O.webp",
                     "tops" : "パンキッシュペンギンパープルトップス",
@@ -3590,6 +3911,7 @@ let data = {
                 },
                 {
                     "name":"フルーツソーダブルーベリー",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-45F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-082_O.webp",
                     "tops" : "フルーツソーダブルーベリートップス",
@@ -3604,6 +3926,7 @@ let data = {
                 },
                 {
                     "name":"フルーツソーダストロベリー",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-45F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-083_O.webp",
                     "tops" : "フルーツソーダストロベリートップス",
@@ -3618,6 +3941,7 @@ let data = {
                 },
                 {
                     "name":"カラフルキャンディブルー",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"TOY-46F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-084_O.webp",
                     "tops" : "カラフルキャンディブルートップス",
@@ -3632,6 +3956,7 @@ let data = {
                 },
                 {
                     "name":"ひまわりサマークール",
+                    "brand_name": "ポッピンハート",
                     "total_id":"TOY-47F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-085_O.webp",
                     "tops" : "ひまわりサマークールトップス",
@@ -3646,6 +3971,7 @@ let data = {
                 },
                 {
                     "name":"ミルキーウェイブラックピンク",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-48F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-086_O.webp",
                     "tops" : "ミルキーウェイブラックピンクトップス",
@@ -3660,6 +3986,7 @@ let data = {
                 },
                 {
                     "name":"さわやかマリンパステル",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-49F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-087_O.webp",
                     "tops" : "さわやかマリンパステルトップス",
@@ -3674,6 +4001,7 @@ let data = {
                 },
                 {
                     "name":"たいようさんさんイエロー",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"TOY-50F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-088_O.webp",
                     "tops" : "たいようさんさんイエロートップス",
@@ -3688,6 +4016,7 @@ let data = {
                 },
                 {
                     "name":"たんけんかレッド",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"TOY-51F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-089_O.webp",
                     "tops" : "たんけんかレッドトップス",
@@ -3702,6 +4031,7 @@ let data = {
                 },
                 {
                     "name":"クラシカルピュアドールクローバー",
+                    "brand_name": "プリンセスリング",
                     "total_id":"TOY-52F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-092_O.webp",
                     "tops" : "クラシカルピュアドールクローバートップス",
@@ -3716,6 +4046,7 @@ let data = {
                 },
                 {
                     "name":"クラシカルピュアドール",
+                    "brand_name": "プリンセスリング",
                     "total_id":"TOY-53F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-093_O.webp",
                     "tops" : "クラシカルピュアドールトップス",
@@ -3730,6 +4061,7 @@ let data = {
                 },
                 {
                     "name":"ゴーストハロウィンホワイト",
+                    "brand_name": "スカーレットバタフライ",
                     "total_id":"TOY-54F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-094_O.webp",
                     "tops" : "ゴーストハロウィンホワイトトップス",
@@ -3744,6 +4076,7 @@ let data = {
                 },
                 {
                     "name":"あめぽつぽつあさやけピンク",
+                    "brand_name": "ミラクルムーン",
                     "total_id":"TOY-55F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-095_O.webp",
                     "tops" : "あめぽつぽつあさやけピンクトップス",
@@ -3758,6 +4091,7 @@ let data = {
                 },
                 {
                     "name":"ウィンタースノーアイスブルー",
+                    "brand_name": "ロゼッション",
                     "total_id":"TOY-56F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-096_O.webp",
                     "tops" : "ウィンタースノーアイスブルートップス",
@@ -3772,6 +4106,7 @@ let data = {
                 },
                 {
                     "name":"ポッピンマーチサーカス",
+                    "brand_name": "レインボーキャンディ",
                     "total_id":"TOY-57F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-097_O.webp",
                     "tops" : "ポッピンマーチサーカストップス",
@@ -3786,6 +4121,7 @@ let data = {
                 },
                 {
                     "name":"クラシックヴァイオリンドリーム",
+                    "brand_name": "ベアベアベア",
                     "total_id":"TOY-58F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-098_O.webp",
                     "tops" : "クラシックヴァイオリンドリームトップス",
@@ -3800,6 +4136,7 @@ let data = {
                 },
                 {
                     "name":"いたずらモンスタービビッド",
+                    "brand_name": "ラブマイミュージック",
                     "total_id":"TOY-59F",
                     "total_image":"https://aipri.jp/card/img/millefeui/TOY-099_O.webp",
                     "tops" : "いたずらモンスタービビッドトップス",
