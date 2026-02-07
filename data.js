@@ -1,5 +1,5 @@
 let data = {
-    "now_version":11,
+    "now_version":12,
     "version":[
         { "value":0,"name": "スペシャルコーデアイテム"},
         { "value":1,"name": "１だん"},
@@ -1305,6 +1305,10 @@ let data = {
                     44,45,46,48,49,50
                 ]
             }
+        },
+        {
+            "title":"アイプリバースリング６だん",
+            "version":12
         }
    ],
    "special":[

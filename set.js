@@ -196,6 +196,9 @@ async function reload(){
                                     ||  Object.values(category_item)[j] == "セブンスコーデクール" 
                                     ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
                                     ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
                                 ){
                                     // ワンピ
                                     ch = document.getElementById(obj.one_piece_id);
@@ -410,6 +413,9 @@ async function reload(){
                                     ||  Object.values(category_item)[j] == "セブンスコーデクール" 
                                     ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
                                     ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
                                 ){
                                     //シューズ
                                     ch = document.getElementById(obj.shoues_id);
@@ -1158,6 +1164,9 @@ async function create_disp(){
                                     ||  Object.values(category_item)[j] == "セブンスコーデクール" 
                                     ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
                                     ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
                                 ){
                                     // ワンピ
                                     ch.setAttribute('id',obj.one_piece_id)
@@ -1414,6 +1423,9 @@ async function create_disp(){
                                     ||  Object.values(category_item)[j] == "セブンスコーデクール" 
                                     ||  Object.values(category_item)[j] == "ピンクパレードコーデ"
                                     ||  Object.values(category_item)[j] == "パラダイスがくえんせいふくすばる"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
+                                    ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
                                 ){
                                     //シューズ
                                     ch.setAttribute('id',obj.shoues_id);
