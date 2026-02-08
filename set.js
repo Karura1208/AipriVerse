@@ -975,6 +975,26 @@ function create_menu(){
         ul.appendChild(li)
     }
 
+    // 別サイトへのリンクを作成
+    li = document.createElement("li")
+    a = document.createElement("a")
+    
+    // リンク先のURL
+    a.href = "https://karura1208.github.io/VersePhoto/" 
+    
+    // 表示する文字
+    a.textContent = "コーデフォト一覧" 
+    
+    // 別タブで開く設定（不要なら削除してください）
+    a.target = "_blank" 
+    a.rel = "noopener noreferrer" // セキュリティ対策
+
+    a.style.color = "white";
+    a.style.fontWeight = "bold";
+
+    li.appendChild(a)
+    ul.appendChild(li)
+
 }
 
 //スペシャルコーデ以外の時
@@ -1677,6 +1697,26 @@ function create_menu_sp(){
         li.appendChild(a)
         ul.appendChild(li)
     }
+
+        // 別サイトへのリンクを作成
+    li = document.createElement("li")
+    a = document.createElement("a")
+    
+    // リンク先のURL
+    a.href = "https://karura1208.github.io/VersePhoto/" 
+    
+    // 表示する文字
+    a.textContent = "コーデフォト一覧" 
+    
+    // 別タブで開く設定（不要なら削除してください）
+    a.target = "_blank" 
+    a.rel = "noopener noreferrer" // セキュリティ対策
+
+    a.style.color = "white";
+    a.style.fontWeight = "bold";
+
+    li.appendChild(a)
+    ul.appendChild(li)
 
 }
 
