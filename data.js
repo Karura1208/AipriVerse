@@ -1,5 +1,31 @@
 let data = {
     "now_version":12,
+    "now_category":"リング",
+    "version_Group":{
+        "スペシャル": [
+            "スペシャルコーデアイテム"
+        ],
+        "ひみつ": [
+            "１だん",
+            "２だん",
+            "３だん",
+            "４だん",
+            "５だん",
+            "６だん"
+        ],
+        "リング": [
+            "リング１だん",
+            "リング２だん",
+            "リング３だん",
+            "リング４だん",
+            "リング５だん",
+            "リング６だん"
+        ],
+        "おねがい": [
+            "おねがい１だん"
+        ]
+    
+    },
     "version":[
         { "value":0,"name": "スペシャルコーデアイテム"},
         { "value":1,"name": "１だん"},
@@ -13,32 +39,33 @@ let data = {
         { "value":9, "name":"リング３だん"},
         { "value":10, "name":"リング４だん"},
         { "value":11, "name":"リング５だん"},
-        { "value":12, "name":"リング６だん"}
+        { "value":12, "name":"リング６だん"},
+        { "value":13, "name":"おねがい１だん"}
     ],
     "vol":[
         {
             "title":"スペシャルコーデアイテム",
             "version":0,
-            "category":[
-                "primagi_campaign",
-                "verse_code",
-                // "Aipri_1",
-                // "Aipri_2",
-                // "Aipri_3",
-                "gumi",
-                "furoku",
-                "fanbook",
-                "taikai",
-                "tokuten",
-                "mise",
-                "debut",
-                "bress",
-                "lip",
-                "nail",
-                "toy",
-                "happy",
-                "milfy"
-            ],
+            // "category":[
+            //     // "primagi_campaign",
+            //     // "verse_code",
+            //     // // "Aipri_1",
+            //     // // "Aipri_2",
+            //     // // "Aipri_3",
+            //     // "gumi",
+            //     // "furoku",
+            //     // "fanbook",
+            //     // "taikai",
+            //     // "tokuten",
+            //     // "mise",
+            //     // "debut",
+            //     // "bress",
+            //     // "lip",
+            //     // "nail",
+            //     // "toy",
+            //     // "happy",
+            //     // "milfy"
+            // ],
             // "data":{
             //     "primagi_campaign":{
             //         "data":"「ワッチャプリマジ！」ひきつぎキャンペーン"
@@ -1309,6 +1336,10 @@ let data = {
         {
             "title":"アイプリバースリング６だん",
             "version":12
+        },
+        {
+            "title":"アイプリバースおねがい１だん",
+            "version":13
         }
    ],
    "special":[
@@ -2027,19 +2058,6 @@ let data = {
                     "shoues_id":"furoku-028",
                     "accessary_id":"furoku-029",
                     "parts":4
-                },
-                                {
-                    "name":"プリンセスバズリウムポッピンドリーミン",
-                    "brand_name": "ミラクルムーン",
-                    "total_id":"furoku-007F",
-                    "total_image":"https://aipri.jp/card/img/special/P-271_O.webp",
-                    "one_piece" : "プリンセスバズリウムポッピンドリーミンワンピ",
-                    "shoues" : "プリンセスバズリウムポッピンドリーミンシューズ",
-                    "accessary" : "プリンセスバズリウムポッピンドリーミンアクセ",
-                    "one_piece_id":"furoku-030",
-                    "shoues_id":"furoku-031",
-                    "accessary_id":"furoku-032",
-                    "parts":3
                 }
             ]
         },
@@ -2533,32 +2551,6 @@ let data = {
                     "one_piece_id":"toku-034",
                     "shoues_id":"toku-035",
                     "accessary_id":"toku-036",
-                    "parts":3
-                },
-                                {
-                    "name":"ゆうじょうさくらツイン　グリーン",
-                    "brand_name": "ミラクルムーン",
-                    "total_id":"toku-011F",
-                    "total_image":"https://aipri.jp/card/img/special/P-256_O.webp",
-                    "one_piece" : "ゆうじょうさくらツイン　グリーンワンピ",
-                    "shoues" : "ゆうじょうさくらツイン　グリーンシューズ",
-                    "accessary" : "ゆうじょうさくらツイン　グリーンアクセ",
-                    "one_piece_id":"toku-037",
-                    "shoues_id":"toku-038",
-                    "accessary_id":"toku-039",
-                    "parts":3
-                },
-                                                {
-                    "name":"ゆうじょうさくらツイン　パープル",
-                    "brand_name": "ミラクルムーン",
-                    "total_id":"toku-011F",
-                    "total_image":"https://aipri.jp/card/img/special/P-257_O.webp",
-                    "one_piece" : "ゆうじょうさくらツイン　パープルワンピ",
-                    "shoues" : "ゆうじょうさくらツイン　パープルシューズ",
-                    "accessary" : "ゆうじょうさくらツイン　パープルアクセ",
-                    "one_piece_id":"toku-040",
-                    "shoues_id":"toku-041",
-                    "accessary_id":"toku-042",
                     "parts":3
                 }
             ]
@@ -3474,45 +3466,6 @@ let data = {
                     "one_piece_id":"happy-008",
                     "shoues_id":"happy-009",
                     "accessary_id":"happy-010",
-                    "parts":3
-                },
-                {
-                    "name":"プリンセスアイプリバズリウムピンク",
-                    "brand_name": "プリンセスリング",
-                    "total_id":"happy-004F",
-                    "total_image":"https://aipri.jp/card/img/special/P-265_O.webp",
-                    "one_piece" : "プリンセスアイプリバズリウムピンクワンピ",
-                    "shoues" : "プリンセスアイプリバズリウムピンクシューズ",
-                    "accessary" : "プリンセスアイプリバズリウムピンクアクセ",
-                    "one_piece_id":"happy-011",
-                    "shoues_id":"happy-012",
-                    "accessary_id":"happy-013",
-                    "parts":3
-                },
-                {
-                    "name":"プリンセスアイプリバズリウムブルー",
-                    "brand_name": "プリンセスリング",
-                    "total_id":"happy-005F",
-                    "total_image":"https://aipri.jp/card/img/special/P-266_O.webp",
-                    "one_piece" : "プリンセスアイプリバズリウムブルーワンピ",
-                    "shoues" : "プリンセスアイプリバズリウムブルーシューズ",
-                    "accessary" : "プリンセスアイプリバズリウムブルーアクセ",
-                    "one_piece_id":"happy-014",
-                    "shoues_id":"happy-015",
-                    "accessary_id":"happy-016",
-                    "parts":3
-                },
-                                {
-                    "name":"プリンセスバズリウムムーンミルキーパープル",
-                    "brand_name": "ミラクルムーン",
-                    "total_id":"happy-005F",
-                    "total_image":"https://aipri.jp/card/img/special/P-270_O.webp",
-                    "one_piece" : "プリンセスバズリウムムーンミルキーパープルワンピ",
-                    "shoues" : "プリンセスバズリウムムーンミルキーパープルシューズ",
-                    "accessary" : "プリンセスバズリウムムーンミルキーパープルアクセ",
-                    "one_piece_id":"happy-017",
-                    "shoues_id":"happy-018",
-                    "accessary_id":"happy-019",
                     "parts":3
                 }
             ]
