@@ -1,6 +1,6 @@
 let data = {
-    "now_version":12,
-    "now_category":"リング",
+    "now_version":13,
+    "now_category":"おねがい",
     "version_Group":{
         "スペシャル": [
             "スペシャルコーデアイテム"
