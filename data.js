@@ -1460,6 +1460,49 @@ let data = {
                     "parts":4
                 },
                 {
+                    "name":"スクールメイツラブリーコズミック",
+                    "brand_name": "フューチャースクール",
+                    "total_id":"CD-008F",
+                    "total_image":"https://pbs.twimg.com/media/G36xOAeWcAARDiP?format=jpg&name=medium",
+                    "tops" : "スクールメイツラブリーコズミックトップス",
+                    "bottoms":"スクールメイツラブリーコズミックボトムス",
+                    "shoues" : "スクールメイツラブリーコズミックシューズ",
+                    "accessary" : "スクールメイツラブリーコズミックアクセ",
+                    "tops_id":"CD-023",
+                    "bottoms_id" : "CD-024",
+                    "shoues_id":"CD-025",
+                    "accessary_id":"CD-026",
+                    "parts":4
+                },
+                {
+                    "name":"カラフルシャインブラック",
+                    "brand_name": "プリンセスリング",
+                    "total_id":"CD-009F",
+                    "total_image":"https://aipri.jp/anime/wp/wp-content/uploads/2025/11/Item_ID41033.png",
+                    "tops" : "カラフルシャインブラックトップス",
+                    "bottoms":"カラフルシャインブラックボトムス",
+                    "shoues" : "カラフルシャインブラックシューズ",
+                    "accessary" : "カラフルシャインブラックアクセ",
+                    "tops_id":"CD-027",
+                    "bottoms_id" : "CD-028",
+                    "shoues_id":"CD-029",
+                    "accessary_id":"CD-030",
+                    "parts":4
+                },
+                {
+                    "name":"ジュエルバズリウムルビーピュアホワイト",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"CD-010F",
+                    "total_image":"https://aipri.jp/anime/wp/wp-content/uploads/2026/03/Item_ID41074_%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%90%E3%82%BA%E3%83%AA%E3%82%A6%E3%83%A0%E3%83%AB%E3%83%93%E3%83%BC%E3%83%94%E3%83%A5%E3%82%A2%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88_%E3%83%AF%E3%83%B3%E3%83%94.png",
+                    "one_piece" : "ジュエルバズリウムルビーピュアホワイトワンピ",
+                    "shoues" : "ジュエルバズリウムルビーピュアホワイトシューズ",
+                    "accessary" : "ジュエルバズリウムルビーピュアホワイトアクセ",
+                    "one_piece_id":"CD-031",
+                    "shoues_id":"CD-032",
+                    "accessary_id":"CD-033",
+                    "parts":3
+                },
+                {
                     "name":"マジシャンキャットイエロー",
                     "brand_name": "ミラクルムーン",
                     "total_id":"Blu-001F",
@@ -1526,6 +1569,32 @@ let data = {
                     "one_piece_id":"Blu-015",
                     "shoues_id":"Blu-016",
                     "accessary_id":"Blu-017",
+                    "parts":3
+                },
+                {
+                    "name":"スペースバズリウムプラネットミント",
+                    "brand_name": "フューチャースクール",
+                    "total_id":"Blu-006F",
+                    "total_image":"https://pbs.twimg.com/media/G691vg8bkAAV-CS.jpg",
+                    "one_piece" : "スペースバズリウムプラネットミントワンピ",
+                    "shoues" : "スペースバズリウムプラネットミントシューズ",
+                    "accessary" : "スペースバズリウムプラネットミントアクセ",
+                    "one_piece_id":"Blu-018",
+                    "shoues_id":"Blu-019",
+                    "accessary_id":"Blu-020",
+                    "parts":3
+                },
+                {
+                    "name":"ジュエルバズリウムサファイアピュアホワイト",
+                    "brand_name": "ミラクルムーン",
+                    "total_id":"Blu-007F",
+                    "total_image":"https://aipri.jp/anime/wp/wp-content/uploads/2025/07/Item_ID41077_%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%90%E3%82%BA%E3%83%AA%E3%82%A6%E3%83%A0%E3%82%B5%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%94%E3%83%A5%E3%82%A2%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88_%E3%83%AF%E3%83%B3%E3%83%94.png",
+                    "one_piece" : "ジュエルバズリウムサファイアピュアホワイトワンピ",
+                    "shoues" : "ジュエルバズリウムサファイアピュアホワイトシューズ",
+                    "accessary" : "ジュエルバズリウムサファイアピュアホワイトアクセ",
+                    "one_piece_id":"Blu-021",
+                    "shoues_id":"Blu-022",
+                    "accessary_id":"Blu-023",
                     "parts":3
                 }
             ]
@@ -2569,7 +2638,7 @@ let data = {
                 {
                     "name":"ゆうじょうさくらツイン　グリーン",
                     "brand_name": "ミラクルムーン",
-                    "total_id":"toku-011F",
+                    "total_id":"toku-012F",
                     "total_image":"https://aipri.jp/card/img/special/P-256_O.webp",
                     "one_piece" : "ゆうじょうさくらツイン　グリーンワンピ",
                     "shoues" : "ゆうじょうさくらツイン　グリーンシューズ",
@@ -2579,10 +2648,10 @@ let data = {
                     "accessary_id":"toku-039",
                     "parts":3
                 },
-                                                {
+                {
                     "name":"ゆうじょうさくらツイン　パープル",
                     "brand_name": "ミラクルムーン",
-                    "total_id":"toku-011F",
+                    "total_id":"toku-013F",
                     "total_image":"https://aipri.jp/card/img/special/P-257_O.webp",
                     "one_piece" : "ゆうじょうさくらツイン　パープルワンピ",
                     "shoues" : "ゆうじょうさくらツイン　パープルシューズ",
@@ -2590,6 +2659,32 @@ let data = {
                     "one_piece_id":"toku-040",
                     "shoues_id":"toku-041",
                     "accessary_id":"toku-042",
+                    "parts":3
+                },
+                {
+                    "name":"ゆうじょうさくらツイン　イエロー",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"toku-014F",
+                    "total_image":"https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/000000035186_BMkuMk9.jpg",
+                    "one_piece" : "ゆうじょうさくらツイン　イエローワンピ",
+                    "shoues" : "ゆうじょうさくらツイン　イエローシューズ",
+                    "accessary" : "ゆうじょうさくらツイン　イエローアクセ",
+                    "one_piece_id":"toku-043",
+                    "shoues_id":"toku-044",
+                    "accessary_id":"toku-045",
+                    "parts":3
+                },
+                {
+                    "name":"ゆうじょうさくらツイン　ピュアパープル",
+                    "brand_name": "ミラクルムーン",
+                    "total_id":"toku-015F",
+                    "total_image":"https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/000000035187_RnJshrM.jpg",
+                    "one_piece" : "ゆうじょうさくらツイン　ピュアパープルワンピ",
+                    "shoues" : "ゆうじょうさくらツイン　ピュアパープルシューズ",
+                    "accessary" : "ゆうじょうさくらツイン　ピュアパープルアクセ",
+                    "one_piece_id":"toku-046",
+                    "shoues_id":"toku-047",
+                    "accessary_id":"toku-048",
                     "parts":3
                 }
             ]
