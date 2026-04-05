@@ -1600,7 +1600,7 @@ let data = {
             ]
         },
         {
-            "title":"アイプリカード♪コレクショングミ",
+            "title":"ひみつのアイプリカード♪コレクショングミ",
             "item_list":[
                 {
                     "name":"ポッピンハートバズリウムミント",
@@ -2011,6 +2011,127 @@ let data = {
                 }
             ]
         },
+                {
+            "title":"おねがいアイプリカード♪コレクショングミ",
+            "item_list":[
+                {
+                    "name":"リボンバレリーナオーロラピンク",
+                    "brand_name": "ゆめ",
+                    "total_id":"OGM1-001F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-001_O.webp",
+                    "tops" : "リボンバレリーナオーロラピンクトップス",
+                    "bottoms":"リボンバレリーナオーロラピンクボトムス",
+                    "shoues" : "リボンバレリーナオーロラピンクシューズ",
+                    "accessary" : "リボンバレリーナオーロラピンクアクセ",
+                    "tops_id":"OGM1-001",
+                    "bottoms_id" : "OGM1-002",
+                    "shoues_id":"OGM1-003",
+                    "accessary_id":"OGM1-004",
+                    "parts":4
+                },
+                {
+                    "name":"リボンバレリーナオーロラピンク",
+                    "brand_name": "すき",
+                    "total_id":"OGM1-002F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-002_O.webp",
+                    "tops" : "リボンバレリーナオーロラピンクトップス",
+                    "bottoms":"リボンバレリーナオーロラピンクボトムス",
+                    "shoues" : "リボンバレリーナオーロラピンクシューズ",
+                    "accessary" : "リボンバレリーナオーロラピンクアクセ",
+                    "tops_id":"OGM1-005",
+                    "bottoms_id" : "OGM1-006",
+                    "shoues_id":"OGM1-007",
+                    "accessary_id":"OGM1-008",
+                    "parts":4
+                },
+                {
+                    "name":"リボンバレリーナオーロラピンク",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"OGM1-003F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-003_O.webp",
+                    "tops" : "リボンバレリーナオーロラピンクトップス",
+                    "bottoms":"リボンバレリーナオーロラピンクボトムス",
+                    "shoues" : "リボンバレリーナオーロラピンクシューズ",
+                    "accessary" : "リボンバレリーナオーロラピンクアクセ",
+                    "tops_id":"OGM1-009",
+                    "bottoms_id" : "OGM1-010",
+                    "shoues_id":"OGM1-011",
+                    "accessary_id":"OGM1-012",
+                    "parts":4
+                },
+                {
+                    "name":"すきすきハートバズリウムパープル",
+                    "brand_name": "すき",
+                    "total_id":"OGM1-004F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-005_O.webp",
+                    "one_piece" : "すきすきハートバズリウムパープルワンピ",
+                    "shoues" : "すきすきハートバズリウムパープルシューズ",
+                    "accessary" : "すきすきハートバズリウムパープルアクセ",
+                    "one_piece_id":"OGM1-013",
+                    "shoues_id":"OGM1-014",
+                    "accessary_id":"OGM1-015",
+                    "parts":3
+                },
+                {
+                    "name":"ブルーソーダ",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"OGM1-005F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-006_O.webp",
+                    "one_piece" : "ブルーソーダワンピ",
+                    "shoues" : "ブルーソーダシューズ",
+                    "accessary" : "ブルーソーダアクセ",
+                    "one_piece_id":"OGM1-016",
+                    "shoues_id":"OGM1-017",
+                    "accessary_id":"OGM1-018",
+                    "parts":3
+                },
+                {
+                    "name":"いたずらモンスター",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"OGM1-006F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-009_O.webp",
+                    "tops" : "いたずらモンスタートップス",
+                    "bottoms":" いたずらモンスターボトムス",
+                    "shoues" : "いたずらモンスターシューズ",
+                    "accessary" : "いたずらモンスターアクセ",
+                    "tops_id":"OGM1-019",
+                    "bottoms_id" : "OGM1-020",
+                    "shoues_id":"OGM1-021",
+                    "accessary_id":"OGM1-022",
+                    "parts":4
+                },
+                {
+                    "name":"ローズプリンス",
+                    "brand_name": "ゆめ",
+                    "total_id":"OGM1-007F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-011_O.webp",
+                    "tops" : "ローズプリンストップス",
+                    "bottoms":" ローズプリンスボトムス",
+                    "shoues" : "ローズプリンスシューズ",
+                    "accessary" : "ローズプリンスアクセ",
+                    "tops_id":"OGM1-023",
+                    "bottoms_id" : "OGM1-024",
+                    "shoues_id":"OGM1-025",
+                    "accessary_id":"OGM1-026",
+                    "parts":4
+                },
+                {
+                    "name":"リトルプリンセス",
+                    "brand_name": "すき",
+                    "total_id":"OGM1-008F",
+                    "total_image":"https://aipri.jp/card/img/gumi/OG1-013_O.webp",
+                    "tops" : "リトルプリンセストップス",
+                    "bottoms":" リトルプリンスボトムス",
+                    "shoues" : "リトルプリンスシューズ",
+                    "accessary" : "リトルプリンスアクセ",
+                    "tops_id":"OGM1-027",
+                    "bottoms_id" : "OGM1-028",
+                    "shoues_id":"OGM1-029",
+                    "accessary_id":"OGM1-030",
+                    "parts":4
+                }
+            ]
+        },
         {
             "title":"雑誌付録",
             "item_list":[
@@ -2131,7 +2252,7 @@ let data = {
                 {
                     "name":"プリンセスバズリウムポッピンドリーミン",
                     "brand_name": "ミラクルムーン",
-                    "total_id":"furoku-007F",
+                    "total_id":"furoku-009F",
                     "total_image":"https://aipri.jp/card/img/special/P-271_O.webp",
                     "one_piece" : "プリンセスバズリウムポッピンドリーミンワンピ",
                     "shoues" : "プリンセスバズリウムポッピンドリーミンシューズ",
@@ -2140,6 +2261,21 @@ let data = {
                     "shoues_id":"furoku-031",
                     "accessary_id":"furoku-032",
                     "parts":3
+                },
+                {
+                    "name":"ラブリーマーガレットイエロー",
+                    "brand_name": "すき",
+                    "total_id":"furoku-010F",
+                    "total_image":"https://aipri.jp/card/img/special/OP-020_O.webp",
+                    "tops" : "ラブリーマーガレットイエロートップス",
+                    "bottoms":"ラブリーマーガレットイエローボトムス",
+                    "shoues" : "ラブリーマーガレットイエローシューズ",
+                    "accessary" : "ラブリーマーガレットイエローアクセ",
+                    "tops_id":"furoku-034",
+                    "bottoms_id" : "furoku-035",
+                    "shoues_id":"furoku-036",
+                    "accessary_id":"furoku-037",
+                    "parts":4
                 }
             ]
         },
@@ -2260,6 +2396,19 @@ let data = {
                     "one_piece_id":"fan-028",
                     "shoues_id":"fan-029",
                     "accessary_id":"fan-030",
+                    "parts":3
+                },
+                {
+                    "name":"トキメキトゥインクルグリーン",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"fan-009F",
+                    "total_image":"https://aipri.jp/card/img/special/OP-018_O.webp",
+                    "one_piece" : "トキメキトゥインクルグリーンワンピ",
+                    "shoues" : "トキメキトゥインクルグリーンシューズ",
+                    "accessary" : "トキメキトゥインクルグリーンアクセ",
+                    "one_piece_id":"fan-031",
+                    "shoues_id":"fan-032",
+                    "accessary_id":"fan-033",
                     "parts":3
                 }
             ]
@@ -2911,6 +3060,36 @@ let data = {
                     "shoues_id":"mise-053",
                     "accessary_id":"mise-054",
                     "parts":3
+                },
+                {
+                    "name":"すきのクリスタルいのりピンク",
+                    "brand_name": "すき",
+                    "total_id":"mise-016F",
+                    "total_image":"https://aipri.jp/card/img/special/OP-014_O.webp",
+                    "tops" : "すきのクリスタルいのりピンクトップス",
+                    "bottoms":"すきのクリスタルいのりピンクボトムス",
+                    "shoues" : "すきのクリスタルいのりピンクシューズ",
+                    "accessary" : "すきのクリスタルいのりピンクアクセ",
+                    "tops_id":"mise-055",
+                    "bottoms_id" : "mise-056",
+                    "shoues_id":"mise-057",
+                    "accessary_id":"mise-058",
+                    "parts":4
+                },
+                {
+                    "name":"ほしのゆうびんやさんイエロー",
+                    "brand_name": "ゆめ",
+                    "total_id":"mise-017F",
+                    "total_image":"https://aipri.jp/card/img/special/OP-015_O.webp",
+                    "tops" : "ほしのゆうびんやさんイエロートップス",
+                    "bottoms":"ほしのゆうびんやさんイエローボトムス",
+                    "shoues" : "ほしのゆうびんやさんイエローシューズ",
+                    "accessary" : "ほしのゆうびんやさんイエローアクセ",
+                    "tops_id":"mise-059",
+                    "bottoms_id" : "mise-060",
+                    "shoues_id":"mise-061",
+                    "accessary_id":"mise-062",
+                    "parts":4
                 }
             ]
         },
@@ -3119,6 +3298,62 @@ let data = {
                     "shoues_id":"debut-052",
                     "accessary_id":"debut-053",
                     "parts":4
+                },
+                {
+                    "name":"アイプリすきすきレッド",
+                    "brand_name": "すき",
+                    "total_id":"debut-012F",
+                    "total_image":"https://aipri.jp/card/img/special/OTOY-002_O.webp",
+                    "one_piece" : "アイプリすきすきレッドワンピ",
+                    "shoues" : "アイプリすきすきレッドシューズ",
+                    "accessary" : "アイプリすきすきレッドアクセ",
+                    "one_piece_id":"debut-054",
+                    "shoues_id":"debut-055",
+                    "accessary_id":"debut-056",
+                    "parts":3
+                },
+                {
+                    "name":"アイプリゆめゆめブルー",
+                    "brand_name": "ゆめ",
+                    "total_id":"debut-013F",
+                    "total_image":"https://aipri.jp/card/img/special/OTOY-003_O.webp",
+                    "one_piece" : "アイプリゆめゆめブルーワンピ",
+                    "shoues" : "アイプリゆめゆめブルーシューズ",
+                    "accessary" : "アイプリゆめゆめブルーアクセ",
+                    "one_piece_id":"debut-057",
+                    "shoues_id":"debut-058",
+                    "accessary_id":"debut-059",
+                    "parts":3
+                },
+                {
+                    "name":"リボンアイドルパステル",
+                    "brand_name": "すき",
+                    "total_id":"debut-014F",
+                    "total_image":"https://aipri.jp/card/img/special/OTOY-004_O.webp",
+                    "tops" : "リボンアイドルパステルトップス",
+                    "bottoms":"リボンアイドルパステルボトムス",
+                    "shoues" : "リボンアイドルパステルシューズ",
+                    "accessary" : "リボンアイドルパステルアクセ",
+                    "tops_id":"debut-060",
+                    "bottoms_id" : "debut-061",
+                    "shoues_id":"debut-062",
+                    "accessary_id":"debut-063",
+                    "parts":4
+                },
+                {
+                    "name":"リボンアイドルパステル",
+                    "brand_name": "ゆめ",
+                    "total_id":"debut-015F",
+                    "total_image":"https://aipri.jp/card/img/special/OTOY-005_O.webp",
+                    "tops" : "リボンアイドルパステルトップス",
+                    "bottoms":"リボンアイドルパステルボトムス",
+                    "shoues" : "リボンアイドルパステルシューズ",
+                    "accessary" : "リボンアイドルパステルアクセ",
+                    "tops_id":"debut-064",
+                    "bottoms_id" : "debut-065",
+                    "shoues_id":"debut-066",
+                    "accessary_id":"debut-067",
+                    "parts":4
                 }
             ]
         },
@@ -3221,6 +3456,50 @@ let data = {
                     "shoues_id":"bress-023",
                     "accessary_id":"bress-024",
                     "parts":4
+                }
+            ]
+        },
+        {
+            "title":"アイプリミラーパクト",
+            "item_list":[
+                {
+                    "name":"プリズムハートピンク",
+                    "brand_name": "すき",
+                    "total_id":"pact-001F",
+                    "total_image":"https://aipri.jp/card/img/special/OTOY-000_O.webp",
+                    "one_piece" : "プリズムハートピンクワンピ",
+                    "shoues" : "プリズムハートピンクシューズ",
+                    "accessary" : "プリズムハートピンクアクセ",
+                    "one_piece_id":"pact-001",
+                    "shoues_id":"pact-002",
+                    "accessary_id":"pact-003",
+                    "parts":3
+                },
+                {
+                    "name":"プリズムハートブルー",
+                    "brand_name": "ゆめ",
+                    "total_id":"pact-002F",
+                    "total_image":"https://aipri.jp/card/img/special/OTOY-001_O.webp",
+                    "one_piece" : "プリズムハートブルーワンピ",
+                    "shoues" : "プリズムハートブルーシューズ",
+                    "accessary" : "プリズムハートブルーアクセ",
+                    "one_piece_id":"pact-004",
+                    "shoues_id":"pact-005",
+                    "accessary_id":"pact-006",
+                    "parts":3
+                },
+                {
+                    "name":"プリズムハートパープル",
+                    "brand_name": "ゆめ",
+                    "total_id":"pact-003F",
+                    "total_image":"https://aipri.jp/card/img/special/OTOY-015_O.webp",
+                    "one_piece" : "プリズムハートパープルワンピ",
+                    "shoues" : "プリズムハートパープルシューズ",
+                    "accessary" : "プリズムハートパープルアクセ",
+                    "one_piece_id":"pact-007",
+                    "shoues_id":"pact-008",
+                    "accessary_id":"pact-009",
+                    "parts":3
                 }
             ]
         },
@@ -3644,7 +3923,7 @@ let data = {
             ]
         },
         {
-            "title":"ミルフィーカード",
+            "title":"ひみつのアイプリミルフィーカード",
             "item_list":[
                 {
                     "name":"スプリングブロッサム",
@@ -4356,6 +4635,131 @@ let data = {
                     "bottoms_id" : "MIL-274",
                     "shoues_id":"MIL-275",
                     "accessary_id":"MIL-276",
+                    "parts":4
+                }
+            ]
+        },
+        {
+            "title":"おねがいアイプリミルフィーカード",
+            "item_list":[
+                {
+                    "name":"ハピネスキューピッド",
+                    "brand_name": "すき",
+                    "total_id":"OM-001F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-001_O.webp",
+                    "tops" : "ハピネスキューピッドトップス",
+                    "bottoms":"ハピネスキューピッドボトムス",
+                    "shoues" : "ハピネスキューピッドシューズ",
+                    "accessary" : "ハピネスキューピッドアクセ",
+                    "tops_id":"OMIL-001",
+                    "bottoms_id" : "OMIL-002",
+                    "shoues_id":"OMIL-003",
+                    "accessary_id":"OMIL-004",
+                    "parts":4
+                },
+                {
+                    "name":"ハピネスバタフライ",
+                    "brand_name": "ゆめ",
+                    "total_id":"OM-002F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-002_O.webp",
+                    "tops" : "ハピネスバタフライトップス",
+                    "bottoms":"ハピネスバタフライボトムス",
+                    "shoues" : "ハピネスバタフライシューズ",
+                    "accessary" : "ハピネスバタフライアクセ",
+                    "tops_id":"OMIL-005",
+                    "bottoms_id" : "OMIL-006",
+                    "shoues_id":"OMIL-007",
+                    "accessary_id":"OMIL-008",
+                    "parts":4
+                },
+                {
+                    "name":"アニマルロックミント",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"OM-003F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-003_O.webp",
+                    "tops" : "アニマルロックミントトップス",
+                    "bottoms":"アニマルロックミントボトムス",
+                    "shoues" : "アニマルロックミントシューズ",
+                    "accessary" : "アニマルロックミントアクセ",
+                    "tops_id":"OMIL-009",
+                    "bottoms_id" : "OMIL-010",
+                    "shoues_id":"OMIL-011",
+                    "accessary_id":"OMIL-012",
+                    "parts":4
+                },
+                {
+                    "name":"フラワーエプロングリーン",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"OM-004F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-004_O.webp",
+                    "tops" : "フラワーエプロングリーントップス",
+                    "bottoms":"フラワーエプロングリーンボトムス",
+                    "shoues" : "フラワーエプロングリーンシューズ",
+                    "accessary" : "フラワーエプロングリーンアクセ",
+                    "tops_id":"OMIL-013",
+                    "bottoms_id" : "OMIL-014",
+                    "shoues_id":"OMIL-015",
+                    "accessary_id":"OMIL-016",
+                    "parts":4
+                },
+                {
+                    "name":"にゃんにゃんロリータブルー",
+                    "brand_name": "ゆめ",
+                    "total_id":"OM-005F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-005_O.webp",
+                    "tops" : "にゃんにゃんロリータブルートップス",
+                    "bottoms":"にゃんにゃんロリータブルーボトムス",
+                    "shoues" : "にゃんにゃんロリータブルーシューズ",
+                    "accessary" : "にゃんにゃんロリータブルーアクセ",
+                    "tops_id":"OMIL-017",
+                    "bottoms_id" : "OMIL-018",
+                    "shoues_id":"OMIL-019",
+                    "accessary_id":"OMIL-020",
+                    "parts":4
+                },
+                {
+                    "name":"うさぎぬいぐるみオレンジ",
+                    "brand_name": "すき",
+                    "total_id":"OM-006F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-006_O.webp",
+                    "tops" : "うさぎぬいぐるみオレンジトップス",
+                    "bottoms":"うさぎぬいぐるみオレンジボトムス",
+                    "shoues" : "うさぎぬいぐるみオレンジシューズ",
+                    "accessary" : "うさぎぬいぐるみオレンジアクセ",
+                    "tops_id":"OMIL-021",
+                    "bottoms_id" : "OMIL-022",
+                    "shoues_id":"OMIL-023",
+                    "accessary_id":"OMIL-024",
+                    "parts":4
+                },
+                {
+                    "name":"レディーフライトピンク",
+                    "brand_name": "すき",
+                    "total_id":"OM-007F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-007_O.webp",
+                    "tops" : "レディーフライトピンクトップス",
+                    "bottoms":"レディーフライトピンクボトムス",
+                    "shoues" : "レディーフライトピンクシューズ",
+                    "accessary" : "レディーフライトピンクアクセ",
+                    "tops_id":"OMIL-025",
+                    "bottoms_id" : "OMIL-026",
+                    "shoues_id":"OMIL-027",
+                    "accessary_id":"OMIL-028",
+                    "parts":4
+                },
+                {
+                    "name":"アイプリバースフューチャースクールクールパープル",
+                    "brand_name": "ゆめ",
+                    "total_id":"OM-008F",
+                    "total_image":"https://aipri.jp/card/img/millefeui/OM1-008_O.webp",
+                    "tops" : "アイプリバースフューチャースクールクールパープルトップス",
+                    "bottoms":"アイプリバースフューチャースクールクールパープルボトムス",
+                    "shoues" : "アイプリバースフューチャースクールクールパープルシューズ",
+                    "accessary" : "アイプリバースフューチャースクールクールパープルアクセ",
+                    "tops_id":"OMIL-029",
+                    "bottoms_id" : "OMIL-030",
+                    "shoues_id":"OMIL-031",
+                    "accessary_id":"OMIL-032",
                     "parts":4
                 }
             ]
