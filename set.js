@@ -196,6 +196,7 @@ async function reload(){
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
+                                    ||  Object.values(category_item)[j] == "おねがいちゅうがくせいふく"
                                 ){
                                     // ワンピ
                                     ch = document.getElementById(obj.one_piece_id);
@@ -399,6 +400,7 @@ async function reload(){
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
+                                    ||  Object.values(category_item)[j] == "おねがいちゅうがくせいふく"
                                 ){
                                     //シューズ
                                     ch = document.getElementById(obj.shoues_id);
@@ -1048,11 +1050,14 @@ async function create_disp(){
             // アイテム名からアイテムデータ取り出し
             obj = item[Object.values(category_item)[j]]
 
-            // ブランド画像
-            img = document.createElement("img")
-            img.src = "brand/" + obj.brand_name + ".webp"
-            img.height = "20"
-            img.width = "80"
+            // ブランド画像（ブランド名が空なら表示しない）
+            var brandImg = null
+            if (obj.brand_name && obj.brand_name.trim() !== "") {
+                brandImg = document.createElement("img")
+                brandImg.src = "brand/" + obj.brand_name + ".webp"
+                brandImg.height = 20
+                brandImg.width = 80
+            }
 
             item_cnt = obj.parts
             var str_url = get_url(obj.name)
@@ -1081,7 +1086,9 @@ async function create_disp(){
                             {
                                 th.textContent = Object.values(category_item)[j]
                             }
-                            th.appendChild(img)
+                            if (brandImg) {
+                                th.appendChild(brandImg)
+                            }
                             tr.appendChild(th)
                         }
                         // フルコーデ画像を表示
@@ -1188,6 +1195,7 @@ async function create_disp(){
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
+                                    ||  Object.values(category_item)[j] == "おねがいちゅうがくせいふく"
                                 ){
                                     // ワンピ
                                     ch.setAttribute('id',obj.one_piece_id)
@@ -1433,6 +1441,7 @@ async function create_disp(){
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　じょしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　だんしせいふく"
                                     ||  Object.values(category_item)[j] == "ゆうえいこうこう　たいそうふく"
+                                    ||  Object.values(category_item)[j] == "おねがいちゅうがくせいふく"
                                 ){
                                     //シューズ
                                     ch.setAttribute('id',obj.shoues_id);
@@ -1734,10 +1743,30 @@ async function create_special(){
         const table = document.createElement("table")
         table.border = 1
         table.style = "border-collapse: collapse"
+        // ブランド画像（ブランド名が空なら表示しない）
+        var brandImg = null
+        var brandName = obj["special"][i]["item_list"][j].brand_name
+        if (brandName && brandName.trim() !== "") {
+            brandImg = document.createElement("img")
+            brandImg.src = "brand/" + brandName + ".webp"
+            brandImg.height = 20
+            brandImg.width = 80
+        }
+
         table.width = "600"
 
         item_cnt = obj["special"][i]["item_list"][j].parts
         var str_url = get_url(obj["special"][i]["item_list"][j].name)
+
+        // ブランド画像（ブランド名が空なら表示しない）
+        var brandImg = null
+        var brandName = obj["special"][i]["item_list"][j].brand_name
+        if (brandName && brandName.trim() !== "") {
+            brandImg = document.createElement("img")
+            brandImg.src = "brand/" + brandName + ".webp"
+            brandImg.height = 20
+            brandImg.width = 80
+        }
 
         let element = document.getElementById("url")
         url_check = element.checked
@@ -1763,6 +1792,9 @@ async function create_special(){
                         else
                         {
                             th.textContent = obj["special"][i]["item_list"][j].name
+                        }
+                        if (brandImg) {
+                            th.appendChild(brandImg)
                         }
                         tr.appendChild(th)
                     }
