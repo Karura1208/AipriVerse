@@ -100,13 +100,11 @@ async function reload(){
     const thisRequestId = ++currentRequestId;
     console.log(`リクエスト開始: ID ${thisRequestId}`);
 
-    let select = document.querySelector('[name="ver_select"]');
     // スペシャル以外
-    if(select.selectedIndex != 0){
+    if(select_version != 0){
 
         // 該当バージョンのカテゴリ一覧(アイテム名含む)を取り出し
-        ver = select.selectedIndex
-        ver_list = ver_item[version[ver].name]
+        ver_list = ver_item[data["version"][select_version].name]
 
         for(var i=0;i<Object.keys(ver_list).length;i++){
 
@@ -115,6 +113,8 @@ async function reload(){
             //該当箇所のアイテム数テーブルを作成
             for(var j=0;j<Object.keys(category_item).length;j++){
 
+                // 現在のアイテムデータを取得してから参照する
+                obj = item[Object.values(category_item)[j]]
                 item_cnt = obj.parts
 
                 //1テーブル生成1
@@ -153,9 +153,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.tops_id])
-                                        }
+                                        ch.checked = Boolean(checkData.isChecked);
                                     }
                                     else{
                                         console.log("ドキュメントなし : ",obj.tops_id)
@@ -180,9 +178,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.one_piece_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.one_piece_id)
@@ -218,9 +214,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.one_piece_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.one_piece_id)
@@ -244,9 +238,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.tops_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.tops_id)
@@ -276,9 +268,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.tops_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.tops_id)
@@ -301,9 +291,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.one_piece_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.one_piece_id)
@@ -345,9 +333,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.bottoms_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.bottoms_id)
@@ -371,9 +357,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.shoues_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -398,9 +382,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj.bottoms_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.bottoms_id)
@@ -435,9 +417,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.shoues_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -461,9 +441,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.accessary_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.accessary_id)
@@ -504,9 +482,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.shoues_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -530,9 +506,7 @@ async function reload(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.accessary_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.accessary_id)
@@ -557,9 +531,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj.shoues_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -586,9 +558,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj.accessary_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.accessary_id)
@@ -602,6 +572,11 @@ async function reload(){
     }
     // スペシャル
     else{
+        if (!obj || !obj["category"] || !obj["special"]) {
+            obj = {};
+            obj["special"] = data["special"];
+            obj["category"] = data["special"];
+        }
         for(var i=0;i<obj["category"].length;i++){
             //サブタイトルを表示させる
             const h3 = document.createElement('h3')
@@ -633,9 +608,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].one_piece_id])
-                                    }
+                                    ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                             // アイテム数 4 = トップス
@@ -655,9 +628,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].tops_id])
-                                    }
+                                    ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                             // アイテム数 1 = アクセのみ
@@ -677,9 +648,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                    }
+                                    ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                         }
@@ -702,9 +671,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                             // アイテム数 4 = ボトムス
@@ -724,9 +691,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].bottoms_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                             // アイテム数 2 = アクセ
@@ -746,9 +711,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                         }
@@ -771,9 +734,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                             // アイテム数 4 = シューズ
@@ -793,9 +754,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                         }
@@ -818,9 +777,7 @@ async function reload(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                             }
                         }
@@ -1183,9 +1140,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.tops_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }
                                     else{
                                         console.log("ドキュメントなし : ",obj.tops_id)
@@ -1212,9 +1167,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.one_piece_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.one_piece_id)
@@ -1254,9 +1207,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.one_piece_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.one_piece_id)
@@ -1284,9 +1235,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.tops_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.tops_id)
@@ -1325,9 +1274,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.tops_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     }                                    
                                     else{
                                         console.log("ドキュメントなし : ",obj.tops_id)
@@ -1354,9 +1301,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.one_piece_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.one_piece_id)
@@ -1412,9 +1357,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.bottoms_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.bottoms_id)
@@ -1441,9 +1384,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.shoues_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -1472,9 +1413,7 @@ async function create_disp(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj.bottoms_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.bottoms_id)
@@ -1513,9 +1452,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.shoues_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -1542,9 +1479,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.accessary_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.accessary_id)
@@ -1599,9 +1534,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.shoues_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -1628,9 +1561,7 @@ async function create_disp(){
                                         const checkData = checkDoc.data(); 
 
                                         console.log("ドキュメントデータ:", checkData);
-                                        if (checkData.isChecked){
-                                            ch.setAttribute('checked',ch[obj.accessary_id])
-                                        }
+                                                                                    ch.checked = Boolean(checkData.isChecked);
                                     } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.accessary_id)
@@ -1659,9 +1590,7 @@ async function create_disp(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj.shoues_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.shoues_id)
@@ -1702,9 +1631,7 @@ async function create_disp(){
                                     const checkData = checkDoc.data(); 
 
                                     console.log("ドキュメントデータ:", checkData);
-                                    if (checkData.isChecked){
-                                        ch.setAttribute('checked',ch[obj.accessary_id])
-                                    }
+                                                                            ch.checked = Boolean(checkData.isChecked);
                                 } 
                                     else{
                                         console.log("ドキュメントなし : ",obj.accessary_id)
@@ -1885,9 +1812,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].one_piece_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].one_piece_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].one_piece
@@ -1911,9 +1836,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].tops_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].tops_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].tops
@@ -1937,9 +1860,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].accessary
@@ -1976,9 +1897,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].shoues_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].shoues
@@ -2002,9 +1921,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].bottoms_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].bottoms_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].bottoms
@@ -2028,9 +1945,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
                             label.innerHTML = obj["special"][i]["item"][j].accessary
@@ -2067,9 +1982,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].accessary
@@ -2093,9 +2006,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].shoues_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].shoues_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].shoues
@@ -2132,9 +2043,7 @@ async function create_special(){
                                 const checkData = checkDoc.data(); 
 
                                 console.log("ドキュメントデータ:", checkData);
-                                if (checkData.isChecked){
-                                    ch.setAttribute('checked',ch[obj["special"][i]["item_list"][j].accessary_id])
-                                }
+                                                                    ch.checked = Boolean(checkData.isChecked);
                             } 
                             label.setAttribute("for",obj["special"][i]["item_list"][j].accessary_id)
                             label.innerHTML = obj["special"][i]["item_list"][j].accessary
@@ -2164,12 +2073,12 @@ function firstscript(){
 
 $(function() {
   // ハンバーガーメニューをクリックしたときの処理
-  $('.hamburger').click(function() {
+    $('.hamburger').click(function() {
     // メニューの表示切替
     $('.menu').toggleClass('open'); // メニューを開閉
     // ハンバーガーボタンのアクティブクラスを切り替えて三本線をバツにする
     $(this).toggleClass('active');
-  });
+    });
 });
 
 // ⬇️ このイベントが発火したときに...
