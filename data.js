@@ -2011,7 +2011,7 @@ let data = {
                 }
             ]
         },
-                {
+        {
             "title":"おねがいアイプリカード♪コレクショングミ",
             "item_list":[
                 {
@@ -2128,6 +2128,189 @@ let data = {
                     "bottoms_id" : "OGM1-028",
                     "shoues_id":"OGM1-029",
                     "accessary_id":"OGM1-030",
+                    "parts":4
+                }
+            ]
+        },
+        {
+            "title":"プリマジ復刻コーデ",
+            "item_list":[
+                {
+                    "name":"パステルマカロンオレンジ",
+                    "brand_name": "すき",
+                    "total_id":"PMF1-001F",
+                    "total_image":"https://aipri.jp/card/img/oa1/OA1-042_O.webp",
+                    "tops" : "パステルマカロンオレンジトップス",
+                    "bottoms":"パステルマカロンオレンジボトムス",
+                    "shoues" : "パステルマカロンオレンジシューズ",
+                    "accessary" : "パステルマカロンオレンジアクセ",
+                    "tops_id":"PMF1-001",
+                    "bottoms_id" : "PMF1-002",
+                    "shoues_id":"PMF1-003",
+                    "accessary_id":"PMF1-004",
+                    "parts":4
+                },
+                {
+                    "name":"ガーリーニット",
+                    "brand_name": "すき",
+                    "total_id":"PMF1-002F",
+                    "total_image":"https://aipri.jp/card/img/oa1/OA1-049_O.webp",
+                    "one_piece" : "ガーリーニットワンピ",
+                    "shoues" : "ガーリーニットシューズ",
+                    "accessary" : "ガーリーニットアクセ",
+                    "one_piece_id":"PMF1-005",
+                    "shoues_id":"PMF1-006",
+                    "accessary_id":"PMF1-007",
+                    "parts":3
+                },
+                {
+                    "name":"ガーリーニットホワイト",
+                    "brand_name": "ゆめ",
+                    "total_id":"PMF1-003F",
+                    "total_image":"https://aipri.jp/card/img/oa1/OA1-050_O.webp",
+                    "one_piece" : "ガーリーニットホワイトワンピ",
+                    "shoues" : "ガーリーニットホワイトシューズ",
+                    "accessary" : "ガーリーニットホワイトアクセ",
+                    "one_piece_id":"PMF1-008",
+                    "shoues_id":"PMF1-009",
+                    "accessary_id":"PMF1-010",
+                    "parts":3
+                },
+                {
+                    "name":"ガーリーニットイエロー",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"PMF1-004F",
+                    "total_image":"https://aipri.jp/card/img/oa1/OA1-051_O.webp",
+                    "one_piece" : "ガーリーニットイエローワンピ",
+                    "shoues" : "ガーリーニットイエローシューズ",
+                    "accessary" : "ガーリーニットイエローアクセ",
+                    "one_piece_id":"PMF1-011",
+                    "shoues_id":"PMF1-012",
+                    "accessary_id":"PMF1-013",
+                    "parts":3
+                },
+                {
+                    "name":"チェックセットアップピンク",
+                    "brand_name": "すき",
+                    "total_id":"PMF1-005F",
+                    "total_image":"https://aipri.jp/card/img/oa1/OA1-052_O.webp",
+                    "tops" : "チェックセットアップピンクトップス",
+                    "bottoms":"チェックセットアップピンクボトムス",
+                    "shoues" : "チェックセットアップピンクシューズ",
+                    "accessary" : "チェックセットアップピンクアクセ",
+                    "tops_id":"PMF1-014",
+                    "bottoms_id" : "PMF1-015",
+                    "shoues_id":"PMF1-016",
+                    "accessary_id":"PMF1-017",
+                    "parts":4
+                },
+                {
+                    "name":"ツートンジャケット",
+                    "brand_name": "ゆうじょう",
+                    "total_id":"PMF1-006F",
+                    "total_image":"https://aipri.jp/card/img/oa1/OA1-054_O.webp",
+                    "tops" : "ツートンジャケットトップス",
+                    "bottoms":"ツートンジャケットボトムス",
+                    "shoues" : "ツートンジャケットシューズ",
+                    "accessary" : "ツートンジャケットアクセ",
+                    "tops_id":"PMF1-018",
+                    "bottoms_id" : "PMF1-019",
+                    "shoues_id":"PMF1-020",
+                    "accessary_id":"PMF1-021",
+                    "parts":4
+                },
+                {
+                    "name":"ワンダーランドブルー",
+                    "brand_name": "すき",
+                    "total_image":"https://aipri.jp/card/img/oa2/OA2-039_O.webp",
+                    "tops" : "ワンダーランドブルートップス",
+                    "bottoms":"ワンダーランドブルーボトムス",
+                    "shoues" : "ワンダーランドブルーシューズ",
+                    "accessary" : "ワンダーランドブルーアクセ",
+                    "tops_id":"PMF1-022",
+                    "bottoms_id" : "PMF1-023",
+                    "shoues_id":"PMF1-024",
+                    "accessary_id":"PMF1-025",
+                    "parts":4
+                },
+                {
+                    "name":"アメリカンダイナー", 
+                    "brand_name": "ゆうじょう",
+                    "total_image":"https://aipri.jp/card/img/oa2/OA2-040_O.webp",
+                    "tops" : "アメリカンダイナートップス",       
+                    "bottoms":"アメリカンダイナーボトムス",
+                    "shoues" : "アメリカンダイナーシューズ",
+                    "accessary" : "アメリカンダイナーアクセ",
+                    "tops_id":"PMF1-026",
+                    "bottoms_id" : "PMF1-027",
+                    "shoues_id":"PMF1-028",
+                    "accessary_id":"PMF1-029",
+                    "parts":4              
+                },
+                {
+                    "name":"ワッペンデニム",
+                    "brand_name": "ゆめ",
+                    "total_image":"https://aipri.jp/card/img/oa2/OA2-050_O.webp",
+                    "one_piece" : "ワッペンデニムワンピ",
+                    "shoues" : "ワッペンデニムシューズ",
+                    "accessary" : "ワッペンデニムアクセ",
+                    "one_piece_id":"PMF1-030",
+                    "shoues_id":"PMF1-031",
+                    "accessary_id":"PMF1-032",
+                    "parts":3
+                },
+                {
+                    "name":"ワッペンパーカー",
+                    "brand_name": "ゆうじょう",
+                    "total_image":"https://aipri.jp/card/img/oa2/OA2-052_O.webp",
+                    "one_piece" : "ワッペンパーカーワンピ",
+                    "shoues" : "ワッペンパーカーシューズ",
+                    "accessary" : "ワッペンパーカーアクセ", 
+                    "one_piece_id":"PMF1-033",
+                    "shoues_id":"PMF1-031",
+                    "accessary_id":"PMF1-032",
+                    "parts":3
+                },
+                {
+                    "name":"フレッシュフラワーピンク",
+                    "brand_name": "すき",
+                    "total_image":"https://aipri.jp/card/img/oa2/OA2-054_O.webp",
+                    "tops" : "フレッシュフラワーピンクトップス",
+                    "bottoms":"フレッシュフラワーピンクボトムス",
+                    "shoues" : "フレッシュフラワーピンクシューズ",
+                    "accessary" : "フレッシュフラワーピンクアクセ",
+                    "tops_id":"PMF1-034",
+                    "bottoms_id" : "PMF1-035",
+                    "shoues_id":"PMF1-036",
+                    "accessary_id":"PMF1-037",
+                    "parts":4
+                },
+                {
+                    "name":"レトロガールカナリア",
+                    "brand_name": "ゆうき",
+                    "total_image":"https://aipri.jp/card/img/oa2/OA2-056_O.webp",
+                    "tops" : "レトロガールカナリアトップス",
+                    "bottoms":"レトロガールカナリアボトムス",
+                    "shoues" : "レトロガールカナリアシューズ",
+                    "accessary" : "レトロガールカナリアアクセ",
+                    "tops_id":"PMF1-038",
+                    "bottoms_id" : "PMF1-039",
+                    "shoues_id":"PMF1-040",
+                    "accessary_id":"PMF1-041",
+                    "parts":4
+                },
+                {
+                    "name":"アクティブダンスイエロー",
+                    "brand_name": "ゆうき",
+                    "total_image":"https://aipri.jp/card/img/oa2/OA2-057_O.webp",
+                    "tops" : "アクティブダンスイエロートップス",
+                    "bottoms":"アクティブダンスイエローボトムス",
+                    "shoues" : "アクティブダンスイエローシューズ",
+                    "accessary" : "アクティブダンスイエローアクセ",
+                    "tops_id":"PMF1-042",
+                    "bottoms_id" : "PMF1-043",
+                    "shoues_id":"PMF1-044",
+                    "accessary_id":"PMF1-045",
                     "parts":4
                 }
             ]
@@ -2834,6 +3017,34 @@ let data = {
                     "one_piece_id":"toku-046",
                     "shoues_id":"toku-047",
                     "accessary_id":"toku-048",
+                    "parts":3
+                },
+                {
+                    "name":"ロマンチックリボンリボンピュアホワイト",
+                    "brand_name": "ポッピンハート",
+                    "total_id":"toku-016F",
+                    "total_image":"https://aipri.jp/card/img/special/P-230_O.webp",
+                    "tops" : "ロマンチックリボンリボンピュアホワイトトップス",
+                    "bottoms":"ロマンチックリボンリボンピュアホワイトボトムス",
+                    "shoues" : "ロマンチックリボンリボンピュアホワイトシューズ",
+                    "accessary" : "ロマンチックリボンリボンピュアホワイトアクセ",
+                    "tops_id":"toku-049",
+                    "bottoms_id" : "toku-050",
+                    "shoues_id":"toku-051",
+                    "accessary_id":"toku-052",
+                    "parts":4
+                },
+                {
+                    "name":"スペシャルクリスマスピンク",
+                    "brand_name": "ミラクルムーン",
+                    "total_id":"toku-017F",
+                    "total_image":"https://aipri.jp/card/img/special/P-213_O.webp",
+                    "one_piece" : "スペシャルクリスマスピンクワンピ",
+                    "shoues" : "スペシャルクリスマスピンクシューズ",
+                    "accessary" : "スペシャルクリスマスピンクアクセ",
+                    "one_piece_id":"toku-053",
+                    "shoues_id":"toku-054",
+                    "accessary_id":"toku-055",
                     "parts":3
                 }
             ]
@@ -5049,6 +5260,6 @@ let data = {
         //         }
         //     ]
         // },
-   ]
+    ]
 
 }
