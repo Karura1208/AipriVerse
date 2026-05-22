@@ -2133,6 +2133,37 @@ let data = {
             ]
         },
         {
+            "title":"シークレット",
+            "item_list":[
+                {
+                    "name":"すきすきハートバズリウムピュアピンク",
+                    "brand_name": "すき",
+                    "total_id":"SEC1-001F",
+                    "total_image":"",
+                    "one_piece" : "すきすきハートバズリウムピュアピンクワンピ",
+                    "shoues" : "すきすきハートバズリウムピュアピンクシューズ",
+                    "accessary" : "すきすきハートバズリウムピュアピンクアクセ",
+                    "one_piece_id":"SEC1-001",
+                    "shoues_id":"SEC1-002",
+                    "accessary_id":"SEC1-003",
+                    "parts":3
+                },
+                {
+                    "name":"ゆめゆめスターバズリウムピュアブルー",
+                    "brand_name": "ゆめ",
+                    "total_id":"SEC1-002F",
+                    "total_image":"",
+                    "one_piece" : "ゆめゆめスターバズリウムピュアブルーワンピ",
+                    "shoues" : "ゆめゆめスターバズリウムピュアブルーシューズ",
+                    "accessary" : "ゆめゆめスターバズリウムピュアブルーアクセ",
+                    "one_piece_id":"SEC1-004",
+                    "shoues_id":"SEC1-005",
+                    "accessary_id":"SEC1-006",
+                    "parts":3
+                }
+            ]
+        },
+        {
             "title":"プリマジ復刻コーデ",
             "item_list":[
                 {
