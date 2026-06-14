@@ -90,3 +90,64 @@ html {
     border-right: 3px solid #000;
     transform: translateY(20%) rotate(-45deg);
 }
+
+table {
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.item-table {
+    width: 600px;
+    table-layout: fixed;
+}
+
+.image-col {
+    width: 120px;
+}
+
+.info-col {
+    width: 480px;
+}
+
+table th {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item-table th.title-cell {
+    width: 600px;
+    min-width: 600px;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-table th.title-cell > a {
+    flex: 0 1 auto;
+    min-width: 0;
+    text-align: center;
+}
+
+.item-table th.title-cell > img {
+    flex: 0 0 auto;
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+}
+
+table td img {
+    display: block;
+}
+
+table th img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+}

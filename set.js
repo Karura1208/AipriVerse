@@ -1135,7 +1135,17 @@ async function populateCategorySection(index, section, requestId){
     for (var j = 0; j < itemNames.length; j++) {
         const table = document.createElement("table")
         table.border = 1
+        table.classList.add('item-table')
         table.style.cssText = "border-collapse: collapse; table-layout: fixed; width: 600px;"
+
+        const colgroup = document.createElement('colgroup')
+        const colImage = document.createElement('col')
+        colImage.style.width = '120px'
+        const colInfo = document.createElement('col')
+        colInfo.style.width = '480px'
+        colgroup.appendChild(colImage)
+        colgroup.appendChild(colInfo)
+        table.appendChild(colgroup)
 
         const obj = item[itemNames[j]]
         const item_cnt = obj.parts
@@ -1153,7 +1163,10 @@ async function populateCategorySection(index, section, requestId){
                 for (var l = 0; l < 2; l++) {
                     if (k == 0 && l == 0) {
                         const th = document.createElement('th')
+                        th.classList.add('title-cell')
                         th.colSpan = 2
+                        th.style.width = '600px'
+                        th.style.minWidth = '600px'
                         if (str_url != "") {
                             const href = document.createElement('a')
                             href.href = str_url
@@ -1170,8 +1183,8 @@ async function populateCategorySection(index, section, requestId){
                     }
                     else if (k == 1 && l == 0) {
                         const td = document.createElement('td')
+                        td.classList.add('image-col')
                         td.rowSpan = 4
-                        td.style.width = "120px"
                         const img = createDeferredImage(obj.total_image, 120, 180)
                         lazyImages.push(img)
                         td.appendChild(img)
@@ -1179,7 +1192,7 @@ async function populateCategorySection(index, section, requestId){
                     }
                     else if (k == 1 && l == 1) {
                         const td = document.createElement('td')
-                        td.style.width = "360px"
+                        td.classList.add('info-col')
                         const ch = document.createElement('input')
                         ch.setAttribute('type', 'checkbox')
                         ch.setAttribute('name', 'name')
@@ -1754,7 +1767,16 @@ async function create_special(){
     for(var j=0;j<obj["special"][i]["item_list"].length;j++){
         const table = document.createElement("table")
         table.border = 1
+        table.classList.add('item-table')
         table.style.cssText = "border-collapse: collapse; table-layout: fixed; width: 600px;"
+        const colgroup = document.createElement('colgroup')
+        const colImage = document.createElement('col')
+        colImage.style.width = '120px'
+        const colInfo = document.createElement('col')
+        colInfo.style.width = '480px'
+        colgroup.appendChild(colImage)
+        colgroup.appendChild(colInfo)
+        table.appendChild(colgroup)
         // ブランド画像（ブランド名が空なら表示しない）
         var brandImg = null
         var brandName = obj["special"][i]["item_list"][j].brand_name
@@ -1763,7 +1785,7 @@ async function create_special(){
             lazyImages.push(brandImg)
         }
 
-        table.width = "600"
+        // Use auto width to let the image column size itself by content
 
         item_cnt = obj["special"][i]["item_list"][j].parts
         var str_url = get_url(obj["special"][i]["item_list"][j].name)
@@ -1788,7 +1810,10 @@ async function create_special(){
                     //1行目にコーデ名を入れる見出しを作成
                     if(k==0 && l==0){
                         var th = document.createElement('th')
+                        th.classList.add('title-cell')
                         th.colSpan = 2
+                        th.style.width = '600px'
+                        th.style.minWidth = '600px'
                         var str_url = get_url(obj["special"][i]["item_list"][j].name)
                         if (str_url != ""){
                                 var href = document.createElement('a')
@@ -1809,8 +1834,8 @@ async function create_special(){
                     // フルコーデ画像を表示
                     else if(k==1 && l==0){
                         var td = document.createElement('td')
+                        td.classList.add('image-col')
                         td.rowSpan = 4
-                        td.style.width = "120px"
                         //画像パス 
                         var img = createDeferredImage(obj["special"][i]["item_list"][j].total_image, item_cnt == 1 ? 100 : 120, item_cnt == 1 ? 100 : 180)
                         lazyImages.push(img)
@@ -1820,7 +1845,7 @@ async function create_special(){
                     // ワンピ or トップス
                     else if(k==1 && l==1){
                         var td = document.createElement('td')
-                        td.style.width = "360px"
+                        td.classList.add('info-col')
                         var ch = document.createElement('input');
                         ch.setAttribute('type','checkbox');
                         ch.setAttribute('name','name');
