@@ -1045,6 +1045,37 @@ function initCategorySectionObserver(){
     })
 }
 
+let lazyImageObserver = null
+function initLazyImageObserver(){
+    if (lazyImageObserver) {
+        lazyImageObserver.disconnect()
+    }
+    lazyImageObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target
+                const src = img.dataset.src
+                if (src) {
+                    img.src = src
+                    img.removeAttribute('data-src')
+                }
+                lazyImageObserver.unobserve(img)
+            }
+        })
+    }, {
+        root: null,
+        rootMargin: "200px 0px 200px 0px",
+        threshold: 0.01,
+    })
+}
+
+function observeLazyImage(img){
+    if (!lazyImageObserver) {
+        initLazyImageObserver()
+    }
+    lazyImageObserver.observe(img)
+}
+
 async function ensureCategorySectionRendered(index){
     const section = document.querySelector(`section.category-section[data-category-index="${index}"]`)
     if (section) {
@@ -1084,11 +1115,13 @@ async function populateCategorySection(index, section, requestId){
         var brandImg = null
         if (obj.brand_name && obj.brand_name.trim() !== "") {
             brandImg = document.createElement("img")
-            brandImg.src = "brand/" + obj.brand_name + ".webp"
+            brandImg.dataset.src = "brand/" + obj.brand_name + ".webp"
             brandImg.height = 20
             brandImg.width = 80
             brandImg.loading = "lazy"
             brandImg.decoding = "async"
+            brandImg.classList.add("lazy-load")
+            observeLazyImage(brandImg)
         }
 
         if ((url_check && str_url != "") || !url_check) {
@@ -1116,11 +1149,13 @@ async function populateCategorySection(index, section, requestId){
                         const td = document.createElement('td')
                         td.rowSpan = 4
                         const img = document.createElement("img")
-                        img.src = obj.total_image
+                        img.dataset.src = obj.total_image
                         img.height = "180"
                         img.width = "120"
                         img.loading = "lazy"
                         img.decoding = "async"
+                        img.classList.add("lazy-load")
+                        observeLazyImage(img)
                         td.appendChild(img)
                         tr.appendChild(td)
                     }
@@ -1699,9 +1734,13 @@ async function create_special(){
         var brandName = obj["special"][i]["item_list"][j].brand_name
         if (brandName && brandName.trim() !== "") {
             brandImg = document.createElement("img")
-            brandImg.src = "brand/" + brandName + ".webp"
+            brandImg.dataset.src = "brand/" + brandName + ".webp"
             brandImg.height = 20
             brandImg.width = 80
+            brandImg.loading = "lazy"
+            brandImg.decoding = "async"
+            brandImg.classList.add("lazy-load")
+            observeLazyImage(brandImg)
         }
 
         table.width = "600"
@@ -1714,9 +1753,13 @@ async function create_special(){
         var brandName = obj["special"][i]["item_list"][j].brand_name
         if (brandName && brandName.trim() !== "") {
             brandImg = document.createElement("img")
-            brandImg.src = "brand/" + brandName + ".webp"
+            brandImg.dataset.src = "brand/" + brandName + ".webp"
             brandImg.height = 20
             brandImg.width = 80
+            brandImg.loading = "lazy"
+            brandImg.decoding = "async"
+            brandImg.classList.add("lazy-load")
+            observeLazyImage(brandImg)
         }
 
         let element = document.getElementById("url")
@@ -1755,7 +1798,7 @@ async function create_special(){
                         td.rowSpan = 4
                         //画像パス 
                         var img = document.createElement("img")
-                        img.src = obj["special"][i]["item_list"][j].total_image
+                        img.dataset.src = obj["special"][i]["item_list"][j].total_image
                         if(item_cnt == 1){
                             img.height = "100"
                             img.width = "100"
@@ -1763,6 +1806,10 @@ async function create_special(){
                             img.height = "180"
                             img.width = "120"
                         }
+                        img.loading = "lazy"
+                        img.decoding = "async"
+                        img.classList.add("lazy-load")
+                        observeLazyImage(img)
                         td.appendChild(img)
                         tr.appendChild(td)
                     }
