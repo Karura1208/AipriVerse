@@ -1171,6 +1171,7 @@ async function populateCategorySection(index, section, requestId){
                     else if (k == 1 && l == 0) {
                         const td = document.createElement('td')
                         td.rowSpan = 4
+                        td.style.width = "120px"
                         const img = createDeferredImage(obj.total_image, 120, 180)
                         lazyImages.push(img)
                         td.appendChild(img)
@@ -1178,7 +1179,7 @@ async function populateCategorySection(index, section, requestId){
                     }
                     else if (k == 1 && l == 1) {
                         const td = document.createElement('td')
-                        td.width = "480"
+                        td.style.width = "360px"
                         const ch = document.createElement('input')
                         ch.setAttribute('type', 'checkbox')
                         ch.setAttribute('name', 'name')
@@ -1809,6 +1810,7 @@ async function create_special(){
                     else if(k==1 && l==0){
                         var td = document.createElement('td')
                         td.rowSpan = 4
+                        td.style.width = "120px"
                         //画像パス 
                         var img = createDeferredImage(obj["special"][i]["item_list"][j].total_image, item_cnt == 1 ? 100 : 120, item_cnt == 1 ? 100 : 180)
                         lazyImages.push(img)
@@ -1818,7 +1820,7 @@ async function create_special(){
                     // ワンピ or トップス
                     else if(k==1 && l==1){
                         var td = document.createElement('td')
-                        td.width = "480"
+                        td.style.width = "360px"
                         var ch = document.createElement('input');
                         ch.setAttribute('type','checkbox');
                         ch.setAttribute('name','name');
