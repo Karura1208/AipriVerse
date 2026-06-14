@@ -1045,6 +1045,24 @@ function initCategorySectionObserver(){
     })
 }
 
+function renderVisibleCategorySections(requestId){
+    if (!categorySectionObserver) {
+        return
+    }
+    const sections = document.querySelectorAll('section.category-section')
+    sections.forEach(section => {
+        const index = Number(section.dataset.categoryIndex)
+        if (renderedCategorySections.has(index)) {
+            return
+        }
+        const rect = section.getBoundingClientRect()
+        const margin = 400
+        if (rect.bottom >= -margin && rect.top <= window.innerHeight + margin) {
+            renderCategorySection(index, section, requestId).catch(console.error)
+        }
+    })
+}
+
 let lazyImageObserver = null
 function initLazyImageObserver(){
     if (lazyImageObserver) {
@@ -1117,8 +1135,7 @@ async function populateCategorySection(index, section, requestId){
     for (var j = 0; j < itemNames.length; j++) {
         const table = document.createElement("table")
         table.border = 1
-        table.style = "border-collapse: collapse"
-        table.width = "600"
+        table.style.cssText = "border-collapse: collapse; table-layout: fixed; width: 600px;"
 
         const obj = item[itemNames[j]]
         const item_cnt = obj.parts
@@ -1303,6 +1320,7 @@ async function populateCategorySection(index, section, requestId){
                     }
                     else if (k == 2 && l == 1) {
                         const td = document.createElement('td')
+                        td.width = "480"
                         const ch = document.createElement('input')
                         ch.setAttribute('type', 'checkbox')
                         ch.setAttribute('name', 'name')
@@ -1588,6 +1606,8 @@ async function create_disp(){
     document.querySelectorAll('section.category-section').forEach(section => {
         categorySectionObserver.observe(section)
     })
+    categorySectionObserver.takeRecords()
+    renderVisibleCategorySections(thisRequestId)
 
     const firstSection = document.querySelector('section.category-section')
     if (firstSection) {
@@ -1647,6 +1667,8 @@ async function create_disp(){
     document.querySelectorAll('section.category-section').forEach(section => {
         categorySectionObserver.observe(section)
     })
+    categorySectionObserver.takeRecords()
+    renderVisibleCategorySections(thisRequestId)
 
     const firstSection = document.querySelector('section.category-section')
     if (firstSection) {
@@ -1731,7 +1753,7 @@ async function create_special(){
     for(var j=0;j<obj["special"][i]["item_list"].length;j++){
         const table = document.createElement("table")
         table.border = 1
-        table.style = "border-collapse: collapse"
+        table.style.cssText = "border-collapse: collapse; table-layout: fixed; width: 600px;"
         // ブランド画像（ブランド名が空なら表示しない）
         var brandImg = null
         var brandName = obj["special"][i]["item_list"][j].brand_name
@@ -1883,6 +1905,7 @@ async function create_special(){
                     //　シューズ or ボトムス
                     else if(k==2 && l==1){
                         var td = document.createElement('td')
+                        td.width = "480"
                         var ch = document.createElement('input');
                         ch.setAttribute('type','checkbox');
                         ch.setAttribute('name','name');
