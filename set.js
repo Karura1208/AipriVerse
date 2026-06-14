@@ -1076,6 +1076,17 @@ function observeLazyImage(img){
     lazyImageObserver.observe(img)
 }
 
+function createDeferredImage(dataSrc, width, height){
+    const img = document.createElement('img')
+    img.dataset.src = dataSrc
+    img.loading = 'lazy'
+    img.decoding = 'async'
+    img.classList.add('lazy-load')
+    if (width !== undefined) img.width = width
+    if (height !== undefined) img.height = height
+    return img
+}
+
 async function ensureCategorySectionRendered(index){
     const section = document.querySelector(`section.category-section[data-category-index="${index}"]`)
     if (section) {
@@ -1101,6 +1112,7 @@ async function populateCategorySection(index, section, requestId){
     const url_check = element ? element.checked : false
 
     section.innerHTML = ""
+    const lazyImages = []
 
     for (var j = 0; j < itemNames.length; j++) {
         const table = document.createElement("table")
@@ -1114,14 +1126,8 @@ async function populateCategorySection(index, section, requestId){
 
         var brandImg = null
         if (obj.brand_name && obj.brand_name.trim() !== "") {
-            brandImg = document.createElement("img")
-            brandImg.dataset.src = "brand/" + obj.brand_name + ".webp"
-            brandImg.height = 20
-            brandImg.width = 80
-            brandImg.loading = "lazy"
-            brandImg.decoding = "async"
-            brandImg.classList.add("lazy-load")
-            observeLazyImage(brandImg)
+            brandImg = createDeferredImage("brand/" + obj.brand_name + ".webp", 80, 20)
+            lazyImages.push(brandImg)
         }
 
         if ((url_check && str_url != "") || !url_check) {
@@ -1148,14 +1154,8 @@ async function populateCategorySection(index, section, requestId){
                     else if (k == 1 && l == 0) {
                         const td = document.createElement('td')
                         td.rowSpan = 4
-                        const img = document.createElement("img")
-                        img.dataset.src = obj.total_image
-                        img.height = "180"
-                        img.width = "120"
-                        img.loading = "lazy"
-                        img.decoding = "async"
-                        img.classList.add("lazy-load")
-                        observeLazyImage(img)
+                        const img = createDeferredImage(obj.total_image, 120, 180)
+                        lazyImages.push(img)
                         td.appendChild(img)
                         tr.appendChild(td)
                     }
@@ -1523,6 +1523,8 @@ async function populateCategorySection(index, section, requestId){
         }
         section.appendChild(table)
     }
+
+    lazyImages.forEach(observeLazyImage)
 }
 
 async function renderCategorySection(index, section, requestId){
@@ -1725,6 +1727,7 @@ async function create_special(){
     div.appendChild(h3)
 
     //該当箇所のアイテム数テーブルを作成
+    const lazyImages = []
     for(var j=0;j<obj["special"][i]["item_list"].length;j++){
         const table = document.createElement("table")
         table.border = 1
@@ -1733,14 +1736,8 @@ async function create_special(){
         var brandImg = null
         var brandName = obj["special"][i]["item_list"][j].brand_name
         if (brandName && brandName.trim() !== "") {
-            brandImg = document.createElement("img")
-            brandImg.dataset.src = "brand/" + brandName + ".webp"
-            brandImg.height = 20
-            brandImg.width = 80
-            brandImg.loading = "lazy"
-            brandImg.decoding = "async"
-            brandImg.classList.add("lazy-load")
-            observeLazyImage(brandImg)
+            brandImg = createDeferredImage("brand/" + brandName + ".webp", 80, 20)
+            lazyImages.push(brandImg)
         }
 
         table.width = "600"
@@ -1752,14 +1749,8 @@ async function create_special(){
         var brandImg = null
         var brandName = obj["special"][i]["item_list"][j].brand_name
         if (brandName && brandName.trim() !== "") {
-            brandImg = document.createElement("img")
-            brandImg.dataset.src = "brand/" + brandName + ".webp"
-            brandImg.height = 20
-            brandImg.width = 80
-            brandImg.loading = "lazy"
-            brandImg.decoding = "async"
-            brandImg.classList.add("lazy-load")
-            observeLazyImage(brandImg)
+            brandImg = createDeferredImage("brand/" + brandName + ".webp", 80, 20)
+            lazyImages.push(brandImg)
         }
 
         let element = document.getElementById("url")
@@ -1797,19 +1788,8 @@ async function create_special(){
                         var td = document.createElement('td')
                         td.rowSpan = 4
                         //画像パス 
-                        var img = document.createElement("img")
-                        img.dataset.src = obj["special"][i]["item_list"][j].total_image
-                        if(item_cnt == 1){
-                            img.height = "100"
-                            img.width = "100"
-                        }else{
-                            img.height = "180"
-                            img.width = "120"
-                        }
-                        img.loading = "lazy"
-                        img.decoding = "async"
-                        img.classList.add("lazy-load")
-                        observeLazyImage(img)
+                        var img = createDeferredImage(obj["special"][i]["item_list"][j].total_image, item_cnt == 1 ? 100 : 120, item_cnt == 1 ? 100 : 180)
+                        lazyImages.push(img)
                         td.appendChild(img)
                         tr.appendChild(td)
                     }
@@ -2089,10 +2069,9 @@ async function create_special(){
             }
         }
         div.appendChild(table)
-
     }
 
-
+    lazyImages.forEach(observeLazyImage)
 }
 
 function firstscript(){
