@@ -1342,6 +1342,10 @@ let data = {
         {
             "title":"アイプリバースおねがい１だん",
             "version":13
+        },        
+        {
+            "title":"アイプリバースおねがい２だん",
+            "version":14
         }
     ],
     "special":[
