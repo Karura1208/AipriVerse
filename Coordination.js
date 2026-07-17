@@ -14,7 +14,7 @@ let item ={
     "accessary": "ポッピンハートバズリウムアクセ",
     "accessary_id": "V1-003",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30003.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "ミラクルムーンバズリウム": {
@@ -32,7 +32,7 @@ let item ={
     "accessary": "ミラクルムーンバズリウムアクセ",
     "accessary_id": "V1-006",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30006.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "スカーレットバタフライバズリウム": {
@@ -50,7 +50,7 @@ let item ={
     "accessary": "スカーレットバタフライバズリウムアクセ",
     "accessary_id": "V1-009",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30009.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "おうしざエメラルド": {
@@ -71,7 +71,7 @@ let item ={
     "accessary": "おうしざエメラルドアクセ",
     "accessary_id": "V1-043",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30144.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "おとぎばなしシンデレラ": {
@@ -92,7 +92,7 @@ let item ={
     "accessary": "おとぎばなしシンデレラアクセ",
     "accessary_id": "V1-047",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30159.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "おとぎばなしシンデレライエロー": {
@@ -113,7 +113,7 @@ let item ={
     "accessary": "おとぎばなしシンデレライエローアクセ",
     "accessary_id": "V1-051",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30164.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "キューティーラビット": {
@@ -134,7 +134,7 @@ let item ={
     "accessary": "キューティーラビットアクセ",
     "accessary_id": "V1-055",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30013.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "キューティーラビットブルー": {
@@ -155,7 +155,7 @@ let item ={
     "accessary": "キューティーラビットブルーアクセ",
     "accessary_id": "V1-059",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30017.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "リッチベリータルト": {
@@ -173,7 +173,7 @@ let item ={
     "accessary": "リッチベリータルトアクセ",
     "accessary_id": "V1-062",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30028.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "リッチベリータルトピンク": {
@@ -191,7 +191,7 @@ let item ={
     "accessary": "リッチベリータルトピンクアクセ",
     "accessary_id": "V1-065",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30173.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "バタフライマジック": {
@@ -212,7 +212,7 @@ let item ={
     "accessary": "バタフライマジックアクセ",
     "accessary_id": "V1-069",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30044.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "バタフライマジッククリムゾン": {
@@ -233,7 +233,7 @@ let item ={
     "accessary": "バタフライマジッククリムゾンアクセ",
     "accessary_id": "V1-073",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30048.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん後半★★★★ピックアップ"
   },
   "ハートフェザー": {
@@ -332,7 +332,7 @@ let item ={
     "accessary": "おひつじざルビーアクセ",
     "accessary_id": "V1-013",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30140.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "ドーナツパティシエール": {
@@ -350,7 +350,7 @@ let item ={
     "accessary": "ドーナツパティシエールアクセ",
     "accessary_id": "V1-016",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30021.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "ドーナツパティシエールオレンジ": {
@@ -368,7 +368,7 @@ let item ={
     "accessary": "ドーナツパティシエールオレンジアクセ",
     "accessary_id": "V1-019",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30166.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "ぷるるんゼリーソーダ": {
@@ -389,7 +389,7 @@ let item ={
     "accessary": "ぷるるんゼリーソーダアクセ",
     "accessary_id": "V1-023",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30025.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "ぷるるんゼリーグレープ": {
@@ -410,7 +410,7 @@ let item ={
     "accessary": "ぷるるんゼリーグレープアクセ",
     "accessary_id": "V1-027",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30170.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "ウェルカムチェリー": {
@@ -428,7 +428,7 @@ let item ={
     "accessary": "ウェルカムチェリーアクセ",
     "accessary_id": "V1-030",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30031.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "ウェルカムチェリーブルー": {
@@ -446,7 +446,7 @@ let item ={
     "accessary": "ウェルカムチェリーブルーアクセ",
     "accessary_id": "V1-033",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30034.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "きらきらくらげブルー": {
@@ -464,7 +464,7 @@ let item ={
     "accessary": "きらきらくらげブルーアクセ",
     "accessary_id": "V1-036",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30037.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "きらきらくらげピンク": {
@@ -482,7 +482,7 @@ let item ={
     "accessary": "きらきらくらげピンクアクセ",
     "accessary_id": "V1-039",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30040.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だん前半★★★★ピックアップ"
   },
   "ひみつのオーロラドリームあいら": {
@@ -671,7 +671,7 @@ let item ={
     "accessary": "アイプリバースポッピンハートアクセ",
     "accessary_id": "V1-076",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30051.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "アイプリバースポッピンハートグリーン": {
@@ -689,7 +689,7 @@ let item ={
     "accessary": "アイプリバースポッピンハートグリーンアクセ",
     "accessary_id": "V1-079",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30054.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "アイプリバースミラクルムーン": {
@@ -710,7 +710,7 @@ let item ={
     "accessary": "アイプリバースミラクルムーンアクセ",
     "accessary_id": "V1-083",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30058.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "アイプリバースミラクルムーンオレンジ": {
@@ -731,7 +731,7 @@ let item ={
     "accessary": "アイプリバースミラクルムーンオレンジアクセ",
     "accessary_id": "V1-087",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30062.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "アイプリバーススカーレットバタフライ": {
@@ -749,7 +749,7 @@ let item ={
     "accessary": "アイプリバーススカーレットバタフライアクセ",
     "accessary_id": "V1-090",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30065.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "フラワーチュール": {
@@ -770,7 +770,7 @@ let item ={
     "accessary": "フラワーチュールアクセ",
     "accessary_id": "V1-094",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30069.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "フラワーチュールミント": {
@@ -791,7 +791,7 @@ let item ={
     "accessary": "フラワーチュールミントアクセ",
     "accessary_id": "V1-098",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30073.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ゴージャスビジュー": {
@@ -809,7 +809,7 @@ let item ={
     "accessary": "ゴージャスビジューアクセ",
     "accessary_id": "V1-101",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30076.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ゴージャスビジューモスグリーン": {
@@ -827,7 +827,7 @@ let item ={
     "accessary": "ゴージャスビジューモスグリーンアクセ",
     "accessary_id": "V1-104",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30176.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ハニービー": {
@@ -848,7 +848,7 @@ let item ={
     "accessary": "ハニービーアクセ",
     "accessary_id": "V1-108",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30080.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ハニービーリーフ": {
@@ -869,7 +869,7 @@ let item ={
     "accessary": "ハニービーリーフアクセ",
     "accessary_id": "V1-112",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30180.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "スターメロディ": {
@@ -890,7 +890,7 @@ let item ={
     "accessary": "スターメロディアクセ",
     "accessary_id": "V1-116",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30084.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ハートメロディ": {
@@ -911,7 +911,7 @@ let item ={
     "accessary": "ハートメロディアクセ",
     "accessary_id": "V1-120",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30088.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "スターパーティー": {
@@ -932,7 +932,7 @@ let item ={
     "accessary": "スターパーティーアクセ",
     "accessary_id": "V1-124",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30092.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "スターパーティーいちごチョコ": {
@@ -953,7 +953,7 @@ let item ={
     "accessary": "スターパーティーいちごチョコアクセ",
     "accessary_id": "V1-128",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30096.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "スターパーティーほしぞらブルー": {
@@ -974,7 +974,7 @@ let item ={
     "accessary": "スターパーティーほしぞらブルーアクセ",
     "accessary_id": "V1-132",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30184.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "パラダイスがくえんせいふく１ねん": {
@@ -992,7 +992,7 @@ let item ={
     "accessary": "パラダイスがくえんせいふく１ねんアクセ",
     "accessary_id": "V1-135",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30099.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "パラダイスがくえんせいふく2ねん": {
@@ -1010,7 +1010,7 @@ let item ={
     "accessary": "パラダイスがくえんせいふく2ねんアクセ",
     "accessary_id": "V1-135",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30099.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "ラブリーアイドルイエローミント": {
@@ -1031,7 +1031,7 @@ let item ={
     "accessary": "ラブリーアイドルイエローミントアクセ",
     "accessary_id": "V1-140",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30188.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "ラブリーアイドルホワイトパープル": {
@@ -1052,7 +1052,7 @@ let item ={
     "accessary": "ラブリーアイドルホワイトパープルアクセ",
     "accessary_id": "V1-144",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30192.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "クールアイドルグリーンピンク": {
@@ -1073,7 +1073,7 @@ let item ={
     "accessary": "クールアイドルグリーンピンクアクセ",
     "accessary_id": "V1-148",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30196.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "クールアイドルレッドイエロー": {
@@ -1094,7 +1094,7 @@ let item ={
     "accessary": "クールアイドルレッドイエローアクセ",
     "accessary_id": "V1-152",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30200.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "ハッピーチアライトグリーン": {
@@ -1115,7 +1115,7 @@ let item ={
     "accessary": "ハッピーチアライトグリーンアクセ",
     "accessary_id": "V1-156",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30204.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "セーラーカジュアルラブリーパープル": {
@@ -1136,7 +1136,7 @@ let item ={
     "accessary": "セーラーカジュアルラブリーパープルアクセ",
     "accessary_id": "V1-160",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30208.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "スプリングツアー2024ひがし": {
@@ -1151,7 +1151,7 @@ let item ={
     "accessary": "スプリングツアー2024ひがしアクセ",
     "accessary_id": "V1-242",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30210.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だんマイキャラツアー"
   },
   "スプリングツアー2024にし": {
@@ -1166,7 +1166,7 @@ let item ={
     "accessary": "スプリングツアー2024にしアクセ",
     "accessary_id": "V1-244",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30212.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だんマイキャラツアー"
   },
   "スプリングツアー2024ぜんこく": {
@@ -1181,7 +1181,7 @@ let item ={
     "accessary": "スプリングツアー2024ぜんこくアクセ",
     "accessary_id": "V1-246",
     "accessary_image": "https://aipri.jp/verse/item/img/1/Item_ID30214.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "1だんマイキャラツアー"
   },
   "": {
@@ -1199,8 +1199,47 @@ let item ={
     "accessary": "アクセ",
     "accessary_id": "V2-006",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30253.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん後半★★★★ピックアップ"
+  },
+  "マリオネットミューサイリウム": {
+    "name": "マリオネットミューサイリウム",
+    "brand_name": "プリティーコレクション",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/2/V2-211F.webp",
+    "one_piece": "マリオネットミューサイリウムワンピ",
+    "one_piece_id": "V2-211",
+    "one_piece_image": "https://aipri.jp/verse/item/img/2/Item_ID30425.webp",
+    "shoues": "マリオネットミューサイリウムシューズ",
+    "shoues_id": "V2-212",
+    "shoues_image": "https://aipri.jp/verse/item/img/2/Item_ID30426.webp",
+    "accessary": "マリオネットミューサイリウムアクセ",
+    "accessary_id": "V2-213",
+    "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30427.webp",
+    "series": "プリパラ",
+    "note": "プリパラ②"
+  },
+  "エンジェリックファンシー": {
+    "name": "エンジェリックファンシー",
+    "brand_name": "プリティーコレクション",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/2/V2-214F.webp",
+    "tops": "エンジェリックファンシートップス",
+    "tops_id": "V2-214",
+    "tops_image": "https://aipri.jp/verse/item/img/2/Item_ID30428.webp",
+    "bottoms": "エンジェリックファンシーボトムス",
+    "bottoms_id": "V2-215",
+    "bottoms_image": "https://aipri.jp/verse/item/img/2/Item_ID30429.webp",
+    "shoues": "エンジェリックファンシーシューズ",
+    "shoues_id": "V2-216",
+    "shoues_image": "https://aipri.jp/verse/item/img/2/Item_ID30430.webp",
+    "accessary": "エンジェリックファンシーアクセ",
+    "accessary_id": "V2-217",
+    "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30431.webp",
+    "series": "プリパラ",
+    "note": "プリパラ②"
   },
   "クリスタルスノープリンセス": {
     "name": "クリスタルスノープリンセス",
@@ -1301,7 +1340,7 @@ let item ={
     "accessary": "ロゼッションバズリウムアクセ",
     "accessary_id": "V2-003",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30217.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "ふたござシトリン": {
@@ -1322,7 +1361,7 @@ let item ={
     "accessary": "ふたござシトリンアクセ",
     "accessary_id": "V2-013",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30224.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "フレッシュレモンピンク": {
@@ -1340,7 +1379,7 @@ let item ={
     "accessary": "フレッシュレモンピンクアクセ",
     "accessary_id": "V2-016",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30227.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "フレッシュレモンブルー": {
@@ -1358,7 +1397,7 @@ let item ={
     "accessary": "フレッシュレモンブルーアクセ",
     "accessary_id": "V2-019",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30230.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "マジシャンキャット": {
@@ -1379,7 +1418,7 @@ let item ={
     "accessary": "マジシャンキャットアクセ",
     "accessary_id": "V2-023",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30234.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "マジシャンキャットピンク": {
@@ -1400,7 +1439,7 @@ let item ={
     "accessary": "マジシャンキャットピンクアクセ",
     "accessary_id": "V2-027",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30238.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "チェックメイト": {
@@ -1421,7 +1460,7 @@ let item ={
     "accessary": "チェックメイトアクセ",
     "accessary_id": "V2-031",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30242.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "ロマンスシャンデリア": {
@@ -1442,7 +1481,7 @@ let item ={
     "accessary": "ロマンスシャンデリアアクセ",
     "accessary_id": "V2-035",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30246.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "ロマンスシャンデリアピンク": {
@@ -1463,7 +1502,7 @@ let item ={
     "accessary": "ロマンスシャンデリアピンクアクセ",
     "accessary_id": "V2-039",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30250.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん前半★★★★ピックアップ"
   },
   "ローズグランプリ": {
@@ -1481,7 +1520,7 @@ let item ={
     "accessary": "ローズグランプリアクセ",
     "accessary_id": "V2-009",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30220.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第1回アイプリグランプリ"
   },
   "ひみつのプリパラらぁら": {
@@ -1625,7 +1664,7 @@ let item ={
     "accessary": "はつねミクコーデアクセ",
     "accessary_id": "V2-232",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30446.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "初音ミクコラボ"
   },
   "Ｐまるさま。コーデ": {
@@ -1643,7 +1682,7 @@ let item ={
     "accessary": "Ｐまるさま。コーデアクセ",
     "accessary_id": "V2-235",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30449.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "P丸様。コラボ"
   },
   "アイプリバースフラワーマーチ": {
@@ -1661,7 +1700,7 @@ let item ={
     "accessary": "アイプリバースフラワーマーチアクセ",
     "accessary_id": "V2-070",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30284.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "アイプリバースフラワーマーチパープル": {
@@ -1679,7 +1718,7 @@ let item ={
     "accessary": "アイプリバースフラワーマーチパープルアクセ",
     "accessary_id": "V2-073",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30287.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "アイプリバースロゼッション": {
@@ -1697,7 +1736,7 @@ let item ={
     "accessary": "アイプリバースロゼッションアクセ",
     "accessary_id": "V2-076",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30290.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "アイプリバースロゼッショングリーン": {
@@ -1715,7 +1754,7 @@ let item ={
     "accessary": "アイプリバースロゼッショングリーンアクセ",
     "accessary_id": "V2-079",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30293.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ひまわりサマー": {
@@ -1736,7 +1775,7 @@ let item ={
     "accessary": "ひまわりサマーアクセ",
     "accessary_id": "V2-083",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30297.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ひまわりサマーレッド": {
@@ -1757,7 +1796,7 @@ let item ={
     "accessary": "ひまわりサマーレッドアクセ",
     "accessary_id": "V2-087",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30301.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ぽんぽんすずらん": {
@@ -1778,7 +1817,7 @@ let item ={
     "accessary": "ぽんぽんすずらんアクセ",
     "accessary_id": "V2-091",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30305.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ぽんぽんすずらんピンク": {
@@ -1799,7 +1838,7 @@ let item ={
     "accessary": "ぽんぽんすずらんピンクアクセ",
     "accessary_id": "V2-095",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30309.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ローズプリンス": {
@@ -1820,7 +1859,7 @@ let item ={
     "accessary": "ローズプリンスアクセ",
     "accessary_id": "V2-099",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30313.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ローズプリンスライトブルー": {
@@ -1841,7 +1880,7 @@ let item ={
     "accessary": "ローズプリンスライトブルーアクセ",
     "accessary_id": "V2-103",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30317.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ミルキーウェイ": {
@@ -1862,7 +1901,7 @@ let item ={
     "accessary": "ミルキーウェイアクセ",
     "accessary_id": "V2-107",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30321.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ミルキーウェイオレンジ": {
@@ -1883,7 +1922,7 @@ let item ={
     "accessary": "ミルキーウェイオレンジアクセ",
     "accessary_id": "V2-111",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30325.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ことりメルヘン": {
@@ -1904,7 +1943,7 @@ let item ={
     "accessary": "ことりメルヘンアクセ",
     "accessary_id": "V2-115",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30329.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ことりメルヘンナイト": {
@@ -1925,7 +1964,7 @@ let item ={
     "accessary": "ことりメルヘンナイトアクセ",
     "accessary_id": "V2-119",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30333.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "クローバーメロディ": {
@@ -1946,7 +1985,7 @@ let item ={
     "accessary": "クローバーメロディアクセ",
     "accessary_id": "V2-123",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30337.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ひらめきたんてい": {
@@ -1967,7 +2006,7 @@ let item ={
     "accessary": "ひらめきたんていアクセ",
     "accessary_id": "V2-127",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30341.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ひらめきたんていクラシック": {
@@ -1988,7 +2027,7 @@ let item ={
     "accessary": "ひらめきたんていクラシックアクセ",
     "accessary_id": "V2-131",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30345.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★3"
   },
   "ラブリーアイドルオレンジレッド": {
@@ -2009,7 +2048,7 @@ let item ={
     "accessary": "ラブリーアイドルオレンジレッドアクセ",
     "accessary_id": "V2-135",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30349.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "クールアイドルナチュラル": {
@@ -2030,7 +2069,7 @@ let item ={
     "accessary": "クールアイドルナチュラルアクセ",
     "accessary_id": "V2-139",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30353.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "クールアイドルオレンジブルー": {
@@ -2051,7 +2090,7 @@ let item ={
     "accessary": "クールアイドルオレンジブルーアクセ",
     "accessary_id": "V2-143",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30357.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "ハッピーチアグレープソーダ": {
@@ -2072,7 +2111,7 @@ let item ={
     "accessary": "ハッピーチアグレープソーダアクセ",
     "accessary_id": "V2-147",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30361.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "セーラーカジュアルエメラルド": {
@@ -2093,7 +2132,7 @@ let item ={
     "accessary": "セーラーカジュアルエメラルドアクセ",
     "accessary_id": "V2-151",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30365.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "チューリップビタミンイエロー": {
@@ -2111,7 +2150,7 @@ let item ={
     "accessary": "チューリップビタミンイエローアクセ",
     "accessary_id": "V2-154",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30368.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★2"
   },
   "レイニーツアー2024ひがし": {
@@ -2126,7 +2165,7 @@ let item ={
     "accessary": "レイニーツアー2024ひがしアクセ",
     "accessary_id": "V2-237",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30451.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん マイキャラツアー"
   },
   "レイニーツアー2024にし": {
@@ -2141,7 +2180,7 @@ let item ={
     "accessary": "レイニーツアー2024にしアクセ",
     "accessary_id": "V2-239",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30453.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん マイキャラツアー"
   },
   "レイニーツアー2024ぜんこく": {
@@ -2156,7 +2195,7 @@ let item ={
     "accessary": "レイニーツアー2024ぜんこくアクセ",
     "accessary_id": "V2-241",
     "accessary_image": "https://aipri.jp/verse/item/img/2/Item_ID30455.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2だん マイキャラツアー"
   },
   "レインボーキャンディバズリウム": {
@@ -2174,7 +2213,7 @@ let item ={
     "accessary": "レインボーキャンディバズリウムアクセ",
     "accessary_id": "V3-012",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30501.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "ベアベアベアバズリウム": {
@@ -2192,7 +2231,7 @@ let item ={
     "accessary": "ベアベアベアバズリウムアクセ",
     "accessary_id": "V3-015",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30504.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "おとめざカーネリアン": {
@@ -2213,7 +2252,7 @@ let item ={
     "accessary": "おとめざカーネリアンアクセ",
     "accessary_id": "V3-050",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30508.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "おとぎばなしあかずきん": {
@@ -2234,7 +2273,7 @@ let item ={
     "accessary": "おとぎばなしあかずきんアクセ",
     "accessary_id": "V3-054",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30512.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "おとぎばなしあかずきんイエロー": {
@@ -2255,7 +2294,7 @@ let item ={
     "accessary": "おとぎばなしあかずきんイエローアクセ",
     "accessary_id": "V3-058",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30516.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "カワイイあめちゃん": {
@@ -2273,7 +2312,7 @@ let item ={
     "accessary": "カワイイあめちゃんアクセ",
     "accessary_id": "V3-061",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30519.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "カワイイくまさん": {
@@ -2291,7 +2330,7 @@ let item ={
     "accessary": "カワイイくまさんアクセ",
     "accessary_id": "V3-064",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30522.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "おやすみメリー": {
@@ -2309,7 +2348,7 @@ let item ={
     "accessary": "おやすみメリーアクセ",
     "accessary_id": "V3-067",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30525.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "おやすみメリーモーニング": {
@@ -2327,7 +2366,7 @@ let item ={
     "accessary": "おやすみメリーモーニングアクセ",
     "accessary_id": "V3-070",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30528.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "ハッピーバースデー！みつき": {
@@ -2348,7 +2387,7 @@ let item ={
     "accessary": "ハッピーバースデー！みつきアクセ",
     "accessary_id": "V3-074",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30532.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "ハッピーバースデー！リンリン": {
@@ -2369,7 +2408,7 @@ let item ={
     "accessary": "ハッピーバースデー！リンリンアクセ",
     "accessary_id": "V3-078",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30536.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん後半　★★★★ピックアップ"
   },
   "ファンタジータイムドリーム": {
@@ -2489,7 +2528,7 @@ let item ={
     "accessary": "シークレットフレンズ∞バズリウムピンクアクセ",
     "accessary_id": "V3-003",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30470.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "シークレットフレンズ∞バズリウムブルー": {
@@ -2507,7 +2546,7 @@ let item ={
     "accessary": "シークレットフレンズ∞バズリウムブルーアクセ",
     "accessary_id": "V3-006",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30473.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "シークレットフレンズ∞バズリウムイエロー": {
@@ -2525,7 +2564,7 @@ let item ={
     "accessary": "シークレットフレンズ∞バズリウムイエローアクセ",
     "accessary_id": "V3-009",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30476.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "ししざダイヤモンド": {
@@ -2546,7 +2585,7 @@ let item ={
     "accessary": "ししざダイヤモンドアクセ",
     "accessary_id": "V3-028",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30480.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "かれいなるきんぎょ": {
@@ -2564,7 +2603,7 @@ let item ={
     "accessary": "かれいなるきんぎょアクセ",
     "accessary_id": "V3-031",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30483.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "かれいなるきんぎょブルー": {
@@ -2582,7 +2621,7 @@ let item ={
     "accessary": "かれいなるきんぎょブルーアクセ",
     "accessary_id": "V3-034",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30486.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "カラフルキャンディ": {
@@ -2603,7 +2642,7 @@ let item ={
     "accessary": "カラフルキャンディアクセ",
     "accessary_id": "V3-038",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30490.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "カラフルキャンディイエロー": {
@@ -2624,7 +2663,7 @@ let item ={
     "accessary": "カラフルキャンディイエローアクセ",
     "accessary_id": "V3-042",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30494.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "ハッピーバースデー！ひまり": {
@@ -2645,7 +2684,7 @@ let item ={
     "accessary": "ハッピーバースデー！ひまりアクセ",
     "accessary_id": "V3-046",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30498.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "3だん前半　★★★★ピックアップ"
   },
   "マーメイドグランプリピンク": {
@@ -2663,7 +2702,7 @@ let item ={
     "accessary": "マーメイドグランプリピンクアクセ",
     "accessary_id": "V3-018",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30458.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第2回アイプリグランプリ"
   },
   "マーメイドグランプリブルー": {
@@ -2681,7 +2720,7 @@ let item ={
     "accessary": "マーメイドグランプリブルーアクセ",
     "accessary_id": "V3-021",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30461.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第2回アイプリグランプリ"
   },
   "マーメイドグランプリイエロー": {
@@ -2699,7 +2738,7 @@ let item ={
     "accessary": "マーメイドグランプリイエローアクセ",
     "accessary_id": "V3-024",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30464.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第2回アイプリグランプリ"
   },
   "ひみつのアイドルタイムゆい": {
@@ -2828,7 +2867,7 @@ let item ={
     "accessary": "リトルツインスターズ パーティーピンクアクセ",
     "accessary_id": "V3-184",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30643.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "リトルツインスターズ パーティーブルー": {
@@ -2849,7 +2888,7 @@ let item ={
     "accessary": "リトルツインスターズ パーティーブルーアクセ",
     "accessary_id": "V3-188",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30647.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ポムポムプリン パーティー": {
@@ -2870,7 +2909,7 @@ let item ={
     "accessary": "ポムポムプリン パーティーアクセ",
     "accessary_id": "V3-192",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30651.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ハローキティ パーティー": {
@@ -2891,7 +2930,7 @@ let item ={
     "accessary": "ハローキティ パーティーアクセ",
     "accessary_id": "V3-196",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30655.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "シナモロール パーティー": {
@@ -2912,7 +2951,7 @@ let item ={
     "accessary": "シナモロール パーティーアクセ",
     "accessary_id": "V3-200",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30659.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ポチャッコ パーティー": {
@@ -2933,7 +2972,7 @@ let item ={
     "accessary": "ポチャッコ パーティーアクセ",
     "accessary_id": "V3-204",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30663.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "マイメロディ パーティー": {
@@ -2954,7 +2993,7 @@ let item ={
     "accessary": "マイメロディ パーティーアクセ",
     "accessary_id": "V3-208",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30667.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "クロミ パーティー": {
@@ -2975,7 +3014,7 @@ let item ={
     "accessary": "クロミ パーティーアクセ",
     "accessary_id": "V3-212",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30671.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "フレッシュレモンゆめかわ": {
@@ -2987,7 +3026,7 @@ let item ={
     "one_piece": "フレッシュレモンゆめかわワンピ",
     "one_piece_id": "V3-213",
     "one_piece_image": "https://aipri.jp/verse/item/img/3/Item_ID30672.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "TGC 2024 A/W"
   },
   "アイプリバースレインボーキャンディ": {
@@ -3008,7 +3047,7 @@ let item ={
     "accessary": "アイプリバースレインボーキャンディアクセ",
     "accessary_id": "V3-082",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30540.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースベアベアベア": {
@@ -3026,7 +3065,7 @@ let item ={
     "accessary": "アイプリバースベアベアベアアクセ",
     "accessary_id": "V3-085",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30543.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "さわやかマリン": {
@@ -3047,7 +3086,7 @@ let item ={
     "accessary": "さわやかマリンアクセ",
     "accessary_id": "V3-089",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30547.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "トロピカルサマー": {
@@ -3065,7 +3104,7 @@ let item ={
     "accessary": "トロピカルサマーアクセ",
     "accessary_id": "V3-092",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30550.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "レディーフライト": {
@@ -3086,7 +3125,7 @@ let item ={
     "accessary": "レディーフライトアクセ",
     "accessary_id": "V3-096",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30554.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイスクリーム": {
@@ -3107,7 +3146,7 @@ let item ={
     "accessary": "アイスクリームアクセ",
     "accessary_id": "V3-100",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30558.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイスクリームオレンジ": {
@@ -3128,7 +3167,7 @@ let item ={
     "accessary": "アイスクリームオレンジアクセ",
     "accessary_id": "V3-104",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30562.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ティーパーティー": {
@@ -3149,7 +3188,7 @@ let item ={
     "accessary": "ティーパーティーアクセ",
     "accessary_id": "V3-108",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30566.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ティーパーティーネイビー": {
@@ -3170,7 +3209,7 @@ let item ={
     "accessary": "ティーパーティーネイビーアクセ",
     "accessary_id": "V3-112",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30570.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "パラダイスがくえんなつふく１ねん": {
@@ -3188,7 +3227,7 @@ let item ={
     "accessary": "パラダイスがくえんなつふく１ねんアクセ",
     "accessary_id": "V3-114",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30573.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "パラダイスがくえんなつふく２ねん": {
@@ -3206,7 +3245,7 @@ let item ={
     "accessary": "パラダイスがくえんなつふく２ねんアクセ",
     "accessary_id": "V3-114",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30573.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ラブリーアイドルレッド": {
@@ -3227,7 +3266,7 @@ let item ={
     "accessary": "ラブリーアイドルレッドアクセ",
     "accessary_id": "V3-119",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30578.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ラブリーアイドルオレンジ": {
@@ -3248,7 +3287,7 @@ let item ={
     "accessary": "ラブリーアイドルオレンジアクセ",
     "accessary_id": "V3-123",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30582.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "クールアイドルイエロー": {
@@ -3269,7 +3308,7 @@ let item ={
     "accessary": "クールアイドルイエローアクセ",
     "accessary_id": "V3-127",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30586.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "クールアイドルネイビー": {
@@ -3290,7 +3329,7 @@ let item ={
     "accessary": "クールアイドルネイビーアクセ",
     "accessary_id": "V3-131",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30590.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "クールアイドルグリーン": {
@@ -3311,7 +3350,7 @@ let item ={
     "accessary": "クールアイドルグリーンアクセ",
     "accessary_id": "V3-135",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30594.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ハッピーチアグリーン": {
@@ -3332,7 +3371,7 @@ let item ={
     "accessary": "ハッピーチアグリーンアクセ",
     "accessary_id": "V3-139",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30598.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "セーラーカジュアルオレンジ": {
@@ -3353,7 +3392,7 @@ let item ={
     "accessary": "セーラーカジュアルオレンジアクセ",
     "accessary_id": "V3-143",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30602.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "トロピカルサマーブルー": {
@@ -3371,7 +3410,7 @@ let item ={
     "accessary": "トロピカルサマーブルーアクセ",
     "accessary_id": "V3-216",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30675.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024サマーツアー"
   },
   "ひまわりサマーブルー": {
@@ -3392,7 +3431,7 @@ let item ={
     "accessary": "ひまわりサマーブルーアクセ",
     "accessary_id": "V3-220",
     "accessary_image": "https://aipri.jp/verse/item/img/3/Item_ID30679.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024サマーツアー"
   },
   "サマーTシャツ": {
@@ -3404,7 +3443,7 @@ let item ={
     "tops": "サマーTシャツトップス",
     "tops_id": "V3-221",
     "tops_image": "https://aipri.jp/verse/item/img/3/Item_ID30680.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024サマーツアー"
   },
   "ラブマイミュージックバズリウム": {
@@ -3422,7 +3461,7 @@ let item ={
     "accessary": "ラブマイミュージックバズリウムアクセ",
     "accessary_id": "V4-015",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30728.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "さそりざタイガーアイ": {
@@ -3443,7 +3482,7 @@ let item ={
     "accessary": "さそりざタイガーアイアクセ",
     "accessary_id": "V4-056",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30732.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "おとぎばなしピーターパン": {
@@ -3461,7 +3500,7 @@ let item ={
     "accessary": "おとぎばなしピーターパンアクセ",
     "accessary_id": "V4-059",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30735.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "おとぎばなしピーターパンレッド": {
@@ -3479,7 +3518,7 @@ let item ={
     "accessary": "おとぎばなしピーターパンレッドアクセ",
     "accessary_id": "V4-062",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30738.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "こあくまロック": {
@@ -3500,7 +3539,7 @@ let item ={
     "accessary": "こあくまロックアクセ",
     "accessary_id": "V4-066",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30742.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "こあくまロックわたあめピンク": {
@@ -3521,7 +3560,7 @@ let item ={
     "accessary": "こあくまロックわたあめピンクアクセ",
     "accessary_id": "V4-070",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30746.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "キューティーラビットイエロー": {
@@ -3542,7 +3581,7 @@ let item ={
     "accessary": "キューティーラビットイエローアクセ",
     "accessary_id": "V4-074",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30750.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "ハッピーバースデー！チィ": {
@@ -3563,7 +3602,7 @@ let item ={
     "accessary": "ハッピーバースデー！チィアクセ",
     "accessary_id": "V4-078",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30754.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん後半　★★★★ピックアップ"
   },
   "ミラクル☆キラッツグループキラッと": {
@@ -3683,7 +3722,7 @@ let item ={
     "accessary": "カルテットスターバズリウムハートアクセ",
     "accessary_id": "V4-003",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30691.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "カルテットスターバズリウムスペード": {
@@ -3701,7 +3740,7 @@ let item ={
     "accessary": "カルテットスターバズリウムスペードアクセ",
     "accessary_id": "V4-006",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30694.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "カルテットスターバズリウムダイヤ": {
@@ -3719,7 +3758,7 @@ let item ={
     "accessary": "カルテットスターバズリウムダイヤアクセ",
     "accessary_id": "V4-009",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30697.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "カルテットスターバズリウムクラブ": {
@@ -3737,7 +3776,7 @@ let item ={
     "accessary": "カルテットスターバズリウムクラブアクセ",
     "accessary_id": "V4-012",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30700.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "てんびんざターコイズ": {
@@ -3758,7 +3797,7 @@ let item ={
     "accessary": "てんびんざターコイズアクセ",
     "accessary_id": "V4-031",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30704.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "ミラクルハロウィンピンク": {
@@ -3776,7 +3815,7 @@ let item ={
     "accessary": "ミラクルハロウィンピンクアクセ",
     "accessary_id": "V4-034",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30707.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "ミラクルハロウィンブルー": {
@@ -3794,7 +3833,7 @@ let item ={
     "accessary": "ミラクルハロウィンブルーアクセ",
     "accessary_id": "V4-037",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30710.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "ミラクルハロウィンイエロー": {
@@ -3812,7 +3851,7 @@ let item ={
     "accessary": "ミラクルハロウィンイエローアクセ",
     "accessary_id": "V4-040",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30713.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "ゴーストハロウィン": {
@@ -3833,7 +3872,7 @@ let item ={
     "accessary": "ゴーストハロウィンアクセ",
     "accessary_id": "V4-044",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30717.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "ゴーストハロウィングリーン": {
@@ -3854,7 +3893,7 @@ let item ={
     "accessary": "ゴーストハロウィングリーンアクセ",
     "accessary_id": "V4-048",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30721.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "ハッピーバースデー！アイリ": {
@@ -3875,7 +3914,7 @@ let item ={
     "accessary": "ハッピーバースデー！アイリアクセ",
     "accessary_id": "V4-052",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30725.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "4だん前半　★★★★ピックアップ"
   },
   "フェザーグランプリクールレッド": {
@@ -3893,7 +3932,7 @@ let item ={
     "accessary": "フェザーグランプリクールレッドアクセ",
     "accessary_id": "V4-018",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30869.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第3回アイプリグランプリ"
   },
   "フェザーグランプリクールブルー": {
@@ -3911,7 +3950,7 @@ let item ={
     "accessary": "フェザーグランプリクールブルーアクセ",
     "accessary_id": "V4-021",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30872.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第3回アイプリグランプリ"
   },
   "フェザーグランプリラブリーグリーン": {
@@ -3929,7 +3968,7 @@ let item ={
     "accessary": "フェザーグランプリラブリーグリーンアクセ",
     "accessary_id": "V4-024",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30875.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第3回アイプリグランプリ"
   },
   "フェザーグランプリラブリーオレンジ": {
@@ -3947,7 +3986,7 @@ let item ={
     "accessary": "フェザーグランプリラブリーオレンジアクセ",
     "accessary_id": "V4-027",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30878.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第3回アイプリグランプリ"
   },
   "ひみつのプリ☆チャンみらい": {
@@ -4073,7 +4112,7 @@ let item ={
     "shoues": "ピタTガールシューズ",
     "shoues_id": "V4-177",
     "shoues_image": "https://aipri.jp/verse/item/img/4/Item_ID30855.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "オシャレ魔女 ラブandベリー"
   },
   "ピチッとクロT": {
@@ -4091,7 +4130,7 @@ let item ={
     "shoues": "ピチッとクロTシューズ",
     "shoues_id": "V4-180",
     "shoues_image": "https://aipri.jp/verse/item/img/4/Item_ID30859.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "オシャレ魔女 ラブandベリー"
   },
   "キャンディテーラード": {
@@ -4109,7 +4148,7 @@ let item ={
     "accessary": "キャンディテーラードアクセ",
     "accessary_id": "V4-183",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30863.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "オシャレ魔女 ラブandベリー"
   },
   "クラシックバイオレット": {
@@ -4127,7 +4166,7 @@ let item ={
     "accessary": "クラシックバイオレットアクセ",
     "accessary_id": "V4-186",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30866.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "オシャレ魔女 ラブandベリー"
   },
   "アイプリバースラブマイミュージック": {
@@ -4148,7 +4187,7 @@ let item ={
     "accessary": "アイプリバースラブマイミュージックアクセ",
     "accessary_id": "V4-082",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30758.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ふわもこかいじゅう": {
@@ -4169,7 +4208,7 @@ let item ={
     "accessary": "ふわもこかいじゅうアクセ",
     "accessary_id": "V4-086",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30762.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "いたずらモンスター": {
@@ -4190,7 +4229,7 @@ let item ={
     "accessary": "いたずらモンスターアクセ",
     "accessary_id": "V4-090",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30766.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "パンキッシュペンギン": {
@@ -4211,7 +4250,7 @@ let item ={
     "accessary": "パンキッシュペンギンアクセ",
     "accessary_id": "V4-094",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30770.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "パンキッシュペンギンポップ": {
@@ -4232,7 +4271,7 @@ let item ={
     "accessary": "パンキッシュペンギンポップアクセ",
     "accessary_id": "V4-098",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30774.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "おえかきパレット": {
@@ -4250,7 +4289,7 @@ let item ={
     "accessary": "おえかきパレットアクセ",
     "accessary_id": "V4-101",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30777.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "おえかきパレットやんちゃブルー": {
@@ -4268,7 +4307,7 @@ let item ={
     "accessary": "おえかきパレットやんちゃブルーアクセ",
     "accessary_id": "V4-104",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30780.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "スターカウガール": {
@@ -4289,7 +4328,7 @@ let item ={
     "accessary": "スターカウガールアクセ",
     "accessary_id": "V4-108",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30784.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ハーバリウム": {
@@ -4307,7 +4346,7 @@ let item ={
     "accessary": "ハーバリウムアクセ",
     "accessary_id": "V4-111",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30787.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "クラシックライブラリー": {
@@ -4328,7 +4367,7 @@ let item ={
     "accessary": "クラシックライブラリーアクセ",
     "accessary_id": "V4-115",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30791.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ラブリーアイドルグリーン": {
@@ -4349,7 +4388,7 @@ let item ={
     "accessary": "ラブリーアイドルグリーンアクセ",
     "accessary_id": "V4-119",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30795.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ラブリーアイドルフレッシュいちご": {
@@ -4370,7 +4409,7 @@ let item ={
     "accessary": "ラブリーアイドルフレッシュいちごアクセ",
     "accessary_id": "V4-123",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30799.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "クールアイドルオレンジ": {
@@ -4391,7 +4430,7 @@ let item ={
     "accessary": "クールアイドルオレンジアクセ",
     "accessary_id": "V4-127",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30803.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "クールアイドルパープル": {
@@ -4412,7 +4451,7 @@ let item ={
     "accessary": "クールアイドルパープルアクセ",
     "accessary_id": "V4-131",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30807.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "チューリップグリーン": {
@@ -4430,7 +4469,7 @@ let item ={
     "accessary": "チューリップグリーンアクセ",
     "accessary_id": "V4-134",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30890.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "チューリップパープル": {
@@ -4448,7 +4487,7 @@ let item ={
     "accessary": "チューリップパープルアクセ",
     "accessary_id": "V4-137",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30893.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "オータムTシャツ": {
@@ -4460,7 +4499,7 @@ let item ={
     "tops": "オータムTシャツトップス",
     "tops_id": "V4-187",
     "tops_image": "https://aipri.jp/verse/item/img/4/Item_ID30879.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024オータムツアー"
   },
   "いたずらモンスターオータムパンプキン": {
@@ -4481,7 +4520,7 @@ let item ={
     "accessary": "いたずらモンスターオータムパンプキンアクセ",
     "accessary_id": "V4-191",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30883.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024オータムツアー"
   },
   "クラシックライブラリーオータムスカイ": {
@@ -4502,7 +4541,7 @@ let item ={
     "accessary": "クラシックライブラリーオータムスカイアクセ",
     "accessary_id": "V4-195",
     "accessary_image": "https://aipri.jp/verse/item/img/4/Item_ID30887.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024オータムツアー"
   },
   "フラワーマーチプリンセスバズリウムブルー": {
@@ -4520,7 +4559,7 @@ let item ={
     "accessary": "フラワーマーチプリンセスバズリウムブルーアクセ",
     "accessary_id": "V5-006",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30930.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "フラワーマーチバズリウムピュアホワイト": {
@@ -4538,7 +4577,7 @@ let item ={
     "accessary": "フラワーマーチバズリウムピュアホワイトアクセ",
     "accessary_id": "V5-009",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30933.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "やぎざオニキス": {
@@ -4559,7 +4598,7 @@ let item ={
     "accessary": "やぎざオニキスアクセ",
     "accessary_id": "V5-051",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30937.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "おとぎばなしワンダーランド": {
@@ -4580,7 +4619,7 @@ let item ={
     "accessary": "おとぎばなしワンダーランドアクセ",
     "accessary_id": "V5-055",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30941.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "ぴょんぴょんうさぎ": {
@@ -4601,7 +4640,7 @@ let item ={
     "accessary": "ぴょんぴょんうさぎアクセ",
     "accessary_id": "V5-059",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30945.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "おしょうがつピンク": {
@@ -4622,7 +4661,7 @@ let item ={
     "accessary": "おしょうがつピンクアクセ",
     "accessary_id": "V5-063",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30949.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "おしょうがつブルー": {
@@ -4643,7 +4682,7 @@ let item ={
     "accessary": "おしょうがつブルーアクセ",
     "accessary_id": "V5-067",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30953.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "おしょうがつイエロー": {
@@ -4664,7 +4703,7 @@ let item ={
     "accessary": "おしょうがつイエローアクセ",
     "accessary_id": "V5-071",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30957.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "ハッピーバースデー！タマキ": {
@@ -4685,7 +4724,7 @@ let item ={
     "accessary": "ハッピーバースデー！タマキアクセ",
     "accessary_id": "V5-075",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30961.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん後半　★★★★ピックアップ"
   },
   "スパークスター": {
@@ -4781,7 +4820,7 @@ let item ={
     "accessary": "フラワーマーチプリンセスバズリウムアクセ",
     "accessary_id": "V5-003",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30896.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "いてざサファイア": {
@@ -4802,7 +4841,7 @@ let item ={
     "accessary": "いてざサファイアアクセ",
     "accessary_id": "V5-023",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30900.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "かみなりぐも": {
@@ -4823,7 +4862,7 @@ let item ={
     "accessary": "かみなりぐもアクセ",
     "accessary_id": "V5-027",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30904.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "かみなりぐもブラック": {
@@ -4844,7 +4883,7 @@ let item ={
     "accessary": "かみなりぐもブラックアクセ",
     "accessary_id": "V5-031",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30908.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "スペシャルクリスマスレッド": {
@@ -4862,7 +4901,7 @@ let item ={
     "accessary": "スペシャルクリスマスレッドアクセ",
     "accessary_id": "V5-034",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "スペシャルクリスマスブルー": {
@@ -4880,7 +4919,7 @@ let item ={
     "accessary": "スペシャルクリスマスブルーアクセ",
     "accessary_id": "V5-034",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "スペシャルクリスマスグリーン": {
@@ -4898,7 +4937,7 @@ let item ={
     "accessary": "スペシャルクリスマスグリーンアクセ",
     "accessary_id": "V5-034",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "スペシャルクリスマスオレンジ": {
@@ -4916,7 +4955,7 @@ let item ={
     "accessary": "スペシャルクリスマスオレンジアクセ",
     "accessary_id": "V5-034",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30911.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "フラワーメモリーピュアホワイト": {
@@ -4934,7 +4973,7 @@ let item ={
     "accessary": "フラワーメモリーピュアホワイトアクセ",
     "accessary_id": "V5-043",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30923.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "ハッピーバースデー！つむぎ": {
@@ -4955,7 +4994,7 @@ let item ={
     "accessary": "ハッピーバースデー！つむぎアクセ",
     "accessary_id": "V5-047",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30927.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "5だん前半　★★★★ピックアップ"
   },
   "フラワーマーチバズリウム": {
@@ -4973,7 +5012,7 @@ let item ={
     "accessary": "フラワーマーチバズリウムアクセ",
     "accessary_id": "V2-006",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30253.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムひろば"
   },
   "オーロラスノーグランプリ": {
@@ -4991,7 +5030,7 @@ let item ={
     "accessary": "オーロラスノーグランプリアクセ",
     "accessary_id": "V5-012",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31060.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第4回アイプリグランプリ"
   },
   "ぷるるんゼリーミルク": {
@@ -5012,7 +5051,7 @@ let item ={
     "accessary": "ぷるるんゼリーミルクアクセ",
     "accessary_id": "V5-016",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31064.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第4回アイプリグランプリ"
   },
   "オーロラスノーグランプリライラック": {
@@ -5030,7 +5069,7 @@ let item ={
     "accessary": "オーロラスノーグランプリライラックアクセ",
     "accessary_id": "V5-019",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31067.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第4回アイプリグランプリ"
   },
   "ひみつのプリマジまつり": {
@@ -5138,7 +5177,7 @@ let item ={
     "accessary": "【おしのこ】 アイ コーデアクセ",
     "accessary_id": "V5-171",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31057.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "【推しの子】コラボ"
   },
   "アイプリバースフラワーマーチプリンセス": {
@@ -5156,7 +5195,7 @@ let item ={
     "accessary": "アイプリバースフラワーマーチプリンセスアクセ",
     "accessary_id": "V5-078",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30964.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "あめぽつぽつ": {
@@ -5177,7 +5216,7 @@ let item ={
     "accessary": "あめぽつぽつアクセ",
     "accessary_id": "V5-082",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30968.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "たいようさんさん": {
@@ -5198,7 +5237,7 @@ let item ={
     "accessary": "たいようさんさんアクセ",
     "accessary_id": "V5-086",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30972.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "たんけんか": {
@@ -5219,7 +5258,7 @@ let item ={
     "accessary": "たんけんかアクセ",
     "accessary_id": "V5-090",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30976.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "たんけんかオレンジ": {
@@ -5240,7 +5279,7 @@ let item ={
     "accessary": "たんけんかオレンジアクセ",
     "accessary_id": "V5-094",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30980.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "うらないし": {
@@ -5258,7 +5297,7 @@ let item ={
     "accessary": "うらないしアクセ",
     "accessary_id": "V5-097",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30983.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "フラワーチュールあおぞらブルー": {
@@ -5279,7 +5318,7 @@ let item ={
     "accessary": "フラワーチュールあおぞらブルーアクセ",
     "accessary_id": "V5-101",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30987.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ことりメルヘンブルー": {
@@ -5300,7 +5339,7 @@ let item ={
     "accessary": "ことりメルヘンブルーアクセ",
     "accessary_id": "V5-105",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30991.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "レディーフライトネイビー": {
@@ -5321,7 +5360,7 @@ let item ={
     "accessary": "レディーフライトネイビーアクセ",
     "accessary_id": "V5-109",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30995.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースラブマイミュージックピンク": {
@@ -5342,7 +5381,7 @@ let item ={
     "accessary": "アイプリバースラブマイミュージックピンクアクセ",
     "accessary_id": "V5-113",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID30999.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ステンドグラスクッキー": {
@@ -5360,7 +5399,7 @@ let item ={
     "accessary": "ステンドグラスクッキーアクセ",
     "accessary_id": "V5-116",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31002.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ひまりのアイムゥ": {
@@ -5381,7 +5420,7 @@ let item ={
     "accessary": "ひまりのアイムゥアクセ",
     "accessary_id": "V5-120",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31006.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "みつきのアイムゥ": {
@@ -5402,7 +5441,7 @@ let item ={
     "accessary": "みつきのアイムゥアクセ",
     "accessary_id": "V5-124",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31010.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "つむぎのアイムゥ": {
@@ -5423,7 +5462,7 @@ let item ={
     "accessary": "つむぎのアイムゥアクセ",
     "accessary_id": "V5-128",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31014.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ファンタジースノー": {
@@ -5444,7 +5483,7 @@ let item ={
     "accessary": "ファンタジースノーアクセ",
     "accessary_id": "V5-132",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31018.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ファンタジースノーナイト": {
@@ -5465,7 +5504,7 @@ let item ={
     "accessary": "ファンタジースノーナイトアクセ",
     "accessary_id": "V5-136",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31022.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ウィンターTシャツ": {
@@ -5477,7 +5516,7 @@ let item ={
     "tops": "ウィンターTシャツトップス",
     "tops_id": "V5-172",
     "tops_image": "https://aipri.jp/verse/item/img/5/Item_ID31068.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024→2025ウィンターツアー"
   },
   "うらないしブラック": {
@@ -5495,7 +5534,7 @@ let item ={
     "accessary": "うらないしブラックアクセ",
     "accessary_id": "V5-175",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31071.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024→2025ウィンターツアー"
   },
   "あめぽつぽつパープル": {
@@ -5516,7 +5555,7 @@ let item ={
     "accessary": "あめぽつぽつパープルアクセ",
     "accessary_id": "V5-179",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID31075.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "2024→2025ウィンターツアー"
   },
   "プリンセスハートフェザー": {
@@ -5657,7 +5696,7 @@ let item ={
     "accessary": "スペシャルクリスマスホワイトアクセ",
     "accessary_id": "VM-003",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID40433.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップふゆやすみキャンペーン"
   },
   "かみなりぐもゆめかわ": {
@@ -5678,7 +5717,7 @@ let item ={
     "accessary": "かみなりぐもゆめかわアクセ",
     "accessary_id": "VM-007",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID40403.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップナムコでプレゼントキャンペーン"
   },
   "ぴょんぴょんうさぎグリーン": {
@@ -5699,8 +5738,65 @@ let item ={
     "accessary": "ぴょんぴょんうさぎグリーンアクセ",
     "accessary_id": "VM-011",
     "accessary_image": "https://aipri.jp/verse/item/img/5/Item_ID40407.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップモーリーファンタジー・PALOゲットキャンペーン"
+  },
+  "カルテットスターバズリウムスペードスカーレット": {
+    "name": "カルテットスターバズリウムスペードスカーレット",
+    "brand_name": "ロゼッション",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/6/V6-019.webp",
+    "one_piece": "カルテットスターバズリウムスペードスカーレットワンピ",
+    "one_piece_id": "V6-019",
+    "one_piece_image": "https://aipri.jp/verse/item/img/6/Item_ID31160.webp",
+    "shoues": "カルテットスターバズリウムスペードスカーレットシューズ",
+    "shoues_id": "V6-020",
+    "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31161.webp",
+    "accessary": "カルテットスターバズリウムスペードスカーレットアクセ",
+    "accessary_id": "V6-021",
+    "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31162.webp",
+    "series": "ひみつのアイプリ",
+    "note": "6だん後半　★★★★ピックアップ"
+  },
+  "カルテットスターバズリウムクラブキャンディ": {
+    "name": "カルテットスターバズリウムクラブキャンディ",
+    "brand_name": "ベアベアベア",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/6/V6-022.webp",
+    "one_piece": "カルテットスターバズリウムクラブキャンディワンピ",
+    "one_piece_id": "V6-022",
+    "one_piece_image": "https://aipri.jp/verse/item/img/6/Item_ID31163.webp",
+    "shoues": "カルテットスターバズリウムクラブキャンディシューズ",
+    "shoues_id": "V6-023",
+    "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31164.webp",
+    "accessary": "カルテットスターバズリウムクラブキャンディアクセ",
+    "accessary_id": "V6-024",
+    "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31165.webp",
+    "series": "ひみつのアイプリ",
+    "note": "6だん後半　★★★★ピックアップ"
+  },
+  "うおざアクアマリン": {
+    "name": "うおざアクアマリン",
+    "brand_name": "クリスタルバース",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/6/V6-058.webp",
+    "tops": "うおざアクアマリントップス",
+    "tops_id": "V6-058",
+    "tops_image": "https://aipri.jp/verse/item/img/6/Item_ID31166.webp",
+    "bottoms": "うおざアクアマリンボトムス",
+    "bottoms_id": "V6-059",
+    "bottoms_image": "https://aipri.jp/verse/item/img/6/Item_ID31167.webp",
+    "shoues": "うおざアクアマリンシューズ",
+    "shoues_id": "V6-060",
+    "shoues_image": "https://aipri.jp/verse/item/img/6/Item_ID31168.webp",
+    "accessary": "うおざアクアマリンアクセ",
+    "accessary_id": "V6-061",
+    "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31169.webp",
+    "series": "ひみつのアイプリ",
+    "note": "6だん後半　★★★★ピックアップ"
   },
   "おとぎばなしアラビアンナイト": {
     "name": "おとぎばなしアラビアンナイト",
@@ -5720,7 +5816,7 @@ let item ={
     "accessary": "おとぎばなしアラビアンナイトアクセ",
     "accessary_id": "V6-065",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31173.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん後半　★★★★ピックアップ"
   },
   "おとぎばなしアラビアンナイトレッド": {
@@ -5741,7 +5837,7 @@ let item ={
     "accessary": "おとぎばなしアラビアンナイトレッドアクセ",
     "accessary_id": "V6-069",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31177.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん後半　★★★★ピックアップ"
   },
   "ガーリーピアノ": {
@@ -5762,7 +5858,7 @@ let item ={
     "accessary": "ガーリーピアノアクセ",
     "accessary_id": "V6-073",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31181.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん後半　★★★★ピックアップ"
   },
   "ガーリーピアノピンク": {
@@ -5783,7 +5879,7 @@ let item ={
     "accessary": "ガーリーピアノピンクアクセ",
     "accessary_id": "V6-077",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31185.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん後半　★★★★ピックアップ"
   },
   "ロマンスルージュ": {
@@ -5804,7 +5900,7 @@ let item ={
     "accessary": "ロマンスルージュアクセ",
     "accessary_id": "V6-081",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31189.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん後半　★★★★ピックアップ"
   },
   "カラフルキャンディハッピー": {
@@ -5825,7 +5921,7 @@ let item ={
     "accessary": "カラフルキャンディハッピーアクセ",
     "accessary_id": "V6-085",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31193.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん後半　★★★★ピックアップ"
   },
   "ハッピーバースデー！サクラ": {
@@ -5846,7 +5942,7 @@ let item ={
     "accessary": "ハッピーバースデー！サクラアクセ",
     "accessary_id": "V6-089",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31197.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん後半　★★★★ピックアップ"
   },
   "ひみつのディアマイフューチャーかりん": {
@@ -5942,7 +6038,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムレッドアクセ",
     "accessary_id": "V6-003",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31121.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "ダークカルテットスターバズリウムブルー": {
@@ -5960,7 +6056,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムブルーアクセ",
     "accessary_id": "V6-006",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31124.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "ダークカルテットスターバズリウムグリーン": {
@@ -5978,7 +6074,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムグリーンアクセ",
     "accessary_id": "V6-009",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31127.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "ダークカルテットスターバズリウムオレンジ": {
@@ -5996,7 +6092,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムオレンジアクセ",
     "accessary_id": "V6-012",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31130.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "みずがめざアメジスト": {
@@ -6017,7 +6113,7 @@ let item ={
     "accessary": "みずがめざアメジストアクセ",
     "accessary_id": "V6-038",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31134.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "バレンタインレターピンク": {
@@ -6038,7 +6134,7 @@ let item ={
     "accessary": "バレンタインレターピンクアクセ",
     "accessary_id": "V6-042",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31138.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "バレンタインレターブルー": {
@@ -6059,7 +6155,7 @@ let item ={
     "accessary": "バレンタインレターブルーアクセ",
     "accessary_id": "V6-046",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31142.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "バレンタインレターイエロー": {
@@ -6080,7 +6176,7 @@ let item ={
     "accessary": "バレンタインレターイエローアクセ",
     "accessary_id": "V6-050",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31146.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "チェックメイトシルバー": {
@@ -6101,7 +6197,7 @@ let item ={
     "accessary": "チェックメイトシルバーアクセ",
     "accessary_id": "V6-054",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31150.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "おやすみメリーナイト": {
@@ -6119,7 +6215,7 @@ let item ={
     "accessary": "おやすみメリーナイトアクセ",
     "accessary_id": "V6-057",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31153.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "6だん前半　★★★★ピックアップ"
   },
   "ダークウィッシュメロディ": {
@@ -6137,7 +6233,7 @@ let item ={
     "accessary": "ダークウィッシュメロディアクセ",
     "accessary_id": "V6-027",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31294.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5回アイプリグランプリ"
   },
   "キューティーラビットダークピンク": {
@@ -6158,7 +6254,7 @@ let item ={
     "accessary": "キューティーラビットダークピンクアクセ",
     "accessary_id": "V6-031",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31298.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5回アイプリグランプリ"
   },
   "ダークウィッシュメロディモノクローム": {
@@ -6176,7 +6272,7 @@ let item ={
     "accessary": "ダークウィッシュメロディモノクロームアクセ",
     "accessary_id": "V6-034",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31301.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5回アイプリグランプリ"
   },
   "ひみつのディアマイフューチャーみあ": {
@@ -6308,7 +6404,7 @@ let item ={
     "accessary": "ゆきミクコーデアクセ",
     "accessary_id": "V6-184",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31288.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "はつねミクコラボ"
   },
   "さくらミクコーデ": {
@@ -6326,7 +6422,7 @@ let item ={
     "accessary": "さくらミクコーデアクセ",
     "accessary_id": "V6-187",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31291.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "はつねミクコラボ"
   },
   "アイプリバースラブマイミュージックダーク": {
@@ -6347,7 +6443,7 @@ let item ={
     "accessary": "アイプリバースラブマイミュージックダークアクセ",
     "accessary_id": "V6-093",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31201.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバーススカーレットバタフライダーク": {
@@ -6365,7 +6461,7 @@ let item ={
     "accessary": "アイプリバーススカーレットバタフライダークアクセ",
     "accessary_id": "V6-096",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31204.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースロゼッションダーク": {
@@ -6383,7 +6479,7 @@ let item ={
     "accessary": "アイプリバースロゼッションダークアクセ",
     "accessary_id": "V6-099",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31207.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースレインボーキャンディダーク": {
@@ -6404,7 +6500,7 @@ let item ={
     "accessary": "アイプリバースレインボーキャンディダークアクセ",
     "accessary_id": "V6-103",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31211.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースベアベアベアダーク": {
@@ -6422,7 +6518,7 @@ let item ={
     "accessary": "アイプリバースベアベアベアダークアクセ",
     "accessary_id": "V6-106",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31214.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "メロディコーラス": {
@@ -6440,7 +6536,7 @@ let item ={
     "accessary": "メロディコーラスアクセ",
     "accessary_id": "V6-109",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31217.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "メロディコーラスクラシック": {
@@ -6458,7 +6554,7 @@ let item ={
     "accessary": "メロディコーラスクラシックアクセ",
     "accessary_id": "V6-112",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31220.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ポッピンマーチ": {
@@ -6479,7 +6575,7 @@ let item ={
     "accessary": "ポッピンマーチアクセ",
     "accessary_id": "V6-116",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31224.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "クラシックヴァイオリン": {
@@ -6500,7 +6596,7 @@ let item ={
     "accessary": "クラシックヴァイオリンアクセ",
     "accessary_id": "V6-120",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31228.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "おえかきパレットるんるんイエロー": {
@@ -6518,7 +6614,7 @@ let item ={
     "accessary": "おえかきパレットるんるんイエローアクセ",
     "accessary_id": "V6-123",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31231.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "スターメロディパープル": {
@@ -6539,7 +6635,7 @@ let item ={
     "accessary": "スターメロディパープルアクセ",
     "accessary_id": "V6-127",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31079.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "サクラのアイムゥ": {
@@ -6560,7 +6656,7 @@ let item ={
     "accessary": "サクラのアイムゥアクセ",
     "accessary_id": "V6-131",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31235.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "タマキのアイムゥ": {
@@ -6581,7 +6677,7 @@ let item ={
     "accessary": "タマキのアイムゥアクセ",
     "accessary_id": "V6-135",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31239.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "アイリのアイムゥ": {
@@ -6602,7 +6698,7 @@ let item ={
     "accessary": "アイリのアイムゥアクセ",
     "accessary_id": "V6-139",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31243.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "リンリンのアイムゥ": {
@@ -6623,7 +6719,7 @@ let item ={
     "accessary": "リンリンのアイムゥアクセ",
     "accessary_id": "V6-143",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31247.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ラブリーアイドルホワイトピンク": {
@@ -6644,7 +6740,7 @@ let item ={
     "accessary": "ラブリーアイドルホワイトピンクアクセ",
     "accessary_id": "V6-147",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31251.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "セーラーカジュアルマリン": {
@@ -6665,7 +6761,7 @@ let item ={
     "accessary": "セーラーカジュアルマリンアクセ",
     "accessary_id": "V6-151",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31255.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ひみつのミラクルTシャツ": {
@@ -6677,7 +6773,7 @@ let item ={
     "tops": "ひみつのミラクルTシャツトップス",
     "tops_id": "V6-188",
     "tops_image": "https://aipri.jp/verse/item/img/6/Item_ID31302.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ひみつのミラクルツアー2025"
   },
   "ポッピンマーチピンク": {
@@ -6698,7 +6794,7 @@ let item ={
     "accessary": "ポッピンマーチピンクアクセ",
     "accessary_id": "V6-192",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31306.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ひみつのミラクルツアー2025"
   },
   "クラシックヴァイオリンブルー": {
@@ -6719,7 +6815,7 @@ let item ={
     "accessary": "クラシックヴァイオリンブルーアクセ",
     "accessary_id": "V6-196",
     "accessary_image": "https://aipri.jp/verse/item/img/6/Item_ID31310.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ひみつのミラクルツアー2025"
   },
   "フォーチュンスター": {
@@ -6863,7 +6959,7 @@ let item ={
     "accessary": "ジュエルバズリウムルビーアクセ",
     "accessary_id": "APR1-003",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31520.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムドリーム"
   },
   "ジュエルバズリウムサファイア": {
@@ -6881,7 +6977,7 @@ let item ={
     "accessary": "ジュエルバズリウムサファイアアクセ",
     "accessary_id": "APR1-006",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31523.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムドリーム"
   },
   "ジュエルバズリウムルビーブルー": {
@@ -6899,7 +6995,7 @@ let item ={
     "accessary": "ジュエルバズリウムルビーブルーアクセ",
     "accessary_id": "APR1-015",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31377.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "ジュエルバズリウムサファイアピンク": {
@@ -6917,7 +7013,7 @@ let item ={
     "accessary": "ジュエルバズリウムサファイアピンクアクセ",
     "accessary_id": "APR1-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31380.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "カルテットスターバズリウムハートローズ": {
@@ -6935,7 +7031,7 @@ let item ={
     "accessary": "カルテットスターバズリウムハートローズアクセ",
     "accessary_id": "APR1-021",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31383.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "カルテットスターバズリウムダイヤベア": {
@@ -6953,7 +7049,7 @@ let item ={
     "accessary": "カルテットスターバズリウムダイヤベアアクセ",
     "accessary_id": "APR1-024",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31386.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "こいのクリスタルレッド": {
@@ -6974,7 +7070,7 @@ let item ={
     "accessary": "こいのクリスタルレッドアクセ",
     "accessary_id": "APR1-059",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31390.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "もりのフラワーショップ": {
@@ -6995,7 +7091,7 @@ let item ={
     "accessary": "もりのフラワーショップアクセ",
     "accessary_id": "APR1-063",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31394.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "フィーバーデビル": {
@@ -7016,7 +7112,7 @@ let item ={
     "accessary": "フィーバーデビルアクセ",
     "accessary_id": "APR1-067",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31398.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "フィーバーエンジェル": {
@@ -7037,7 +7133,7 @@ let item ={
     "accessary": "フィーバーエンジェルアクセ",
     "accessary_id": "APR1-071",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31402.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "プリうさおでかけ": {
@@ -7058,7 +7154,7 @@ let item ={
     "accessary": "プリうさおでかけアクセ",
     "accessary_id": "APR1-075",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31406.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "きらきらくらげピュアホワイト": {
@@ -7076,7 +7172,7 @@ let item ={
     "accessary": "きらきらくらげピュアホワイトアクセ",
     "accessary_id": "APR1-078",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31409.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "ハッピーバースデー！える": {
@@ -7097,7 +7193,7 @@ let item ={
     "accessary": "ハッピーバースデー！えるアクセ",
     "accessary_id": "APR1-082",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31413.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング１だん後半"
   },
   "エレガントジュエルグリーン": {
@@ -7115,7 +7211,7 @@ let item ={
     "accessary": "エレガントジュエルグリーンアクセ",
     "accessary_id": "APR1-267",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31610.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "エレガントジュエルオレンジ": {
@@ -7133,7 +7229,7 @@ let item ={
     "accessary": "エレガントジュエルオレンジアクセ",
     "accessary_id": "APR1-270",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31613.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "カワイイあめちゃんレッド": {
@@ -7151,7 +7247,7 @@ let item ={
     "accessary": "カワイイあめちゃんレッドアクセ",
     "accessary_id": "APR1-273",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31616.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "カワイイくまさんブルー": {
@@ -7169,7 +7265,7 @@ let item ={
     "accessary": "カワイイくまさんブルーアクセ",
     "accessary_id": "APR1-276",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31619.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "ジュエルバズリウムダイヤ": {
@@ -7187,7 +7283,7 @@ let item ={
     "accessary": "ジュエルバズリウムダイヤアクセ",
     "accessary_id": "APR1-009",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31343.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "ジュエルバズリウムアクアマリン": {
@@ -7205,7 +7301,7 @@ let item ={
     "accessary": "ジュエルバズリウムアクアマリンアクセ",
     "accessary_id": "APR1-012",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31346.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "フレンドスターグランプリピンク": {
@@ -7223,7 +7319,7 @@ let item ={
     "accessary": "フレンドスターグランプリピンクアクセ",
     "accessary_id": "APR1-027",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31349.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "フレンドスターグランプリブルー": {
@@ -7241,7 +7337,7 @@ let item ={
     "accessary": "フレンドスターグランプリブルーアクセ",
     "accessary_id": "APR1-030",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31352.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "こいのクリスタルピンク": {
@@ -7262,7 +7358,7 @@ let item ={
     "accessary": "こいのクリスタルピンクアクセ",
     "accessary_id": "APR1-037",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31356.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "ベリキューデニム": {
@@ -7283,7 +7379,7 @@ let item ={
     "accessary": "ベリキューデニムアクセ",
     "accessary_id": "APR1-041",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31360.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "ベリキューデニムラブ": {
@@ -7304,7 +7400,7 @@ let item ={
     "accessary": "ベリキューデニムラブアクセ",
     "accessary_id": "APR1-045",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31364.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "ハッピーバースデー！じゅりあ": {
@@ -7325,7 +7421,7 @@ let item ={
     "accessary": "ハッピーバースデー！じゅりあアクセ",
     "accessary_id": "APR1-055",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31374.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング1だん前半"
   },
   "フラワーマーチバズリウムパープル": {
@@ -7343,7 +7439,7 @@ let item ={
     "accessary": "フラワーマーチバズリウムパープルアクセ",
     "accessary_id": "APR1-253",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31596.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆チィイチオシひろば"
   },
   "ラブマイミュージックバズリウムイエロー": {
@@ -7361,7 +7457,7 @@ let item ={
     "accessary": "ラブマイミュージックバズリウムイエローアクセ",
     "accessary_id": "APR1-256",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31599.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆チィイチオシひろば"
   },
   "こあくまロックイエロー": {
@@ -7382,7 +7478,7 @@ let item ={
     "accessary": "こあくまロックイエローアクセ",
     "accessary_id": "APR1-260",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31603.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆チィイチオシひろば"
   },
   "ぽんぽんすずらんパープル": {
@@ -7403,7 +7499,7 @@ let item ={
     "accessary": "ぽんぽんすずらんパープルアクセ",
     "accessary_id": "APR1-264",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31607.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆チィイチオシひろば"
   },
   "フラワーメモリー": {
@@ -7421,7 +7517,7 @@ let item ={
     "accessary": "フラワーメモリーアクセ",
     "accessary_id": "V2-058",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID30272.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆チィイチオシひろば"
   },
   "ひみつのレインボーライブなる": {
@@ -7547,7 +7643,7 @@ let item ={
     "accessary": "ゆめみるリカちゃんコーデアクセ",
     "accessary_id": "APR1-177",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31508.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リカちゃんコラボ"
   },
   "ときせん ジュリ コーデ": {
@@ -7565,7 +7661,7 @@ let item ={
     "accessary": "ときせん ジュリ コーデアクセ",
     "accessary_id": "APR1-183",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31514.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "ときせん かなみん コーデ": {
@@ -7583,7 +7679,7 @@ let item ={
     "accessary": "ときせん かなみん コーデアクセ",
     "accessary_id": "APR1-186",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31517.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "エターナルジュエルラブジュリエル　じゅりあ": {
@@ -7601,7 +7697,7 @@ let item ={
     "accessary": "エターナルジュエルラブジュリエル　じゅりあアクセ",
     "accessary_id": "APR1-033",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31526.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第1回アイプリコンテスト"
   },
   "エターナルジュエルラブジュリエル　える": {
@@ -7619,7 +7715,7 @@ let item ={
     "accessary": "エターナルジュエルラブジュリエル　えるアクセ",
     "accessary_id": "APR1-033",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31526.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第1回アイプリコンテスト"
   },
   "アイプリバースキューティーカラットクール": {
@@ -7640,7 +7736,7 @@ let item ={
     "accessary": "アイプリバースキューティーカラットクールアクセ",
     "accessary_id": "APR1-086",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31417.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースキューティーカラットラブリー": {
@@ -7661,7 +7757,7 @@ let item ={
     "accessary": "アイプリバースキューティーカラットラブリーアクセ",
     "accessary_id": "APR1-090",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31421.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースキューティーカラットクールピンク": {
@@ -7682,7 +7778,7 @@ let item ={
     "accessary": "アイプリバースキューティーカラットクールピンクアクセ",
     "accessary_id": "APR1-094",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31425.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースキューティーカラットラブリーブルー": {
@@ -7703,7 +7799,7 @@ let item ={
     "accessary": "アイプリバースキューティーカラットラブリーブルーアクセ",
     "accessary_id": "APR1-098",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31429.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "バタフライマジックネイビー": {
@@ -7724,7 +7820,7 @@ let item ={
     "accessary": "バタフライマジックネイビーアクセ",
     "accessary_id": "APR1-109",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31440.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ゴージャスビジューレッド": {
@@ -7742,7 +7838,7 @@ let item ={
     "accessary": "ゴージャスビジューレッドアクセ",
     "accessary_id": "APR1-112",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31443.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ひらめきたんていホワイト": {
@@ -7763,7 +7859,7 @@ let item ={
     "accessary": "ひらめきたんていホワイトアクセ",
     "accessary_id": "APR1-116",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31447.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ふわもこかいじゅうグリーン": {
@@ -7784,7 +7880,7 @@ let item ={
     "accessary": "ふわもこかいじゅうグリーンアクセ",
     "accessary_id": "APR1-120",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31451.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ティーパーティーシトロン": {
@@ -7805,7 +7901,7 @@ let item ={
     "accessary": "ティーパーティーシトロンアクセ",
     "accessary_id": "APR1-124",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31455.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "いたずらモンスターブルー": {
@@ -7826,7 +7922,7 @@ let item ={
     "accessary": "いたずらモンスターブルーアクセ",
     "accessary_id": "APR1-128",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31459.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "パラダイスがくえんせいふく２ねん": {
@@ -7844,7 +7940,7 @@ let item ={
     "accessary": "パラダイスがくえんせいふく２ねんアクセ",
     "accessary_id": "APR1-132",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID30099.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ラブリーアイドルシルバー": {
@@ -7865,7 +7961,7 @@ let item ={
     "accessary": "ラブリーアイドルシルバーアクセ",
     "accessary_id": "APR1-136",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31467.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "クールアイドルゴールド": {
@@ -7886,7 +7982,7 @@ let item ={
     "accessary": "クールアイドルゴールドアクセ",
     "accessary_id": "APR1-140",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31471.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ハッピーチアゴールド": {
@@ -7907,7 +8003,7 @@ let item ={
     "accessary": "ハッピーチアゴールドアクセ",
     "accessary_id": "APR1-144",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31475.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "セーラーカジュアルシルバー": {
@@ -7928,7 +8024,7 @@ let item ={
     "accessary": "セーラーカジュアルシルバーアクセ",
     "accessary_id": "APR1-148",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID31479.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ハッピーチアピンク": {
@@ -7949,7 +8045,7 @@ let item ={
     "accessary": "ハッピーチアピンクアクセ",
     "accessary_id": "APR1-152",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID30124.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "セーラーカジュアルブルー": {
@@ -7970,7 +8066,7 @@ let item ={
     "accessary": "セーラーカジュアルブルーアクセ",
     "accessary_id": "APR1-156",
     "accessary_image": "https://aipri.jp/verse/item/img/ring1/Item_ID30136.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "メモリージュエルアイシクル": {
@@ -8114,7 +8210,7 @@ let item ={
     "accessary": "スペースバズリウムスターズピンクアクセ",
     "accessary_id": "APR2-003",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31853.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムドリーム"
   },
   "スペースバズリウムスターズブルー": {
@@ -8132,7 +8228,7 @@ let item ={
     "accessary": "スペースバズリウムスターズブルーアクセ",
     "accessary_id": "APR2-006",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31856.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムドリーム"
   },
   "ときめきビジューツイン　じゅりあ": {
@@ -8150,7 +8246,7 @@ let item ={
     "accessary": "ときめきビジューツイン　じゅりあアクセ",
     "accessary_id": "APR2-211",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31841.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "ときめきビジューツイン　える": {
@@ -8168,7 +8264,7 @@ let item ={
     "accessary": "ときめきビジューツイン　えるアクセ",
     "accessary_id": "APR2-214",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31844.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "スペースバズリウムスターズキューティー": {
@@ -8186,7 +8282,7 @@ let item ={
     "accessary": "スペースバズリウムスターズキューティーアクセ",
     "accessary_id": "APR2-015",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31663.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "スペースバズリウムスターズマジシャン": {
@@ -8204,7 +8300,7 @@ let item ={
     "accessary": "スペースバズリウムスターズマジシャンアクセ",
     "accessary_id": "APR2-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31666.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "しあわせのクリスタルイエロー": {
@@ -8225,7 +8321,7 @@ let item ={
     "accessary": "しあわせのクリスタルイエローアクセ",
     "accessary_id": "APR2-036",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31670.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "わくわくベーカリー": {
@@ -8246,7 +8342,7 @@ let item ={
     "accessary": "わくわくベーカリーアクセ",
     "accessary_id": "APR2-040",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31674.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "スクールメイツクール": {
@@ -8264,7 +8360,7 @@ let item ={
     "accessary": "スクールメイツクールアクセ",
     "accessary_id": "APR2-070",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31677.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "スクールメイツラブリー": {
@@ -8285,7 +8381,7 @@ let item ={
     "accessary": "スクールメイツラブリーアクセ",
     "accessary_id": "APR2-074",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31681.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "スポーティバレエコアミント": {
@@ -8306,7 +8402,7 @@ let item ={
     "accessary": "スポーティバレエコアミントアクセ",
     "accessary_id": "APR2-078",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31685.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "スペースダイナーレッド": {
@@ -8327,7 +8423,7 @@ let item ={
     "accessary": "スペースダイナーレッドアクセ",
     "accessary_id": "APR2-082",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31689.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "ローズグランプリピンク": {
@@ -8345,7 +8441,7 @@ let item ={
     "accessary": "ローズグランプリピンクアクセ",
     "accessary_id": "APR2-085",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31692.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "ハッピーバースデー！おとめ": {
@@ -8366,7 +8462,7 @@ let item ={
     "accessary": "ハッピーバースデー！おとめアクセ",
     "accessary_id": "APR2-089",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31696.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリ2だん後半"
   },
   "ギャラティックブルー": {
@@ -8384,7 +8480,7 @@ let item ={
     "accessary": "ギャラティックブルーアクセ",
     "accessary_id": "APR2-229",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31818.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーボーイズイチオシひろば"
   },
   "ギャラティックレッド": {
@@ -8402,7 +8498,7 @@ let item ={
     "accessary": "ギャラティックレッドアクセ",
     "accessary_id": "APR2-229",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31818.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーボーイズイチオシひろば"
   },
   "ギャラティックパープル": {
@@ -8420,7 +8516,7 @@ let item ={
     "accessary": "ギャラティックパープルアクセ",
     "accessary_id": "APR2-229",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31818.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーボーイズイチオシひろば"
   },
   "ヒロさまコーデ": {
@@ -8438,7 +8534,7 @@ let item ={
     "accessary": "ヒロさまコーデアクセ",
     "accessary_id": "APR2-236",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31827.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーボーイズイチオシひろば"
   },
   "ハーネスルックレッド": {
@@ -8459,7 +8555,7 @@ let item ={
     "accessary": "ハーネスルックレッドアクセ",
     "accessary_id": "APR2-240",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31831.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーボーイズイチオシひろば"
   },
   "ハーネスルックブルー": {
@@ -8480,7 +8576,7 @@ let item ={
     "accessary": "ハーネスルックブルーアクセ",
     "accessary_id": "APR2-244",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31835.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーボーイズイチオシひろば"
   },
   "スペースバズリウムギャラクシー": {
@@ -8498,7 +8594,7 @@ let item ={
     "accessary": "スペースバズリウムギャラクシーアクセ",
     "accessary_id": "APR2-009",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31622.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "スペースバズリウムプラネット": {
@@ -8516,7 +8612,7 @@ let item ={
     "accessary": "スペースバズリウムプラネットアクセ",
     "accessary_id": "APR2-012",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31625.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "エターナルジュエルポッピンドリーミン　ひまり": {
@@ -8534,7 +8630,7 @@ let item ={
     "accessary": "エターナルジュエルポッピンドリーミン　ひまりアクセ",
     "accessary_id": "APR2-021",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31628.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "エターナルジュエルポッピンドリーミン　みつき": {
@@ -8552,7 +8648,7 @@ let item ={
     "accessary": "エターナルジュエルポッピンドリーミン　みつきアクセ",
     "accessary_id": "APR2-021",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31628.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "しあわせのクリスタルグリーン": {
@@ -8573,7 +8669,7 @@ let item ={
     "accessary": "しあわせのクリスタルグリーンアクセ",
     "accessary_id": "APR2-032",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31633.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "スポーティバレエコア": {
@@ -8594,7 +8690,7 @@ let item ={
     "accessary": "スポーティバレエコアアクセ",
     "accessary_id": "APR2-044",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31637.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "アイドルチェッククール": {
@@ -8615,7 +8711,7 @@ let item ={
     "accessary": "アイドルチェッククールアクセ",
     "accessary_id": "APR2-048",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31641.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "アイドルチェックラブリー": {
@@ -8636,7 +8732,7 @@ let item ={
     "accessary": "アイドルチェックラブリーアクセ",
     "accessary_id": "APR2-052",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31645.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "スペースダイナー": {
@@ -8657,7 +8753,7 @@ let item ={
     "accessary": "スペースダイナーアクセ",
     "accessary_id": "APR2-056",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31649.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "ウェルカムチェリーレッド": {
@@ -8675,7 +8771,7 @@ let item ={
     "accessary": "ウェルカムチェリーレッドアクセ",
     "accessary_id": "APR2-059",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31652.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "ぷるるんゼリーオレンジ": {
@@ -8696,7 +8792,7 @@ let item ={
     "accessary": "ぷるるんゼリーオレンジアクセ",
     "accessary_id": "APR2-063",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31656.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "ハッピーバースデー！すばる": {
@@ -8717,7 +8813,7 @@ let item ={
     "accessary": "ハッピーバースデー！すばるアクセ",
     "accessary_id": "APR2-067",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31660.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング2だん前半"
   },
   "ポッピンハートバズリウムプリうさ": {
@@ -8735,7 +8831,7 @@ let item ={
     "accessary": "ポッピンハートバズリウムプリうさアクセ",
     "accessary_id": "APR2-217",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31881.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ひまり＆みつきイチオシひろば"
   },
   "ミラクルムーンバズリウムプリねこ": {
@@ -8753,7 +8849,7 @@ let item ={
     "accessary": "ミラクルムーンバズリウムプリねこアクセ",
     "accessary_id": "APR2-220",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31884.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ひまり＆みつきイチオシひろば"
   },
   "フレンドスターグランプリホワイトピンク": {
@@ -8771,7 +8867,7 @@ let item ={
     "accessary": "フレンドスターグランプリホワイトピンクアクセ",
     "accessary_id": "APR2-223",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31887.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ひまり＆みつきイチオシひろば"
   },
   "フレンドスターグランプリホワイトブルー": {
@@ -8789,7 +8885,7 @@ let item ={
     "accessary": "フレンドスターグランプリホワイトブルーアクセ",
     "accessary_id": "APR2-226",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31890.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ひまり＆みつきイチオシひろば"
   },
   "マイメロディ なかよし": {
@@ -8810,7 +8906,7 @@ let item ={
     "accessary": "マイメロディ なかよしアクセ",
     "accessary_id": "APR2-174",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31781.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "クロミ なかよし": {
@@ -8831,7 +8927,7 @@ let item ={
     "accessary": "クロミ なかよしアクセ",
     "accessary_id": "APR2-178",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31785.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "こぎみゅん なかよし": {
@@ -8852,7 +8948,7 @@ let item ={
     "accessary": "こぎみゅん なかよしアクセ",
     "accessary_id": "APR2-182",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31789.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ハンギョドン なかよし": {
@@ -8873,7 +8969,7 @@ let item ={
     "accessary": "ハンギョドン なかよしアクセ",
     "accessary_id": "APR2-186",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31793.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ハローキティ なかよし": {
@@ -8894,7 +8990,7 @@ let item ={
     "accessary": "ハローキティ なかよしアクセ",
     "accessary_id": "APR2-190",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31797.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "シナモロール なかよし": {
@@ -8915,7 +9011,7 @@ let item ={
     "accessary": "シナモロール なかよしアクセ",
     "accessary_id": "APR2-194",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31801.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ポチャッコ なかよし": {
@@ -8936,7 +9032,7 @@ let item ={
     "accessary": "ポチャッコ なかよしアクセ",
     "accessary_id": "APR2-198",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31805.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ポムポムプリン なかよし": {
@@ -8957,7 +9053,7 @@ let item ={
     "accessary": "ポムポムプリン なかよしアクセ",
     "accessary_id": "APR2-202",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31809.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "サンリオキャラクターズコラボ"
   },
   "ときせん ひとちゃん コーデ": {
@@ -8975,7 +9071,7 @@ let item ={
     "accessary": "ときせん ひとちゃん コーデアクセ",
     "accessary_id": "APR2-205",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31812.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "ときせん おはる コーデ": {
@@ -8993,7 +9089,7 @@ let item ={
     "accessary": "ときせん おはる コーデアクセ",
     "accessary_id": "APR2-208",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31815.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "エターナルスペースジャンピンロケットクール": {
@@ -9011,7 +9107,7 @@ let item ={
     "accessary": "エターナルスペースジャンピンロケットクールアクセ",
     "accessary_id": "APR2-025",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31847.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリコンテスト"
   },
   "エターナルスペースジャンピンロケットラブリー": {
@@ -9029,7 +9125,7 @@ let item ={
     "accessary": "エターナルスペースジャンピンロケットラブリーアクセ",
     "accessary_id": "APR2-028",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31850.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "アイプリコンテスト"
   },
   "アイプリバースフューチャースクールクール": {
@@ -9050,7 +9146,7 @@ let item ={
     "accessary": "アイプリバースフューチャースクールクールアクセ",
     "accessary_id": "APR2-093",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31700.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースフューチャースクールクールピンク": {
@@ -9071,7 +9167,7 @@ let item ={
     "accessary": "アイプリバースフューチャースクールクールピンクアクセ",
     "accessary_id": "APR2-097",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31704.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースフューチャースクールラブリー": {
@@ -9089,7 +9185,7 @@ let item ={
     "accessary": "アイプリバースフューチャースクールラブリーアクセ",
     "accessary_id": "APR2-100",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31707.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースフューチャースクールラブリーブルー": {
@@ -9107,7 +9203,7 @@ let item ={
     "accessary": "アイプリバースフューチャースクールラブリーブルーアクセ",
     "accessary_id": "APR2-103",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31710.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "こんぺいとう": {
@@ -9128,7 +9224,7 @@ let item ={
     "accessary": "こんぺいとうアクセ",
     "accessary_id": "APR2-117",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31724.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "こんぺいとうピンク": {
@@ -9149,7 +9245,7 @@ let item ={
     "accessary": "こんぺいとうピンクアクセ",
     "accessary_id": "APR2-121",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31728.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ローズプリンスイエロー": {
@@ -9170,7 +9266,7 @@ let item ={
     "accessary": "ローズプリンスイエローアクセ",
     "accessary_id": "APR2-125",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31732.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "クラシックヴァイオリンもりのおんがくたい": {
@@ -9191,7 +9287,7 @@ let item ={
     "accessary": "クラシックヴァイオリンもりのおんがくたいアクセ",
     "accessary_id": "APR2-129",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31736.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ハーバリウムパープル": {
@@ -9209,7 +9305,7 @@ let item ={
     "accessary": "ハーバリウムパープルアクセ",
     "accessary_id": "APR2-132",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31739.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ミルキーウェイわかくさ": {
@@ -9230,7 +9326,7 @@ let item ={
     "accessary": "ミルキーウェイわかくさアクセ",
     "accessary_id": "APR2-140",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31747.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ラブリーアイドルおとめピンク": {
@@ -9251,7 +9347,7 @@ let item ={
     "accessary": "ラブリーアイドルおとめピンクアクセ",
     "accessary_id": "APR2-144",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31751.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "さわやかマリンサマー": {
@@ -9272,7 +9368,7 @@ let item ={
     "accessary": "さわやかマリンサマーアクセ",
     "accessary_id": "APR2-148",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31755.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "チューリップパステルパープル": {
@@ -9290,7 +9386,7 @@ let item ={
     "accessary": "チューリップパステルパープルアクセ",
     "accessary_id": "APR2-151",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31758.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "じゅりあのアイムゥ": {
@@ -9311,7 +9407,7 @@ let item ={
     "accessary": "じゅりあのアイムゥアクセ",
     "accessary_id": "APR2-155",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31762.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "えるのアイムゥ": {
@@ -9332,7 +9428,7 @@ let item ={
     "accessary": "えるのアイムゥアクセ",
     "accessary_id": "APR2-159",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID31766.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "スペーストラベラー": {
@@ -9470,7 +9566,7 @@ let item ={
     "accessary": "リッチベリータルトミントアクセ",
     "accessary_id": "VM-014",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID40725.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップタイトーステーションゲットキャンペーン"
   },
   "ポッピンハートバズリウム１５しゅうねん": {
@@ -9488,44 +9584,8 @@ let item ={
     "accessary": "ポッピンハートバズリウム１５しゅうねんアクセ",
     "accessary_id": "VM-017",
     "accessary_image": "https://aipri.jp/verse/item/img/ring2/Item_ID40714.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショッププリティーシリーズ15周年"
-  },
-  "アニマルバズリウムプードルピンク": {
-    "name": "アニマルバズリウムプードルピンク",
-    "brand_name": "ポッピンハート",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring3/APR3-001.webp",
-    "one_piece": "アニマルバズリウムプードルピンクワンピ",
-    "one_piece_id": "APR3-001",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32085.webp",
-    "shoues": "アニマルバズリウムプードルピンクシューズ",
-    "shoues_id": "APR3-002",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32086.webp",
-    "accessary": "アニマルバズリウムプードルピンクアクセ",
-    "accessary_id": "APR3-003",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32087.webp",
-    "series": "アイプリ",
-    "note": "バズリウムドリーム"
-  },
-  "アニマルバズリウムプードルブルー": {
-    "name": "アニマルバズリウムプードルブルー",
-    "brand_name": "ミラクルムーン",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring3/APR3-004.webp",
-    "one_piece": "アニマルバズリウムプードルブルーワンピ",
-    "one_piece_id": "APR3-004",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32088.webp",
-    "shoues": "アニマルバズリウムプードルブルーシューズ",
-    "shoues_id": "APR3-005",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32089.webp",
-    "accessary": "アニマルバズリウムプードルブルーアクセ",
-    "accessary_id": "APR3-006",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32090.webp",
-    "series": "アイプリ",
-    "note": "バズリウムドリーム"
   },
   "あこがれコズミックツイン　すばる": {
     "name": "あこがれコズミックツイン　すばる",
@@ -9542,7 +9602,7 @@ let item ={
     "accessary": "あこがれコズミックツイン　すばるアクセ",
     "accessary_id": "APR3-175",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32058.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "あこがれコズミックツイン　おとめ": {
@@ -9560,7 +9620,7 @@ let item ={
     "accessary": "あこがれコズミックツイン　おとめアクセ",
     "accessary_id": "APR3-178",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32061.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "アニマルバズリウムパンサー": {
@@ -9578,7 +9638,7 @@ let item ={
     "accessary": "アニマルバズリウムパンサーアクセ",
     "accessary_id": "APR3-012",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31927.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "アニマルバズリウムタイガー": {
@@ -9596,7 +9656,7 @@ let item ={
     "accessary": "アニマルバズリウムタイガーアクセ",
     "accessary_id": "APR3-015",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31930.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "おしゃれのクリスタルブルー": {
@@ -9617,7 +9677,7 @@ let item ={
     "accessary": "おしゃれのクリスタルブルーアクセ",
     "accessary_id": "APR3-027",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31942.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "しあわせナース": {
@@ -9638,7 +9698,7 @@ let item ={
     "accessary": "しあわせナースアクセ",
     "accessary_id": "APR3-031",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31946.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "わいるど☆すたーパープル": {
@@ -9659,7 +9719,7 @@ let item ={
     "accessary": "わいるど☆すたーパープルアクセ",
     "accessary_id": "APR3-061",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31934.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "わいるど☆すたーレッド": {
@@ -9680,7 +9740,7 @@ let item ={
     "accessary": "わいるど☆すたーレッドアクセ",
     "accessary_id": "APR3-065",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31938.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "フラワーガーデンブルー": {
@@ -9701,7 +9761,7 @@ let item ={
     "accessary": "フラワーガーデンブルーアクセ",
     "accessary_id": "APR3-069",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31953.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "おとぎばなしアラビアンナイトブルー": {
@@ -9722,7 +9782,7 @@ let item ={
     "accessary": "おとぎばなしアラビアンナイトブルーアクセ",
     "accessary_id": "APR3-073",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31957.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "マーメイドグランプリレッド": {
@@ -9740,7 +9800,7 @@ let item ={
     "accessary": "マーメイドグランプリレッドアクセ",
     "accessary_id": "APR3-076",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31949.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん後半"
   },
   "ダークカルテットスターバズリウムホワイトレッド": {
@@ -9758,7 +9818,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムホワイトレッドアクセ",
     "accessary_id": "APR3-188",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32071.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ダークカルテットスターイチオシひろば"
   },
   "ダークカルテットスターバズリウムホワイトブルー": {
@@ -9776,7 +9836,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムホワイトブルーアクセ",
     "accessary_id": "APR3-191",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32074.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ダークカルテットスターイチオシひろば"
   },
   "ダークカルテットスターバズリウムホワイトグリーン": {
@@ -9794,7 +9854,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムホワイトグリーンアクセ",
     "accessary_id": "APR3-194",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32077.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ダークカルテットスターイチオシひろば"
   },
   "ダークカルテットスターバズリウムホワイトオレンジ": {
@@ -9812,7 +9872,7 @@ let item ={
     "accessary": "ダークカルテットスターバズリウムホワイトオレンジアクセ",
     "accessary_id": "APR3-197",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32080.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ダークカルテットスターイチオシひろば"
   },
   "アニマルバズリウムプードルイエロー": {
@@ -9830,7 +9890,7 @@ let item ={
     "accessary": "アニマルバズリウムプードルイエローアクセ",
     "accessary_id": "APR3-009",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31897.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "おしゃれのクリスタルオレンジ": {
@@ -9851,7 +9911,7 @@ let item ={
     "accessary": "おしゃれのクリスタルオレンジアクセ",
     "accessary_id": "APR3-023",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31904.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "ウィッシュメロディグランプリ": {
@@ -9869,7 +9929,7 @@ let item ={
     "accessary": "ウィッシュメロディグランプリアクセ",
     "accessary_id": "APR3-034",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31894.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "フラワーガーデン": {
@@ -9890,7 +9950,7 @@ let item ={
     "accessary": "フラワーガーデンアクセ",
     "accessary_id": "APR3-038",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31916.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "アニマルロックブラック": {
@@ -9911,7 +9971,7 @@ let item ={
     "accessary": "アニマルロックブラックアクセ",
     "accessary_id": "APR3-042",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31908.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "アニマルロックレッド": {
@@ -9932,7 +9992,7 @@ let item ={
     "accessary": "アニマルロックレッドアクセ",
     "accessary_id": "APR3-046",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31912.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "おとぎばなしアラビアンナイトピンク": {
@@ -9953,7 +10013,7 @@ let item ={
     "accessary": "おとぎばなしアラビアンナイトピンクアクセ",
     "accessary_id": "APR3-050",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31920.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "スクールメイツクールミント": {
@@ -9971,7 +10031,7 @@ let item ={
     "accessary": "スクールメイツクールミントアクセ",
     "accessary_id": "APR3-053",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31900.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "ハッピーバースデー！ビビ": {
@@ -9992,7 +10052,7 @@ let item ={
     "accessary": "ハッピーバースデー！ビビアクセ",
     "accessary_id": "APR3-057",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31924.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング3だん前半"
   },
   "ひみつのプリマジひまり": {
@@ -10010,7 +10070,7 @@ let item ={
     "accessary": "ひみつのプリマジひまりアクセ",
     "accessary_id": "APR3-181",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32064.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーシリーズ15周年イチオシひろば"
   },
   "ひみつのディアマイフューチャーみつき": {
@@ -10031,7 +10091,7 @@ let item ={
     "accessary": "ひみつのディアマイフューチャーみつきアクセ",
     "accessary_id": "APR3-185",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32068.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プリティーシリーズ15周年イチオシひろば"
   },
   "てんしなえびてん だいすき": {
@@ -10049,7 +10109,7 @@ let item ={
     "accessary": "てんしなえびてん だいすきアクセ",
     "accessary_id": "APR3-166",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32049.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "すみっコぐらしコラボ"
   },
   "ときせん あきちゃん コーデ": {
@@ -10067,7 +10127,7 @@ let item ={
     "accessary": "ときせん あきちゃん コーデアクセ",
     "accessary_id": "APR3-169",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40625.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "ときせん ひよりん コーデ": {
@@ -10085,7 +10145,7 @@ let item ={
     "accessary": "ときせん ひよりん コーデアクセ",
     "accessary_id": "APR3-172",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40634.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "エターナルアニマルビビアンチィ　チィ": {
@@ -10103,7 +10163,7 @@ let item ={
     "accessary": "エターナルアニマルビビアンチィ　チィアクセ",
     "accessary_id": "APR3-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32083.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第3回アイプリコンテスト"
   },
   "エターナルアニマルビビアンチィ　ビビ": {
@@ -10121,7 +10181,7 @@ let item ={
     "accessary": "エターナルアニマルビビアンチィ　ビビアクセ",
     "accessary_id": "APR3-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32083.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第3回アイプリコンテスト"
   },
   "アイプリバースラブマイミュージックタイガー": {
@@ -10139,7 +10199,7 @@ let item ={
     "accessary": "アイプリバースラブマイミュージックタイガーアクセ",
     "accessary_id": "APR3-079",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31960.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "おえかきパレットブルーベージュ": {
@@ -10157,7 +10217,7 @@ let item ={
     "accessary": "おえかきパレットブルーベージュアクセ",
     "accessary_id": "APR3-092",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31992.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "スターカウガールグリーン": {
@@ -10178,7 +10238,7 @@ let item ={
     "accessary": "スターカウガールグリーンアクセ",
     "accessary_id": "APR3-096",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31978.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ことりメルヘンイエロー": {
@@ -10199,7 +10259,7 @@ let item ={
     "accessary": "ことりメルヘンイエローアクセ",
     "accessary_id": "APR3-100",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31986.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "かれいなるきんぎょブラック": {
@@ -10217,7 +10277,7 @@ let item ={
     "accessary": "かれいなるきんぎょブラックアクセ",
     "accessary_id": "APR3-103",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31989.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "クラシックライブラリーパステル": {
@@ -10238,7 +10298,7 @@ let item ={
     "accessary": "クラシックライブラリーパステルアクセ",
     "accessary_id": "APR3-107",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31996.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "うさぎぬいぐるみ": {
@@ -10259,7 +10319,7 @@ let item ={
     "accessary": "うさぎぬいぐるみアクセ",
     "accessary_id": "APR3-111",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31982.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "パンキッシュペンギンパステル": {
@@ -10280,7 +10340,7 @@ let item ={
     "accessary": "パンキッシュペンギンパステルアクセ",
     "accessary_id": "APR3-115",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31974.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "スターメロディレッド": {
@@ -10301,7 +10361,7 @@ let item ={
     "accessary": "スターメロディレッドアクセ",
     "accessary_id": "V3-225",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID30684.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ハートメロディネイビー": {
@@ -10322,7 +10382,7 @@ let item ={
     "accessary": "ハートメロディネイビーアクセ",
     "accessary_id": "V3-229",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID30688.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "スターパーティーよぞらネイビー": {
@@ -10343,7 +10403,7 @@ let item ={
     "accessary": "スターパーティーよぞらネイビーアクセ",
     "accessary_id": "APR3-119",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32003.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ハニービーフラワー": {
@@ -10364,7 +10424,7 @@ let item ={
     "accessary": "ハニービーフラワーアクセ",
     "accessary_id": "APR3-123",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32007.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "トロピカルサマーイエロー": {
@@ -10382,7 +10442,7 @@ let item ={
     "accessary": "トロピカルサマーイエローアクセ",
     "accessary_id": "APR3-126",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID31999.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "クールアイドルホワイトレッド": {
@@ -10403,7 +10463,7 @@ let item ={
     "accessary": "クールアイドルホワイトレッドアクセ",
     "accessary_id": "APR3-130",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32011.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "すばるのアイムゥ": {
@@ -10424,7 +10484,7 @@ let item ={
     "accessary": "すばるのアイムゥアクセ",
     "accessary_id": "APR3-134",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32015.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "おとめのアイムゥ": {
@@ -10445,7 +10505,7 @@ let item ={
     "accessary": "おとめのアイムゥアクセ",
     "accessary_id": "APR3-138",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID32019.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ぺんぺんぺんぎん": {
@@ -10583,7 +10643,7 @@ let item ={
     "accessary": "ミラクルムーンバズリウム１５しゅうねんアクセ",
     "accessary_id": "VM-020",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40849.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップ プリティーシリーズ15周年"
   },
   "マジシャンキャットミステリアス": {
@@ -10604,7 +10664,7 @@ let item ={
     "accessary": "マジシャンキャットミステリアスアクセ",
     "accessary_id": "VM-024",
     "accessary_image": "https://aipri.jp/verse/item/img/ring3/Item_ID40465.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップ モーリーファンタジー＆PALOゲットキャンペーン"
   },
   "フラワーバズリウムコスモスピンク": {
@@ -10622,7 +10682,7 @@ let item ={
     "accessary": "フラワーバズリウムコスモスピンクアクセ",
     "accessary_id": "APR4-003",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32300.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムドリーム"
   },
   "フラワーバズリウムコスモスブルー": {
@@ -10640,7 +10700,7 @@ let item ={
     "accessary": "フラワーバズリウムコスモスブルーアクセ",
     "accessary_id": "APR4-006",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32303.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムドリーム"
   },
   "じしんのアニマルツイン　ビビ": {
@@ -10658,7 +10718,7 @@ let item ={
     "accessary": "じしんのアニマルツイン　ビビアクセ",
     "accessary_id": "APR4-193",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32290.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "じしんのアニマルツイン　チィ": {
@@ -10676,7 +10736,7 @@ let item ={
     "accessary": "じしんのアニマルツイン　チィアクセ",
     "accessary_id": "APR4-196",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32293.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "フラワーバズリウムコスモスクローバー": {
@@ -10694,7 +10754,7 @@ let item ={
     "accessary": "フラワーバズリウムコスモスクローバーアクセ",
     "accessary_id": "APR4-015",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32146.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "フラワーバズリウムコスモスカンパニュラ": {
@@ -10712,7 +10772,7 @@ let item ={
     "accessary": "フラワーバズリウムコスモスカンパニュラアクセ",
     "accessary_id": "APR4-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32149.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "ちしきのクリスタルブラック": {
@@ -10733,7 +10793,7 @@ let item ={
     "accessary": "ちしきのクリスタルブラックアクセ",
     "accessary_id": "APR4-030",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32153.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "カラフルシャインイエロー": {
@@ -10754,7 +10814,7 @@ let item ={
     "accessary": "カラフルシャインイエローアクセ",
     "accessary_id": "APR4-055",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32157.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "カラフルシャインパープル": {
@@ -10775,7 +10835,7 @@ let item ={
     "accessary": "カラフルシャインパープルアクセ",
     "accessary_id": "APR4-059",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32161.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "フレッシュレモンときめきゴールド": {
@@ -10793,7 +10853,7 @@ let item ={
     "accessary": "フレッシュレモンときめきゴールドアクセ",
     "accessary_id": "APR3-160",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32041.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "フレッシュレモンときめきシルバー": {
@@ -10811,7 +10871,7 @@ let item ={
     "accessary": "フレッシュレモンときめきシルバーアクセ",
     "accessary_id": "APR3-163",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32045.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "フェザーグランプリクールパープル": {
@@ -10829,7 +10889,7 @@ let item ={
     "accessary": "フェザーグランプリクールパープルアクセ",
     "accessary_id": "APR4-062",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32164.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "スペースダイナークリームソーダ": {
@@ -10850,7 +10910,7 @@ let item ={
     "accessary": "スペースダイナークリームソーダアクセ",
     "accessary_id": "APR4-066",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32168.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん後半"
   },
   "スカーレットバタフライバズリウムブルー": {
@@ -10868,7 +10928,7 @@ let item ={
     "accessary": "スカーレットバタフライバズリウムブルーアクセ",
     "accessary_id": "APR4-213",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32320.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "ロゼッションバズリウムレッド": {
@@ -10886,7 +10946,7 @@ let item ={
     "accessary": "ロゼッションバズリウムレッドアクセ",
     "accessary_id": "APR4-216",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32323.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "レインボーキャンディバズリウムイエロー": {
@@ -10904,7 +10964,7 @@ let item ={
     "accessary": "レインボーキャンディバズリウムイエローアクセ",
     "accessary_id": "APR4-219",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32326.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "ベアベアベアバズリウムグリーン": {
@@ -10922,43 +10982,7 @@ let item ={
     "accessary": "ベアベアベアバズリウムグリーンアクセ",
     "accessary_id": "APR4-222",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32329.webp",
-    "series": "アイプリ",
-    "note": "カルテットスターイチオシひろば"
-  },
-  "カルテットスターバズリウムスペードスカーレット": {
-    "name": "カルテットスターバズリウムスペードスカーレット",
-    "brand_name": "ロゼッション",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring4/V6-019.webp",
-    "one_piece": "カルテットスターバズリウムスペードスカーレットワンピ",
-    "one_piece_id": "V6-019",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring4/Item_ID31160.webp",
-    "shoues": "カルテットスターバズリウムスペードスカーレットシューズ",
-    "shoues_id": "V6-020",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring4/Item_ID31161.webp",
-    "accessary": "カルテットスターバズリウムスペードスカーレットアクセ",
-    "accessary_id": "V6-021",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID31162.webp",
-    "series": "アイプリ",
-    "note": "カルテットスターイチオシひろば"
-  },
-  "カルテットスターバズリウムクラブキャンディ": {
-    "name": "カルテットスターバズリウムクラブキャンディ",
-    "brand_name": "ベアベアベア",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring4/V6-022.webp",
-    "one_piece": "カルテットスターバズリウムクラブキャンディワンピ",
-    "one_piece_id": "V6-022",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring4/Item_ID31163.webp",
-    "shoues": "カルテットスターバズリウムクラブキャンディシューズ",
-    "shoues_id": "V6-023",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring4/Item_ID31164.webp",
-    "accessary": "カルテットスターバズリウムクラブキャンディアクセ",
-    "accessary_id": "V6-024",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID31165.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "カルテットスターイチオシひろば"
   },
   "フラワーバズリウムカンパニュラ": {
@@ -10976,7 +11000,7 @@ let item ={
     "accessary": "フラワーバズリウムカンパニュラアクセ",
     "accessary_id": "APR4-009",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32115.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "フラワーバズリウムクローバー": {
@@ -10994,7 +11018,7 @@ let item ={
     "accessary": "フラワーバズリウムクローバーアクセ",
     "accessary_id": "APR4-012",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32118.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "ちしきのクリスタルパープル": {
@@ -11015,7 +11039,7 @@ let item ={
     "accessary": "ちしきのクリスタルパープルアクセ",
     "accessary_id": "APR4-026",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32122.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "ときめきハロウィンオレンジ": {
@@ -11033,7 +11057,7 @@ let item ={
     "accessary": "ときめきハロウィンオレンジアクセ",
     "accessary_id": "APR4-033",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32125.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "ときめきハロウィンブルー": {
@@ -11051,7 +11075,7 @@ let item ={
     "accessary": "ときめきハロウィンブルーアクセ",
     "accessary_id": "APR4-036",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32128.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "おとぎばなしかぐやひめピュアピンク": {
@@ -11069,7 +11093,7 @@ let item ={
     "accessary": "おとぎばなしかぐやひめピュアピンクアクセ",
     "accessary_id": "APR4-039",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32131.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "プリうさおでかけパープル": {
@@ -11090,7 +11114,7 @@ let item ={
     "accessary": "プリうさおでかけパープルアクセ",
     "accessary_id": "APR4-043",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32135.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "フラワーガーデンピンク": {
@@ -11111,7 +11135,7 @@ let item ={
     "accessary": "フラワーガーデンピンクアクセ",
     "accessary_id": "APR4-047",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32139.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "アニマルロックホワイト": {
@@ -11132,7 +11156,7 @@ let item ={
     "accessary": "アニマルロックホワイトアクセ",
     "accessary_id": "APR4-051",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32143.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング4だん前半"
   },
   "ジュエルバズリウムダイヤピンク": {
@@ -11150,7 +11174,7 @@ let item ={
     "accessary": "ジュエルバズリウムダイヤピンクアクセ",
     "accessary_id": "APR4-199",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32306.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "じゅりあ＆える イチオシひろば"
   },
   "ジュエルバズリウムアクアマリングリーン": {
@@ -11168,7 +11192,7 @@ let item ={
     "accessary": "ジュエルバズリウムアクアマリングリーンアクセ",
     "accessary_id": "APR4-202",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32309.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "じゅりあ＆える イチオシひろば"
   },
   "ベリキューデニムスプリング": {
@@ -11189,7 +11213,7 @@ let item ={
     "accessary": "ベリキューデニムスプリングアクセ",
     "accessary_id": "APR4-206",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32313.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "じゅりあ＆える イチオシひろば"
   },
   "スポーティバレエコアサマー": {
@@ -11210,7 +11234,7 @@ let item ={
     "accessary": "スポーティバレエコアサマーアクセ",
     "accessary_id": "APR4-210",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32317.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "じゅりあ＆える イチオシひろば"
   },
   "ピンクパレードコーデ": {
@@ -11336,7 +11360,7 @@ let item ={
     "shoues": "シンデレラのラララ ジュリ コーデシューズ",
     "shoues_id": "APR4-187",
     "shoues_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32362.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "シンデレラのラララ かなみん コーデ": {
@@ -11354,7 +11378,7 @@ let item ={
     "shoues": "シンデレラのラララ かなみん コーデシューズ",
     "shoues_id": "APR4-190",
     "shoues_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32287.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "エターナルフラワールミナスフローラ　リング": {
@@ -11372,7 +11396,7 @@ let item ={
     "accessary": "エターナルフラワールミナスフローラ　リングアクセ",
     "accessary_id": "APR4-021",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32296.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第4回アイプリコンテスト"
   },
   "エターナルフラワールミナスフローラ　つむぎ": {
@@ -11390,7 +11414,7 @@ let item ={
     "accessary": "エターナルフラワールミナスフローラ　つむぎアクセ",
     "accessary_id": "APR4-021",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32296.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第4回アイプリコンテスト"
   },
   "アイプリバースプリンセスリング": {
@@ -11408,7 +11432,7 @@ let item ={
     "accessary": "アイプリバースプリンセスリングアクセ",
     "accessary_id": "APR4-069",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32171.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "スターアイドル": {
@@ -11429,7 +11453,7 @@ let item ={
     "accessary": "スターアイドルアクセ",
     "accessary_id": "APR4-080",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32182.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "スターアイドルネイビー": {
@@ -11450,7 +11474,7 @@ let item ={
     "accessary": "スターアイドルネイビーアクセ",
     "accessary_id": "APR4-084",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32186.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "チョコポップミント": {
@@ -11468,7 +11492,7 @@ let item ={
     "accessary": "チョコポップミントアクセ",
     "accessary_id": "APR4-087",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32190.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ミラクルハロウィングリーン": {
@@ -11486,7 +11510,7 @@ let item ={
     "accessary": "ミラクルハロウィングリーンアクセ",
     "accessary_id": "APR4-090",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32193.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "クローバーメロディオレンジ": {
@@ -11507,7 +11531,7 @@ let item ={
     "accessary": "クローバーメロディオレンジアクセ",
     "accessary_id": "APR4-094",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32197.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ドーナツパティシエールレッド": {
@@ -11525,7 +11549,7 @@ let item ={
     "accessary": "ドーナツパティシエールレッドアクセ",
     "accessary_id": "APR4-097",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32200.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "たいようさんさんブルー": {
@@ -11546,7 +11570,7 @@ let item ={
     "accessary": "たいようさんさんブルーアクセ",
     "accessary_id": "APR4-101",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32204.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ぽんぽんすずらんホワイトパープル": {
@@ -11567,7 +11591,7 @@ let item ={
     "accessary": "ぽんぽんすずらんホワイトパープルアクセ",
     "accessary_id": "APR4-105",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32208.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "キューティーキャット": {
@@ -11588,7 +11612,7 @@ let item ={
     "accessary": "キューティーキャットアクセ",
     "accessary_id": "APR4-109",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32212.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "キューティーキャットパープル": {
@@ -11609,7 +11633,7 @@ let item ={
     "accessary": "キューティーキャットパープルアクセ",
     "accessary_id": "APR4-113",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32216.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "チューリップピュアホワイト": {
@@ -11627,7 +11651,7 @@ let item ={
     "accessary": "チューリップピュアホワイトアクセ",
     "accessary_id": "APR4-116",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32219.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ラブリーアイドルハロウィン": {
@@ -11648,7 +11672,7 @@ let item ={
     "accessary": "ラブリーアイドルハロウィンアクセ",
     "accessary_id": "APR4-120",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32223.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ビビのアイムゥ": {
@@ -11669,7 +11693,7 @@ let item ={
     "accessary": "ビビのアイムゥアクセ",
     "accessary_id": "APR4-124",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32227.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "チィのアイムゥ": {
@@ -11690,7 +11714,7 @@ let item ={
     "accessary": "チィのアイムゥアクセ",
     "accessary_id": "APR4-128",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID32231.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "コスメティックフラワー": {
@@ -11837,26 +11861,8 @@ let item ={
     "accessary": "カラフルシャインブルーアクセ",
     "accessary_id": "VM-028",
     "accessary_image": "https://aipri.jp/verse/item/img/ring4/Item_ID40953.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップ ナムコでゲット♪「カラフルシャインブルー」キャンペーン"
-  },
-  "メロディバズリウムハーモニーピンク": {
-    "name": "メロディバズリウムハーモニーピンク",
-    "brand_name": "ポッピンハート",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring5/APR5-001.webp",
-    "one_piece": "メロディバズリウムハーモニーピンクワンピ",
-    "one_piece_id": "APR5-001",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32537.webp",
-    "shoues": "メロディバズリウムハーモニーピンクシューズ",
-    "shoues_id": "APR5-002",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32538.webp",
-    "accessary": "メロディバズリウムハーモニーピンクアクセ",
-    "accessary_id": "APR5-003",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32539.webp",
-    "series": "アイプリ",
-    "note": "バズリウムドリーム"
   },
   "メロディバズリウムハーモニーブルー": {
     "name": "メロディバズリウムハーモニーブルー",
@@ -11873,7 +11879,7 @@ let item ={
     "accessary": "メロディバズリウムハーモニーブルーアクセ",
     "accessary_id": "APR5-006",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32542.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "バズリウムドリーム"
   },
   "ゆうきのブロッサムツイン　リング": {
@@ -11891,7 +11897,7 @@ let item ={
     "accessary": "ゆうきのブロッサムツイン　リングアクセ",
     "accessary_id": "APR5-174",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32527.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "ゆうきのブロッサムツイン　つむぎ": {
@@ -11909,7 +11915,7 @@ let item ={
     "accessary": "ゆうきのブロッサムツイン　つむぎアクセ",
     "accessary_id": "APR5-177",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32530.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "プレミアムリングシリーズ"
   },
   "メロディバズリウムハーモニーロイヤルレッド": {
@@ -11927,7 +11933,7 @@ let item ={
     "accessary": "メロディバズリウムハーモニーロイヤルレッドアクセ",
     "accessary_id": "APR5-021",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32394.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "メロディバズリウムハーモニーロイヤルブルー": {
@@ -11945,7 +11951,7 @@ let item ={
     "accessary": "メロディバズリウムハーモニーロイヤルブルーアクセ",
     "accessary_id": "APR5-024",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32397.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "アイドルのクリスタルホワイト": {
@@ -11966,7 +11972,7 @@ let item ={
     "accessary": "アイドルのクリスタルホワイトアクセ",
     "accessary_id": "APR5-038",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32401.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "カルテットレジェンド": {
@@ -11984,7 +11990,7 @@ let item ={
     "accessary": "カルテットレジェンドアクセ",
     "accessary_id": "APR5-054",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32404.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "カルテットレジェンドホワイト": {
@@ -12002,7 +12008,7 @@ let item ={
     "accessary": "カルテットレジェンドホワイトアクセ",
     "accessary_id": "APR5-057",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32407.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "ガーリーピアノイエロー": {
@@ -12023,7 +12029,7 @@ let item ={
     "accessary": "ガーリーピアノイエローアクセ",
     "accessary_id": "APR5-061",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32411.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "オーロラスノーグランプリピンク": {
@@ -12041,7 +12047,7 @@ let item ={
     "accessary": "オーロラスノーグランプリピンクアクセ",
     "accessary_id": "APR5-064",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32414.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "スクールメイツクールブルー": {
@@ -12059,7 +12065,7 @@ let item ={
     "accessary": "スクールメイツクールブルーアクセ",
     "accessary_id": "APR4-131",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32234.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "スクールメイツラブリーピンク": {
@@ -12080,7 +12086,7 @@ let item ={
     "accessary": "スクールメイツラブリーピンクアクセ",
     "accessary_id": "APR4-135",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32238.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん後半"
   },
   "アニマルバズリウムパンサーブルー": {
@@ -12098,7 +12104,7 @@ let item ={
     "accessary": "アニマルバズリウムパンサーブルーアクセ",
     "accessary_id": "APR5-194",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32559.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ビビ＆チィ イチオシひろば"
   },
   "アニマルバズリウムタイガーイエロー": {
@@ -12116,7 +12122,7 @@ let item ={
     "accessary": "アニマルバズリウムタイガーイエローアクセ",
     "accessary_id": "APR5-197",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32562.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ビビ＆チィ イチオシひろば"
   },
   "アニマルロッククラシカル": {
@@ -12137,7 +12143,7 @@ let item ={
     "accessary": "アニマルロッククラシカルアクセ",
     "accessary_id": "APR5-201",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32566.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ビビ＆チィ イチオシひろば"
   },
   "ウィッシュスターグランプリレッド": {
@@ -12155,7 +12161,7 @@ let item ={
     "accessary": "ウィッシュスターグランプリレッドアクセ",
     "accessary_id": "APR5-204",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32569.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ビビ＆チィ イチオシひろば"
   },
   "メロディバズリウムアンサンブルレッド": {
@@ -12173,7 +12179,7 @@ let item ={
     "accessary": "メロディバズリウムアンサンブルレッドアクセ",
     "accessary_id": "APR5-009",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32365.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "メロディバズリウムアンサンブルブルー": {
@@ -12191,7 +12197,7 @@ let item ={
     "accessary": "メロディバズリウムアンサンブルブルーアクセ",
     "accessary_id": "APR5-012",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32368.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "メロディバズリウムアンサンブルグリーン": {
@@ -12209,7 +12215,7 @@ let item ={
     "accessary": "メロディバズリウムアンサンブルグリーンアクセ",
     "accessary_id": "APR5-015",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32371.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "メロディバズリウムアンサンブルオレンジ": {
@@ -12227,7 +12233,7 @@ let item ={
     "accessary": "メロディバズリウムアンサンブルオレンジアクセ",
     "accessary_id": "APR5-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32374.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "アイドルのクリスタルラブリーピンク": {
@@ -12248,7 +12254,7 @@ let item ={
     "accessary": "アイドルのクリスタルラブリーピンクアクセ",
     "accessary_id": "APR5-034",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32378.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "ひみつのクリスマスレッド": {
@@ -12266,7 +12272,7 @@ let item ={
     "accessary": "ひみつのクリスマスレッドアクセ",
     "accessary_id": "APR5-041",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32381.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "ひみつのクリスマスネイビー": {
@@ -12284,7 +12290,7 @@ let item ={
     "accessary": "ひみつのクリスマスネイビーアクセ",
     "accessary_id": "APR5-044",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32384.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "ゴシックベアレッド": {
@@ -12302,7 +12308,7 @@ let item ={
     "accessary": "ゴシックベアレッドアクセ",
     "accessary_id": "APR5-047",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32387.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "ファンタジーリングブルー": {
@@ -12323,7 +12329,7 @@ let item ={
     "accessary": "ファンタジーリングブルーアクセ",
     "accessary_id": "APR5-051",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32391.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング5だん前半"
   },
   "スペースバズリウムギャラクシーピンク": {
@@ -12341,7 +12347,7 @@ let item ={
     "accessary": "スペースバズリウムギャラクシーピンクアクセ",
     "accessary_id": "APR5-180",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32545.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "すばる＆おとめ イチオシひろば"
   },
   "スペースバズリウムプラネットネイビー": {
@@ -12359,7 +12365,7 @@ let item ={
     "accessary": "スペースバズリウムプラネットネイビーアクセ",
     "accessary_id": "APR5-183",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32548.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "すばる＆おとめ イチオシひろば"
   },
   "アイドルチェッククールグリーン": {
@@ -12380,7 +12386,7 @@ let item ={
     "accessary": "アイドルチェッククールグリーンアクセ",
     "accessary_id": "APR5-187",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32552.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "すばる＆おとめ イチオシひろば"
   },
   "アイドルチェックラブリーパープル": {
@@ -12401,7 +12407,7 @@ let item ={
     "accessary": "アイドルチェックラブリーパープルアクセ",
     "accessary_id": "APR5-191",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32556.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "すばる＆おとめ イチオシひろば"
   },
   "ドーリーワルツキラッと": {
@@ -12473,7 +12479,7 @@ let item ={
     "accessary": "【おしのこ】 ルビー コーデアクセ",
     "accessary_id": "APR5-156",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32509.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5弾推しの子コラボ"
   },
   "シンデレラのラララ ひとちゃん コーデ": {
@@ -12491,7 +12497,7 @@ let item ={
     "shoues": "シンデレラのラララ ひとちゃん コーデシューズ",
     "shoues_id": "APR5-159",
     "shoues_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32512.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "シンデレラのラララ おはる コーデ": {
@@ -12509,7 +12515,7 @@ let item ={
     "shoues": "シンデレラのラララ おはる コーデシューズ",
     "shoues_id": "APR5-162",
     "shoues_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32515.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "エターナルメロディカルテットスター　サクラ": {
@@ -12527,7 +12533,7 @@ let item ={
     "accessary": "エターナルメロディカルテットスター　サクラアクセ",
     "accessary_id": "APR5-027",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32533.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5回アイプリコンテスト"
   },
   "エターナルメロディカルテットスター　タマキ": {
@@ -12545,7 +12551,7 @@ let item ={
     "accessary": "エターナルメロディカルテットスター　タマキアクセ",
     "accessary_id": "APR5-027",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32533.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5回アイプリコンテスト"
   },
   "エターナルメロディカルテットスター　アイリ": {
@@ -12563,7 +12569,7 @@ let item ={
     "accessary": "エターナルメロディカルテットスター　アイリアクセ",
     "accessary_id": "APR5-027",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32533.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5回アイプリコンテスト"
   },
   "エターナルメロディカルテットスター　リンリン": {
@@ -12581,7 +12587,7 @@ let item ={
     "accessary": "エターナルメロディカルテットスター　リンリンアクセ",
     "accessary_id": "APR5-027",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32533.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "第5回アイプリコンテスト"
   },
   "マジカルカラット": {
@@ -12602,7 +12608,7 @@ let item ={
     "accessary": "マジカルカラットアクセ",
     "accessary_id": "APR5-081",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32431.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "マジカルカラットホワイト": {
@@ -12623,7 +12629,7 @@ let item ={
     "accessary": "マジカルカラットホワイトアクセ",
     "accessary_id": "APR5-085",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32435.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ロッキンスター": {
@@ -12644,7 +12650,7 @@ let item ={
     "accessary": "ロッキンスターアクセ",
     "accessary_id": "APR5-089",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32439.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "おしょうがつパープル": {
@@ -12665,7 +12671,7 @@ let item ={
     "accessary": "おしょうがつパープルアクセ",
     "accessary_id": "APR5-093",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32443.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "リトルフェアリーイエロー": {
@@ -12683,7 +12689,7 @@ let item ={
     "accessary": "リトルフェアリーイエローアクセ",
     "accessary_id": "APR5-096",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32446.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "メロディコーラスエレガント": {
@@ -12701,7 +12707,7 @@ let item ={
     "accessary": "メロディコーラスエレガントアクセ",
     "accessary_id": "APR5-099",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32449.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "クローバーメロディグリーン": {
@@ -12722,7 +12728,7 @@ let item ={
     "accessary": "クローバーメロディグリーンアクセ",
     "accessary_id": "APR5-103",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32453.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "うさぎぬいぐるみブラック": {
@@ -12743,7 +12749,7 @@ let item ={
     "accessary": "うさぎぬいぐるみブラックアクセ",
     "accessary_id": "APR5-107",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32457.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "パラダイスがくえんせいふく3ねん": {
@@ -12761,7 +12767,7 @@ let item ={
     "accessary": "パラダイスがくえんせいふく3ねんアクセ",
     "accessary_id": "APR5-110",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32460.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "パラダイスがくえんせいふくすばる": {
@@ -12776,7 +12782,7 @@ let item ={
     "shoues": "パラダイスがくえんせいふくすばるシューズ",
     "shoues_id": "APR5-112",
     "shoues_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32462.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "キューティーキャットナイト": {
@@ -12797,7 +12803,7 @@ let item ={
     "accessary": "キューティーキャットナイトアクセ",
     "accessary_id": "APR5-116",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32466.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ファンタジースノーフォレスト": {
@@ -12818,7 +12824,7 @@ let item ={
     "accessary": "ファンタジースノーフォレストアクセ",
     "accessary_id": "APR5-120",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32470.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "シツムゥ": {
@@ -12839,7 +12845,7 @@ let item ={
     "accessary": "シツムゥアクセ",
     "accessary_id": "APR5-124",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32474.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "デビムゥ": {
@@ -12860,7 +12866,7 @@ let item ={
     "accessary": "デビムゥアクセ",
     "accessary_id": "APR5-128",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32478.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "ジェルムゥ": {
@@ -12881,7 +12887,7 @@ let item ={
     "accessary": "ジェルムゥアクセ",
     "accessary_id": "APR5-132",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32482.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★"
   },
   "おとぎばなししらゆきひめ": {
@@ -12899,7 +12905,7 @@ let item ={
     "accessary": "おとぎばなししらゆきひめアクセ",
     "accessary_id": "V2-046",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID30260.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "おとぎばなしひろば"
   },
   "ホワイトクリスマスツリースマイル": {
@@ -13019,138 +13025,6 @@ let item ={
     "series": "プリマジ",
     "note": "ショップ ワッチャプリマジ！"
   },
-  "もりのフラワーショップオレンジ": {
-    "name": "もりのフラワーショップオレンジ",
-    "brand_name": "クリスタルバース",
-    "parts": 4,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring6/APR6-054.webp",
-    "tops": "もりのフラワーショップオレンジトップス",
-    "tops_id": "APR6-054",
-    "tops_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32639.webp",
-    "bottoms": "もりのフラワーショップオレンジボトムス",
-    "bottoms_id": "APR6-055",
-    "bottoms_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32640.webp",
-    "shoues": "もりのフラワーショップオレンジシューズ",
-    "shoues_id": "APR6-056",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32641.webp",
-    "accessary": "もりのフラワーショップオレンジアクセ",
-    "accessary_id": "APR6-057",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32642.webp",
-    "series": "アイプリ",
-    "note": "リング6だん後半"
-  },
-  "おとぎばなししらゆきひめレッド": {
-    "name": "おとぎばなししらゆきひめレッド",
-    "brand_name": "クリスタルバース",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring6/APR6-058.webp",
-    "one_piece": "おとぎばなししらゆきひめレッドワンピ",
-    "one_piece_id": "APR6-058",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32643.webp",
-    "shoues": "おとぎばなししらゆきひめレッドシューズ",
-    "shoues_id": "APR6-059",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32644.webp",
-    "accessary": "おとぎばなししらゆきひめレッドアクセ",
-    "accessary_id": "APR6-060",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32645.webp",
-    "series": "アイプリ",
-    "note": "リング6だん後半"
-  },
-  "にゃんにゃんロリータレッド": {
-    "name": "にゃんにゃんロリータレッド",
-    "brand_name": "ミラクルムーン",
-    "parts": 4,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring6/APR6-061.webp",
-    "tops": "にゃんにゃんロリータレッドトップス",
-    "tops_id": "APR6-061",
-    "tops_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32646.webp",
-    "bottoms": "にゃんにゃんロリータレッドボトムス",
-    "bottoms_id": "APR6-062",
-    "bottoms_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32647.webp",
-    "shoues": "にゃんにゃんロリータレッドシューズ",
-    "shoues_id": "APR6-063",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32648.webp",
-    "accessary": "にゃんにゃんロリータレッドアクセ",
-    "accessary_id": "APR6-064",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32649.webp",
-    "series": "アイプリ",
-    "note": "リング6だん後半"
-  },
-  "ダークウィッシュメロディホワイト": {
-    "name": "ダークウィッシュメロディホワイト",
-    "brand_name": "ラブマイミュージック",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring6/APR6-065.webp",
-    "one_piece": "ダークウィッシュメロディホワイトワンピ",
-    "one_piece_id": "APR6-065",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32650.webp",
-    "shoues": "ダークウィッシュメロディホワイトシューズ",
-    "shoues_id": "APR6-066",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32651.webp",
-    "accessary": "ダークウィッシュメロディホワイトアクセ",
-    "accessary_id": "APR6-067",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32652.webp",
-    "series": "アイプリ",
-    "note": "リング6だん後半"
-  },
-  "エターナルジュエルラブジュリエルアイオライト": {
-    "name": "エターナルジュエルラブジュリエルアイオライト",
-    "brand_name": "キューティーカラット",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring6/APR6-135.webp",
-    "one_piece": "エターナルジュエルラブジュリエルアイオライトワンピ",
-    "one_piece_id": "APR6-135",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32732.webp",
-    "shoues": "エターナルジュエルラブジュリエルアイオライトシューズ",
-    "shoues_id": "APR6-136",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32733.webp",
-    "accessary": "エターナルジュエルラブジュリエルアイオライトアクセ",
-    "accessary_id": "APR6-137",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32734.webp",
-    "series": "アイプリ",
-    "note": "エターナルコーデイチオシひろば"
-  },
-  "エターナルスペースジャンピンロケットクールヴィーナス": {
-    "name": "エターナルスペースジャンピンロケットクールヴィーナス",
-    "brand_name": "フューチャースクール",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring6/APR6-138.webp",
-    "one_piece": "エターナルスペースジャンピンロケットクールヴィーナスワンピ",
-    "one_piece_id": "APR6-138",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32735.webp",
-    "shoues": "エターナルスペースジャンピンロケットクールヴィーナスシューズ",
-    "shoues_id": "APR6-139",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32736.webp",
-    "accessary": "エターナルスペースジャンピンロケットクールヴィーナスアクセ",
-    "accessary_id": "APR6-140",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32737.webp",
-    "series": "アイプリ",
-    "note": "エターナルコーデイチオシひろば"
-  },
-  "エターナルスペースジャンピンロケットラブリージュピター": {
-    "name": "エターナルスペースジャンピンロケットラブリージュピター",
-    "brand_name": "フューチャースクール",
-    "parts": 3,
-    "total_id": 0,
-    "total_image": "https://aipri.jp/verse/item/img/ring6/APR6-141.webp",
-    "one_piece": "エターナルスペースジャンピンロケットラブリージュピターワンピ",
-    "one_piece_id": "APR6-141",
-    "one_piece_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32738.webp",
-    "shoues": "エターナルスペースジャンピンロケットラブリージュピターシューズ",
-    "shoues_id": "APR6-142",
-    "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32739.webp",
-    "accessary": "エターナルスペースジャンピンロケットラブリージュピターアクセ",
-    "accessary_id": "APR6-143",
-    "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32740.webp",
-    "series": "アイプリ",
-    "note": "エターナルコーデイチオシひろば"
-  },
   "エターナルアニマルビビアンチィゼブラ": {
     "name": "エターナルアニマルビビアンチィゼブラ",
     "brand_name": "ラブマイミュージック",
@@ -13166,7 +13040,7 @@ let item ={
     "accessary": "エターナルアニマルビビアンチィゼブラアクセ",
     "accessary_id": "APR6-146",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32743.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "エターナルコーデイチオシひろば"
   },
   "エターナルフラワールミナスフローラガーベラ": {
@@ -13184,7 +13058,7 @@ let item ={
     "accessary": "エターナルフラワールミナスフローラガーベラアクセ",
     "accessary_id": "APR6-149",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32746.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "エターナルコーデイチオシひろば"
   },
   "エターナルメロディカルテットスターノクターン": {
@@ -13202,7 +13076,7 @@ let item ={
     "accessary": "エターナルメロディカルテットスターノクターンアクセ",
     "accessary_id": "APR6-152",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32749.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "エターナルコーデイチオシひろば"
   },
   "プリンセスアイプリバズリウム": {
@@ -13220,7 +13094,7 @@ let item ={
     "accessary": "プリンセスアイプリバズリウムアクセ",
     "accessary_id": "APR6-009",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32593.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "ゆうじょうのクリスタルスカイブルー": {
@@ -13241,7 +13115,7 @@ let item ={
     "accessary": "ゆうじょうのクリスタルスカイブルーアクセ",
     "accessary_id": "APR6-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32597.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "バレンタインクッキークール": {
@@ -13259,7 +13133,7 @@ let item ={
     "accessary": "バレンタインクッキークールアクセ",
     "accessary_id": "APR6-025",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32600.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "バレンタインクッキーラブリー": {
@@ -13277,7 +13151,7 @@ let item ={
     "accessary": "バレンタインクッキーラブリーアクセ",
     "accessary_id": "APR6-028",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32603.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "おとぎばなしワンダーランドレッド": {
@@ -13298,7 +13172,7 @@ let item ={
     "accessary": "おとぎばなしワンダーランドレッドアクセ",
     "accessary_id": "APR6-032",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32607.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "プリうさおでかけイエロー": {
@@ -13319,7 +13193,7 @@ let item ={
     "accessary": "プリうさおでかけイエローアクセ",
     "accessary_id": "APR6-036",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32611.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "わんわんロリータグリーン": {
@@ -13340,7 +13214,7 @@ let item ={
     "accessary": "わんわんロリータグリーンアクセ",
     "accessary_id": "APR6-040",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32615.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "ロマンスルージュレッド": {
@@ -13361,7 +13235,7 @@ let item ={
     "accessary": "ロマンスルージュレッドアクセ",
     "accessary_id": "APR6-044",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32619.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "ギフトリボンパープル": {
@@ -13379,7 +13253,7 @@ let item ={
     "accessary": "ギフトリボンパープルアクセ",
     "accessary_id": "APR6-047",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32622.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "リング６だん前半"
   },
   "フラワーバズリウムカンパニュラブルー": {
@@ -13397,7 +13271,7 @@ let item ={
     "accessary": "フラワーバズリウムカンパニュラブルーアクセ",
     "accessary_id": "APR6-124",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32721.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆リングイチオシひろば"
   },
   "フラワーバズリウムクローバーレッド": {
@@ -13415,7 +13289,7 @@ let item ={
     "accessary": "フラワーバズリウムクローバーレッドアクセ",
     "accessary_id": "APR6-127",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32724.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆リングイチオシひろば"
   },
   "カラフルシャインレモンイエロー": {
@@ -13436,7 +13310,7 @@ let item ={
     "accessary": "カラフルシャインレモンイエローアクセ",
     "accessary_id": "APR6-131",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32728.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆リングイチオシひろば"
   },
   "フラワーマーチプリンセスバズリウムミルキーパープル": {
@@ -13454,7 +13328,7 @@ let item ={
     "accessary": "フラワーマーチプリンセスバズリウムミルキーパープルアクセ",
     "accessary_id": "APR6-134",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32731.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "つむぎ＆リングイチオシひろば"
   },
   "ステンドグラス": {
@@ -13547,7 +13421,7 @@ let item ={
     "shoues": "ゆうえいこうこう　じょしせいふくシューズ",
     "shoues_id": "APR6-178",
     "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32776.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "僕のヒーローアカデミアコラボ"
   },
   "ゆうえいこうこう　だんしせいふく": {
@@ -13562,7 +13436,7 @@ let item ={
     "shoues": "ゆうえいこうこう　だんしせいふくシューズ",
     "shoues_id": "APR6-180",
     "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32778.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "僕のヒーローアカデミアコラボ"
   },
   "ゆうえいこうこう　たいそうふく": {
@@ -13577,7 +13451,7 @@ let item ={
     "shoues": "ゆうえいこうこう　たいそうふくシューズ",
     "shoues_id": "APR6-182",
     "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32780.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "僕のヒーローアカデミアコラボ"
   },
   "シンデレラのラララ あきちゃん コーデ": {
@@ -13595,7 +13469,7 @@ let item ={
     "shoues": "シンデレラのラララ あきちゃん コーデシューズ",
     "shoues_id": "APR6-092",
     "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32677.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "シンデレラのラララ ひよりん コーデ": {
@@ -13613,7 +13487,7 @@ let item ={
     "shoues": "シンデレラのラララ ひよりん コーデシューズ",
     "shoues_id": "APR6-095",
     "shoues_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32680.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "超ときめき♡宣伝部コラボ"
   },
   "エターナルアイプリ": {
@@ -13631,7 +13505,7 @@ let item ={
     "accessary": "エターナルアイプリアクセ",
     "accessary_id": "APR6-176",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32711.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ファイナルアイプリコンテスト"
   },
   "フィーバーデビルピンク": {
@@ -13652,7 +13526,7 @@ let item ={
     "accessary": "フィーバーデビルピンクアクセ",
     "accessary_id": "APR3-153",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32034.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "フィーバーエンジェルブルー": {
@@ -13673,7 +13547,7 @@ let item ={
     "accessary": "フィーバーエンジェルブルーアクセ",
     "accessary_id": "APR3-157",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32038.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "わいるど☆スタークールネイビー": {
@@ -13694,7 +13568,7 @@ let item ={
     "accessary": "わいるど☆スタークールネイビーアクセ",
     "accessary_id": "APR4-139",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32242.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "わいるど☆スターおとめピンク": {
@@ -13715,7 +13589,7 @@ let item ={
     "accessary": "わいるど☆スターおとめピンクアクセ",
     "accessary_id": "APR4-143",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32246.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "カラフルシャインミルキーピンク": {
@@ -13736,7 +13610,7 @@ let item ={
     "accessary": "カラフルシャインミルキーピンクアクセ",
     "accessary_id": "APR5-136",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32486.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "カラフルシャインミルキーブルー": {
@@ -13757,7 +13631,7 @@ let item ={
     "accessary": "カラフルシャインミルキーブルーアクセ",
     "accessary_id": "APR5-140",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32490.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "スクールメイツクールレッド": {
@@ -13775,7 +13649,7 @@ let item ={
     "accessary": "スクールメイツクールレッドアクセ",
     "accessary_id": "APR5-143",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32493.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "スクールメイツラブリーパープル": {
@@ -13796,7 +13670,7 @@ let item ={
     "accessary": "スクールメイツラブリーパープルアクセ",
     "accessary_id": "APR5-147",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32497.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "フレンドスターグランプリイエロー": {
@@ -13814,7 +13688,7 @@ let item ={
     "accessary": "フレンドスターグランプリイエローアクセ",
     "accessary_id": "APR5-150",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32500.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "フレンドスターグランプリパープル": {
@@ -13832,7 +13706,7 @@ let item ={
     "accessary": "フレンドスターグランプリパープルアクセ",
     "accessary_id": "APR5-153",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32503.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★★"
   },
   "アイプリバースポッピンハートプリンセス": {
@@ -13850,7 +13724,7 @@ let item ={
     "accessary": "アイプリバースポッピンハートプリンセスアクセ",
     "accessary_id": "APR6-070",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32655.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイプリバースミラクルムーンプリンセス": {
@@ -13871,7 +13745,7 @@ let item ={
     "accessary": "アイプリバースミラクルムーンプリンセスアクセ",
     "accessary_id": "APR6-074",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32659.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "バレンタインレターレッド": {
@@ -13892,7 +13766,7 @@ let item ={
     "accessary": "バレンタインレターレッドアクセ",
     "accessary_id": "APR6-078",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32663.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "アイスクリームソーダ": {
@@ -13913,7 +13787,7 @@ let item ={
     "accessary": "アイスクリームソーダアクセ",
     "accessary_id": "APR6-082",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32667.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "うらないしホワイト": {
@@ -13931,7 +13805,7 @@ let item ={
     "accessary": "うらないしホワイトアクセ",
     "accessary_id": "APR6-085",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32670.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "ロッキンスターピンク": {
@@ -13952,7 +13826,7 @@ let item ={
     "accessary": "ロッキンスターピンクアクセ",
     "accessary_id": "APR6-089",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID32674.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "★★★"
   },
   "フレアエレメンツ": {
@@ -14096,7 +13970,7 @@ let item ={
     "accessary": "シークレットフレンズ∞バズリウムピュアホワイトアクセ",
     "accessary_id": "V6-018",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID31159.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップ はるやすみキャンペーン"
   },
   "フラワーガーデンパープル": {
@@ -14117,7 +13991,7 @@ let item ={
     "accessary": "フラワーガーデンパープルアクセ",
     "accessary_id": "VM-032",
     "accessary_image": "https://aipri.jp/verse/item/img/ring6/Item_ID41003.webp",
-    "series": "アイプリ",
+    "series": "ひみつのアイプリ",
     "note": "ショップ タイトーステーションキャンペーン"
   },
   "すきすきハートバズリウム": {
@@ -14135,7 +14009,7 @@ let item ={
     "accessary": "すきすきハートバズリウムアクセ",
     "accessary_id": "OA1-003",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32783.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ゆめゆめスターバズリウム": {
@@ -14153,7 +14027,7 @@ let item ={
     "accessary": "ゆめゆめスターバズリウムアクセ",
     "accessary_id": "OA1-006",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32786.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ゆうじょうスイーツバズリウム": {
@@ -14171,7 +14045,7 @@ let item ={
     "accessary": "ゆうじょうスイーツバズリウムアクセ",
     "accessary_id": "OA1-009",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32789.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "トキメキトゥインクルピンク": {
@@ -14189,7 +14063,7 @@ let item ={
     "accessary": "トキメキトゥインクルピンクアクセ",
     "accessary_id": "OA1-012",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32792.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "トキメキトゥインクルブルー": {
@@ -14207,7 +14081,7 @@ let item ={
     "accessary": "トキメキトゥインクルブルーアクセ",
     "accessary_id": "OA1-015",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32795.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "リボンアイドルピンク": {
@@ -14228,7 +14102,7 @@ let item ={
     "accessary": "リボンアイドルピンクアクセ",
     "accessary_id": "OA1-019",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32799.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "リボンアイドルブルー": {
@@ -14249,7 +14123,7 @@ let item ={
     "accessary": "リボンアイドルブルーアクセ",
     "accessary_id": "OA1-023",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32803.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ふわふわキャット": {
@@ -14270,7 +14144,7 @@ let item ={
     "accessary": "ふわふわキャットアクセ",
     "accessary_id": "OA1-027",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32807.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ほしのゆうびんやさん": {
@@ -14291,7 +14165,7 @@ let item ={
     "accessary": "ほしのゆうびんやさんアクセ",
     "accessary_id": "OA1-031",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32811.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ポップンマシュマロ": {
@@ -14312,7 +14186,7 @@ let item ={
     "accessary": "ポップンマシュマロアクセ",
     "accessary_id": "OA1-035",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32815.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "しなこワールド": {
@@ -14330,7 +14204,7 @@ let item ={
     "accessary": "しなこワールドアクセ",
     "accessary_id": "OA1-081",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32909.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "しなこちゃんコラボ"
   },
   "アイプリすきすき": {
@@ -14348,7 +14222,7 @@ let item ={
     "accessary": "アイプリすきすきアクセ",
     "accessary_id": "OA1-038",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32818.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "アイプリゆめゆめ": {
@@ -14366,7 +14240,7 @@ let item ={
     "accessary": "アイプリゆめゆめアクセ",
     "accessary_id": "OA1-041",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32821.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "アイプリゆうじょう": {
@@ -14384,7 +14258,7 @@ let item ={
     "accessary": "アイプリゆうじょうアクセ",
     "accessary_id": "OA1-044",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32824.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "イースターフリル": {
@@ -14405,7 +14279,7 @@ let item ={
     "accessary": "イースターフリルアクセ",
     "accessary_id": "OA1-048",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32828.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "イースターフリルピンク": {
@@ -14426,7 +14300,7 @@ let item ={
     "accessary": "イースターフリルピンクアクセ",
     "accessary_id": "OA1-052",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32832.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "ラブリーマーガレット": {
@@ -14447,7 +14321,7 @@ let item ={
     "accessary": "ラブリーマーガレットアクセ",
     "accessary_id": "OA1-056",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32836.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "やきたてクッキー": {
@@ -14465,7 +14339,7 @@ let item ={
     "accessary": "やきたてクッキーアクセ",
     "accessary_id": "OA1-059",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32839.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "やきたてクッキーココア": {
@@ -14483,7 +14357,7 @@ let item ={
     "accessary": "やきたてクッキーココアアクセ",
     "accessary_id": "OA1-062",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32842.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "メロンソーダ": {
@@ -14501,7 +14375,7 @@ let item ={
     "accessary": "メロンソーダアクセ",
     "accessary_id": "OA1-065",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32845.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "おねがいちゅうがくせいふく": {
@@ -14516,7 +14390,7 @@ let item ={
     "shoues": "おねがいちゅうがくせいふくシューズ",
     "shoues_id": "OA1-067",
     "shoues_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32847.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★"
   },
   "ラブリーステージ": {
@@ -14537,7 +14411,7 @@ let item ={
     "accessary": "ラブリーステージアクセ",
     "accessary_id": "OA1-071",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32851.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★"
   },
   "ツートンジャケットパープル": {
@@ -14558,7 +14432,7 @@ let item ={
     "accessary": "ツートンジャケットパープルアクセ",
     "accessary_id": "OA1-075",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32855.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★"
   },
   "バルーンフェスピンク": {
@@ -14576,7 +14450,7 @@ let item ={
     "accessary": "バルーンフェスピンクアクセ",
     "accessary_id": "OA1-110",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32938.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "プレミアムライブ バルーンフェスコーデ"
   },
   "バルーンフェスブルー": {
@@ -14594,7 +14468,7 @@ let item ={
     "accessary": "バルーンフェスブルーアクセ",
     "accessary_id": "OA1-113",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32941.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "プレミアムライブ バルーンフェスコーデ"
   },
   "バルーンフェスグリーン": {
@@ -14612,7 +14486,7 @@ let item ={
     "accessary": "バルーンフェスグリーンアクセ",
     "accessary_id": "OA1-116",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32944.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "プレミアムライブ バルーンフェスコーデ"
   },
   "ふわふわキャットブルー": {
@@ -14633,7 +14507,7 @@ let item ={
     "accessary": "ふわふわキャットブルーアクセ",
     "accessary_id": "OA1-103",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32931.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "プレミアムライブ いのりセレクション"
   },
   "コスメティックレッド": {
@@ -14654,7 +14528,7 @@ let item ={
     "accessary": "コスメティックレッドアクセ",
     "accessary_id": "OA1-107",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32935.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "プレミアムライブ いのりセレクション"
   },
   "きんのすきすきハートバズリウム": {
@@ -14672,7 +14546,7 @@ let item ={
     "accessary": "きんのすきすきハートバズリウムアクセ",
     "accessary_id": "OA1-156",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32984.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "スタートダッシュキャンペーン"
   },
   "レインボースカイブルー": {
@@ -14693,7 +14567,7 @@ let item ={
     "accessary": "レインボースカイブルーアクセ",
     "accessary_id": "OA1-120",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32948.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "ミラーパクトスペシャルコーデ"
   },
   "マジカルミラクルパープル": {
@@ -14714,7 +14588,7 @@ let item ={
     "accessary": "マジカルミラクルパープルアクセ",
     "accessary_id": "OAF1-007-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32880.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん後半"
   },
   "ほしのゆうびんやさんゆめかわ": {
@@ -14735,7 +14609,7 @@ let item ={
     "accessary": "ほしのゆうびんやさんゆめかわアクセ",
     "accessary_id": "OAF1-008-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32884.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん後半"
   },
   "スペースダイナーオレンジ": {
@@ -14756,7 +14630,7 @@ let item ={
     "accessary": "スペースダイナーオレンジアクセ",
     "accessary_id": "OAF1-009-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32888.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん後半"
   },
   "ポップンマシュマログリーン": {
@@ -14777,7 +14651,7 @@ let item ={
     "accessary": "ポップンマシュマログリーンアクセ",
     "accessary_id": "OAF1-010-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32892.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん後半"
   },
   "チェックメイトブルー": {
@@ -14798,7 +14672,7 @@ let item ={
     "accessary": "チェックメイトブルーアクセ",
     "accessary_id": "OAF1-011-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32896.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん後半"
   },
   "ハッピーデニムイエロー": {
@@ -14819,7 +14693,7 @@ let item ={
     "accessary": "ハッピーデニムイエローアクセ",
     "accessary_id": "OAF1-012-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32900.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん後半"
   },
   "マジカルミラクル": {
@@ -14840,7 +14714,7 @@ let item ={
     "accessary": "マジカルミラクルアクセ",
     "accessary_id": "OAF1-001-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32859.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん前半"
   },
   "トキメキトゥインクルイエロー": {
@@ -14858,7 +14732,7 @@ let item ={
     "accessary": "トキメキトゥインクルイエローアクセ",
     "accessary_id": "OAF1-002-3",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32862.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん前半"
   },
   "ゆうじょうさくらツイン　すきすきピンク": {
@@ -14876,7 +14750,7 @@ let item ={
     "accessary": "ゆうじょうさくらツイン　すきすきピンクアクセ",
     "accessary_id": "OAF1-003-3",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32865.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん前半"
   },
   "ゆうじょうさくらツイン　ゆめゆめブルー": {
@@ -14894,7 +14768,7 @@ let item ={
     "accessary": "ゆうじょうさくらツイン　ゆめゆめブルーアクセ",
     "accessary_id": "OAF1-004-3",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32868.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん前半"
   },
   "リボンアイドルグリーン": {
@@ -14915,7 +14789,7 @@ let item ={
     "accessary": "リボンアイドルグリーンアクセ",
     "accessary_id": "OAF1-005-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32872.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん前半"
   },
   "フルーツパフェチョコベリー": {
@@ -14936,7 +14810,7 @@ let item ={
     "accessary": "フルーツパフェチョコベリーアクセ",
     "accessary_id": "OAF1-006-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32876.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい1だん前半"
   },
   "スーパーサイリウムあろま": {
@@ -14954,7 +14828,7 @@ let item ={
     "accessary": "スーパーサイリウムあろまアクセ",
     "accessary_id": "OA1-084",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32912.webp",
-    "series": "アイプリ",
+    "series": "プリパラ",
     "note": "プリティーコレクションガチャ"
   },
   "スーパーサイリウムみかん": {
@@ -14972,7 +14846,7 @@ let item ={
     "accessary": "スーパーサイリウムみかんアクセ",
     "accessary_id": "OA1-087",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32915.webp",
-    "series": "アイプリ",
+    "series": "プリパラ",
     "note": "プリティーコレクションガチャ"
   },
   "スーパーサイリウムガァルル": {
@@ -14990,7 +14864,7 @@ let item ={
     "accessary": "スーパーサイリウムガァルルアクセ",
     "accessary_id": "OA1-090",
     "accessary_image": "https://aipri.jp/verse/item/img/oa1/Item_ID32918.webp",
-    "series": "アイプリ",
+    "series": "プリパラ",
     "note": "プリティーコレクションガチャ"
   },
   "ゆうきのフラワーバズリウム": {
@@ -15008,7 +14882,7 @@ let item ={
     "accessary": "ゆうきのフラワーバズリウムアクセ",
     "accessary_id": "OA2-003",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID32987.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ビリーブマーチブルー": {
@@ -15026,7 +14900,7 @@ let item ={
     "accessary": "ビリーブマーチブルーアクセ",
     "accessary_id": "OA2-009",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID32993.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ビリーブマーチグリーン": {
@@ -15044,7 +14918,7 @@ let item ={
     "accessary": "ビリーブマーチグリーンアクセ",
     "accessary_id": "OA2-012",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID32996.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "シールぺったんチアグリーン": {
@@ -15062,7 +14936,7 @@ let item ={
     "accessary": "シールぺったんチアグリーンアクセ",
     "accessary_id": "OA2-015",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID32999.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "シールぺったんチアイエロー": {
@@ -15080,7 +14954,7 @@ let item ={
     "accessary": "シールぺったんチアイエローアクセ",
     "accessary_id": "OA2-018",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33002.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ガーデンラビット": {
@@ -15101,7 +14975,7 @@ let item ={
     "accessary": "ガーデンラビットアクセ",
     "accessary_id": "OA2-022",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33006.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "キャンディポップ": {
@@ -15122,7 +14996,7 @@ let item ={
     "accessary": "キャンディポップアクセ",
     "accessary_id": "OA2-026",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33010.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "ゆめかわレインボー": {
@@ -15143,7 +15017,7 @@ let item ={
     "accessary": "ゆめかわレインボーアクセ",
     "accessary_id": "OA2-030",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33014.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "リボンアイドルイエロー": {
@@ -15164,7 +15038,7 @@ let item ={
     "accessary": "リボンアイドルイエローアクセ",
     "accessary_id": "OA2-034",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33018.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★★"
   },
   "おねがいパティシエール ハローキティ": {
@@ -15182,7 +15056,7 @@ let item ={
     "accessary": "おねがいパティシエール ハローキティアクセ",
     "accessary_id": "OA2-084",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33116.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "サンリオキャラクターズ コラボ"
   },
   "おねがいパティシエール シナモロール": {
@@ -15200,7 +15074,7 @@ let item ={
     "accessary": "おねがいパティシエール シナモロールアクセ",
     "accessary_id": "OA2-087",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33119.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "サンリオキャラクターズ コラボ"
   },
   "おねがいパティシエール けろけろけろっぴ": {
@@ -15218,7 +15092,7 @@ let item ={
     "accessary": "おねがいパティシエール けろけろけろっぴアクセ",
     "accessary_id": "OA2-090",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33122.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "サンリオキャラクターズ コラボ"
   },
   "おねがいパティシエール ポムポムプリン": {
@@ -15236,7 +15110,7 @@ let item ={
     "accessary": "おねがいパティシエール ポムポムプリンアクセ",
     "accessary_id": "OA2-093",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33125.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "サンリオキャラクターズ コラボ"
   },
   "おねがいパティシエール クロミ": {
@@ -15254,7 +15128,7 @@ let item ={
     "accessary": "おねがいパティシエール クロミアクセ",
     "accessary_id": "OA2-096",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33224.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "サンリオキャラクターズ コラボ"
   },
   "おねがいパティシエール マイメロディ": {
@@ -15272,7 +15146,7 @@ let item ={
     "accessary": "おねがいパティシエール マイメロディアクセ",
     "accessary_id": "OA2-099",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33227.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "サンリオキャラクターズ コラボ"
   },
   "アイプリゆうき": {
@@ -15290,7 +15164,7 @@ let item ={
     "accessary": "アイプリゆうきアクセ",
     "accessary_id": "OA2-037",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33021.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "ビーチマリン": {
@@ -15311,7 +15185,7 @@ let item ={
     "accessary": "ビーチマリンアクセ",
     "accessary_id": "OA2-041",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33025.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "ビーチマリンサンセット": {
@@ -15332,7 +15206,7 @@ let item ={
     "accessary": "ビーチマリンサンセットアクセ",
     "accessary_id": "OA2-045",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33029.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "たなばたおねがい": {
@@ -15353,7 +15227,7 @@ let item ={
     "accessary": "たなばたおねがいアクセ",
     "accessary_id": "OA2-049",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33033.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "たなばたおねがいピンク": {
@@ -15374,7 +15248,7 @@ let item ={
     "accessary": "たなばたおねがいピンクアクセ",
     "accessary_id": "OA2-053",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33037.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "マーチングエール": {
@@ -15395,7 +15269,7 @@ let item ={
     "accessary": "マーチングエールアクセ",
     "accessary_id": "OA2-057",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33041.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "マーチングエールホワイトパステル": {
@@ -15416,7 +15290,7 @@ let item ={
     "accessary": "マーチングエールホワイトパステルアクセ",
     "accessary_id": "OA2-061",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33045.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "ふっくらパン": {
@@ -15437,7 +15311,7 @@ let item ={
     "accessary": "ふっくらパンアクセ",
     "accessary_id": "OA2-065",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33049.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "ひまわりサマーこんがりグリーン": {
@@ -15458,7 +15332,7 @@ let item ={
     "accessary": "ひまわりサマーこんがりグリーンアクセ",
     "accessary_id": "OA2-069",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33053.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★★"
   },
   "おねがいちゅうがくなつふく": {
@@ -15473,7 +15347,7 @@ let item ={
     "shoues": "おねがいちゅうがくなつふくシューズ",
     "shoues_id": "OA1-067",
     "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID32847.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★"
   },
   "ジェリービーンズ": {
@@ -15494,7 +15368,7 @@ let item ={
     "accessary": "ジェリービーンズアクセ",
     "accessary_id": "OA2-074",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33059.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★"
   },
   "グレースドットライラック": {
@@ -15515,7 +15389,7 @@ let item ={
     "accessary": "グレースドットライラックアクセ",
     "accessary_id": "OA2-078",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33063.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "★★"
   },
   "きんのゆうきのフラワーバズリウム": {
@@ -15533,7 +15407,7 @@ let item ={
     "accessary": "きんのゆうきのフラワーバズリウムアクセ",
     "accessary_id": "OA2-196",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33176.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "ぴかぴかスタートキャンペーン"
   },
   "ロマンチックローズジューンブライド": {
@@ -15554,7 +15428,7 @@ let item ={
     "accessary": "ロマンチックローズジューンブライドアクセ",
     "accessary_id": "OA2-138",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33173.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "ミラーパクトスペシャルコーデ"
   },
   "ミステリーファントム": {
@@ -15575,7 +15449,7 @@ let item ={
     "accessary": "ミステリーファントムアクセ",
     "accessary_id": "OAF2-001-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33067.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい2だん前半"
   },
   "ビリーブマーチオレンジ": {
@@ -15593,7 +15467,7 @@ let item ={
     "accessary": "ビリーブマーチオレンジアクセ",
     "accessary_id": "OAF2-002-3",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33070.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい2だん前半"
   },
   "キャンディポップチェリーレッド": {
@@ -15614,7 +15488,7 @@ let item ={
     "accessary": "キャンディポップチェリーレッドアクセ",
     "accessary_id": "OAF2-003-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33074.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい2だん前半"
   },
   "フラワーメモリーペールブルー": {
@@ -15632,7 +15506,7 @@ let item ={
     "accessary": "フラワーメモリーペールブルーアクセ",
     "accessary_id": "OAF2-004-3",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33077.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい2だん前半"
   },
   "すずらんかれんクリーム": {
@@ -15653,7 +15527,7 @@ let item ={
     "accessary": "すずらんかれんクリームアクセ",
     "accessary_id": "OAF2-005-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33081.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい2だん前半"
   },
   "もりのフラワーショップピンク": {
@@ -15674,7 +15548,7 @@ let item ={
     "accessary": "もりのフラワーショップピンクアクセ",
     "accessary_id": "OAF2-006-4",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33085.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "フルコーデガチャ おねがい2だん前半"
   },
   "セブンスコーデセクシー": {
@@ -15689,7 +15563,7 @@ let item ={
     "shoues": "セブンスコーデセクシーシューズ",
     "shoues_id": "OA2-101",
     "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33127.webp",
-    "series": "アイプリ",
+    "series": "レインボーライブ",
     "note": "プリティーコレクションガチャ"
   },
   "セブンスコーデフェミニン": {
@@ -15704,7 +15578,7 @@ let item ={
     "shoues": "セブンスコーデフェミニンシューズ",
     "shoues_id": "OA2-103",
     "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33129.webp",
-    "series": "アイプリ",
+    "series": "レインボーライブ",
     "note": "プリティーコレクションガチャ"
   },
   "セブンスコーデエスニック": {
@@ -15719,7 +15593,7 @@ let item ={
     "shoues": "セブンスコーデエスニックシューズ",
     "shoues_id": "OA2-105",
     "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33131.webp",
-    "series": "アイプリ",
+    "series": "レインボーライブ",
     "note": "プリティーコレクションガチャ"
   },
   "ハッピーバースデー！ピンク": {
@@ -15740,7 +15614,7 @@ let item ={
     "accessary": "ハッピーバースデー！ピンクアクセ",
     "accessary_id": "OA2-185",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33163.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "ハッピーバースデー！コーデ"
   },
   "ハッピーバースデー！ブルー": {
@@ -15761,7 +15635,7 @@ let item ={
     "accessary": "ハッピーバースデー！ブルーアクセ",
     "accessary_id": "OA2-189",
     "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33166.webp",
-    "series": "アイプリ",
+    "series": "おねがいアイプリ",
     "note": "ハッピーバースデー！コーデ"
   },
   "プリマジチェックヘブンズホワイト": {
@@ -19394,5 +19268,302 @@ let item ={
     "accessary_id": "OMIL-032",
     "parts": 4,
     "note": "おねがいアイプリミルフィーカード"
+  },
+  "おとぎばなしシンデレラホワイト": {
+    "name": "おとぎばなしシンデレラホワイト",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-197.webp",
+    "tops": "おとぎばなしシンデレラホワイトトップス",
+    "tops_id": "OA2-197",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33486.webp",
+    "bottoms": "おとぎばなしシンデレラホワイトボトムス",
+    "bottoms_id": "OA2-198",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33487.webp",
+    "shoues": "おとぎばなしシンデレラホワイトシューズ",
+    "shoues_id": "OA2-199",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33488.webp",
+    "accessary": "おとぎばなしシンデレラホワイトアクセ",
+    "accessary_id": "OA2-200",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33489.webp",
+    "series": "おねがいアイプリ",
+    "note": "プラスハッピー！コーデ"
+  },
+  "ふわふわキャットグリーン": {
+    "name": "ふわふわキャットグリーン",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-201.webp",
+    "tops": "ふわふわキャットグリーントップス",
+    "tops_id": "OA2-201",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33490.webp",
+    "bottoms": "ふわふわキャットグリーンボトムス",
+    "bottoms_id": "OA2-202",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33491.webp",
+    "shoues": "ふわふわキャットグリーンシューズ",
+    "shoues_id": "OA2-203",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33492.webp",
+    "accessary": "ふわふわキャットグリーンアクセ",
+    "accessary_id": "OA2-204",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33493.webp",
+    "series": "おねがいアイプリ",
+    "note": "プラスハッピー！コーデ"
+  },
+  "キャンディポップビビッドイエロー": {
+    "name": "キャンディポップビビッドイエロー",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-205.webp",
+    "tops": "キャンディポップビビッドイエロートップス",
+    "tops_id": "OA2-205",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33494.webp",
+    "bottoms": "キャンディポップビビッドイエローボトムス",
+    "bottoms_id": "OA2-206",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33495.webp",
+    "shoues": "キャンディポップビビッドイエローシューズ",
+    "shoues_id": "OA2-207",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33496.webp",
+    "accessary": "キャンディポップビビッドイエローアクセ",
+    "accessary_id": "OA2-208",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33497.webp",
+    "series": "おねがいアイプリ",
+    "note": "プラスハッピー！コーデ"
+  },
+  "メルヘンフェスイエロー": {
+    "name": "メルヘンフェスイエロー",
+    "brand_name": "",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-123.webp",
+    "one_piece": "メルヘンフェスイエローワンピ",
+    "one_piece_id": "OA2-123",
+    "one_piece_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33149.webp",
+    "shoues": "メルヘンフェスイエローシューズ",
+    "shoues_id": "OA2-124",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33150.webp",
+    "accessary": "メルヘンフェスイエローアクセ",
+    "accessary_id": "OA2-125",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33151.webp",
+    "series": "おねがいアイプリ",
+    "note": "プレミアムライブ メルヘンフェスコーデ"
+  },
+  "メルヘンフェスピンク": {
+    "name": "メルヘンフェスピンク",
+    "brand_name": "",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-126.webp",
+    "one_piece": "メルヘンフェスピンクワンピ",
+    "one_piece_id": "OA2-126",
+    "one_piece_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33152.webp",
+    "shoues": "メルヘンフェスピンクシューズ",
+    "shoues_id": "OA2-127",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33153.webp",
+    "accessary": "メルヘンフェスピンクアクセ",
+    "accessary_id": "OA2-128",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33154.webp",
+    "series": "おねがいアイプリ",
+    "note": "プレミアムライブ メルヘンフェスコーデ"
+  },
+  "メルヘンフェスブルー": {
+    "name": "メルヘンフェスブルー",
+    "brand_name": "",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-129.webp",
+    "one_piece": "メルヘンフェスブルーワンピ",
+    "one_piece_id": "OA2-129",
+    "one_piece_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33155.webp",
+    "shoues": "メルヘンフェスブルーシューズ",
+    "shoues_id": "OA2-130",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33156.webp",
+    "accessary": "メルヘンフェスブルーアクセ",
+    "accessary_id": "OA2-131",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33157.webp",
+    "series": "おねがいアイプリ",
+    "note": "プレミアムライブ メルヘンフェスコーデ"
+  },
+  "メルヘンフェスグリーン": {
+    "name": "メルヘンフェスグリーン",
+    "brand_name": "",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-132.webp",
+    "one_piece": "メルヘンフェスグリーンワンピ",
+    "one_piece_id": "OA2-132",
+    "one_piece_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33158.webp",
+    "shoues": "メルヘンフェスグリーンシューズ",
+    "shoues_id": "OA2-133",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33159.webp",
+    "accessary": "メルヘンフェスグリーンアクセ",
+    "accessary_id": "OA2-134",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33160.webp",
+    "series": "おねがいアイプリ",
+    "note": "プレミアムライブ メルヘンフェスコーデ"
+  },
+  "ガーデンラビットブルー": {
+    "name": "ガーデンラビットブルー",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-115.webp",
+    "tops": "ガーデンラビットブルートップス",
+    "tops_id": "OA2-115",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33141.webp",
+    "bottoms": "ガーデンラビットブルーボトムス",
+    "bottoms_id": "OA2-116",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33142.webp",
+    "shoues": "ガーデンラビットブルーシューズ",
+    "shoues_id": "OA2-117",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33143.webp",
+    "accessary": "ガーデンラビットブルーアクセ",
+    "accessary_id": "OA2-118",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33144.webp",
+    "series": "おねがいアイプリ",
+    "note": "プレミアムライブ ぐみ＆おりびあセレクション"
+  },
+  "ロックレザーオレンジ": {
+    "name": "ロックレザーオレンジ",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OA2-119.webp",
+    "tops": "ロックレザーオレンジトップス",
+    "tops_id": "OA2-119",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33145.webp",
+    "bottoms": "ロックレザーオレンジボトムス",
+    "bottoms_id": "OA2-120",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33146.webp",
+    "shoues": "ロックレザーオレンジシューズ",
+    "shoues_id": "OA2-121",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33147.webp",
+    "accessary": "ロックレザーオレンジアクセ",
+    "accessary_id": "OA2-122",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33148.webp",
+    "series": "おねがいアイプリ",
+    "note": "プレミアムライブ ぐみ＆おりびあセレクション"
+  },
+  "ミステリーファントムレッド": {
+    "name": "ミステリーファントムレッド",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OAF2-007-1.webp",
+    "tops": "ミステリーファントムレッドトップス",
+    "tops_id": "OAF2-007-1",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33086.webp",
+    "bottoms": "ミステリーファントムレッドボトムス",
+    "bottoms_id": "OAF2-007-2",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33087.webp",
+    "shoues": "ミステリーファントムレッドシューズ",
+    "shoues_id": "OAF2-007-3",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33088.webp",
+    "accessary": "ミステリーファントムレッドアクセ",
+    "accessary_id": "OAF2-007-4",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33089.webp",
+    "series": "おねがいアイプリ",
+    "note": "フルコーデガチャ おねがい2だん後半"
+  },
+  "シールぺったんチアピンク": {
+    "name": "シールぺったんチアピンク",
+    "brand_name": "",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OAF2-008-1.webp",
+    "one_piece": "シールぺったんチアピンクワンピ",
+    "one_piece_id": "OAF2-008-1",
+    "one_piece_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33090.webp",
+    "shoues": "シールぺったんチアピンクシューズ",
+    "shoues_id": "OAF2-008-2",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33091.webp",
+    "accessary": "シールぺったんチアピンクアクセ",
+    "accessary_id": "OAF2-008-3",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33092.webp",
+    "series": "おねがいアイプリ",
+    "note": "フルコーデガチャ おねがい2だん後半"
+  },
+  "ゆめかわレインボーミルキーオレンジ": {
+    "name": "ゆめかわレインボーミルキーオレンジ",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OAF2-009-1.webp",
+    "tops": "ゆめかわレインボーミルキーオレンジトップス",
+    "tops_id": "OAF2-009-1",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33093.webp",
+    "bottoms": "ゆめかわレインボーミルキーオレンジボトムス",
+    "bottoms_id": "OAF2-009-2",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33094.webp",
+    "shoues": "ゆめかわレインボーミルキーオレンジシューズ",
+    "shoues_id": "OAF2-009-3",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33095.webp",
+    "accessary": "ゆめかわレインボーミルキーオレンジアクセ",
+    "accessary_id": "OAF2-009-4",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33096.webp",
+    "series": "おねがいアイプリ",
+    "note": "フルコーデガチャ おねがい2だん後半"
+  },
+  "ガーリーピアノブラック": {
+    "name": "ガーリーピアノブラック",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OAF2-010-1.webp",
+    "tops": "ガーリーピアノブラックトップス",
+    "tops_id": "OAF2-010-1",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33097.webp",
+    "bottoms": "ガーリーピアノブラックボトムス",
+    "bottoms_id": "OAF2-010-2",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33098.webp",
+    "shoues": "ガーリーピアノブラックシューズ",
+    "shoues_id": "OAF2-010-3",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33099.webp",
+    "accessary": "ガーリーピアノブラックアクセ",
+    "accessary_id": "OAF2-010-4",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33100.webp",
+    "series": "おねがいアイプリ",
+    "note": "フルコーデガチャ おねがい2だん後半"
+  },
+  "スペーストラベラーグリーン": {
+    "name": "スペーストラベラーグリーン",
+    "brand_name": "",
+    "parts": 4,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OAF2-011-1.webp",
+    "tops": "スペーストラベラーグリーントップス",
+    "tops_id": "OAF2-011-1",
+    "tops_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33101.webp",
+    "bottoms": "スペーストラベラーグリーンボトムス",
+    "bottoms_id": "OAF2-011-2",
+    "bottoms_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33102.webp",
+    "shoues": "スペーストラベラーグリーンシューズ",
+    "shoues_id": "OAF2-011-3",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33103.webp",
+    "accessary": "スペーストラベラーグリーンアクセ",
+    "accessary_id": "OAF2-011-4",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33104.webp",
+    "series": "おねがいアイプリ",
+    "note": "フルコーデガチャ おねがい2だん後半"
+  },
+  "ポッピンスウィムパープル": {
+    "name": "ポッピンスウィムパープル",
+    "brand_name": "",
+    "parts": 3,
+    "total_id": 0,
+    "total_image": "https://aipri.jp/verse/item/img/oa2/OAF2-012-1.webp",
+    "one_piece": "ポッピンスウィムパープルワンピ",
+    "one_piece_id": "OAF2-012-1",
+    "one_piece_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33105.webp",
+    "shoues": "ポッピンスウィムパープルシューズ",
+    "shoues_id": "OAF2-012-2",
+    "shoues_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33106.webp",
+    "accessary": "ポッピンスウィムパープルアクセ",
+    "accessary_id": "OAF2-012-3",
+    "accessary_image": "https://aipri.jp/verse/item/img/oa2/Item_ID33107.webp",
+    "series": "おねがいアイプリ",
+    "note": "フルコーデガチャ おねがい2だん後半"
   }
 }
