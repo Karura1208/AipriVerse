@@ -1,5 +1,5 @@
 let data = {
-    "now_version":14,
+    "now_version":15,
     "now_category":"おねがい",
     "version_Group":{
         "スペシャル": [
@@ -23,7 +23,8 @@ let data = {
         ],
         "おねがい": [
             "おねがい１だん",
-            "おねがい２だん"
+            "おねがい２だん",
+            "おねがい３だん"
         ]
     
     },
@@ -42,7 +43,8 @@ let data = {
         { "value":11, "name":"リング５だん"},
         { "value":12, "name":"リング６だん"},
         { "value":13, "name":"おねがい１だん"},
-        { "value":14, "name":"おねがい２だん"}
+        { "value":14, "name":"おねがい２だん"},
+        { "value":15, "name":"おねがい３だん"}
     ],
     "vol":[
         {
@@ -1346,6 +1348,10 @@ let data = {
         {
             "title":"アイプリバースおねがい２だん",
             "version":14
+        },
+        {
+            "title":"アイプリバースおねがい３だん",
+            "version":15
         }
     ],
     "special":[

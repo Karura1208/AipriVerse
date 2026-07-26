@@ -203,6 +203,8 @@ async function reload(){
                                     ||  Object.values(category_item)[j] == "セブンスコーデセクシー"
                                     ||  Object.values(category_item)[j] == "セブンスコーデフェミニン"
                                     ||  Object.values(category_item)[j] == "セブンスコーデエスニック"
+                                    ||  Object.values(category_item)[j] == "ハイセンスがくえんせいふく"
+                                    ||  Object.values(category_item)[j] == "ハイセンスがくえんなつふく"
                                 ){
                                     // ワンピ
                                     ch = document.getElementById(obj.one_piece_id);
@@ -411,6 +413,8 @@ async function reload(){
                                     ||  Object.values(category_item)[j] == "セブンスコーデセクシー"
                                     ||  Object.values(category_item)[j] == "セブンスコーデフェミニン"
                                     ||  Object.values(category_item)[j] == "セブンスコーデエスニック"
+                                    ||  Object.values(category_item)[j] == "ハイセンスがくえんせいふく"
+                                    ||  Object.values(category_item)[j] == "ハイセンスがくえんなつふく"
                                 ){
                                     //シューズ
                                     ch = document.getElementById(obj.shoues_id);
@@ -1254,7 +1258,9 @@ async function populateCategorySection(index, section, requestId){
                                 || itemNames[j] == "おねがいちゅうがくなつふく"
                                 || itemNames[j] == "セブンスコーデセクシー"
                                 || itemNames[j] == "セブンスコーデフェミニン"
-                                || itemNames[j] == "セブンスコーデエスニック") {
+                                || itemNames[j] == "セブンスコーデエスニック"
+                                || itemNames[j] == "ハイセンスがくえんせいふく"
+                                || itemNames[j] == "ハイセンスがくえんなつふく") {
                                 ch.setAttribute('id', obj.one_piece_id)
                                 ch.setAttribute('data-item-id', obj.one_piece_id)
                                 checkDocRef = db.collection("checklists").doc(obj.one_piece_id)
@@ -1413,7 +1419,9 @@ async function populateCategorySection(index, section, requestId){
                                 || itemNames[j] == "おねがいちゅうがくなつふく"
                                 || itemNames[j] == "セブンスコーデセクシー"
                                 || itemNames[j] == "セブンスコーデフェミニン"
-                                || itemNames[j] == "セブンスコーデエスニック") {
+                                || itemNames[j] == "セブンスコーデエスニック"
+                                || itemNames[j] == "ハイセンスがくえんせいふく"
+                                || itemNames[j] == "ハイセンスがくえんなつふく") {
                                 ch.setAttribute('id', obj.shoues_id)
                                 ch.setAttribute('data-item-id', obj.shoues_id)
                                 checkDocRef = db.collection("checklists").doc(obj.shoues_id)
